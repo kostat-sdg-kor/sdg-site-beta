@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -12,7 +12,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data-beta/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -39,7 +39,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -118,13 +118,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-beta/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-beta/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20210701082833">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210701084032">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -145,7 +145,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-frontpage-alt">
+<body class="language-ko layout-frontpage-alt">
 <!-- <div class="container"> -->
 
 
@@ -167,8 +167,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-    <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-site-beta/" id="home">
+    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -176,11 +176,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/">
-              Español
+            <a href="/sdg-site-beta/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,7 +191,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/sdg-site-beta/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -210,11 +210,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/">
-              Español
+            <a href="/sdg-site-beta/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -231,19 +231,21 @@ var translations = {
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-site-beta/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-site-beta/guidance">매뉴얼</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-site-beta/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-site-beta/news">Updates</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/publications">정보자료실</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -255,11 +257,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/">
-              Español
+            <a href="/sdg-site-beta/en/">
+              English
             </a>
           </li></ul>
   </div>
@@ -276,7 +278,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/sdg-site-beta/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -286,17 +288,19 @@ var translations = {
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-site-beta/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-site-beta/guidance">매뉴얼</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-site-beta/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-site-beta/news">Updates</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/publications">정보자료실</a>
 </li>
 </ul>
 
@@ -335,104 +339,104 @@ var translations = {
             <div class="row no-gutters">
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/1">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" id="goal-1" alt="No poverty - Goal 1" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/1">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/1.png" id="goal-1" alt="빈곤퇴치 - Goal 1" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/2">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" id="goal-2" alt="Zero hunger - Goal 2" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/2">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/2.png" id="goal-2" alt="기아종식 - Goal 2" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/3">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" id="goal-3" alt="Good health and well-being - Goal 3" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/3">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/3.png" id="goal-3" alt="건강과 웰빙 - Goal 3" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/4">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" id="goal-4" alt="Quality education - Goal 4" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/4">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/4.png" id="goal-4" alt="양질의 교육 - Goal 4" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/5">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" id="goal-5" alt="Gender equality - Goal 5" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/5">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/5.png" id="goal-5" alt="양성평등 - Goal 5" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/6">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" id="goal-6" alt="Clean water and sanitation - Goal 6" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/6">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/6.png" id="goal-6" alt="물과 위생 - Goal 6" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/7">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/7.png" id="goal-7" alt="Affordable and clean energy - Goal 7" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/7">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/7.png" id="goal-7" alt="깨끗한 에너지 - Goal 7" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/8">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" id="goal-8" alt="Decent jobs and economic growth - Goal 8" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/8">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/8.png" id="goal-8" alt="양질의 일자리와 경제성장 - Goal 8" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/9">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" id="goal-9" alt="Industry, innovation and infrastructure - Goal 9" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/9">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/9.png" id="goal-9" alt="산업, 혁신과 사회기반시설 - Goal 9" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/10">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" id="goal-10" alt="Reduced inequalities - Goal 10" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/10">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/10.png" id="goal-10" alt="불평등 완화 - Goal 10" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/11">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" id="goal-11" alt="Sustainable cities &amp; communities - Goal 11" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/11">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/11.png" id="goal-11" alt="지속가능한 도시와 공동체 - Goal 11" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/12">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" id="goal-12" alt="Responsible consumption and production - Goal 12" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/12">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/12.png" id="goal-12" alt="책임감 있는 소비와 생산 - Goal 12" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/13">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" id="goal-13" alt="Climate action - Goal 13" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/13">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/13.png" id="goal-13" alt="기후변화 대응 - Goal 13" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/14">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" id="goal-14" alt="Life below water - Goal 14" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/14">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/14.png" id="goal-14" alt="해양 생태계 - Goal 14" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/15">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" id="goal-15" alt="Life on land - Goal 15" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/15">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/15.png" id="goal-15" alt="육상 생태계 - Goal 15" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/16">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" id="goal-16" alt="Peace and justice - strong institutions - Goal 16" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/16">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/16.png" id="goal-16" alt="평화와 정의 - Goal 16" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
                 <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/open-sdg-site-starter/17">
-                        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" id="goal-17" alt="Partnerships for the goals - Goal 17" class="goal-icon-image goal-icon-image-"/>
+                    <a href="/sdg-site-beta/17">
+                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/17.png" id="goal-17" alt="SDGs를 위한 파트너십 - Goal 17" class="goal-icon-image goal-icon-image-"/>
                     </a>
                 </div>
                 
@@ -462,7 +466,7 @@ var translations = {
 
   
     <div class="zip-download-container">
-    <a href="https://open-sdg.org/open-sdg-data-starter/en/zip/all_indicators.zip"
+    <a href="https://kostat-sdg-kor.github.io/sdg-data-beta/ko/zip/all_indicators.zip"
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
         Download all data
     </a>
@@ -470,7 +474,7 @@ var translations = {
         ZIP file - 185 Bytes
         
             <br>
-            Data last updated - Mar 18, 2021
+            Data last updated - Jul 01, 2021
         
     </div>
 </div>
@@ -585,7 +589,7 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-site-beta/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -622,12 +626,12 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210701082833'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210701084032'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20210701082833"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210701084032"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

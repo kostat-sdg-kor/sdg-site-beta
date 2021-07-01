@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data-beta/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ko',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 15 - Life on land - Indicators For The Sustainable Development Goals</title>
+    <title>Goal 15 - 육상 생태계 - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -117,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-beta/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-beta/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20210701082833">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210701084032">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,7 +144,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-ko layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
@@ -166,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-    <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-site-beta/" id="home">
+    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-site-beta/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,7 +190,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/sdg-site-beta/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-site-beta/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -230,19 +230,21 @@ var translations = {
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-site-beta/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-site-beta/guidance">매뉴얼</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-site-beta/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-site-beta/news">Updates</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/publications">정보자료실</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +256,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/15/">
-              Español
+            <a href="/sdg-site-beta/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -275,7 +277,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/sdg-site-beta/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -285,17 +287,19 @@ var translations = {
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/sdg-site-beta/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/sdg-site-beta/guidance">매뉴얼</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/sdg-site-beta/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/sdg-site-beta/news">Updates</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/publications">정보자료실</a>
 </li>
 </ul>
 
@@ -312,8 +316,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li><a href="/open-sdg-site-starter/goals">Goals</a></li>
+  <li><a href="/sdg-site-beta/">Home</a></li>
+  <li><a href="/sdg-site-beta/goals">Goals</a></li>
   
   
 </ol>
@@ -325,11 +329,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" id="goal-15" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/15.png" alt="육상 생태계 - Goal 15" id="goal-15" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 15: </span>Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+          <span class="hidden-sm hidden-md hidden-lg">Goal 15: </span>육상 생태계의 보호, 복원 및 지속가능한 이용 증진, 산림의 지속가능한 관리, 사막화 방지, 토지황폐화 중지와 회복, 생물다양성 손실 중지
         </h1>
       </div>
     </div>
@@ -368,7 +372,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-1-1">Forest area as a proportion of total land area</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-1-1">Forest area as a proportion of total land area</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -391,7 +395,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-1-2">Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-1-2">Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -423,7 +427,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-2-1">Progress towards sustainable forest management</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-2-1">Progress towards sustainable forest management</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -455,7 +459,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-3-1">Proportion of land that is degraded over total land area</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-3-1">Proportion of land that is degraded over total land area</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -487,7 +491,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-4-1">Coverage by protected areas of important sites for mountain biodiversity</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-4-1">Coverage by protected areas of important sites for mountain biodiversity</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -510,7 +514,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-4-2">Mountain Green Cover Index</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-4-2">Mountain Green Cover Index</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -542,7 +546,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-5-1">Red List Index</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-5-1">Red List Index</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -574,7 +578,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-6-1">Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-6-1">Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -606,7 +610,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-7-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-7-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -638,7 +642,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-8-1">Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-8-1">Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -670,7 +674,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-9-1">Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-9-1">(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -702,7 +706,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-a-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-a-1">(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -734,7 +738,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-b-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-b-1">(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -766,7 +770,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 15.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/15-c-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
+            <span class="indicator-name"><a href="/sdg-site-beta/15-c-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -804,7 +808,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/sdg-site-beta/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
@@ -841,12 +845,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210701082833'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210701084032'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20210701082833"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210701084032"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
