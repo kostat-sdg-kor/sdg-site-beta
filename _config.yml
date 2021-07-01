@@ -37,7 +37,7 @@ environment: staging
 create_indicators:
   layout: indicator
 create_goals:
-  layout: goal-by-target-vertical
+  layout: goal-by-target
 create_pages:
   pages:
     - folder: /
@@ -60,9 +60,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: sdgkostat@korea.kr
+  suggestions: sdgkostat@korea.kr
+  functional: sdgkostat@korea.kr
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -129,14 +129,10 @@ menu:
     translation_key: menu.publications
 
 footer_menu:
-  - path: mailto:my-email-address@example.com
+  - path: mailto:sdgkostat@korea.kr
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
+  - path: https://twitter.com/kostatin
     translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
