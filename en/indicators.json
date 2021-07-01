@@ -158,6 +158,14 @@
           "status": "notstarted"
         },
         {
+          "id": "2-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/2-2-3",
+          "status": "complete"
+        },
+        {
           "id": "2-3-1",
           "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
           "description": "",
@@ -452,6 +460,14 @@
           "keywords": "",
           "href": "/sdg-site-beta/en/3-d-1",
           "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/3-d-2",
+          "status": "complete"
         }]
     }
   },
@@ -468,6 +484,14 @@
           "keywords": "",
           "href": "/sdg-site-beta/en/4-1-1",
           "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/4-1-2",
+          "status": "complete"
         },
         {
           "id": "4-2-1",
@@ -1110,6 +1134,14 @@
           "status": "notstarted"
         },
         {
+          "id": "10-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/10-4-2",
+          "status": "complete"
+        },
+        {
           "id": "10-5-1",
           "title": "Financial Soundness Indicators",
           "description": "",
@@ -1140,6 +1172,22 @@
           "keywords": "",
           "href": "/sdg-site-beta/en/10-7-2",
           "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/10-7-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-7-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/10-7-4",
+          "status": "complete"
         },
         {
           "id": "10-a-1",
@@ -1444,6 +1492,14 @@
           "keywords": "",
           "href": "/sdg-site-beta/en/13-2-1",
           "status": "notstarted"
+        },
+        {
+          "id": "13-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/13-2-2",
+          "status": "complete"
         },
         {
           "id": "13-3-1",
@@ -1764,6 +1820,14 @@
           "keywords": "",
           "href": "/sdg-site-beta/en/16-3-2",
           "status": "notstarted"
+        },
+        {
+          "id": "16-3-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/en/16-3-3",
+          "status": "complete"
         },
         {
           "id": "16-4-1",
