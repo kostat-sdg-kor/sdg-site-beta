@@ -121,10 +121,10 @@ menu:
     translation_key: menu.about
   - path: /guidance
     translation_key: menu.guidance
-  - path: /faq
-    translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
+    #  - path: /faq
+    #    translation_key: menu.faq
+    #  - path: /news
+    #    translation_key: menu.updates
   - path: /publications
     translation_key: menu.publications
 
