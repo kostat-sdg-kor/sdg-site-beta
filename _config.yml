@@ -13,9 +13,9 @@ remote_data_prefix: "https://kostat-sdg-kor.github.io/sdg-data-beta"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#kostat-sdg-kor/sdg-site-beta/edit/develop/data/indicator_[id].csv
+data_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data-beta/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#kostat-sdg-kor/sdg-site-beta/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data-beta/edit/develop/meta/[id].md
 #
 # The list of languages that are translated. The first one is the default.
 languages:
