@@ -55,19 +55,19 @@
         },
         {
           "id": "1-5-1",
-          "title": "인구 1십만 명당 재난으로 인한 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "인구 10만 명당 재난으로 인한 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
-          "title": "글로벌 GDP 대비 재난으로 인한 직접적 경제손실 비율",
+          "title": "글로벌 GDP 대비 재난으로 인한 직접적 경제손실비",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-3",
@@ -75,23 +75,23 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-5-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-4",
-          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
+          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 전략을 갖추고 있는 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-5-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-1",
-          "title": "수원국 GNI 대비 빈곤감소 ODA 총액 비율",
+          "title": "수원국 국민총소득(GNI) 대비 빈곤감소 공적개발원조(ODA) 총액 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
@@ -103,11 +103,11 @@
         },
         {
           "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-a-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-b-1",
@@ -115,7 +115,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/1-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },

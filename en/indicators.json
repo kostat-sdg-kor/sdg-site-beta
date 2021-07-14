@@ -55,43 +55,43 @@
         },
         {
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "인구 10만 명당 재난으로 인한 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "title": "글로벌 GDP 대비 재난으로 인한 직접적 경제손실비",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "「재난위험감축을 위한 센다이프레임워크(2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-5-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 전략을 갖추고 있는 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-5-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-1",
-          "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
+          "title": "수원국 국민총소득(GNI) 대비 빈곤감소 공적개발원조(ODA) 총액 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
@@ -103,19 +103,19 @@
         },
         {
           "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-a-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-b-1",
-          "title": "Pro-poor public social spending",
+          "title": "빈곤친화적 공공사회지출",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/1-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
