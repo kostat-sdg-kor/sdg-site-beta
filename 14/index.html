@@ -114,8 +114,6 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
         <![endif]-->
@@ -128,12 +126,10 @@ var translations = {
         -->
 
         
-
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714075058">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714080433">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -143,8 +139,12 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
+        
+
     </head>
-<body class="language-ko layout-goal-by-target">
+<body class="language-ko
+layout-goal-by-target
+">
 <!-- <div class="container"> -->
 
 
@@ -170,7 +170,36 @@ var translations = {
     <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
@@ -190,7 +219,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -221,7 +250,35 @@ var translations = {
 
 
 
-        </li></ul>
+        </li>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -265,6 +322,36 @@ var translations = {
 
 
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -273,7 +360,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -293,6 +380,7 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/sdg-site-beta/publications">정보자료실</a>
 </li>
+
 </ul>
 
     </div>
@@ -332,6 +420,7 @@ var translations = {
   </div>
 </div>
 
+
 <div id="main-content" class="container goal-indicators goal-14 goal-by-target" role="main">
 
   
@@ -363,18 +452,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.1.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-1-1">
           (a) 연안해역 부영양화지수* 및 (b) 부유성 플라스틱 부유성 폐기물 밀도
@@ -399,18 +487,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.2.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-2-1">
           생태계 기반의 접근방식으로 해양지역을 관리하는 국가 수
@@ -435,18 +522,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.3.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-3-1">
           합의된 대표 표본 추출 지점들에서 측정되는 평균 해양산도(pH)
@@ -471,18 +557,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.4.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-4-1">
           생물학적으로 지속 가능한 수준에서의 어족자원의 비율
@@ -507,18 +592,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.5.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-5-1">
           해양 면적 대비 보호구역의 비율
@@ -543,18 +627,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.6.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-6-1">
           불법·비보고·비규제 어업을 근절하기 위한 국제적 수단 이행 정도
@@ -579,18 +662,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.7.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-7-1">
           군소도서 개발국*, 최빈개도국 그리고 모든 국가의 GDP 중 지속가능한 어업 비율
@@ -615,18 +697,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.a.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-a-1">
           전체 연구예산 중 해양기술부문 연구에 할당된 예산비율
@@ -651,18 +732,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.b.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-b-1">
           소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도
@@ -687,18 +767,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           14.c.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/14-c-1">
           대양과 그 자원의 보존 및 지속가능한 이용을 위해 법, 정책, 제도를 통해 유엔해양법협약에 반영되어 있는 것과 같이 국제법을 이행하기 위한 대양관련 장치를 비준, 적용하고 이행하는 과정에서 진전을 보이는 국가의 수
@@ -738,13 +817,7 @@ var translations = {
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -763,12 +836,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714075058'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714080433'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714075058"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714080433"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -808,6 +881,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),

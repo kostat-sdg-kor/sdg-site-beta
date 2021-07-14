@@ -114,8 +114,6 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
         <![endif]-->
@@ -128,12 +126,10 @@ var translations = {
         -->
 
         
-
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714075058">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714080433">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -143,8 +139,12 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
+        
+
     </head>
-<body class="language-ko layout-goal-by-target">
+<body class="language-ko
+layout-goal-by-target
+">
 <!-- <div class="container"> -->
 
 
@@ -170,7 +170,36 @@ var translations = {
     <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
@@ -190,7 +219,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -221,7 +250,35 @@ var translations = {
 
 
 
-        </li></ul>
+        </li>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -265,6 +322,36 @@ var translations = {
 
 
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -273,7 +360,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -293,6 +380,7 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/sdg-site-beta/publications">정보자료실</a>
 </li>
+
 </ul>
 
     </div>
@@ -332,6 +420,7 @@ var translations = {
   </div>
 </div>
 
+
 <div id="main-content" class="container goal-indicators goal-5 goal-by-target" role="main">
 
   
@@ -363,18 +452,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.1.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-1-1">
           성에 근거한 비차별과 평등을 증진, 집행 그리고 추적할 수 있는 법적 체계 존재여부
@@ -399,18 +487,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.2.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-2-1">
           파트너가 있(었)던 15세 이상의 여성과 여아 중 지난 12개월 동안 (현재 혹은 과거의) 친밀한 파트너로 부터 신체적, 성적, 정서적인 폭력을 당한 경험이 있는 인구의 연령별 및 폭력형태별 비율
@@ -423,18 +510,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.2.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-2-2">
           15세 이상의 여성과 여아 중에서 지난 12개월 동안 친밀한 파트너 이외에 다른 사람들로부터 성적 폭력을 당한 경험이 있는 인구의 연령별 및 사건발생장소별 비율
@@ -459,18 +545,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.3.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-3-1">
           20~24세 여성 중 15세 이전과 18세 이전에 결혼 또는 동거를 했던 비율
@@ -483,18 +568,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.3.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-3-2">
           15~49세 여아와 여성 중 여성성기절제(FGM/C)를 한 인구의 연령별 비율
@@ -519,18 +603,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.4.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-4-1">
           무보수 가사노동 및 돌봄노동에 소요된 시간의 성별, 연령 및 지역별 비율
@@ -555,18 +638,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.5.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-5-1">
           (a) 국회의 여성 의석 비율 (b) 지방정부의 여성 의석 비율
@@ -579,18 +661,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.5.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-5-2">
           여성 관리자 비율
@@ -615,18 +696,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.6.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-6-1">
           성관계, 피임제 사용 및 생식보건에 대한 충분한 정보에 따라 스스로 의사결정을 하는 15-49세의 여성비율
@@ -639,18 +719,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.6.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-6-2">
           성 및 생식 보건에 대한 정보와 교육에 대해 15세 이상의 여성 및 남성의 완전하고 평등한 접근성을 보장하는 법과 제도가 마련된 국가의 수
@@ -675,18 +754,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.a.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-a-1">
           (a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율 (성별) (b)농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율 (보유기간별)
@@ -699,18 +777,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.a.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-a-2">
           토지소유나 통제에 대한 여성의 평등한 권리를 보장하는 법률적 기반(관습법을 포함)을 갖춘 국가의 비율
@@ -735,18 +812,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.b.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-b-1">
           휴대폰을 소유한 개인의 비율 (성별)
@@ -771,18 +847,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           5.c.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/5-c-1">
           성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율
@@ -822,13 +897,7 @@ var translations = {
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -847,12 +916,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714075058'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714080433'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714075058"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714080433"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -892,6 +961,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),

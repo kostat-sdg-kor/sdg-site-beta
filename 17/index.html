@@ -114,8 +114,6 @@ var translations = {
         
         <link rel="canonical" href="/">
 
-        
-
         <!--[if IE 9]>
         <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
         <![endif]-->
@@ -128,12 +126,10 @@ var translations = {
         -->
 
         
-
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714075058">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714080433">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -143,8 +139,12 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
+        
+
     </head>
-<body class="language-ko layout-goal-by-target">
+<body class="language-ko
+layout-goal-by-target
+">
 <!-- <div class="container"> -->
 
 
@@ -170,7 +170,36 @@ var translations = {
     <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
@@ -190,7 +219,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -221,7 +250,35 @@ var translations = {
 
 
 
-        </li></ul>
+        </li>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -265,6 +322,36 @@ var translations = {
 
 
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -273,7 +360,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/search">
+  <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -293,6 +380,7 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/sdg-site-beta/publications">정보자료실</a>
 </li>
+
 </ul>
 
     </div>
@@ -332,6 +420,7 @@ var translations = {
   </div>
 </div>
 
+
 <div id="main-content" class="container goal-indicators goal-17 goal-by-target" role="main">
 
   
@@ -363,18 +452,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.1.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-1-1">
           GDP 중 정부 총수입이 차지하는 비율(항목별)
@@ -387,18 +475,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.1.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-1-2">
           국내 세금으로 충당되는 정부예산의 비율
@@ -423,18 +510,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.2.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-2-1">
           OECD/개발 원조 위원회(DAC) 공여국의 국민총소득(GNI) 대비 1) 총 순ODA의 비율 2) LDC(최빈개도국)에 대한 순ODA 비율
@@ -459,18 +545,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.3.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-3-1">
           국민총생산(GNI) 대비 해외직접투자(FDI), ODA 및 남남협력 비율
@@ -483,18 +568,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.3.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-3-2">
           총 GDP 중 송금액의 비율(미달러 기준)
@@ -519,18 +603,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.4.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-4-1">
           재화 및 서비스 수출 대비 부채상환 비율
@@ -555,18 +638,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.5.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-5-1">
           최빈개도국을 포함한 개도국 위한 투자촉진제도를 채택하고 이행하는 국가의 수
@@ -591,18 +673,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.6.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-6-1">
           인구 1백 명당 유선 초고속인터넷 가입률 (속도별)
@@ -615,18 +696,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.6.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-6-2">
           Fixed Internet broadband subscriptions per 100 inhabitants, by speed
@@ -651,18 +731,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.7.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-7-1">
           개도국에 친환경 기술의 개발과 이전, 보급 및 확산을 촉진하기 위해 지원하는 총 금액
@@ -687,18 +766,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.8.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-8-1">
           인터넷 이용자 비율
@@ -723,18 +801,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.9.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-9-1">
           개발도상국에 지원하는 (남북, 남남, 삼각협력 포함) 재정 및 기술지원금액 (달러기준)
@@ -759,18 +836,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.10.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-10-1">
           국제 가중 관세 평균치
@@ -795,18 +871,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.11.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-11-1">
           전 세계 수출에서 개도국 및 최빈개도국이 차지하는 비중
@@ -831,18 +906,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.12.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-12-1">
           개발도상국, 최빈개도국 및 군소도서 개발국에 부과되는 가중 평균 관세
@@ -867,18 +941,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.13.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-13-1">
           거시경제 관련 다양한 지표
@@ -903,18 +976,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.14.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-14-1">
           지속가능발전의 정책일관성을 증진하기 위해 메커니즘을 갖춘 국가의 수
@@ -939,18 +1011,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.15.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-15-1">
           개발협력사업 공여자가 개발도상국 주도 성과체계 및 기획수단을 사용하는 정도
@@ -975,18 +1046,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.16.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-16-1">
           SDGs 달성을 지원하기 위한 다자간 개발효과성 모니터링 프레임워크에서 진전을 보고한 국가의수
@@ -1011,18 +1081,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.17.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-17-1">
           인프라 구축을 위해 민관 파트너십에 약정한 US달러 금액
@@ -1047,18 +1116,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.18.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-18-1">
           SDG 모니터링 위한 통계역량지표
@@ -1071,18 +1139,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.18.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-18-2">
           공식통계의 기본원칙을 준수하는 국가통계법령을 갖고 있는 국가의 수
@@ -1095,18 +1162,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.18.3
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-18-3">
           재원이 충분히 확보되어 이행되고 있는 국가통계계획을 가진 국가의 수 (재정지원 출처별)
@@ -1131,18 +1197,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.19.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-19-1">
           개발도상국에서 통계역량 강화에 사용되는 모든 자원의 달러가치
@@ -1155,18 +1220,17 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           17.19.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/17-19-2">
           지난 10년 동안 a)최소한 한 번의 인구주택총조사를 진행했고, b)100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율
@@ -1206,13 +1270,7 @@ var translations = {
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1231,12 +1289,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714075058'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714080433'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714075058"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714080433"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1276,6 +1334,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),
