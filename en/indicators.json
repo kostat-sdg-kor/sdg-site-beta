@@ -151,11 +151,11 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "5세 미만 영양불량 아동 비율(저체중 및 과체중별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
@@ -167,23 +167,23 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "시간당 노동생산성",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "농업소득",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "생산적이고 지속가능한 농지면적 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-4-1",
@@ -191,31 +191,31 @@
         },
         {
           "id": "2-5-1",
-          "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
+          "title": "식량 및 농업을 위해 중장기 보존시설에 확보되어 있는 식물과 동물 유전자원 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk of extinction",
+          "title": "멸종위험 상태로 분류된 지역 품종의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
+          "title": "농업지향지수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
+          "title": "농업부문 총 공적지원(ODA와 기타 공적지원)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-a-2",
@@ -223,15 +223,15 @@
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "농업수출보조금",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-c-1",
-          "title": "Indicator of food price anomalies",
+          "title": "농업수출보조금",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/2-c-1",

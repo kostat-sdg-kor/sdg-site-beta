@@ -151,11 +151,11 @@
         },
         {
           "id": "2-2-2",
-          "title": "5세 미만 영양불량 아동 비율(신장 대비 체중이 WHO 아동성장표준 중위값으로부터 +2표준편차를 초과하거나 –2표준편차에 미달하는 경우)",
+          "title": "5세 미만 영양불량 아동 비율(저체중 및 과체중별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
@@ -167,19 +167,19 @@
         },
         {
           "id": "2-3-1",
-          "title": "농림축산업 생산규모별 단위노동 생산량",
+          "title": "시간당 노동생산성",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-2",
-          "title": "소규모 식량생산자의 성 및 원주민여부별 평균소득",
+          "title": "농업소득",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-4-1",
@@ -191,19 +191,19 @@
         },
         {
           "id": "2-5-1",
-          "title": "중장기 보존시설에 확보되어 있는 식량·농업 동식물 유전자원의 수",
+          "title": "식량 및 농업을 위해 중장기 보존시설에 확보되어 있는 식물과 동물 유전자원 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-5-2",
-          "title": "멸종위험 상태로 분류된 로컬 품종의 비율",
+          "title": "멸종위험 상태로 분류된 지역 품종의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-1",
@@ -211,11 +211,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
-          "title": "농업부문 공적지원금(ODA와 기타 공적지원금)",
+          "title": "농업부문 총 공적지원(ODA와 기타 공적지원)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-a-2",
@@ -227,11 +227,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-c-1",
-          "title": "식품가격이상지표",
+          "title": "농업수출보조금",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-c-1",
