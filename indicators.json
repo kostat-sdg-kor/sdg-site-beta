@@ -131,23 +131,23 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
-          "title": "식량불안경험척도 기준으로 중간 또는 심각한 수준의 식량불안 경험인구 비율",
+          "title": "식품안정성 미확보가구 분율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
-          "title": "5세 미만 발육부진 아동 비율(연령 대비 신장이 WHO 아동성장표준 중위신장으로부터 –2표준편차에 미달하는 경우)",
+          "title": "5세 미만 발육부진 아동 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
