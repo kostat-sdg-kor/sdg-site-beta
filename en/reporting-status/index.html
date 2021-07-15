@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210714084930">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210715004355">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -147,7 +147,6 @@ layout-reportingstatus
 ">
 <!-- <div class="container"> -->
 
-
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
@@ -162,143 +161,72 @@ layout-reportingstatus
 
 </div>
 
-<header role="banner" class="header-menu-left-aligned">
+<header role="banner">
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/sdg-site-beta/en/" id="home">
-    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
-</a>
+        <img src="/sdg-site-beta/assets/img/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      </a>
+
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
+        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+          <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-beta/reporting-status/">
+              한국어
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+        </div><!-- Add Btn to link to DNS Page--
+
+        
+          <a href="https://sustainabledevelopment-deutschland.github.io/en">
+            <img class="link_btn" src="https://g205sdgs.github.io/sdg-indicators/public/DNS Wheel.png" title="" alt="Link DNS" style="width:24px;height:24px;"/>
+            <span class="hidden-sm hidden-md hidden-lg">DNS-</span>
+          </a>
         
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-    </ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/reporting-status/">
-              한국어
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-    </div></div>
-    </div>
-
-    <div class="search-and-desktop-widgets">
-      <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/en/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-      <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
+        <!--     -->
 
 
 
 
 
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/reporting-status/">
-              한국어
-            </a>
-          </li></ul>
-  </div>
-</div>
 
-
-
-        </li>
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-        </ul>
       </div>
     </div>
 
-    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+    <nav class="navbar navbar-default" id="main-nav">
+
       <ul class="top-level">
-    <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
-        aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
-        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+        <li id="menuToggle"
+            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-haspopup="true">
+          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/sdg-site-beta/en/goals">Goals</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/about">About</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/guidance">Guidance</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/publications">Publications</a>
-</li><li class="language-toggle-menu-header">
+</li>
+<li class="language-toggle-menu-header">
     
 
 
@@ -321,45 +249,14 @@ data-event-label="high"
 
 
 
-</li>
+</li></ul>
 
-
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-
-</ul>
-
-    </li>
-    <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
-        aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
-        <div id="search-mobile" class="menu-target">
+        </li>
+        <li id="searchToggle"
+            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-haspopup="true">
+          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <div id="search-mobile" class="menu-target">
   <form action="/sdg-site-beta/en/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
@@ -367,30 +264,64 @@ data-event-label="high"
   </form>
 </div>
 
-    </li>
-</ul>
-      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+        </li>
+      </ul>
+
+      <div id="search" class="menu-target">
+  <form action="/sdg-site-beta/en/search/">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
     <a href="/sdg-site-beta/en/goals">Goals</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/about">About</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/guidance">Guidance</a>
-</li><li class="nav-link ">
+</li>
+<li class="nav-link ">
     <a href="/sdg-site-beta/en/publications">Publications</a>
 </li>
+<li class="language-toggle-menu-header">
+    
 
-</ul>
 
-    </div>
 
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-beta/reporting-status/">
+              한국어
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li></ul>
+
+
+    </nav>
   </div>
 
 </header>
 <div id="top" tabindex=-1></div>
-
-
 
 
 
@@ -448,17 +379,18 @@ data-event-label="high"
     </div>
     <br style="clear:both;">
 </div>
+
   <h2>Status by goal</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/1">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" class="goal-icon-1"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/1">No poverty</a>
+            <span class="total">14 indicators</span>
         </h3>
-        <span class="total">14 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">10</span></span><strong>Reported online</strong><span class="value">71%</span>
@@ -490,14 +422,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/2">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" class="goal-icon-2"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/2">Zero hunger</a>
+            <span class="total">14 indicators</span>
         </h3>
-        <span class="total">14 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">7%</span>
@@ -529,14 +461,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/3">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" class="goal-icon-3"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/3">Good health and well-being</a>
+            <span class="total">28 indicators</span>
         </h3>
-        <span class="total">28 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">4%</span>
@@ -568,14 +500,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/4">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" class="goal-icon-4"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/4">Quality education</a>
+            <span class="total">12 indicators</span>
         </h3>
-        <span class="total">12 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">8%</span>
@@ -607,14 +539,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/5">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" class="goal-icon-5"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/5">Gender equality</a>
+            <span class="total">14 indicators</span>
         </h3>
-        <span class="total">14 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -646,14 +578,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/6">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" class="goal-icon-6"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/6">Clean water and sanitation</a>
+            <span class="total">11 indicators</span>
         </h3>
-        <span class="total">11 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -685,14 +617,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/7">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" class="goal-icon-7"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/7">Affordable and clean energy</a>
+            <span class="total">6 indicators</span>
         </h3>
-        <span class="total">6 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -724,14 +656,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/8">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" class="goal-icon-8"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/8">Decent jobs and economic growth</a>
+            <span class="total">17 indicators</span>
         </h3>
-        <span class="total">17 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -763,14 +695,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/9">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" class="goal-icon-9"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/9">Industry, innovation and infrastructure</a>
+            <span class="total">12 indicators</span>
         </h3>
-        <span class="total">12 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -802,14 +734,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/10">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" class="goal-icon-10"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/10">Reduced inequalities</a>
+            <span class="total">14 indicators</span>
         </h3>
-        <span class="total">14 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">3</span></span><strong>Reported online</strong><span class="value">21%</span>
@@ -841,14 +773,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/11">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" width="100" height="100" class="goal-icon-11"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/11">Sustainable cities & communities</a>
+            <span class="total">15 indicators</span>
         </h3>
-        <span class="total">15 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -880,14 +812,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/12">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" class="goal-icon-12"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/12">Responsible consumption and production</a>
+            <span class="total">13 indicators</span>
         </h3>
-        <span class="total">13 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -919,14 +851,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/13">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" class="goal-icon-13"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/13">Climate action</a>
+            <span class="total">9 indicators</span>
         </h3>
-        <span class="total">9 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">11%</span>
@@ -958,14 +890,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/14">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" class="goal-icon-14"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/14">Life below water</a>
+            <span class="total">10 indicators</span>
         </h3>
-        <span class="total">10 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -997,14 +929,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/15">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" class="goal-icon-15"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/15">Life on land</a>
+            <span class="total">14 indicators</span>
         </h3>
-        <span class="total">14 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -1036,14 +968,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/16">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" class="goal-icon-16"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/16">Peace and justice - strong institutions</a>
+            <span class="total">24 indicators</span>
         </h3>
-        <span class="total">24 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">3</span></span><strong>Reported online</strong><span class="value">13%</span>
@@ -1075,14 +1007,14 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/sdg-site-beta/en/17">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" class="goal-icon-17"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
             <a href="/sdg-site-beta/en/17">Partnerships for the goals</a>
+            <span class="total">25 indicators</span>
         </h3>
-        <span class="total">25 indicators</span>
         <div class="summary">
             <div class="statuses"><div>
                     <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
@@ -1150,6 +1082,11 @@ data-event-label="high"
   </div>
 </footer>
 
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+<!-- Google Analytics -->
+
+<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -1169,12 +1106,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210714084930'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210715004355'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210714084930"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210715004355"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1212,6 +1149,8 @@ $(function() {
               startValues: domData.startvalues,
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
+              showLine: domData.showline,
+              spanGaps: domData.spangaps,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
               dataSchema: domData.dataschema,

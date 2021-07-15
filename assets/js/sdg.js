@@ -114,6 +114,8 @@ opensdg.autotrack = function(preset, category, action, label) {
     this._decimalSeparator = options.decimalSeparator;
     this.currentDisaggregation = 0;
 
+    this.goalNr = options.goal;
+
     // Require at least one geoLayer.
     if (!options.mapLayers || !options.mapLayers.length) {
       console.log('Map disabled - please add "map_layers" in site configuration.');
@@ -135,6 +137,11 @@ opensdg.autotrack = function(preset, category, action, label) {
 
     this._defaults = defaults;
     this._name = 'sdgMap';
+
+    //---#2 TimeSeriesNameDisplayedInMaps---start--------------------------------------------------------------
+    this.timeSeriesName = opensdg.maptitles(this.indicatorId)[0];
+    this.unitName = opensdg.maptitles(this.indicatorId)[1];
+    //---#2 TimeSeriesNameDisplayedInMaps---stop---------------------------------------------------------------
 
     this.init();
   }
@@ -248,11 +255,6 @@ opensdg.autotrack = function(preset, category, action, label) {
 
     // Alter data before displaying it.
     alterData: function(value) {
-      // @deprecated start
-      if (typeof opensdg.dataDisplayAlterations === 'undefined') {
-        opensdg.dataDisplayAlterations = [];
-      }
-      // @deprecated end
       opensdg.dataDisplayAlterations.forEach(function(callback) {
         value = callback(value);
       });
@@ -422,9 +424,22 @@ opensdg.autotrack = function(preset, category, action, label) {
 
         // Calculate the ranges of values, years and colors.
         plugin.valueRange = [_.min(minimumValues), _.max(maximumValues)];
-        plugin.colorScale = chroma.scale(plugin.options.colorRange)
+
+
+        //#1 map color depending on goal --- start ---
+
+        var start = plugin.indicatorId.indexOf("_") + 1;
+        var stop = plugin.indicatorId.indexOf("-");
+        var goal = plugin.indicatorId.slice(start, stop);
+
+
+        //plugin.colorScale = chroma.scale(plugin.options.colorRange)
+        plugin.colorScale = chroma.scale(plugin.options.colorRange[parseInt(goal)-1])
           .domain(plugin.valueRange)
-          .classes(plugin.options.colorRange.length);
+          //.classes(plugin.options.colorRange.length);
+          .classes(plugin.options.colorRange[parseInt(goal)-1].length);
+        //#1 map color depending on goal --- stop  ---
+
         plugin.years = _.uniq(availableYears).sort();
         plugin.currentYear = plugin.years[0];
 
@@ -552,11 +567,7 @@ opensdg.autotrack = function(preset, category, action, label) {
           }
           // Make sure the map is not too high.
           var heightPadding = 75;
-          var minHeight = 400;
           var maxHeight = $(window).height() - heightPadding;
-          if (maxHeight < minHeight) {
-            maxHeight = minHeight;
-          }
           if ($('#map').height() > maxHeight) {
             $('#map').height(maxHeight);
           }
@@ -1979,8 +1990,9 @@ function getGraphAnnotations(graphAnnotations, selectedUnit, selectedSeries) {
  * @param {Array} colorAssignments Color/striping assignments for disaggregation combinations
  * @return {Array} Datasets suitable for Chart.js
  */
-function getDatasets(headline, data, combinations, years, defaultLabel, colors, selectableFields, colorAssignments) {
-  var datasets = [], index = 0, dataset, colorIndex, color, background, border, striped, excess, combinationKey, colorAssignment;
+function getDatasets(headline, data, combinations, years, defaultLabel, colors, selectableFields, colorAssignments, showLine, spanGaps) {
+  //console.log("combinations: ", combinations)
+  var datasets = [], index = 0, dataset, colorIndex, color, background, border, striped, excess, combinationKey, colorAssignment, showLine, spanGaps;
   var numColors = colors.length,
       maxColorAssignments = numColors * 2;
 
@@ -2020,14 +2032,17 @@ function getDatasets(headline, data, combinations, years, defaultLabel, colors, 
       background = getBackground(color, striped);
       border = getBorderDash(striped);
 
-      dataset = makeDataset(years, filteredData, combination, defaultLabel, color, background, border, excess);
+      dataset = makeDataset(years, filteredData, combination, defaultLabel, color, background, border, excess, showLine, spanGaps);
       datasets.push(dataset);
       index++;
     }
   }, this);
 
+  //datasets.sort(function(a, b) { return (a.label > b.label) ? 1 : -1; });
+
+
   if (headline.length > 0) {
-    dataset = makeHeadlineDataset(years, headline, defaultLabel);
+    dataset = makeHeadlineDataset(years, headline, defaultLabel, showLine, spanGaps);
     datasets.unshift(dataset);
   }
   return datasets;
@@ -2210,7 +2225,7 @@ function getBorderDash(striped) {
  * @param {Array} border
  * @return {Object} Dataset object for Chart.js
  */
-function makeDataset(years, rows, combination, labelFallback, color, background, border, excess) {
+function makeDataset(years, rows, combination, labelFallback, color, background, border, excess, showLine, spanGaps) {
   var dataset = getBaseDataset();
   return Object.assign(dataset, {
     label: getCombinationDescription(combination, labelFallback),
@@ -2225,6 +2240,8 @@ function makeDataset(years, rows, combination, labelFallback, color, background,
     pointStyle: 'circle',
     data: prepareDataForDataset(years, rows),
     excess: excess,
+    spanGaps: spanGaps,
+    showLine: showLine,
   });
 }
 
@@ -2237,7 +2254,8 @@ function getBaseDataset() {
     pointHoverRadius: 5,
     pointHoverBorderWidth: 1,
     tension: 0,
-    spanGaps: true
+    spanGaps: true,
+    showLine: true,
   });
 }
 
@@ -2285,7 +2303,7 @@ function getHeadlineColor() {
  * @param {string} label
  * @return {Object} Dataset object for Chart.js
  */
-function makeHeadlineDataset(years, rows, label) {
+function makeHeadlineDataset(years, rows, label, showLine, spanGaps) {
   var dataset = getBaseDataset();
   return Object.assign(dataset, {
     label: label,
@@ -2294,9 +2312,11 @@ function makeHeadlineDataset(years, rows, label) {
     pointBorderColor: getHeadlineColor(),
     pointBackgroundColor: getHeadlineColor(),
     borderWidth: 4,
-    headline: true,
-    pointStyle: 'rect',
+    headline: false,
+    pointStyle: 'circle',
     data: prepareDataForDataset(years, rows),
+    showLine: showLine,
+    spanGaps: spanGaps,
   });
 }
 
@@ -2516,6 +2536,8 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
   this.showMap = options.showMap;
   this.graphLimits = options.graphLimits;
   this.stackedDisaggregation = options.stackedDisaggregation;
+  this.showLine = options.showLine; // ? options.showLine : true;
+  this.spanGaps = options.spanGaps;
   this.graphAnnotations = options.graphAnnotations;
   this.indicatorDownloads = options.indicatorDownloads;
   this.compositeBreakdownLabel = options.compositeBreakdownLabel;
@@ -2760,7 +2782,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
     }
 
     var combinations = helpers.getCombinationData(this.selectedFields);
-    var datasets = helpers.getDatasets(headline, filteredData, combinations, this.years, this.country, this.colors, this.selectableFields, this.colorAssignments);
+    var datasets = helpers.getDatasets(headline, filteredData, combinations, this.years, translations.data.total, this.colors, this.selectableFields, this.colorAssignments, this.showLine, this.spanGaps);
     var selectionsTable = helpers.tableDataFromDatasets(datasets, this.years);
 
     var datasetCountExceedsMax = false;
@@ -2811,7 +2833,7 @@ var mapView = function () {
 
   "use strict";
 
-  this.initialise = function(indicatorId, precision, decimalSeparator) {
+  this.initialise = function(indicatorId, precision, decimalSeparator, goalNr) {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
@@ -2819,6 +2841,7 @@ var mapView = function () {
       mapLayers: null,
       precision: precision,
       decimalSeparator: decimalSeparator,
+      goal: goalNr,
     });
   };
 };
@@ -2897,9 +2920,29 @@ var indicatorView = function (model, options) {
   this._model.onFieldsComplete.attach(function(sender, args) {
     view_obj.initialiseFields(args);
 
+    //---#1 GoalDependendMapColor---start--------------------------
+    if (args.indicatorId.indexOf('_1-') != -1){var goalNr = 0;}
+    else if (args.indicatorId.indexOf('_2-') != -1) {var goalNr = 1;}
+    else if (args.indicatorId.indexOf('_3-') != -1) {var goalNr = 2;}
+    else if (args.indicatorId.indexOf('_4-') != -1) {var goalNr = 3;}
+    else if (args.indicatorId.indexOf('_5-') != -1) {var goalNr = 4;}
+    else if (args.indicatorId.indexOf('_6-') != -1) {var goalNr = 5;}
+    else if (args.indicatorId.indexOf('_7-') != -1) {var goalNr = 6;}
+    else if (args.indicatorId.indexOf('_8-') != -1) {var goalNr = 7;}
+    else if (args.indicatorId.indexOf('_9-') != -1) {var goalNr = 8;}
+    else if (args.indicatorId.indexOf('_10-') != -1) {var goalNr = 9;}
+    else if (args.indicatorId.indexOf('_11-') != -1) {var goalNr = 10;}
+    else if (args.indicatorId.indexOf('_12-') != -1) {var goalNr = 11;}
+    else if (args.indicatorId.indexOf('_13-') != -1) {var goalNr = 12;}
+    else if (args.indicatorId.indexOf('_14-') != -1) {var goalNr = 13;}
+    else if (args.indicatorId.indexOf('_15-') != -1) {var goalNr = 14;}
+    else if (args.indicatorId.indexOf('_16-') != -1) {var goalNr = 15;}
+    else if (args.indicatorId.indexOf('_17-') != -1) {var goalNr = 16;}
+    //---#1 GoalDependendMapColor---stop---------------------------
+
     if(args.hasGeoData && args.showMap) {
       view_obj._mapView = new mapView();
-      view_obj._mapView.initialise(args.indicatorId, args.precision, view_obj._decimalSeparator);
+      view_obj._mapView.initialise(args.indicatorId, args.precision, view_obj._decimalSeparator, goalNr);
     }
   });
 
@@ -2969,7 +3012,7 @@ var indicatorView = function (model, options) {
       fieldGroupElement.attr('data-has-data', fieldGroup.hasData);
       var fieldGroupButton = fieldGroupElement.find('> button'),
           describedByCurrent = fieldGroupButton.attr('aria-describedby') || '',
-          noDataHintId = 'no-data-hint-' + fieldGroup.field.replace(/ /g, '-');
+          noDataHintId = 'no-data-hint-' + fieldGroup.field.replace(/ /g, '.');
       if (!fieldGroup.hasData && !describedByCurrent.includes(noDataHintId)) {
         fieldGroupButton.attr('aria-describedby', describedByCurrent + ' ' + noDataHintId);
       }
@@ -3227,6 +3270,7 @@ var indicatorView = function (model, options) {
         responsive: true,
         maintainAspectRatio: false,
         spanGaps: true,
+        showLine: true, //chartInfo.showLine != "" ? chartInfo.showLine : true,
         scrollX: true,
         scrollCollapse: true,
         sScrollXInner: '150%',
@@ -3734,7 +3778,8 @@ var indicatorView = function (model, options) {
           var isYear = (index == 0);
           var cell_prefix = (isYear) ? '<th scope="row"' : '<td';
           var cell_suffix = (isYear) ? '</th>' : '</td>';
-          row_html += cell_prefix + (isYear ? '' : ' class="table-value"') + '>' + (data[index] !== null && data[index] !== undefined ? data[index] : '-') + cell_suffix;
+          var no_value_char = '-'
+          row_html += cell_prefix + (isYear ? '' : ' class="table-value"') + '>' + (data[index] !== null && data[index] !== undefined ? data[index] : no_value_char) + cell_suffix;
         });
         row_html += '</tr>';
         currentTable.find('tbody').append(row_html);
@@ -4236,7 +4281,11 @@ $(function() {
     },
 
     onAdd: function() {
-      var controlTpl = '' +
+      //---#2 TimeSeriesNameDisplayedInMaps---start--------------------------------------------------------------
+      //var controlTpl = '' +
+      var controlTpl = '<span id="mapHead">{title}</span>' +
+      //---#2 TimeSeriesNameDisplayedInMaps---stop---------------------------------------------------------------
+
         '<ul id="selection-list"></ul>' +
         '<div class="legend-swatches">' +
           '{legendSwatches}' +
@@ -4247,19 +4296,30 @@ $(function() {
           '<span class="legend-value right">{highValue}</span>' +
           '<span class="arrow right"></span>' +
         '</div>';
+
+
       var swatchTpl = '<span class="legend-swatch" style="width:{width}%; background:{color};"></span>';
-      var swatchWidth = 100 / this.plugin.options.colorRange.length;
-      var swatches = this.plugin.options.colorRange.map(function(swatchColor) {
+      var swatchWidth = 100 / this.plugin.options.colorRange[this.plugin.goalNr].length;
+      var swatches = this.plugin.options.colorRange[this.plugin.goalNr].map(function(swatchColor) { //[this.plugin.goalNr]
         return L.Util.template(swatchTpl, {
           width: swatchWidth,
           color: swatchColor,
         });
       }).join('');
       var div = L.DomUtil.create('div', 'selection-legend');
+
+      //---#2 TimeSeriesNameDisplayedInMaps---start--------------------------------------------------------------
+      var headline = this.plugin.timeSeriesName
+      headline += ', <br>' + this.plugin.unitName;
+      //---#2 TimeSeriesNameDisplayedInMaps---stop--------------------------------------------------------------
+
       div.innerHTML = L.Util.template(controlTpl, {
         lowValue: this.plugin.alterData(opensdg.dataRounding(this.plugin.valueRange[0])),
         highValue: this.plugin.alterData(opensdg.dataRounding(this.plugin.valueRange[1])),
         legendSwatches: swatches,
+        //---#2 TimeSeriesNameDisplayedInMaps---start--------------------------------------------------------------
+        title: headline,
+        //---#2 TimeSeriesNameDisplayedInMaps---stop---------------------------------------------------------------
       });
       return div;
     },
@@ -4275,6 +4335,8 @@ $(function() {
         '</li>';
       var plugin = this.plugin;
       var valueRange = this.plugin.valueRange;
+
+
       selectionList.innerHTML = this.selections.map(function(selection) {
         var value = plugin.getData(selection.feature.properties);
         var percentage, valueStatus;
@@ -4308,12 +4370,12 @@ $(function() {
 
   });
 
+
   // Factory function for this class.
   L.Control.selectionLegend = function(plugin) {
     return new L.Control.SelectionLegend(plugin);
   };
 }());
-
 /*
  * Leaflet year Slider.
  *
