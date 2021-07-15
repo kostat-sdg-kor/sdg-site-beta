@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210715012012">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210715012526">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -147,6 +147,7 @@ layout-goal-by-target
 ">
 <!-- <div class="container"> -->
 
+
 <script>translations['header'] = {"alpha":"Beta Version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
@@ -161,17 +162,45 @@ layout-goal-by-target
 
 </div>
 
-<header role="banner">
+<header role="banner" class="header-menu-left-aligned">
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/sdg-site-beta/" id="home">
-        <img src="/sdg-site-beta/assets/img/ko/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
-      </a>
-
+    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
+</a>
       <div class="mobile-widgets">
-        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-          <div class="language-toggle-container">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
+        <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -185,88 +214,10 @@ layout-goal-by-target
   </div>
 </div>
 
-        </div><!-- Add Btn to link to DNS Page--
-
-        
-          <a href="https://sustainabledevelopment-deutschland.github.io/ko">
-            <img class="link_btn" src="https://g205sdgs.github.io/sdg-indicators/public/DNS Wheel.png" title="" alt="Link DNS" style="width:24px;height:24px;"/>
-            <span class="hidden-sm hidden-md hidden-lg">DNS-</span>
-          </a>
-        
-
-        <!--     -->
-
-
-
-
-
-
-      </div>
+    </div></div>
     </div>
 
-    <nav class="navbar navbar-default" id="main-nav">
-
-      <ul class="top-level">
-        <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
-            aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
-          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-beta/goals">목표</a>
-</li>
-<li class="nav-link ">
-    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
-</li>
-<li class="nav-link ">
-    <a href="/sdg-site-beta/about">SDGs 소개</a>
-</li>
-<li class="nav-link ">
-    <a href="/sdg-site-beta/guidance">매뉴얼</a>
-</li>
-<li class="nav-link ">
-    <a href="/sdg-site-beta/publications">정보자료실</a>
-</li>
-<li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/en/10/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-</li></ul>
-
-        </li>
-        <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
-            aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
-          <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-        </li>
-      </ul>
-
+    <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/sdg-site-beta/search/">
     <label class="sr-only" for="indicator_search">Search</label>
@@ -275,23 +226,79 @@ layout-goal-by-target
   </form>
 </div>
 
+      <div class="navbar navbar-default widgets-without-menu">
+        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
+            
 
-      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
+      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/sdg-site-beta/en/10/">
+              English
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+        </li>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+      <ul class="top-level">
+    <li id="menuToggle"
+        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-haspopup="true">
+        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/sdg-site-beta/goals">목표</a>
-</li>
-<li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
-</li>
-<li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/sdg-site-beta/about">SDGs 소개</a>
-</li>
-<li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/sdg-site-beta/guidance">매뉴얼</a>
-</li>
-<li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/sdg-site-beta/publications">정보자료실</a>
-</li>
-<li class="language-toggle-menu-header">
+</li><li class="language-toggle-menu-header">
     
 
 
@@ -314,10 +321,70 @@ layout-goal-by-target
 
 
 
-</li></ul>
+</li>
 
 
-    </nav>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="고대비 불가"
+           aria-label="고대비 불가"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="고대비 가능"
+           aria-label="고대비 가능"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
+
+    </li>
+    <li id="searchToggle"
+        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-haspopup="true">
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <div id="search-mobile" class="menu-target">
+  <form action="/sdg-site-beta/search/">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </li>
+</ul>
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+    <a href="/sdg-site-beta/goals">목표</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/about">SDGs 소개</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/guidance">매뉴얼</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/publications">정보자료실</a>
+</li>
+
+</ul>
+
+    </div>
+
   </div>
 
 </header>
@@ -325,22 +392,6 @@ layout-goal-by-target
 
 
 
-
-
-<div class="heading goal-banner goal-10">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/10.png" alt="불평등 완화 - 목표 10" id="goal-10" />
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <span class="hidden-sm hidden-md hidden-lg">목표 10: </span>국내 및 국가 간 불평등 감소
-        </h1>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="container">
   <ol class="breadcrumb">
@@ -351,34 +402,28 @@ layout-goal-by-target
   
 </ol>
 
+  
 </div>
+
+<div class="heading goal-banner goal-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/10.png" alt="불평등 완화 - 목표 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <span class="hidden-sm hidden-md hidden-lg">목표 10: </span>국내 및 국가 간 불평등 감소
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div id="main-content" class="container goal-indicators goal-10 goal-by-target" role="main">
 
   
-
-  
-
-  
-
-
-  <div class="col-xs-3 col-md-3 col-lg-4">
-    <a href="https://g205sdgs.github.io/sdg-indicators/ko/9" class="btn btn-primary btn-block goal-10 navigation-btn" role="button">
-      <i class="fa fa-chevron-left" aria-hidden="true"></i> <b class="btn-label hidden-sm hidden-xs"></b>
-    </a>
-  </div>
-
-  <div class="col-xs-6 col-md-6 col-lg-4">
-    <a href="https://sustainabledevelopment-deutschland.github.io/ko/10" class="btn btn-primary btn-block goal-10 navigation-btn" title="" role="button">
-      <b class="btn-label hidden-sm hidden-xs"> 목표 10 </b><b class="btn-label visible-sm visible-xs">목표 10 </b>
-    </a>
-  </div>
-
-  <div class="col-xs-3 col-md-3 col-lg-4">
-    <a href="https://g205sdgs.github.io/sdg-indicators/ko/11" class="btn btn-primary btn-block goal-10 navigation-btn" role="button">
-      <b class="btn-label hidden-sm hidden-xs"></b> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-    </a>
-  </div>
 
 
 
@@ -395,7 +440,7 @@ layout-goal-by-target
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.1
       </span>
@@ -407,30 +452,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.1.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-1-1">
           총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.2
       </span>
@@ -442,30 +487,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.2.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-2-1">
           중위소득 50% 미만 인구의 성, 연령 및 장애별 비율
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.3
       </span>
@@ -477,30 +522,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.3.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-3-1">
           국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.4
       </span>
@@ -512,53 +557,53 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.4.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-4-1">
           GDP 대비 노동소득 비율
         </a>
         
+
       </div>
     
 
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.4.2
-          <span class="status complete">
-            이용가능
-          </span>
+          
+
+
+<span class="status complete">
+    Reported
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-4-2">
           
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.5
       </span>
@@ -570,30 +615,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.5.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-5-1">
           금융건전성지표
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.6
       </span>
@@ -605,30 +650,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.6.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-6-1">
           국제기구에서 개발도상국의 회원 및 투표권 비율
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.7
       </span>
@@ -640,99 +685,99 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.7.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-7-1">
           이주국가에서 얻은 월소득 대비 이주노동자가 부담하는 고용비용의 비율
         </a>
         
+
       </div>
     
 
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.7.2
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-7-2">
           질서 있고 안전하고 정규적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수
         </a>
         
+
       </div>
     
 
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.7.3
-          <span class="status complete">
-            이용가능
-          </span>
+          
+
+
+<span class="status complete">
+    Reported
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-7-3">
           
         </a>
         
+
       </div>
     
 
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.7.4
-          <span class="status complete">
-            이용가능
-          </span>
+          
+
+
+<span class="status complete">
+    Reported
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-7-4">
           
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.a
       </span>
@@ -744,30 +789,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.a.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-a-1">
           최빈개도국과 개발도상국으로부터의 수입에 적용되는 무관세 비율
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.b
       </span>
@@ -779,30 +824,30 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.b.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-b-1">
           공여국과 수원국별 및 유형별 개발재원 총액(ODA, 해외직접투자 등)
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">세부목표</label>
         10.c
       </span>
@@ -814,31 +859,27 @@ layout-goal-by-target
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           10.c.1
-          <span class="status notstarted">
-            제공예정
-          </span>
+          
+
+
+<span class="status notstarted">
+    제공예정
+</span>
+
         </span>
         <a href="/sdg-site-beta/10-c-1">
           송금총액 대비 송금비용 비율
         </a>
         
+
       </div>
     
     </div>
   
-
-  
-
-
 </div>
 
 <footer role="contentinfo">
@@ -868,11 +909,6 @@ layout-goal-by-target
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -892,12 +928,12 @@ layout-goal-by-target
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210715012012'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210715012526'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210715012012"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210715012526"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -935,8 +971,6 @@ $(function() {
               startValues: domData.startvalues,
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
-              showLine: domData.showline,
-              spanGaps: domData.spangaps,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
               dataSchema: domData.dataschema,
