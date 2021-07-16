@@ -247,95 +247,95 @@
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "모성사망비",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "기혼여성 분만시설별 출산 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
-          "title": "Under‐5 mortality rate",
+          "title": "5세 미만 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
+          "title": "영아 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "인체면역결핍바이러스(HIV) 신규 감염자수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "인구 10만 명당 결핵 신환자율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "인구 10만 명당 말라리아 발생률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "인구 10만 명당 B형간염 발생률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "소외열대질환 발생건수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "심혈관계질환, 암, 당뇨 또는 만성호흡기질환 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
+          "title": "자살률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
-          "title": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+          "title": "약물사용장애 치료개입(약물치료, 심리사회적 재활 및 사후 관리 서비스) 보장범위",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-5-1",
@@ -343,95 +343,95 @@
         },
         {
           "id": "3-5-2",
-          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "연간 15세 이상 1인당 순 알코올 소비량",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "도로교통사고 사망자수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "유배우 여성(15~49세)의 피임실천율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "여성 청소년(15-19세) 출산율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services",
+          "title": "필수보건서비스 보장범위",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "가구 총지출 및 소득 대비 의료비 과부담 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-8-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "실내 공기오염 및 대기오염으로 인한 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "title": "안전하지 않은 물과 하수처리, 부족한 위생시설로 인한 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-9-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "불의의 중독 사망률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-9-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "현재 흡연율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "국가 정책에 포함된 모든 백신을 접종한 인구의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
+          "title": "의학연구 및 기초보건 부문 공적개발원조(ODA) 순지출액",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-b-2",
@@ -439,7 +439,7 @@
         },
         {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "적정한 가격으로 필수 의약품을 지속적으로 구입할 수 있는 의료시설 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-b-3",
@@ -447,27 +447,27 @@
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
+          "title": "보건의료인력수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "국제보건규정(IHR)에 의한 수용능력 및 응급대처능력",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-d-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-2",
-          "title": "",
+          "title": "선별된 항생제 내성 유기체에서 기인한 혈류 감염률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/3-d-2",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
