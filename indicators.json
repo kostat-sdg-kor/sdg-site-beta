@@ -479,71 +479,71 @@
         
         {
           "id": "4-1-1",
-          "title": "(a) 초등학교 2학년 혹은 3학년 시점, (b) 초등학교 말 (c) 중학교 말에 (i) 읽기와 (ii) 수학분야에서 최소숙달수준에 도달한 아동 및 청소년의 성별 비율",
+          "title": "(a) 초등학교 2학년 혹은 3학년 시점, (b) 초등학교 말 (c) 중학교 말에 (i) 읽기와 (ii) 수학 분야 최소숙달수준에 도달한 아동 및 청소년 비율(성별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-beta/4-1-2",
           "status": "complete"
         },
         {
+          "id": "4-1-2",
+          "title": "초중고등학교 교육 완수율",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-beta/4-1-2",
+          "status": "notstarted"
+        },
+        {
           "id": "4-2-1",
-          "title": "건강, 학습 및 심리사회적 웰빙 측면에서 정상 발달과정에 있는 24-59개월 아동의 성별 비율",
+          "title": "0-5세 아동의 인지 및 언어 발달 수준",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
-          "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 성별 비율",
+          "title": "유아교육 취원율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "지난 12개월 동안 형식 및 비형식 교육· 훈련에 참여한 청소년 및 성인의 성별 비율",
+          "title": "평생학습 참여율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "기술유형별 정보통신기술(ICT) 능력을 보유한 청소년/성인의 비율",
+          "title": "정보통신기술(ICT) 능력을 보유한 청소년과 성인의 비율(기술유형별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "세분화할 수 있는 이 목록의 모든 지표 대상 형평성 지수(성, 도농, 소득분위, 데이터를 이용할 수 있는 경우 장애상태, 토착민, 분쟁영향 여부 등)",
+          "title": "교육지표에 대한 형평지수(성, 도농, 소득분위, 장애상태, 원주민, 분쟁영향 여부별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-6-1",
-          "title": "특정 연령 집단에서 기능적 (a) 문해력과 (b) 수리력이 최소 일정 수준에 도달한 인구의 성별 비율",
+          "title": "일상생활에 필요한 충분한 문해력을 갖춘 인구비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-7-1",
-          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육, (d) 학생평가 영역에서 주류화 된 정도(12.8.1/13.3.1과 동일)",
+          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 국가의 (a)국가교육정책 (b) 교육과정 (c) 교사교육, (d) 학생평가 영역에서 주류화 된 정도(12.8.1/13.3.1과 동일)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-7-1",
@@ -555,19 +555,19 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",
-          "title": "장학금의 공적개발원조(ODA) 금액의 연구부문 및 연구유형별 규모",
+          "title": "개도국 유학생 및 연수생 지원",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1",
-          "title": "교육수준별 최소 자격을 갖춘 교사 비율",
+          "title": "최소 자격요건을 갖춘 교사 비율(교육단계별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-c-1",
