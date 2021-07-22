@@ -583,7 +583,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‐discrimination on the basis of sex",
+          "title": "성에 근거한 비차별과 평등을 증진, 집행, 모니터링 할 수 있는 법적 체계 존재여부",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-1-1",
@@ -591,31 +591,31 @@
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "title": "지난 1년간 배우자 폭력 피해 경험률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "title": "지난 1년간 성폭력 피해율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "title": "20-24세 기혼 여성 중 초혼 연령이 15세 미만인 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-2",
-          "title": "Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",
+          "title": "15~49세 여아와 여성 중 여성성기절제를 한 인구 비율(연령별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-3-2",
@@ -623,31 +623,31 @@
         },
         {
           "id": "5-4-1",
-          "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
+          "title": "무급 가정관리 및 돌봄 노동에 소요된 시간 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-1",
-          "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
+          "title": "(a) 국회의 여성 의석 비율 (b) 지방정부의 여성 의석 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "여성 관리자 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "성관계, 피임제 사용 및 생식보건에 대한 충분한 정보를 근거로 의사결정을 스스로 하는 15-49세의 여성비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-6-1",
@@ -655,7 +655,7 @@
         },
         {
           "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
+          "title": "성 및 생식 보건에 대한 정보와 교육에 대해 15세 이상의 여성 및 남성의 완전하고 평등한 접근성을 보장하는 법과 제도가 마련된 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-6-2",
@@ -663,7 +663,7 @@
         },
         {
           "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율(성별) (b) 농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율(보유 형태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-a-1",
@@ -671,7 +671,7 @@
         },
         {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
+          "title": "토지소유에 대한 여성의 평등한 권리를 보장하는 법률적 기반(관습법 포함)을 갖춘 국가의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-a-2",
@@ -679,15 +679,15 @@
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "스마트폰 보유 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
+          "title": "성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/5-c-1",
@@ -703,39 +703,39 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "상수도 보급현황(급수보급률)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "(a) 안전하게 관리되는 위생서비스시설과 (b) 비누와 물이 있는 손씻기 시설을 이용하는 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "(a) 하수발생량, (b) 폐수 발생량",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "주변 수질이 양호한 수계의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "시간에 따른 물 이용 효율성 변화",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-4-1",
@@ -743,39 +743,39 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "물 스트레스 수준 : 이용가능한 담수 대비 취수 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management",
+          "title": "통합 수자원관리 이행 정도",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "물 협력을 위한 운영협정을 맺고 있는 접경 지역 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
+          "title": "시간 경과에 따른 물 관련 생태계 규모의 변화",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "정부의 지출계획에 포함되어 있는 물과 위생분야 관련 ODA 금액",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-a-1",
@@ -783,7 +783,7 @@
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "물 및 위생관리에 대한 지방 커뮤니티의 참여를 위한 확립된 행정적 정책과 절차를 갖추고 있는 지방행정단위의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/6-b-1",
@@ -799,39 +799,39 @@
         
         {
           "id": "7-1-1",
-          "title": "Proportion of population with access to electricity",
+          "title": "전기 접근성이 있는 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
+          "title": "청정연료 및 기술에 주로 의존하는 인구비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "최종 에너지 소비(구성비)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "GDP 단위당 에너지 소비",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "title": "개도국의 하이브리드 시스템을 포함한 재생 에너지 및 청정에너지 연구 개발과 재생에너지생산을 지원하는 국제 자금 흐름",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-a-1",
@@ -839,7 +839,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "개도국의 재생에너지 설비 용량(인당 와트)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-b-1",
@@ -855,23 +855,23 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "실질 GDP 성장률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "실질 GDP 성장률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-3-1",
-          "title": "Proportion of informal employment in total employment, by sector and sex",
+          "title": "총 고용 중 비공식 고용 비율(부문 및 성별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-3-1",
@@ -879,7 +879,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-4-1",
@@ -887,31 +887,31 @@
         },
         {
           "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",
-          "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
+          "title": "근로자의 평균 시간당 임금",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "실업률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
-          "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
+          "title": "교육, 취업, 혹은 훈련 상태에 있지 않은 청소년(15-24세)의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-6-1",
@@ -919,7 +919,7 @@
         },
         {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",
+          "title": "5-17세 아동 중 아동노동인구와 비율(성 및 연령별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-7-1",
@@ -927,7 +927,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
+          "title": "재해 사고사망만인율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-8-1",
@@ -935,7 +935,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+          "title": "국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준 (성 및 이주 상태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-8-2",
@@ -943,7 +943,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "전체 국내총생산(GDP) 및 성장률에 관광분야가 직접적으로 기여하는 국내총생산(GDP) 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-9-1",
@@ -959,31 +959,31 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
+          "title": "(a) 성인 십만 명당 상업은행 지점들과 (b) 성인 십만 명당 ATM의 개수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+          "title": "은행 및 기타 금융기관, 혹은 모바일 금융서비스 계좌 보유 (15세 이상) 성인인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
+          "title": "무역원조 약정 및 지불",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "별도 계획 혹은 국가 계획의 일부로서 청년층 고용에 대한 국가 계획 개발 운영 여부",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-b-1",
@@ -999,7 +999,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "사계절 도로 2km 반경 내 거주하는 시골 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-1-1",
@@ -1007,39 +1007,39 @@
         },
         {
           "id": "9-1-2",
-          "title": "Passenger and freight volumes, by mode of transport",
+          "title": "운송수단별 승객 및 화물량",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1",
-          "title": "Manufacturing value added as a proportion of GDP and per capita",
+          "title": "GDP 대비 제조업 부가가치 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
+          "title": "총 고용 대비 제조업 고용 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
+          "title": "총 산업 부가가치 중 소규모 산업 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
+          "title": "부채 혹은 신용한도가 있는 소규모 산업 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-3-2",
@@ -1047,31 +1047,31 @@
         },
         {
           "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
+          "title": "GDP 단위당 이산화탄소 배출량",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "GDP 대비 연구개발비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "인구 1만 명당 상근상당 연구원 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
+          "title": "인프라 분야에 대한 국제사회의 총 공적지원(ODA와 기타 공적지원)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-a-1",
@@ -1079,19 +1079,19 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "총 부가가치 대비 중고급기술산업 부가가치 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "모바일네트워크 사용 인구 비율(기술별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1103,7 +1103,7 @@
         
         {
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+          "title": "총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-1-1",
@@ -1111,7 +1111,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "중위소득 50% 이하 인구의 상대적 빈곤율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-2-1",
@@ -1119,23 +1119,23 @@
         },
         {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "지난 1년간 차별을 경험한 이유별 응답 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "GDP 대비 노동소득 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-2",
-          "title": "",
+          "title": "시장소득 지니계수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-4-2",
@@ -1143,23 +1143,23 @@
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "금융건전성지표",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "국제기구에서 개발도상국의 회원 및 투표권 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+          "title": "사계절 도로 2km 반경 내 거주하는 시골 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-7-1",
@@ -1167,7 +1167,7 @@
         },
         {
           "id": "10-7-2",
-          "title": "Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
+          "title": "질서 있고 안전하고 정적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-7-2",
@@ -1175,11 +1175,11 @@
         },
         {
           "id": "10-7-3",
-          "title": "",
+          "title": "국제이주 과정에서 사망하거나 실종된 사람의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-7-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-7-4",
