@@ -1655,7 +1655,7 @@
         },
         {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
+          "title": "국토면적 대비 황폐화 지역 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-3-1",
@@ -1663,39 +1663,39 @@
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "산악생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-2",
-          "title": "Mountain Green Cover Index",
+          "title": "산악녹색피복지수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "적색목록지수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-6-1",
-          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+          "title": "공정하고 공평한 혜택 분배를 보장하기 위해 입법적, 행정적 그리고 정책적 프레임워크를 채택한 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-7-1",
@@ -1703,39 +1703,39 @@
         },
         {
           "id": "15-8-1",
-          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+          "title": "외래침입종의 유입 예방과 통제를 위해 국가 차원의 법률과 적당한 수단을 채택하고 있는 국가의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-9-1",
-          "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting",
+          "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-a-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-b-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-c-1",
@@ -1751,7 +1751,7 @@
         
         {
           "id": "16-1-1",
-          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+          "title": "살인범죄 피해자 수(성별, 연령별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-1-1",
@@ -1759,7 +1759,7 @@
         },
         {
           "id": "16-1-2",
-          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
+          "title": "인구 1십만 명당 분쟁관련 사망자수(성, 연령 및 사유별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-1-2",
@@ -1767,7 +1767,7 @@
         },
         {
           "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
+          "title": "폭력범죄 유형별 범죄피해율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-1-3",
@@ -1775,15 +1775,15 @@
         },
         {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "일반적 범죄 두려움(밤에 혼자 동네 골목길)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "지난 1개월간 보호자로부터 체벌이나 심리적 위협을 경험한 적이 있는 1-17세 아동 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-2-1",
@@ -1791,7 +1791,7 @@
         },
         {
           "id": "16-2-2",
-          "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
+          "title": "인구 1십만 명당 인신매매 피해자수(성, 연령 및 착취형태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-2-2",
@@ -1911,7 +1911,7 @@
         },
         {
           "id": "16-10-1",
-          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+          "title": "지난 12개월 동안 언론인, 관련 미디어 종사자, 노동조합원 및 인권운동가를 대상으로 한 살인, 납치, 실종, 강제구금 및 고문 건수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-10-1",
@@ -1919,11 +1919,11 @@
         },
         {
           "id": "16-10-2",
-          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "title": "정보에 대한 대중의 접근을 보장하는 헌법, 법률, 정책을 채택하고 이행하는 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/16-10-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-a-1",
