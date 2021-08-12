@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko" class="no-js">
     <head>
@@ -128,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210812001417">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210812004408">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -142,20 +141,20 @@ var translations = {
 
     </head>
 <body class="language-ko
-layout-frontpage-alt
+layout-goals
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Beta Version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Beta Version</strong>
+    <strong class="phase-tag"></strong>
     
-    현재 개발중인 웹사이트 입니다. 문의사항은 <a href="mailto:sdgkostat@korea.kr">이메일</a> 부탁 드립니다.
+    문의사항은 <a href="mailto:sdgkostat@korea.kr">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -290,7 +289,9 @@ data-event-label="high"
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/sdg-site-beta/goals">목표</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 제공현황</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/data-standard">데이터 선정기준</a>
 </li><li class="nav-link ">
     <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
@@ -371,7 +372,9 @@ data-event-label="high"
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/sdg-site-beta/goals">목표</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/reporting-status">데이터 선정기준</a>
+    <a href="/sdg-site-beta/reporting-status">데이터 제공현황</a>
+</li><li class="nav-link ">
+    <a href="/sdg-site-beta/data-standard">데이터 선정기준</a>
 </li><li class="nav-link ">
     <a href="/sdg-site-beta/about">SDGs 소개</a>
 </li><li class="nav-link ">
@@ -393,138 +396,128 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
 
-    
-    <div class="site-intro">
-        <h1>세상을 변화시키는 17가지 목표</h1>
-        <div class="lead-copy"><p><a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">지속가능발전목표(SDGs)</a>는 빈곤을 종식시키고 지구를 보호하며 모든 사람, 모든 곳에서 삶의 전망을 개선하기 위한 촉구입니다. 17개의 목표는 2015년, 제70차 UN총회의 <a href="http://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&amp;Lang=E">지속가능발전을 위한 2030 의제</a>에서 회원국 만장일치로 태택되었습니다.</p>
-</div>
-    </div>
-    
+    <h1>
+  
+    목표
+  
+</h1>
 
-    
-    <div class="frontpage-goals-grid">
 
-        
-        <h2 class="frontpage-goals-grid-title">지속가능발전목표의 지표별 데이터</h2>
-        
 
-        
-        <div class="frontpage-goals-grid-description"><p>지속가능발전목표의 지표 데이터를 열람하시려면 각 목표를 클릭하십시오.</p>
-</div>
-        
 
-        <div class="goal-tiles">
-            <div class="row no-gutters">
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/1">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/1.png" id="goal-1" alt="빈곤퇴치 - 목표 1" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/2">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/2.png" id="goal-2" alt="기아종식 - 목표 2" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/3">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/3.png" id="goal-3" alt="건강과 웰빙 - 목표 3" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/4">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/4.png" id="goal-4" alt="양질의 교육 - 목표 4" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/5">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/5.png" id="goal-5" alt="양성평등 - 목표 5" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/6">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/6.png" id="goal-6" alt="물과 위생 - 목표 6" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/7">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/7.png" id="goal-7" alt="깨끗한 에너지 - 목표 7" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/8">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/8.png" id="goal-8" alt="양질의 일자리와 경제성장 - 목표 8" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/9">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/9.png" id="goal-9" alt="산업, 혁신과 사회기반시설 - 목표 9" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/10">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/10.png" id="goal-10" alt="불평등 완화 - 목표 10" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/11">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/11.png" id="goal-11" alt="지속가능한 도시와 공동체 - 목표 11" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/12">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/12.png" id="goal-12" alt="책임감 있는 소비와 생산 - 목표 12" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/13">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/13.png" id="goal-13" alt="기후변화 대응 - 목표 13" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/14">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/14.png" id="goal-14" alt="해양 생태계 - 목표 14" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/15">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/15.png" id="goal-15" alt="육상 생태계 - 목표 15" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/16">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/16.png" id="goal-16" alt="평화와 정의 - 목표 16" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sdg-site-beta/17">
-                        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/17.png" id="goal-17" alt="SDGs를 위한 파트너십 - 목표 17" class="goal-icon-image goal-icon-image-"/>
-                    </a>
-                </div>
-                
+    <div class="goal-tiles">
+        <div class="row no-gutters">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/1">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/1.png" id="goal-1" alt="빈곤퇴치 - 목표 1" class="goal-icon-image goal-icon-image-" />
+                </a>
             </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/2">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/2.png" id="goal-2" alt="기아종식 - 목표 2" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/3">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/3.png" id="goal-3" alt="건강과 웰빙 - 목표 3" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/4">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/4.png" id="goal-4" alt="양질의 교육 - 목표 4" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/5">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/5.png" id="goal-5" alt="양성평등 - 목표 5" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/6">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/6.png" id="goal-6" alt="물과 위생 - 목표 6" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/7">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/7.png" id="goal-7" alt="깨끗한 에너지 - 목표 7" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/8">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/8.png" id="goal-8" alt="양질의 일자리와 경제성장 - 목표 8" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/9">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/9.png" id="goal-9" alt="산업, 혁신과 사회기반시설 - 목표 9" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/10">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/10.png" id="goal-10" alt="불평등 완화 - 목표 10" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/11">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/11.png" id="goal-11" alt="지속가능한 도시와 공동체 - 목표 11" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/12">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/12.png" id="goal-12" alt="책임감 있는 소비와 생산 - 목표 12" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/13">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/13.png" id="goal-13" alt="기후변화 대응 - 목표 13" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/14">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/14.png" id="goal-14" alt="해양 생태계 - 목표 14" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/15">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/15.png" id="goal-15" alt="육상 생태계 - 목표 15" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/16">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/16.png" id="goal-16" alt="평화와 정의 - 목표 16" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="/sdg-site-beta/17">
+                    <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/17.png" id="goal-17" alt="SDGs를 위한 파트너십 - 목표 17" class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            
+            
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-" />
+            </div>
+            
         </div>
     </div>
-    
-
-    
-
 </div>
 <footer role="contentinfo">
   <div class="container">
@@ -572,12 +565,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210812001417'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210812004408'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210812001417"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210812004408"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
