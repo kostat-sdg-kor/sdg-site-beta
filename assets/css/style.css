@@ -1975,7 +1975,7 @@ footer {
     display: inline; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.complete,
     #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.complete {
-      color: white;
+      color: black;
       border: 1px solid transparent; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.inprogress,
     #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.inprogress {
@@ -1987,7 +1987,7 @@ footer {
       border: 1px solid #0b0c0c; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable,
     #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.notapplicable {
-      color: #0b0c0c;
+      color: black;
       border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .tags .tag {
   color: #0b0c0c;
@@ -2001,7 +2001,7 @@ footer {
   background: #ffdc8e;
   white-space: nowrap; }
   #main-content.goal-indicators .indicator-cards .tags .tag.complete {
-    color: white;
+    color: black;
     border: 1px solid transparent; }
   #main-content.goal-indicators .indicator-cards .tags .tag.inprogress {
     color: white;
@@ -2010,7 +2010,7 @@ footer {
     color: #0b0c0c;
     border: 1px solid #0b0c0c; }
   #main-content.goal-indicators .indicator-cards .tags .tag.notapplicable {
-    color: #0b0c0c;
+    color: black;
     border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .match {
   display: inline;
@@ -2200,8 +2200,8 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   margin-bottom: 25px; }
 
 .notapplicable {
-  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+  background-color: #B7B7B7;
+  background: #B7B7B7; }
 
 .notstarted {
   background-color: white;
@@ -2212,8 +2212,8 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   background: #757575; }
 
 .complete {
-  background-color: #2B2B2B;
-  background: #2B2B2B; }
+  background-color: #5CB85C;
+  background: #5CB85C; }
 
 #main-content .statuses strong {
   font-weight: normal; }
@@ -2234,9 +2234,9 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
       border-radius: 5px; }
     #main-content .statuses > div .status.complete {
       border: 1px solid transparent;
-      color: white; }
+      color: black; }
       #main-content .statuses > div .status.complete .status-inner {
-        background-color: #2B2B2B; }
+        background-color: #5CB85C; }
     #main-content .statuses > div .status.inprogress {
       border: 1px solid transparent;
       color: white; }
@@ -2249,7 +2249,7 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
         background-color: white; }
     #main-content .statuses > div .status.notapplicable {
       border: 1px solid #0b0c0c;
-      color: #0b0c0c; }
+      color: black; }
       #main-content .statuses > div .status.notapplicable .status-inner {
         background-color: rgba(255, 255, 255, 0.8); }
 #main-content .value {
@@ -2353,11 +2353,11 @@ body.contrast-high .notstarted {
     background-color: black !important;
     color: white !important; }
 body.contrast-high .notapplicable {
-  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+  background-color: #B7B7B7;
+  background: #B7B7B7;
   color: black !important; }
   body.contrast-high .notapplicable .status-inner {
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px) !important;
+    background-color: #B7B7B7 !important;
     color: black !important; }
 body.contrast-high .reporting-status-description {
   color: white; }
@@ -2558,7 +2558,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   margin-bottom: 10px;
   margin-top: 10px; }
   .layout-goal-by-target-vertical .status.complete {
-    color: white;
+    color: black;
     border: 1px solid transparent; }
   .layout-goal-by-target-vertical .status.inprogress {
     color: white;
@@ -2567,7 +2567,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     color: #0b0c0c;
     border: 1px solid #0b0c0c; }
   .layout-goal-by-target-vertical .status.notapplicable {
-    color: #0b0c0c;
+    color: black;
     border: 1px solid #0b0c0c; }
 .layout-goal-by-target-vertical .tags {
   float: left;
@@ -2586,7 +2586,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     background: #ffdc8e;
     white-space: nowrap; }
     .layout-goal-by-target-vertical .tags .tag.complete {
-      color: white;
+      color: black;
       border: 1px solid transparent; }
     .layout-goal-by-target-vertical .tags .tag.inprogress {
       color: white;
@@ -2595,7 +2595,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
       color: #0b0c0c;
       border: 1px solid #0b0c0c; }
     .layout-goal-by-target-vertical .tags .tag.notapplicable {
-      color: #0b0c0c;
+      color: black;
       border: 1px solid #0b0c0c; }
   @media screen and (min-width: 769px) {
     .layout-goal-by-target-vertical .tags {
