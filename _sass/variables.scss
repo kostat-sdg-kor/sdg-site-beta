@@ -17,3 +17,28 @@ $status-color-notapplicable: black !default;
 $status-backgroundColor-complete: #5CB85C !default;
 $status-backgroundColor-notapplicable: #B7B7B7 !default;
 
+$footer-text-color: $color-light !default;
+$footer-text-color-highContrast: $color-light-highContrast !default;
+$footer-link-color: $footer-text-color !default;
+$footer-link-color-highContrast: $footer-text-color-highContrast !default;
+$footer-link-color-highContrast-hover: $color-highlight-highContrast !default;
+$footer-text-backgroundColor: #414042 !default;
+$footer-text-backgroundColor-highContrast: $color-dark-highContrast !default;
+
+$goal-colors: #E52B3D #DDA63A #4C9F38 #C42130 #FF3E24 #28BCE1 #FCC30B #A21942 #FD6925 #DD1367 #FD9C27 #BF8B2E #417D46 #0A96D8 #57BE2F #00689C #1F4A6A !default;
+$goal-banner-backgroundColors: #E52B3D #DDA63A #4C9F38 #C42130 #FF3E24 #28BCE1 #FCC30B #A21942 #FD6925 #DD1367 #FD9C27 #BF8B2E #417D46 #0A96D8 #57BE2F #00689C #1F4A6A !default;
+
+header {
+	background: $vanilla url('../img/sdgbg.png') bottom left repeat-x;
+	.container {
+		min-height: 113px;
+		.navbar-default {
+			border: none;
+		}
+	}
+}
+
+body {
+	  background: $main-background-color;
+	    margin: 0 0 50px 0;
+    }
