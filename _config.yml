@@ -41,9 +41,9 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: frontpage-alt
-    - folder: /goals
       layout: goals
+      #    - folder: /goals
+      #      layout: goals
     - folder: /reporting-status
       layout: reportingstatus
     - filename: indicators.json
@@ -119,6 +119,8 @@ menu:
     translation_key: general.goals
   - path: /reporting-status
     translation_key: menu.reporting_status
+  - path: /data-standard
+    translation_key: menu.data_standard
   - path: /about
     translation_key: menu.about
   - path: /guidance
