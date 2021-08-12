@@ -1,3 +1,14 @@
+header {
+  background: #fff url("../img/sdgbg.png") bottom left repeat-x; }
+  header .container {
+    min-height: 113px; }
+    header .container .navbar-default {
+      border: none; }
+
+body {
+  background: #eaeaea;
+  margin: 0 0 50px 0; }
+
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -252,10 +263,10 @@ a.btn {
   text-decoration: none; }
 
 footer a {
-  color: #0b0c0c; }
+  color: white; }
 
 footer a:hover {
-  color: #3c4141; }
+  color: white; }
 
 body.contrast-high footer a:visited {
   color: white; }
@@ -639,55 +650,55 @@ body.contrast-high #zip-download-info {
       box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.6); }
 
 .goal-1.goal-banner {
-  background-color: white; }
+  background-color: #E52B3D; }
 
 .goal-2.goal-banner {
-  background-color: white; }
+  background-color: #DDA63A; }
 
 .goal-3.goal-banner {
-  background-color: white; }
+  background-color: #4C9F38; }
 
 .goal-4.goal-banner {
-  background-color: white; }
+  background-color: #C42130; }
 
 .goal-5.goal-banner {
-  background-color: white; }
+  background-color: #FF3E24; }
 
 .goal-6.goal-banner {
-  background-color: white; }
+  background-color: #28BCE1; }
 
 .goal-7.goal-banner {
-  background-color: white; }
+  background-color: #FCC30B; }
 
 .goal-8.goal-banner {
-  background-color: white; }
+  background-color: #A21942; }
 
 .goal-9.goal-banner {
-  background-color: white; }
+  background-color: #FD6925; }
 
 .goal-10.goal-banner {
-  background-color: white; }
+  background-color: #DD1367; }
 
 .goal-11.goal-banner {
-  background-color: white; }
+  background-color: #FD9C27; }
 
 .goal-12.goal-banner {
-  background-color: white; }
+  background-color: #BF8B2E; }
 
 .goal-13.goal-banner {
-  background-color: white; }
+  background-color: #417D46; }
 
 .goal-14.goal-banner {
-  background-color: white; }
+  background-color: #0A96D8; }
 
 .goal-15.goal-banner {
-  background-color: white; }
+  background-color: #57BE2F; }
 
 .goal-16.goal-banner {
-  background-color: white; }
+  background-color: #00689C; }
 
 .goal-17.goal-banner {
-  background-color: white; }
+  background-color: #1F4A6A; }
 
 .goal-banner h1, .goal-banner p {
   color: #0b0c0c; }
@@ -1685,8 +1696,8 @@ body.contrast-high .header-menu-left-aligned #search button:hover, body.contrast
 
 footer {
   clear: left;
-  color: #0b0c0c;
-  background-color: white;
+  color: white;
+  background-color: #414042;
   position: absolute;
   bottom: 0;
   width: 100%;
