@@ -12,7 +12,7 @@
 //$link-color: #337ab7;
 //$footer-text-color: #000000;
 $vanilla: #fff;
-$main-background-color: #eaeaea;
+$main-background-color: white;
 
 $color-dark: #0b0c0c !default;
 $color-light: white !default;
@@ -52,6 +52,73 @@ header {
 }
 
 body {
-	  background: $main-background-color;
-	    margin: 0 0 50px 0;
+	  background: $vanilla;
+	    margin: 0 0 0 0;
     }
+
+.heading {
+      a {
+    background: transparent;
+    color: white;
+    display: block;
+    &:hover {
+	      text-decoration: none;
+	      }
+	    }
+	  h1,
+      	h2,
+  h3 {
+      color: white;
+  }
+  h1 {
+	    margin-top: 12px;
+	  		font-size: 2.2em;
+		          @media only screen and (max-width: 480px) {
+			        font-size: 0.938em;
+		          }
+	    }
+  h2 {
+    font-size: 1.5em;
+
+    @media only screen and (min-width: 768px) {
+	      font-size: 1.8em;
+	      }
+
+	      @media only screen and (min-width: 992px) {
+		        font-size: 2.2em;
+		        }
+		  }
+	    h3 {
+	      @media only screen and (max-width: 480px) {
+	        font-size: 0.813em;
+      }
+  }
+
+  &.indicator {
+	    h1 {
+		        font-size: 24px;
+
+		      @media only screen and (max-width: 480px) {
+		              font-size: 0.813em;
+		      }
+	    }
+    h3 {
+      font-size: 30px;
+
+      @media only screen and (max-width: 480px) {
+	        font-size: 0.938em;
+	        }
+	    }
+      }	   
+
+.breadcrumb {
+         margin-bottom: 15px;
+   a {
+      color: darken(#337ab7, 10%);
+    // text-decoration: underline;
+  }
+  &>.active {
+	    display: inline;
+	      color: black;
+	      }
+      }  
