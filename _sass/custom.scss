@@ -1,1 +1,62 @@
-// Enter any custom Sass in this file.
+// Enter any custom Sass in this file
+body{
+	background: white;
+	padding-top: 15px;
+}
+header {
+	background: #fff url(../img/sdgbg.png) bottom left repeat-x;
+	.container {
+		padding-top: 20px;
+		min-height: 113px;
+		.navbar-default {
+			border: none;
+		}
+	}
+}
+
+.breadcrumb {
+	margin-bottom: 15px;
+	a {
+		color: darken(#337ab7, 10%);
+		// text-decoration: underline;
+	}
+	&>.active {
+		display: inline;
+		color: black;
+	}
+}
+
+body.contrast-high {
+	.breadcrumb {
+		background: $breadcrumbs-backgroundColor-highContrast;
+		li, a {
+			color: $breadcrumbs-color-highContrast;
+		}
+		a:hover {
+			color: $color-highlight-highContrast;
+		}
+		> li + li::before {
+			border-color: $breadcrumbs-color-highContrast;
+		}
+	}
+}
+
+@for $i from 1 through length($goal-banner-backgroundColors) {
+	$background-c: nth($goal-banner-backgroundColors, $i);
+	.goal-#{$i} {
+		&.goal-banner {
+			background-color: $background-c;
+		}
+	}
+}
+
+.goal-banner {
+	h1, p {
+		color: white;
+	}
+	.goal-icon {
+		a:focus {
+			outline: 6px $focusOutlineColor solid !important;
+		}
+	}
+}
