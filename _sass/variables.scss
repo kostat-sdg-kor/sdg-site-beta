@@ -11,6 +11,16 @@
 //$backgroundColor: white;
 //$link-color: #337ab7;
 //$footer-text-color: #000000;
+$color-dark: #0b0c0c !default;
+$color-light: white !default;
+
+$color-dark-highContrast: black !default;
+$color-light-highContrast: white !default;
+$color-highlight-highContrast: #FFDD00 !default;
+$color-success-highContrast: green !default;
+$color-danger-highContrast: red !default;
+$color-medium-highContrast: #767676 !default;
+
 $indicatorContent-horizontalRule-color: transparent;
 $status-color-complete: black !default;
 $status-color-notapplicable: black !default;
