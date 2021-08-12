@@ -222,3 +222,6 @@ metadata_tabs:
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
+
+custom_css:
+        - /assets/css/_colors.css
