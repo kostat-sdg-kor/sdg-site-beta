@@ -1,25 +1,38 @@
-$status-color-complete: $text-color !default;
-$status-color-inprogress: $color-light !default;
-$status-color-notstarted: $text-color !default;
-$status-color-notapplicable: $text-color !default;
-$status-backgroundColor-complete: #5CB85C !default;
-$status-backgroundColor-inprogress: #757575 !default;
-$status-backgroundColor-notstarted: white !default;
-$status-backgroundColor-notapplicable: #B7B7B7 !default;
-$status-backgroundColor-inner-complete: $status-backgroundColor-complete !default;
-$status-backgroundColor-inner-inprogress: $status-backgroundColor-inprogress !default;
-$status-backgroundColor-inner-notstarted: $status-backgroundColor-notstarted !default;
-$status-backgroundColor-inner-notapplicable: rgba(255, 255, 255, 0.8) !default;
+#main-content .statuses > div {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 10px; }
+#main-content .statuses > div .status {
+	display: inline-block;
+	margin-right: 3px;
+	padding: 2px 5px;
+	border-radius: 4px;
+	width: 40px;
+	text-align: center;
+	font-size: 16px; }
+#main-content .statuses > div .status .status-inner {
+	padding: 0 2px;
+	border-radius: 5px; }
+#main-content .statuses > div .status.complete {
+	border: 1px solid transparent;
+	color: black; }
+#main-content .statuses > div .status.complete .status-inner {
+	background-color: #5CB85C;
 
-$status-color-complete-highContrast: $color-dark-highContrast !default;
-$status-color-inprogress-highContrast: $color-light-highContrast !default;
-$status-color-notstarted-highContrast: $color-light-highContrast !default;
-$status-color-notapplicable-highContrast: $color-dark-highContrast !default;
-$status-backgroundColor-complete-highContrast: $color-light-highContrast !default;
-$status-backgroundColor-inprogress-highContrast: $color-medium-highContrast !default;
-$status-backgroundColor-notstarted-highContrast: $color-dark-highContrast !default;
-$status-backgroundColor-notapplicable-highContrast: $status-backgroundColor-notapplicable !default;
-$status-backgroundColor-inner-complete-highContrast: $status-backgroundColor-complete-highContrast !default;
-$status-backgroundColor-inner-inprogress-highContrast: $status-backgroundColor-inprogress-highContrast !default;
-$status-backgroundColor-inner-notstarted-highContrast: $status-backgroundColor-notstarted-highContrast !default;
-$status-backgroundColor-inner-notapplicable-highContrast: $status-backgroundColor-notapplicable-highContrast !default;
+#main-content .statuses > div .status.inprogress {
+	border: 1px solid transparent;
+	color: white; }
+#main-content .statuses > div .status.inprogress .status-inner {
+	background-color: #757575; }
+
+#main-content .statuses > div .status.notstarted {
+	border: 1px solid #0b0c0c;
+	color: #0b0c0c; }
+#main-content .statuses > div .status.notstarted .status-inner {
+	background-color: white; }
+
+#main-content .statuses > div .status.notapplicable {
+	border: 1px solid transparent;
+	color: black; }
+#main-content .statuses > div .status.notapplicable .status-inner {
+	background-color: #B7B7B7; }
