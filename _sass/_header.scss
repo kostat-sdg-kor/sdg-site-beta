@@ -1,5 +1,5 @@
 body{
-  background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+  background: white;
   padding-top: 15px;
 }
 
@@ -20,6 +20,7 @@ body{
 }
 
 header {
+	background: #fff url(../img/sdgbg.png) bottom left repeat-x;
   .container {
     padding-top: 20px;
     min-height: 113px;
