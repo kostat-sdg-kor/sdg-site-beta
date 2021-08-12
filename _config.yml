@@ -42,8 +42,8 @@ create_pages:
   pages:
     - folder: /
       layout: goals
-      #    - folder: /goals
-      #      layout: goals
+    - folder: /goals
+      layout: goals
     - folder: /reporting-status
       layout: reportingstatus
     - filename: indicators.json

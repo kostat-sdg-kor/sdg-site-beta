@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 간행물
+title: 데이터 선정기준
 language: ko
-permalink: /publications/
+permalink: /data-standard/
 ---
 <div id="main-content" class="container goal-{{ goal_number }}">
 
