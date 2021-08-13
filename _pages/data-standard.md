@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 데이터 선정기준
 language: ko
 permalink: /data-standard/
 ---

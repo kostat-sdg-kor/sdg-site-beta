@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 간행물
 language: ko
 permalink: /publications/
 ---

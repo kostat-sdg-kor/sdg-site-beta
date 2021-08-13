@@ -1,5 +1,4 @@
 ---
-title: 개요
 permalink: /about/
 layout: page
 language: ko
