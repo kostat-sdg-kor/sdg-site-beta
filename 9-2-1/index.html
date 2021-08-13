@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813063452">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813070657">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -401,15 +401,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only"> <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">데이터 세분화 - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">모두 선택</button>
-            <button data-type="clear">모두 취소</button>
+            <button data-type="select"></button>
+            <button data-type="clear"></button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -420,10 +420,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">먼저 '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' 항목을 선택해 주시기 바랍니다.
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          
         </div>
       <% }%>
 
@@ -433,9 +433,9 @@ data-event-label="high"
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>단위</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">단위</legend>
+      <legend class="sr-only"></legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -446,9 +446,9 @@ data-event-label="high"
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Series</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only"></legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -457,7 +457,7 @@ data-event-label="high"
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"그래프","chart_annotation":"Chart annotation","clear_all":"모두 취소","clear_selections":"초기화","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit_configuration":"Edit Configuration","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"글로벌 메타데이터","global_metadata_blurb":"이 표는 UN 통계 위원회에서 정의한 SDG 지표에 대한 메타데이터입니다. <a href=\"https://unstats.un.org/sdgs/metadata/\">전체 글로벌 메터데이터</a> 는 UN 통계국에서 제공합니다.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"지도를 불러오고 있습니다.","map":"지도","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"국내 메타데이터","national_metadata_blurb":"국내통계(1유형)은 UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다. 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요. 국제기구통계(2유형)은 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다. UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다. 국내유사통계(3유형)은 UN SDGs 지표에 직접적으로 대응하지는 않으나, 대안으로 활용할 수 있는 국내 통계를 의미합니다. 1유형과 2유형에 해당하는 통계가 없을 경우 관계기관과 협의하여 선정하였습니다. 데이터 이용 제한(4유형)은 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다. 1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"모두 선택","series":"Series","series_help":"성, 연령 등에 따른 세분화된 값을 보려면 해당되는 항목을 선택해 주십시오.","source":"출처","status":"Indicator status","sub_categories":"데이터 세분화","sub_categories_show":"Show sub-categories:","table":"표","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = null;</script>
 
 <script>translations['data'] = null;</script>
 
@@ -481,7 +481,7 @@ data-event-label="high"
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/sdg-site-beta/9" title="View this goal's indicator list">
+        <a href="/sdg-site-beta/9" title="">
           <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/9.png" alt="산업, 혁신과 사회기반시설 - 목표 9" id="goal-9" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
@@ -551,8 +551,8 @@ data-event-label="high"
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4>데이터 세분화</h4>
-    <p>성, 연령 등에 따른 세분화된 값을 보려면 해당되는 항목을 선택해 주십시오.</p>
+    <h4></h4>
+    <p></p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/sdg-site-beta/assets/img/loading-small.gif"></p>
@@ -568,9 +568,9 @@ data-event-label="high"
 
   <div id="datatables">
 
-    <a href="https://kostat-sdg-kor.github.io/sdg-data-beta/ko/headline/9-2-1.csv" class="btn btn-primary btn-download" download="indicator_9-2-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data-beta/ko/headline/9-2-1.csv" class="btn btn-primary btn-download" download="indicator_9-2-1.csv" tabindex="0" role="button"></a>
 
-    <a href="https://kostat-sdg-kor.github.io/sdg-data-beta/ko/data/9-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_9-2-1.csv' tabindex='0' role='button'>원본 CSV 내려받기</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data-beta/ko/data/9-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_9-2-1.csv' tabindex='0' role='button'></a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -861,7 +861,7 @@ data-event-label="high"
   <div class="async-loaded spacer medium" style="display:none;">
 
     <div style="display: none;">
-  <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  <span id="table-alternative"></span>
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   <li role="presentation" class="nav-item active">
@@ -869,14 +869,14 @@ data-event-label="high"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">그래프</a>
+ aria-describedby="table-alternative"></a>
   </li>
   <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->표</a>
+></a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -885,7 +885,7 @@ data-event-label="Change to Table tab"
 
     <div id="dataset-size-warning" style="display:none" role="alert">
       <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
-      너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.
+      
     </div>
 
     
@@ -1143,8 +1143,8 @@ opensdg.chartConfigAlter(function(config, info) {
         </div>
       </figure>
       <div id="chartSelectionDownload" class="clearfix">
-        <button id="btnSave" title="그래프 이미지 내려받기" class='btn btn-primary btn-download'>
-          그래프 이미지 내려받기
+        <button id="btnSave" title="" class='btn btn-primary btn-download'>
+          
         </button>
       </div>
     </div>
@@ -1154,7 +1154,7 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
   <div role="tabpanel" class="tab-pane" id="tableview">
     <div style="display: none;">
-      <span id="column-sort-info">Click to sort by this column</span>
+      <span id="column-sort-info"></span>
     </div>
     <div id="selectionsTable"></div>
 
@@ -1203,7 +1203,7 @@ opensdg.chartConfigAlter(function(config, info) {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
->국내 메타데이터</a>
+>indicator.national_metadata</a>
   </li>
 
   
@@ -1219,7 +1219,7 @@ data-event-label="Change to indicator.national_metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
->글로벌 메타데이터</a>
+>indicator.global_metadata</a>
   </li>
 
 
@@ -1239,7 +1239,7 @@ data-event-label="Change to indicator.global_metadata tab"
     
     <div role="tabpanel" class="tab-pane active" id="national">
       <article>
-        <p>국내통계(1유형)은 UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다. 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요. 국제기구통계(2유형)은 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다. UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다. 국내유사통계(3유형)은 UN SDGs 지표에 직접적으로 대응하지는 않으나, 대안으로 활용할 수 있는 국내 통계를 의미합니다. 1유형과 2유형에 해당하는 통계가 없을 경우 관계기관과 협의하여 선정하였습니다. 데이터 이용 제한(4유형)은 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다. 1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.</p>
+        <p>indicator.national_metadata_blurb</p>
 
         <table class="table">
   
@@ -1291,66 +1291,16 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.national_data_update_url </th>
-        <td>
           
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/kostat-sdg-kor/sdg-data-beta/commit/3501e529b88e9b34cc54187ad54b5d09121977c2" target="_blank">
-                2021-07-01: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
+      
+        
           
-        </td>
-        </tr>
-        
-      
-  
       
         
-      
-      
-      
-  
-      
-        
-      
-      
-      <tr>
-        <th scope="row">metadata_fields.national_metadata_update_url </th>
-        <td>
           
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/kostat-sdg-kor/sdg-data-beta/commit/ec86210622ef2e1917ccd1bd1e55d4c198fad15c" target="_blank">
-                2021-08-10: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
+      
+        
           
-        </td>
-        </tr>
-        
-      
-  
-      
-        
-      
-      
-      
-  
   
   
   
@@ -1448,7 +1398,7 @@ data-event-label="Change to indicator.global_metadata tab"
     
     <div role="tabpanel" class="tab-pane " id="global">
       <article>
-        <p>이 표는 UN 통계 위원회에서 정의한 SDG 지표에 대한 메타데이터입니다. <a href="https://unstats.un.org/sdgs/metadata/">전체 글로벌 메터데이터</a> 는 UN 통계국에서 제공합니다.</p>
+        <p>indicator.global_metadata_blurb</p>
 
         <table class="table">
   
@@ -1678,7 +1628,7 @@ data-event-label="Change to indicator.global_metadata tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+		  <!--            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>-->
             
               <li>
                 
@@ -1712,17 +1662,17 @@ data-event-label="Change to indicator.global_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813063452'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813070657'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813063452"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813070657"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
