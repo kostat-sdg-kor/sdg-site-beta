@@ -192,7 +192,7 @@ footer_language_toggle: none
 
 # Configure the header style.
 header:
-  include: header-menu-left-aligned.html
+  include: header-default.html
 
 # Specify whether the Series disaggregation should be a toggle (like units).
 series_toggle: true
