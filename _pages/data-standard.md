@@ -36,7 +36,7 @@ permalink: /data-standard/
 	<br><br>
 
 	<div class="img_div">
-		<img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/reporting/kr_data2.png" alt="reporting">
+		<img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/reporting/kr_data2.png" alt="reporting">
 	</div>
 	<br><br>
 
