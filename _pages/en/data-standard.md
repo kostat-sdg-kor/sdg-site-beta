@@ -34,7 +34,7 @@ permalink: /en/data-standard/
 	<br><br>
 
 	<div class="img_div">
-		<img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/img/en_data2.png" alt="reporting">
+		<img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/en/en_data2.png" alt="reporting">
 	</div>
 	<br><br>
 
@@ -66,4 +66,3 @@ permalink: /en/data-standard/
 
 </div>
 
-{% include footer.html %}
