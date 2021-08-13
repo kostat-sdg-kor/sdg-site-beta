@@ -2714,8 +2714,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     margin-top: 0; }
 
 body {
-  background: white;
-  padding-top: 15px; }
+  background: white; }
 
 header {
   background: #fff url(../img/sdgbg.png) bottom left repeat-x; }
