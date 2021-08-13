@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 3.8.1 -
         
-        필수보건서비스 보장범위 - Indicators For The Sustainable Development Goals
+        Coverage of essential health services - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 3.8.1
             
-            <span class="lead-copy">필수보건서비스 보장범위</span>
+            <span class="lead-copy">Coverage of essential health services</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-8-1'
   data-id="3-8-1"
-  data-country="Korea"
-  data-charttitle="보편적 의료보장(UHC) 서비스 지표"
+  data-country="Republic of Korea"
+  data-charttitle="Universal health coverage (UHC) service coverage index"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Index"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>보편적 의료보장(UHC) 서비스 지표</caption>
+      <caption>Universal health coverage (UHC) service coverage index</caption>
       <thead>
         
         
@@ -660,6 +667,10 @@ data-event-label="high"
   <div id="datatableFooter">
     
     
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: Index</p>
     
     
   </div>
@@ -706,7 +717,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">보편적 의료보장(UHC) 서비스 지표</h4>
+          <h4 id="chart-heading" class="chart-title">Universal health coverage (UHC) service coverage index</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -944,7 +955,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Index</dd>
         
 
         
@@ -980,7 +997,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Index</dd>
         
 
         
@@ -1074,13 +1097,52 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator description </th>
+        <td>
           
+            <p>Coverage of essential health services (defined as the average coverage of essential services based on tracer  interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable  diseases and service capacity and access, among the general and the most disadvantaged population).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>Index</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1277,7 +1339,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>필수보건서비스 보장범위</p>
+            <p>Coverage of essential health services</p>
 
           
         </td>
@@ -1325,7 +1387,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>II</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1531,12 +1606,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

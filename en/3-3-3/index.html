@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 3.3.3 -
         
-        인구 1천 명당 말라리아 발생건수 - Indicators For The Sustainable Development Goals
+        Malaria incidence per 1,000 population - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 3.3.3
             
-            <span class="lead-copy">인구 1천 명당 말라리아 발생건수</span>
+            <span class="lead-copy">Malaria incidence per 1,000 population</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-3-3'
   data-id="3-3-3"
-  data-country="Korea"
-  data-charttitle="인구 10만 명당 말라리아 발생률"
+  data-country="Republic of Korea"
+  data-charttitle="Malaria incidence per 1,000 population at risk"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Rate per 1,000 population"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="true"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>인구 10만 명당 말라리아 발생률</caption>
+      <caption>Malaria incidence per 1,000 population at risk</caption>
       <thead>
         
         
@@ -839,7 +846,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Source: Public Health England (PHE)</p>
     
+    
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: Rate per 1,000 population</p>
     
     
   </div>
@@ -870,6 +883,12 @@ data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
 >Table</a>
+  </li><li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-mapview" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+ aria-describedby="table-alternative">Map</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -886,7 +905,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">인구 10만 명당 말라리아 발생률</h4>
+          <h4 id="chart-heading" class="chart-title">Malaria incidence per 1,000 population at risk</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1124,7 +1143,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Rate per 1,000 population</dd>
         
 
         
@@ -1160,7 +1185,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Rate per 1,000 population</dd>
         
 
         
@@ -1170,6 +1201,38 @@ opensdg.chartConfigAlter(function(config, info) {
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div><div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    
+<h4 id="map-heading" class="chart-title">Malaria incidence per 1,000 population at risk</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/sdg-site-beta/assets/img/loading.gif" alt="Loading map" />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
+
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Rate per 1,000 population</dd>
+        
+
+        
+
+        
+    <dl>
+</div>
+
 
   </div>
 </div>
@@ -1257,10 +1320,36 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>Rate per 1,000 population</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1457,7 +1546,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>인구 1천 명당 말라리아 발생건수</p>
+            <p>Malaria incidence per 1,000 population</p>
 
           
         </td>
@@ -1505,7 +1594,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>I</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1514,7 +1616,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">UN custodian agency </th>
         <td>
           
-            <p>WHO</p>
+            <p>World Health Organisation (WHO)</p>
 
           
         </td>
@@ -1702,6 +1804,15 @@ data-event-label="Change to indicator.global_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1711,12 +1822,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 5.5.2 -
         
-        여성 관리자 비율 - Indicators For The Sustainable Development Goals
+        Proportion of women in managerial positions - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 5.5.2
             
-            <span class="lead-copy">여성 관리자 비율</span>
+            <span class="lead-copy">Proportion of women in managerial positions</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_5-5-2'
   data-id="5-5-2"
-  data-country="Korea"
-  data-charttitle="여성 관리자 비율"
+  data-country="Republic of Korea"
+  data-charttitle="Proportion of women in managerial positions"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Percentage (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>여성 관리자 비율</caption>
+      <caption>Proportion of women in managerial positions</caption>
       <thead>
         
         
@@ -695,7 +702,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Source: Office for National Statistics (ONS)</p>
     
+    
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -742,7 +755,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">여성 관리자 비율</h4>
+          <h4 id="chart-heading" class="chart-title">Proportion of women in managerial positions</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -980,7 +993,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1016,7 +1035,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1113,10 +1138,36 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>Percentage (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1313,7 +1364,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>여성 관리자 비율</p>
+            <p>Proportion of women in managerial positions</p>
 
           
         </td>
@@ -1361,7 +1412,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>I</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1370,7 +1434,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">UN custodian agency </th>
         <td>
           
-            <p>ILO</p>
+            <p>International Labour Organization (ILO)</p>
 
           
         </td>
@@ -1567,12 +1631,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

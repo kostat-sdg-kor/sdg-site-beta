@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 3.c.1 -
         
-        보건의료인력 밀도 및 분포 - Indicators For The Sustainable Development Goals
+        Health worker density and distribution - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 3.c.1
             
-            <span class="lead-copy">보건의료인력 밀도 및 분포</span>
+            <span class="lead-copy">Health worker density and distribution</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-c-1'
   data-id="3-c-1"
-  data-country="Korea"
-  data-charttitle="보건의료인력수"
+  data-country="Republic of Korea"
+  data-charttitle="Health worker density, by type of occupation (per 10,000 population)"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="per 10,000 population"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>보건의료인력수</caption>
+      <caption>Health worker density, by type of occupation (per 10,000 population)</caption>
       <thead>
         
         
@@ -719,7 +726,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Source: Office for National Statistics (ONS)</p>
     
+    
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: per 10,000 population</p>
     
     
   </div>
@@ -766,7 +779,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">보건의료인력수</h4>
+          <h4 id="chart-heading" class="chart-title">Health worker density, by type of occupation (per 10,000 population)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1004,7 +1017,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>per 10,000 population</dd>
         
 
         
@@ -1040,7 +1059,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>per 10,000 population</dd>
         
 
         
@@ -1137,10 +1162,36 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>per 10,000 population</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1337,7 +1388,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>보건의료인력 밀도 및 분포</p>
+            <p>Health worker density and distribution</p>
 
           
         </td>
@@ -1385,7 +1436,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>I</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1394,7 +1458,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">UN custodian agency </th>
         <td>
           
-            <p>WHO</p>
+            <p>World Health Organisation (WHO)</p>
 
           
         </td>
@@ -1416,8 +1480,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0c-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-0c-01.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (PDF 207 KB) <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1591,12 +1655,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

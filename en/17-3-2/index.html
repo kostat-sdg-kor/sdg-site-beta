@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 17.3.2 -
         
-        총 GDP 중 송금액 비율 - Indicators For The Sustainable Development Goals
+        Volume of remittances (in United States dollars) as a proportion of total GDP - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 17.3.2
             
-            <span class="lead-copy">총 GDP 중 송금액 비율</span>
+            <span class="lead-copy">Volume of remittances (in United States dollars) as a proportion of total GDP</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_17-3-2'
   data-id="17-3-2"
-  data-country="Korea"
-  data-charttitle="총 GDP 대비 송금액 비율 (USD 기준)"
+  data-country="Republic of Korea"
+  data-charttitle="Volume of remittances (in United States dollars) as a proportion of total GDP"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Percentage (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>총 GDP 대비 송금액 비율 (USD 기준)</caption>
+      <caption>Volume of remittances (in United States dollars) as a proportion of total GDP</caption>
       <thead>
         
         
@@ -827,7 +834,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>Source: World Bank</p>
     
+    
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -874,7 +887,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">총 GDP 대비 송금액 비율 (USD 기준)</h4>
+          <h4 id="chart-heading" class="chart-title">Volume of remittances (in United States dollars) as a proportion of total GDP</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1112,7 +1125,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1148,7 +1167,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1245,10 +1270,36 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>Percentage (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1445,7 +1496,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>총 GDP 중 송금액 비율</p>
+            <p>Volume of remittances (in United States dollars) as a proportion of total GDP</p>
 
           
         </td>
@@ -1493,7 +1544,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>I</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1502,7 +1566,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">UN custodian agency </th>
         <td>
           
-            <p>World Bank</p>
+            <p>World Bank (WB)</p>
 
           
         </td>
@@ -1525,7 +1589,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-02.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-02.pdf <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata (PDF 207 KB) <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1699,12 +1763,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 17.15.1 -
         
-        개발협력사업 공여자가 개도국 주도 성과체계 및 기획수단을 사용하는 정도 - Indicators For The Sustainable Development Goals
+        Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813005141">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210813010247">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -497,7 +497,7 @@ data-event-label="high"
             
             Indicator 17.15.1
             
-            <span class="lead-copy">개발협력사업 공여자가 개도국 주도 성과체계 및 기획수단을 사용하는 정도</span>
+            <span class="lead-copy">Extent of use of country-owned results frameworks and planning tools by providers of development cooperation</span>
           </h1>
         </div>
       </div>
@@ -523,6 +523,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -532,14 +539,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_17-15-1'
   data-id="17-15-1"
-  data-country="Korea"
-  data-charttitle="개발협력사업 공여자가 개발도상국 주도 성과체계 및 기획수단을 사용하는 정도-수혜자별"
+  data-country="Republic of Korea"
+  data-charttitle="Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Percentage (%)"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -579,7 +586,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>개발협력사업 공여자가 개발도상국 주도 성과체계 및 기획수단을 사용하는 정도-수혜자별</caption>
+      <caption>Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient</caption>
       <thead>
         
       </thead>
@@ -592,6 +599,10 @@ data-event-label="high"
   <div id="datatableFooter">
     
     
+    <p>Geographical Area: Republic of Korea</p>
+    
+    
+    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -638,7 +649,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">개발협력사업 공여자가 개발도상국 주도 성과체계 및 기획수단을 사용하는 정도-수혜자별</h4>
+          <h4 id="chart-heading" class="chart-title">Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -827,40 +838,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -876,7 +879,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -912,7 +921,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Republic of Korea</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1006,13 +1021,52 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator description </th>
+        <td>
           
+            <p>This indicator measures the extent to which, and the ways in which, all concerned development partners  use country-led results frameworks (CRFs) to plan development cooperation efforts and assess their performance.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
           
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
           
+            <p>Percentage (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1209,7 +1263,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>개발협력사업 공여자가 개도국 주도 성과체계 및 기획수단을 사용하는 정도</p>
+            <p>Extent of use of country-owned results frameworks and planning tools by providers of development cooperation</p>
 
           
         </td>
@@ -1257,7 +1311,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>II</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1289,7 +1356,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-15-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-17-15-01.pdf <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata (pdf 468kB) <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1463,12 +1530,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813005141'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210813010247'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813005141"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210813010247"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
