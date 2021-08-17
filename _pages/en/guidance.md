@@ -1,7 +1,8 @@
 ---
 title: Guidance
-permalink: /guidance/
+permalink: /en/guidance/
 layout: page
+language: en
 ---
 
 This page shares information for people using this website and for countries wishing to take a copy of it.
