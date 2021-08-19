@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210819022700">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210819055417">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -1019,13 +1019,16 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+          
+      
+        
       
       
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Indicator name </th>
         <td>
           
-            <p>The indicator refers to the number of parties (countries that have ratified, accepted, approved or accessed)  to five Multilateral Environmental Agreements (MEAs), which have submitted relevant information  to the Secretariat of each MEA, as stipulated by each of the agreements. The five MEAs are:  1. The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (Basel Convention); 2. The Rotterdam Convention on the prior informed consent procedure for certain hazardous chemicals and pesticides  in international trade (Rotterdam Convention); 3. The Stockholm Convention on Persistent Organic Pollutants (Stockholm Convention); 4. The Montreal Protocol on Substances that Deplete the Ozone Layer (Montreal Protocol); and 5. Minamata Convention on Mercury (Minamata Convention), which have submitted the information to the Secretariat  of each MEA, as required by each of the agreements.</p>
+            <p>Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement</p>
 
           
         </td>
@@ -1036,36 +1039,6 @@ data-event-label="Change to indicator.global_metadata tab"
       
         
           
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
   
   
@@ -1083,8 +1056,6 @@ data-event-label="Change to indicator.global_metadata tab"
       
         
           
-  
-  
       
         
           
@@ -1183,7 +1154,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">metadata_fields.target_name </th>
+        <td>
           
+            <p>2020년까지, 합의된 국제 프레임워크에 따라 화학물질 및 모든 폐기물에 대해 수명 주기 동안 친환경적인 관리를 달성하고, 이들이 인체 건강 및 환경에 끼치는 부정적 영향을 최소화하기 위해, 공기, 물, 토양으로의 배출을 크게 감소</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1224,17 +1208,6 @@ data-event-label="Change to indicator.global_metadata tab"
         </tr>
         
       
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -1381,12 +1354,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210819022700'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210819055417'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210819022700"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210819055417"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
