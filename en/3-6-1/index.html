@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -535,9 +528,9 @@ data-event-label="high"
   data-indicatorid='indicator_3-6-1'
   data-id="3-6-1"
   data-country="Korea"
-  data-charttitle="Death rate due to road traffic injuries (per 100,000 population)"
+  data-charttitle="Deaths due to road traffic injuries"
   data-charttitles="null"
-  data-measurementunit="per 100,000 population"
+  data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Death rate due to road traffic injuries (per 100,000 population)</caption>
+      <caption>Deaths due to road traffic injuries</caption>
       <thead>
         
         
@@ -841,11 +834,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Department for Transport (DfT)</p>
+    <p>Source: Road Safety Department, National Police Agency</p>
     
     
-    
-    <p>Unit of Measurement: per 100,000 population</p>
     
     
   </div>
@@ -892,7 +883,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Death rate due to road traffic injuries (per 100,000 population)</h4>
+          <h4 id="chart-heading" class="chart-title">Deaths due to road traffic injuries</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1128,12 +1119,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>Source:</dt>
+        <dd>Road Safety Department, National Police Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>per 100,000 population</dd>
+
         
 
         
@@ -1167,12 +1158,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>Source:</dt>
+        <dd>Road Safety Department, National Police Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>per 100,000 population</dd>
+
         
 
         
@@ -1258,7 +1249,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1277,16 +1281,68 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data name </th>
+        <td>
           
+            <p>Deaths due to road traffic injuries</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>The number of deaths attributed to road traffic injuries as defined in Article 2 of the Road Traffic Act</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Road traffic accident reports received by the police</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>Compiling statistics based on the police road traffic accident investigation reports(Traffic accident statistical graphs)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1306,7 +1362,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Department for Transport (DfT)</p>
+            <p>Road Safety Department, National Police Agency</p>
 
           
         </td>
@@ -1322,7 +1378,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Discontinuous</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1332,7 +1388,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-06-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-06-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1425,7 +1503,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Death rate due to road traffic injuries</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1434,7 +1525,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지, 도로교통사고로 인한 사망자 및 부상자 수를 절반으로 감소</p>
+            <p>By 2020, halve the number of global deaths and injuries from road traffic accidents</p>
 
           
         </td>
@@ -1450,7 +1541,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>World Health Organisation (WHO)</p>
+            <p>OECD</p>
 
           
         </td>
@@ -1472,8 +1563,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-06-01.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1630,12 +1721,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

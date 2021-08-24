@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-3-5'
   data-id="3-3-5"
-  data-country="Republic of Korea"
-  data-charttitle="Number of people requiring interventions against neglected tropical diseases"
+  data-country="Korea"
+  data-charttitle="Number of neglected tropical disease cases"
   data-charttitles="null"
-  data-measurementunit="Number of cases"
+  data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Number of people requiring interventions against neglected tropical diseases</caption>
+      <caption>Number of neglected tropical disease cases</caption>
       <thead>
         
         
@@ -841,13 +834,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Public Health England (PHE)</p>
+    <p>Source: Division of Zoonotic and Vector Borne Disease Control, Korea Disease Control and Prevention Agency</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
-    
-    
-    <p>Unit of Measurement: Number of cases</p>
     
     
   </div>
@@ -894,7 +883,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Number of people requiring interventions against neglected tropical diseases</h4>
+          <h4 id="chart-heading" class="chart-title">Number of neglected tropical disease cases</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1130,15 +1119,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Division of Zoonotic and Vector Borne Disease Control, Korea Disease Control and Prevention Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Number of cases</dd>
+
         
 
         
@@ -1172,15 +1158,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Division of Zoonotic and Vector Borne Disease Control, Korea Disease Control and Prevention Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Number of cases</dd>
+
         
 
         
@@ -1266,7 +1249,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1285,16 +1281,68 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data name </th>
+        <td>
           
+            <p>Number of neglected tropical disease cases</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>The number of neglected tropical disease cases is the sum of Hansen’s disease, hydrophobia, and dengue fever cases</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Infectious Disease Surveillance Yearbook</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>Compiling reports received by the integrated disease and health management system from medical institutions(including public health centers)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1314,7 +1362,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Public Health England (PHE)</p>
+            <p>Division of Zoonotic and Vector Borne Disease Control, Korea Disease Control and Prevention Agency</p>
 
           
         </td>
@@ -1330,7 +1378,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1340,7 +1388,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-03-05_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-03-05_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1433,7 +1503,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Number of people requiring interventions against neglected tropical diseases</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1442,7 +1525,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 후천성면역결핍증(AIDS), 결핵, 말라리아 및 소외열대질환의 확산을 종식시키고 간염, 수인성 질병 및 기타 전염성 질병 방지</p>
+            <p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>
 
           
         </td>
@@ -1480,8 +1563,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-03-05.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1638,12 +1721,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

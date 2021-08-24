@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-4-1'
   data-id="3-4-1"
-  data-country="Republic of Korea"
-  data-charttitle="Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)"
+  data-country="Korea"
+  data-charttitle="Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)</caption>
+      <caption>Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</caption>
       <thead>
         
       </thead>
@@ -593,13 +586,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics (ONS)</p>
+    <p>Source: Vital Statistics Division, Statistics Korea</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
-    
-    
-    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -646,7 +635,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)</h4>
+          <h4 id="chart-heading" class="chart-title">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -882,15 +871,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Vital Statistics Division, Statistics Korea</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+
         
 
         
@@ -924,15 +910,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Vital Statistics Division, Statistics Korea</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+
         
 
         
@@ -1018,7 +1001,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1040,13 +1036,52 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>The National Basic Living Security System is one of the country’s major public assistance system where provides the costs of living, residence, medicine, and/or education to the recipients who meet benefit-specific criteria(Livelihood Benefits, Medical Benefits, Residential Benefits, and Educational Benefits) depending on the recipient household’s characteristics and circumstances. <br /> The Basic(Old-age) Pension System is intended to stabilize the livelihood of the elderly and promote welfare by providing low-income elderly people with a certain amount of monthly benefits in cash. The previous Basic(Old-age) Pension System was replaced by the current system in July 2014, under which 70% of elderly population (aged 65 or older) receive Basic Pension benefits.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Social Security Statistics</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>Annual deaths per 100,000 population from cardiovascular disease(I00-I09), cancer(C00-C97), diabetes(E10-E14), or chronic respiratory disease(J00-J06, J30-J98)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1066,7 +1101,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>Vital Statistics Division, Statistics Korea</p>
 
           
         </td>
@@ -1082,7 +1117,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1092,7 +1127,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-04-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-04-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1185,7 +1242,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1194,7 +1264,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 예방과 치료를 통해 비전염성 질병으로 인한 조기 사망을 1/3로 감소시키고 정신건강과 웰빙을 향상</p>
+            <p>By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</p>
 
           
         </td>
@@ -1232,8 +1302,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1390,12 +1460,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

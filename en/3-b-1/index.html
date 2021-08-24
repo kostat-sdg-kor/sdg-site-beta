@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-b-1'
   data-id="3-b-1"
-  data-country="Republic of Korea"
-  data-charttitle="Proportion of the target population with access to Vaccine"
+  data-country="Korea"
+  data-charttitle="[Data ①] Coverage of DTP3(Diphtheria, Tetanus, and Pertussis) vaccines <br> [Data ②] Coverage of MMR(Measles, Mumps and Rubella) vaccines<br> [Data ③] Coverage of PCV(Pneumococcal Conjugate Vaccine)"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of the target population with access to Vaccine</caption>
+      <caption>[Data ①] Coverage of DTP3(Diphtheria, Tetanus, and Pertussis) vaccines <br> [Data ②] Coverage of MMR(Measles, Mumps and Rubella) vaccines<br> [Data ③] Coverage of PCV(Pneumococcal Conjugate Vaccine)</caption>
       <thead>
         
       </thead>
@@ -593,13 +586,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: National Health Service (NHS) Digital</p>
+    <p>Source: Division of Immunization, Korea Disease Control and Prevention Agency</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
-    
-    
-    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -646,7 +635,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of the target population with access to Vaccine</h4>
+          <h4 id="chart-heading" class="chart-title">[Data ①] Coverage of DTP3(Diphtheria, Tetanus, and Pertussis) vaccines <br> [Data ②] Coverage of MMR(Measles, Mumps and Rubella) vaccines<br> [Data ③] Coverage of PCV(Pneumococcal Conjugate Vaccine)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -882,15 +871,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Division of Immunization, Korea Disease Control and Prevention Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+
         
 
         
@@ -924,15 +910,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Division of Immunization, Korea Disease Control and Prevention Agency</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+
         
 
         
@@ -1018,7 +1001,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1040,13 +1036,52 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>Coverage of DTP(Diphtheria, Tetanus, and Pertussis) vaccines, vaccines including measles, pneumococcal conjugate vaccines, and HPV(Human Papillomavirus Vaccine)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Nationwide Vaccination Coverage</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>The Korea Disease Control and Prevention Agency compiles data from vaccination records received from public health centers and medical institutions through the integrated vaccination management system</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1066,7 +1101,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>National Health Service (NHS) Digital</p>
+            <p>Division of Immunization, Korea Disease Control and Prevention Agency</p>
 
           
         </td>
@@ -1082,7 +1117,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1092,7 +1127,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0b-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0b-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1185,7 +1242,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Proportion of the target population covered by all vaccines included in their national programme</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1194,7 +1264,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>개도국에서 주로 발생하는 전염성 및 비전염성 질병에 대한 백신 및 약품 개발과 연구 지원, 저렴한 가격의 필수 의약품 및 백신의 제공, 특히 모두에게 의약품에 대한 접근을 보장</p>
+            <p>Support the research and development of vaccines and medicines for the communicable and non‑communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</p>
 
           
         </td>
@@ -1210,7 +1280,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>World Health Organization (WHO),  United Nations International Children’s Emergency Fund (UNICEF)</p>
+            <p>WHO, UNICEF</p>
 
           
         </td>
@@ -1232,8 +1302,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1390,12 +1460,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

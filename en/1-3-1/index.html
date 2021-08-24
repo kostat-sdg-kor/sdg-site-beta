@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -528,7 +528,7 @@ data-event-label="high"
   data-indicatorid='indicator_1-3-1'
   data-id="1-3-1"
   data-country="전체"
-  data-charttitle="Proportion of population covered by at least one social protection benefit, by sex"
+  data-charttitle="Proportion of population covered by social protection systems(The take-up rate of National Basic Living Security and Basic(Old-age) Pension)"
   data-charttitles="null"
   data-measurementunit="퍼센트(%)"
   data-showdata="true"
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of population covered by at least one social protection benefit, by sex</caption>
+      <caption>Proportion of population covered by social protection systems(The take-up rate of National Basic Living Security and Basic(Old-age) Pension)</caption>
       <thead>
         
       </thead>
@@ -639,7 +639,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of population covered by at least one social protection benefit, by sex</h4>
+          <h4 id="chart-heading" class="chart-title">Proportion of population covered by social protection systems(The take-up rate of National Basic Living Security and Basic(Old-age) Pension)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1023,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> Alternative national data (Type3)</b>   <br /> This is national statistics used as an alternative even not exactly corresponding to UN SDGs indicators.  When no statistics corresponding to Type1 and 2, it can be selected through consultation with the concerned agencies.</p>
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
 
           
         </td>
@@ -1071,9 +1071,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <ul>
-  <li>The National Basic Living Security System is one of the country’s major public  assistance system where provides the costs of living, residence, medicine, and/or  education to the recipients who meet benefit-specific criteria(Livelihood Benefits,  Medical Benefits, Residential Benefits, and Educational Benefits) depending on the  recipient household’s characteristics and circumstances. <br /> * The Basic(Old-age) Pension System is intended to stabilize the livelihood of the  elderly and promote welfare by providing low-income elderly people with a  certain amount of monthly benefits in cash. The previous Basic(Old-age) Pension  System was replaced by the current system in July 2014, under which 70% of  elderly population (aged 65 or older) receive Basic Pension benefits.</li>
-</ul>
+            <p>The National Basic Living Security System is one of the country’s major public assistance system where provides the costs of living, residence, medicine, and/or education to the recipients who meet benefit-specific criteria(Livelihood Benefits, Medical Benefits, Residential Benefits, and Educational Benefits) depending on the recipient household’s characteristics and circumstances. <br /> The Basic(Old-age) Pension System is intended to stabilize the livelihood of the elderly and promote welfare by providing low-income elderly people with a certain amount of monthly benefits in cash. The previous Basic(Old-age) Pension System was replaced by the current system in July 2014, under which 70% of elderly population (aged 65 or older) receive Basic Pension benefits.</p>
 
           
         </td>
@@ -1170,8 +1168,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-03-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-03-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-03-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-03-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1311,7 +1309,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>International Labour Organization (ILO), World Bank (WB)</p>
+            <p>N/A</p>
 
           
         </td>
@@ -1491,12 +1489,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

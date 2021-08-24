@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824064232">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-9-3'
   data-id="3-9-3"
-  data-country="Republic of Korea"
-  data-charttitle="Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)"
+  data-country="Korea"
+  data-charttitle="Mortality rate attributed to unintentional poisoning"
   data-charttitles="null"
-  data-measurementunit="deaths per 100,000 population"
+  data-measurementunit=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)</caption>
+      <caption>Mortality rate attributed to unintentional poisoning</caption>
       <thead>
         
         
@@ -841,13 +834,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics (ONS)</p>
+    <p>Source: Vital Statistics Division, Statistics Korea</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
-    
-    
-    <p>Unit of Measurement: deaths per 100,000 population</p>
     
     
   </div>
@@ -894,7 +883,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)</h4>
+          <h4 id="chart-heading" class="chart-title">Mortality rate attributed to unintentional poisoning</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1130,15 +1119,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Vital Statistics Division, Statistics Korea</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>deaths per 100,000 population</dd>
+
         
 
         
@@ -1172,15 +1158,12 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
-        
-        <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dt>Source:</dt>
+        <dd>Vital Statistics Division, Statistics Korea</dd>
         
 
         
-        <dt>Unit of Measurement:</dt>
-        <dd>deaths per 100,000 population</dd>
+
         
 
         
@@ -1266,7 +1249,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1288,13 +1284,52 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>Deaths per 100,000 population attributed to unintentional poisoning and exposure to noxious substances(X40-X49)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Cause of Death Statistics</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>Compiling data from death reports filed with city, district, and municipal offices, baby and fetal death reports from crematories, and data from the ｢Complementary Survey on Causes of Death｣ of medical institutions</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1314,7 +1349,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>Vital Statistics Division, Statistics Korea</p>
 
           
         </td>
@@ -1330,7 +1365,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1340,7 +1375,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-09-03_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-09-03_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1433,7 +1490,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Mortality rate attributed to unintentional poisoning</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1442,7 +1512,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 유해화학물질, 대기오염, 수질오염, 토양오염으로 인한 사망 및 질병건수를 상당 수준으로 감소</p>
+            <p>By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</p>
 
           
         </td>
@@ -1480,8 +1550,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1638,12 +1708,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824064232'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824064232"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
