@@ -177,7 +177,7 @@
           "id": "2-4-1",
           "title": "생산적이고 지속가능한 농지면적 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/2-4-1",
           "status": "notapplicable"
         },
@@ -209,7 +209,7 @@
           "id": "2-a-2",
           "title": "농업부문 총 공적지원(ODA와 기타 공적지원)",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/2-a-2",
           "status": "notapplicable"
         },
@@ -225,7 +225,7 @@
           "id": "2-c-1",
           "title": "식품가격이상지표",
           "description": "",
-          "keywords": "",
+          "keywords": "ONS, CPI",
           "href": "/sdg-site-beta/2-c-1",
           "status": "notapplicable"
         }]
@@ -423,9 +423,9 @@
         },
         {
           "id": "3-b-2",
-          "title": "의학연구 및 기초보건 부문 ODA 순지출액",
+          "title": "기초보건 부문 공적개발원조(ODA) 순지출액",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/3-b-2",
           "status": "notapplicable"
         },
@@ -535,9 +535,9 @@
         },
         {
           "id": "4-7-1",
-          "title": "(i) 세계시민교육 (ii) 지속가능발전교육이 (a) 국가교육정책 (b) 교육과정 (c) 교사교육, (d) 학생평가 영역에서 주류화된 정도",
+          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 국가의 (a)국가교육정책 (b) 교육과정 (c) 교사교육, (d) 학생평가 영역에서 주류화 된 정도(12.8.1/13.3.1과 동일)",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/4-7-1",
           "status": "notapplicable"
         },
@@ -575,9 +575,9 @@
         
         {
           "id": "5-1-1",
-          "title": "성에 근거한 비차별과 평등을 증진, 집행, 모니터링 할 수 있는 수 있는 법적 체계 존재여부",
+          "title": "성에 근거한 비차별과 평등을 증진, 집행, 모니터링 할 수 있는 법적 체계 존재여부",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/5-1-1",
           "status": "notapplicable"
         },
@@ -609,7 +609,7 @@
           "id": "5-3-2",
           "title": "15~49세 여아와 여성 중 여성성기절제를 한 인구 비율(연령별)",
           "description": "",
-          "keywords": "",
+          "keywords": "인구, Population",
           "href": "/sdg-site-beta/5-3-2",
           "status": "notapplicable"
         },
@@ -655,9 +655,9 @@
         },
         {
           "id": "5-a-1",
-          "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율(성별) (b) 농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율(보유 형태별)",
+          "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율(성별) <br> (b) 농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율(보유 형태별)",
           "description": "",
-          "keywords": "",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/5-a-1",
           "status": "notapplicable"
         },
@@ -665,7 +665,7 @@
           "id": "5-a-2",
           "title": "토지소유에 대한 여성의 평등한 권리를 보장하는 법률적 기반(관습법 포함)을 갖춘 국가의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/5-a-2",
           "status": "notapplicable"
         },
@@ -681,7 +681,7 @@
           "id": "5-c-1",
           "title": "성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/5-c-1",
           "status": "notapplicable"
         }]
@@ -729,7 +729,7 @@
           "id": "6-4-1",
           "title": "시간에 따른 물 이용 효율성 변화",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/6-4-1",
           "status": "notapplicable"
         },
@@ -769,7 +769,7 @@
           "id": "6-a-1",
           "title": "정부의 지출계획에 포함되어 있는 물과 위생분야 관련 ODA 금액",
           "description": "",
-          "keywords": "",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/6-a-1",
           "status": "notapplicable"
         },
@@ -777,7 +777,7 @@
           "id": "6-b-1",
           "title": "물 및 위생관리에 대한 지방 커뮤니티의 참여를 위한 확립된 행정적 정책과 절차를 갖추고 있는 지방행정단위의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/6-b-1",
           "status": "notapplicable"
         }]
@@ -825,15 +825,15 @@
           "id": "7-a-1",
           "title": "개도국의 하이브리드 시스템을 포함한 재생 에너지 및 청정에너지 연구 개발과 재생에너지생산을 지원하는 국제 자금 흐름",
           "description": "",
-          "keywords": "",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/7-a-1",
           "status": "notapplicable"
         },
         {
           "id": "7-b-1",
-          "title": "개도국의 재생에너지 설비 용량",
+          "title": "개도국의 재생에너지 설비 용량(인당 와트)",
           "description": "",
-          "keywords": "",
+          "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-site-beta/7-b-1",
           "status": "notapplicable"
         }]
@@ -865,15 +865,15 @@
           "id": "8-3-1",
           "title": "총 고용 중 비공식 고용 비율(부문 및 성별)",
           "description": "",
-          "keywords": "",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/8-3-1",
           "status": "notapplicable"
         },
         {
           "id": "8-4-1",
-          "title": "물질발자국, 1인당 물질발자국, GDP당 물질발자국",
+          "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
           "description": "",
-          "keywords": "",
+          "keywords": "인구, GDP, Population",
           "href": "/sdg-site-beta/8-4-1",
           "status": "notapplicable"
         },
@@ -905,13 +905,13 @@
           "id": "8-6-1",
           "title": "교육, 취업, 혹은 훈련 상태에 있지 않은 청년(15-24세)의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "Labour Force",
           "href": "/sdg-site-beta/8-6-1",
           "status": "notapplicable"
         },
         {
           "id": "8-7-1",
-          "title": "5-17세 아동노동 인구수와 비율(성 및 연령별)",
+          "title": "5-17세 아동 중 아동노동인구와 비율(성 및 연령별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/8-7-1",
@@ -927,7 +927,7 @@
         },
         {
           "id": "8-8-2",
-          "title": "국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준(성 및 이주 상태별)",
+          "title": "국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준 (성 및 이주 상태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/8-8-2",
@@ -935,9 +935,9 @@
         },
         {
           "id": "8-9-1",
-          "title": "총 GDP 및 성장률에 관광분야 직접 기여 비율",
+          "title": "전체 국내총생산(GDP) 및 성장률에 관광분야가 직접적으로 기여하는 국내총생산(GDP) 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "관광, GDP, Tourism",
           "href": "/sdg-site-beta/8-9-1",
           "status": "notapplicable"
         },
@@ -969,7 +969,7 @@
           "id": "8-b-1",
           "title": "별도 계획 혹은 국가 계획의 일부로서 청년층 고용에 대한 국가 계획 개발 운영 여부",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, 교육, 고용, Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-site-beta/8-b-1",
           "status": "notapplicable"
         }]
@@ -985,7 +985,7 @@
           "id": "9-1-1",
           "title": "사계절 도로 2km 반경 내 거주하는 시골 인구 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "Geography Accelerator Project",
           "href": "/sdg-site-beta/9-1-1",
           "status": "notapplicable"
         },
@@ -1023,7 +1023,7 @@
         },
         {
           "id": "9-3-2",
-          "title": "부채 혹은 대출한도가 있는 소규모 산업 비율",
+          "title": "부채 혹은 신용한도가 있는 소규모 산업 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/9-3-2",
