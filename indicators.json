@@ -1409,7 +1409,7 @@
           "id": "12-a-1",
           "title": "개도국의 재생에너지 설비 용량",
           "description": "",
-          "keywords": "",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/12-a-1",
           "status": "notapplicable"
         },
@@ -1417,7 +1417,7 @@
           "id": "12-b-1",
           "title": "경제환경 측면에서 지속가능관광 모니터링을 위한 표준 회계 툴 이행",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/12-b-1",
           "status": "notapplicable"
         },
@@ -1465,7 +1465,7 @@
           "id": "13-2-1",
           "title": "국가감축기여목표(NDCs), 장기전략, 국가적응계획 등을 보유한 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-site-beta/13-2-1",
           "status": "notapplicable"
         },
@@ -1479,9 +1479,9 @@
         },
         {
           "id": "13-3-1",
-          "title": "(i) 세계시민교육 (ii) 지속가능발전교육이 (a) 국가교육정책 (b) 교육과정 (c) 교사교육 (d) 학생평가 영역에서 주류화된 정도",
+          "title": "(i)세계시민교육 (ii)지속가능발전교육이 국가의 (a)국가교육정책 (b) 교육과정 (c)교사교육, (d) 학생평가 영역에서 주류화 된 정도(12.8.1/13.3.1과 동일)",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/13-3-1",
           "status": "notapplicable"
         },
@@ -1489,7 +1489,7 @@
           "id": "13-a-1",
           "title": "2025년까지 1천억 달러 재원 조성을 위해 매년 제공 혹은 모금되는 금액",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/13-a-1",
           "status": "notapplicable"
         },
@@ -1497,7 +1497,7 @@
           "id": "13-b-1",
           "title": "국가감축기여목표(NDCs), 장기전략, 국가적응계획 등을 보유한 최빈국 및 군소도서국 수",
           "description": "",
-          "keywords": "",
+          "keywords": "기후변화, climate change",
           "href": "/sdg-site-beta/13-b-1",
           "status": "notapplicable"
         }]
@@ -1585,7 +1585,7 @@
           "id": "14-c-1",
           "title": "대양과 그 자원의 보존 및 지속가능한 이용을 위해 법, 정책, 제도를 통해 유엔해양법협약에 반영되어 있는 것과 같이 국제법을 이행하기 위한 대양관련 장치를 비준, 적용하고 이행하는 과정에서 진전을 보이는 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/14-c-1",
           "status": "notapplicable"
         }]
@@ -1623,7 +1623,7 @@
         },
         {
           "id": "15-3-1",
-          "title": "황폐화된 국토면적 비율",
+          "title": "국토면적 대비 황폐화 지역 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/15-3-1",
@@ -1665,7 +1665,7 @@
           "id": "15-7-1",
           "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "도시, CITES, UNODC",
           "href": "/sdg-site-beta/15-7-1",
           "status": "notapplicable"
         },
@@ -1705,7 +1705,7 @@
           "id": "15-c-1",
           "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "교육, CITES, UNODC",
           "href": "/sdg-site-beta/15-c-1",
           "status": "notapplicable"
         }]
