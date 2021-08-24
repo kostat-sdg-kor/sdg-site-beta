@@ -1089,7 +1089,7 @@
           "id": "10-1-1",
           "title": "총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률",
           "description": "",
-          "keywords": "",
+          "keywords": "inequality",
           "href": "/sdg-site-beta/10-1-1",
           "status": "notapplicable"
         },
@@ -1151,9 +1151,9 @@
         },
         {
           "id": "10-7-2",
-          "title": "질서 있고 안전하고 정기적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 갖춘 국가의 수",
+          "title": "질서 있고 안전하고 정적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/10-7-2",
           "status": "notapplicable"
         },
@@ -1225,13 +1225,13 @@
           "id": "11-3-1",
           "title": "인구증가율 대비 토지소모율 비",
           "description": "",
-          "keywords": "",
+          "keywords": "experimental",
           "href": "/sdg-site-beta/11-3-1",
           "status": "notapplicable"
         },
         {
           "id": "11-3-2",
-          "title": "정기적이고 민주적으로 운영되는 도시계획 및 관리에 시민사회가 직접 참여하는 구조를 갖추고 있는 도시의 비율",
+          "title": "정기적이고 민주적으로 운영되는 도시계획 및 관리에 시민사회가 직접 참여하는 구조를 가지고 있는 도시의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/11-3-2",
@@ -1295,7 +1295,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획을 갖춘 국가의 수",
+          "title": "(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/11-a-1",
@@ -1393,15 +1393,15 @@
           "id": "12-7-1",
           "title": "지속 가능한 공공 조달 정책과 실행 계획 이행 정도",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/12-7-1",
           "status": "notapplicable"
         },
         {
           "id": "12-8-1",
-          "title": "(i) 세계시민교육 (ii) 지속가능발전교육이 (a) 국가교육정책 (b) 교육과정 (c) 교사교육 (d) 학생평가 영역에서 주류화 된 정도",
+          "title": "(i)세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b)교육과정 (c)교사교육 (d)학생평가 영역에서 주류화 된 정도",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/12-8-1",
           "status": "notapplicable"
         },
