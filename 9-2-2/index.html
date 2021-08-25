@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825011313">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_9-2-2'
   data-id="9-2-2"
-  data-country="Korea"
+  data-country="전체"
   data-charttitle="총 고용 대비 제조업 고용 비율"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="true"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -798,7 +798,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 통계청 고용통계과</p>
     
+    
+    <p>지역: 전체</p>
+    
+    
+    <p>단위: 퍼센트(%)</p>
     
     
   </div>
@@ -829,6 +835,12 @@ data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
 >표</a>
+  </li><li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-mapview" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+ aria-describedby="table-alternative">지도</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -1081,9 +1093,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 고용통계과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전체</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1117,9 +1138,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 고용통계과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전체</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1129,6 +1159,41 @@ opensdg.chartConfigAlter(function(config, info) {
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div><div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    
+<h4 id="map-heading" class="chart-title">총 고용 대비 제조업 고용 비율</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/sdg-site-beta/assets/img/loading.gif" alt="지도를 불러오고 있습니다." />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>출처:</dt>
+        <dd>통계청 고용통계과</dd>
+        
+
+        
+        <dt>지역:</dt>
+        <dd>전체</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
+        
+
+        
+
+        
+    <dl>
+</div>
+
 
   </div>
 </div>
@@ -1205,7 +1270,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내통계(1유형) </b>   <br /> UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다.    <br /> 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1227,33 +1305,120 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>전체 취업자수 대비 제조업 취업자수의 비율을 의미함. 취업자수는 경제활동인구조사에서 산업별 취업자수 통계를 이용함</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>경제활동인구조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>전국 3만 5천 가구를 대상으로 취업, 실업, 노동력 등을 방문면접조사를 통해 실시함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
           
+            <p>통계청 고용통계과</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>매월</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-09-02-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-09-02-02_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1346,7 +1511,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>총 고용 대비 제조업 고용 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1371,7 +1549,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>UNIDO</p>
+            <p>United Nations Industrial Development Organization (UNIDO)</p>
 
           
         </td>
@@ -1542,6 +1720,15 @@ data-event-label="Change to indicator.global_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1551,12 +1738,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825011313'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825011313"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

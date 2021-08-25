@@ -273,15 +273,15 @@
           "id": "3-3-1",
           "title": "비감염인구 1천 명당 인체면역결핍바이러스(HIV) 신규 감염자 수(성, 연령 및 주요 인구특성별)",
           "description": "",
-          "keywords": "",
+          "keywords": "면역, 바이러스, 감염, 사망, HIV, Infections, mortality",
           "href": "/sdg-site-beta/3-3-1",
           "status": "complete"
         },
         {
           "id": "3-3-2",
-          "title": "인구 1십만 명당 결핵 발생건수",
+          "title": "인구 10만 명당 결핵 발생건수",
           "description": "",
-          "keywords": "",
+          "keywords": "Population",
           "href": "/sdg-site-beta/3-3-2",
           "status": "complete"
         },
@@ -289,13 +289,13 @@
           "id": "3-3-3",
           "title": "인구 1천 명당 말라리아 발생건수",
           "description": "",
-          "keywords": "",
+          "keywords": "질병, 말라리아, Population",
           "href": "/sdg-site-beta/3-3-3",
           "status": "complete"
         },
         {
           "id": "3-3-4",
-          "title": "인구 1십만 명당 B형간염 발생건수",
+          "title": "인구 10만 명당 B형간염 발생건수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/3-3-4",
@@ -313,7 +313,7 @@
           "id": "3-4-1",
           "title": "심혈관계질환, 암, 당뇨 또는 만성호흡기질환 사망률",
           "description": "",
-          "keywords": "",
+          "keywords": "Mortality",
           "href": "/sdg-site-beta/3-4-1",
           "status": "complete"
         },
@@ -321,7 +321,7 @@
           "id": "3-4-2",
           "title": "자살률",
           "description": "",
-          "keywords": "",
+          "keywords": "Population",
           "href": "/sdg-site-beta/3-4-2",
           "status": "complete"
         },
@@ -345,7 +345,7 @@
           "id": "3-6-1",
           "title": "도로교통사고 사망률",
           "description": "",
-          "keywords": "",
+          "keywords": "Population",
           "href": "/sdg-site-beta/3-6-1",
           "status": "complete"
         },
@@ -361,7 +361,7 @@
           "id": "3-7-2",
           "title": "여성 청소년(10-14세, 15-19세) 인구 1천 명당 출산율",
           "description": "",
-          "keywords": "",
+          "keywords": "Population, births",
           "href": "/sdg-site-beta/3-7-2",
           "status": "complete"
         },
@@ -393,7 +393,7 @@
           "id": "3-9-2",
           "title": "안전하지 않은 물과 하수처리, 부족한 위생시설로 인한 사망률",
           "description": "",
-          "keywords": "",
+          "keywords": "Population",
           "href": "/sdg-site-beta/3-9-2",
           "status": "complete"
         },
@@ -401,7 +401,7 @@
           "id": "3-9-3",
           "title": "비의도적 중독 사망률",
           "description": "",
-          "keywords": "",
+          "keywords": "Population",
           "href": "/sdg-site-beta/3-9-3",
           "status": "complete"
         },
@@ -409,7 +409,7 @@
           "id": "3-a-1",
           "title": "연령표준화한 15세 이상 인구의 현재 흡연율",
           "description": "",
-          "keywords": "",
+          "keywords": "Smoking",
           "href": "/sdg-site-beta/3-a-1",
           "status": "complete"
         },
@@ -441,7 +441,7 @@
           "id": "3-c-1",
           "title": "보건의료인력 밀도 및 분포",
           "description": "",
-          "keywords": "",
+          "keywords": "Labour Force, Population",
           "href": "/sdg-site-beta/3-c-1",
           "status": "complete"
         },
@@ -497,15 +497,15 @@
           "id": "4-2-2",
           "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 비율(성별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Education, early learning years, children",
           "href": "/sdg-site-beta/4-2-2",
           "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "지난 12개월 동안 형식 및 비형식 교육· 훈련에 참여한 청소년 및 성인 비율(성별)",
+          "title": "지난 12개월 동안 형식 및 비형식 교육·훈련에 참여한 청소년 및 성인 비율(성별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Education",
           "href": "/sdg-site-beta/4-3-1",
           "status": "complete"
         },
@@ -527,7 +527,7 @@
         },
         {
           "id": "4-6-1",
-          "title": "특정 연령 집단에서 기능적 (a)언어역량과 (b)수리역량이 최소 일정 수준에 도달한 인구 비율(성별)일상생활에 필요한 충분한 문해력을 갖춘 인구비율",
+          "title": "특정 연령 집단에서 기능적 (a)언어역량과 (b)수리역량이 최소 일정 수준에 도달한 인구 비율(성별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/4-6-1",
@@ -601,7 +601,7 @@
           "id": "5-3-1",
           "title": "20~24세 여성 중 15세 이전과 18세 이전에 결혼 또는 동거를 했던 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "인구, 결혼, Demography, Marriage",
           "href": "/sdg-site-beta/5-3-1",
           "status": "complete"
         },
@@ -633,7 +633,7 @@
           "id": "5-5-2",
           "title": "여성 관리자 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/5-5-2",
           "status": "complete"
         },
@@ -817,7 +817,7 @@
           "id": "7-3-1",
           "title": "1차 에너지와 GDP로 측정되는 에너지 집약도",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/7-3-1",
           "status": "complete"
         },
@@ -849,7 +849,7 @@
           "id": "8-1-1",
           "title": "1인당 실질 GDP 연 성장률",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP, Population",
           "href": "/sdg-site-beta/8-1-1",
           "status": "complete"
         },
@@ -857,7 +857,7 @@
           "id": "8-2-1",
           "title": "취업자 1인당 실질 GDP 연 성장률",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/8-2-1",
           "status": "complete"
         },
@@ -889,7 +889,7 @@
           "id": "8-5-1",
           "title": "근로자의 평균 시간당 임금(성, 연령, 직업 및 장애별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Employment, Earnings",
           "href": "/sdg-site-beta/8-5-1",
           "status": "complete"
         },
@@ -897,7 +897,7 @@
           "id": "8-5-2",
           "title": "실업률(성, 연령 및 장애별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Labour Force",
           "href": "/sdg-site-beta/8-5-2",
           "status": "complete"
         },
@@ -1001,7 +1001,7 @@
           "id": "9-2-1",
           "title": "GDP 대비 제조업 부가가치 비율, 1인당 제조업 부가가치 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP, Population",
           "href": "/sdg-site-beta/9-2-1",
           "status": "complete"
         },
@@ -1033,7 +1033,7 @@
           "id": "9-4-1",
           "title": "부가가치 단위당 이산화탄소 배출량",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/9-4-1",
           "status": "complete"
         },
@@ -1041,7 +1041,7 @@
           "id": "9-5-1",
           "title": "GDP 대비 연구개발비 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/9-5-1",
           "status": "complete"
         },
@@ -1049,7 +1049,7 @@
           "id": "9-5-2",
           "title": "인구 1백만 명당 (상근상당) 연구원 수",
           "description": "",
-          "keywords": "",
+          "keywords": "Labour Force, Population",
           "href": "/sdg-site-beta/9-5-2",
           "status": "complete"
         },
@@ -1097,7 +1097,7 @@
           "id": "10-2-1",
           "title": "중위소득 50% 미만 인구 비율(성, 연령 및 장애별)",
           "description": "",
-          "keywords": "",
+          "keywords": "poverty",
           "href": "/sdg-site-beta/10-2-1",
           "status": "complete"
         },
@@ -1105,7 +1105,7 @@
           "id": "10-3-1",
           "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘 경험을 보고한 인구 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "범죄, Crime",
           "href": "/sdg-site-beta/10-3-1",
           "status": "complete"
         },

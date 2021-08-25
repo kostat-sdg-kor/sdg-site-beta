@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825011313">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_5-4-1'
   data-id="5-4-1"
-  data-country="Korea"
-  data-charttitle="무보수 가사노동 및 돌봄 노동에 소요된 시간의 비율 (성,연령, 지역별)"
+  data-country="전국"
+  data-charttitle="무급 가정관리 및 돌봄 노동에 소요된 시간 비율(성별) "
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>무보수 가사노동 및 돌봄 노동에 소요된 시간의 비율 (성,연령, 지역별)</caption>
+      <caption>무급 가정관리 및 돌봄 노동에 소요된 시간 비율(성별) </caption>
       <thead>
         
         
@@ -654,7 +654,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 통계청 사회통계기획과</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 퍼센트(%)</p>
     
     
   </div>
@@ -701,7 +707,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">무보수 가사노동 및 돌봄 노동에 소요된 시간의 비율 (성,연령, 지역별)</h4>
+          <h4 id="chart-heading" class="chart-title">무급 가정관리 및 돌봄 노동에 소요된 시간 비율(성별) </h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -937,9 +943,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 사회통계기획과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -973,9 +988,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 사회통계기획과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1061,7 +1085,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내통계(1유형) </b>   <br /> UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다.    <br /> 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1080,36 +1117,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>무급 가정관리 및 돌봄 노동에 소요된 시간 비율</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>하루에 남성과 여성에 의해 무급으로 제공되는 가정관리(domestic work) 및 돌봄 노동(care work)에 소요되는 시간의 비율     <br /> 무급 가정관리 및 돌봄 노동에는 가구 구성원 혹은 다른 가구내 거주하는 가족의 최종 사용(own final use)을 위한 목적으로의 서비스 제공 활동으로 음식준비, 의류관리, 청소, 집관리, 물품구입, 가정경영, 기타 집안일 등을 뜻하며, 생활시간조사 행동분류 중 대분류 4번(가정관리)과 5번(가족 및 가구원 돌보기)에 해당함. 가정관리와 돌봄을 합하여 가사노동으로 칭함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>생활시간조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>응답자가 10분 간격으로 주로 한 행동, 장소/이동수단, 함께 한 행동을 2일 동안 시간일지(time-diary)에 스스로 기입하도록 하며, 가구 및 개인관련 항목은 조사원이 가구를 직접 방문하여 면접조사로 진행</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>통계청 사회통계기획과</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>5년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-04-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-04-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1202,7 +1339,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>무급 가정관리 및 돌봄노동에 소요된 시간 비율(성, 연령 및 지역별)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1227,7 +1377,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>UNSD, UN Women</p>
+            <p>UN Statistics Division (UNSD)</p>
 
           
         </td>
@@ -1407,12 +1557,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825011313'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825011313"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210824081613">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825011313">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_9-2-1'
   data-id="9-2-1"
-  data-country="Korea"
+  data-country="전"
   data-charttitle="GDP 대비 제조업 부가가치 비율 / 1인 당 제조업 부가가치"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -846,7 +846,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 한국은행 국민소득총괄팀</p>
     
+    
+    <p>지역: 전</p>
+    
+    
+    <p>단위: 퍼센트(%)</p>
     
     
   </div>
@@ -1129,9 +1135,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>한국은행 국민소득총괄팀</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1165,9 +1180,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>한국은행 국민소득총괄팀</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1253,7 +1277,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내통계(1유형) </b>   <br /> UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다.    <br /> 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1272,36 +1309,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>GDP 대비 제조업 부가가치 비율</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>전체 GDP에서 제조업이 차지하는 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>국민계정</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>가공통계로 170여 종의 기초통계(단순자료를 포함하면 300여종)를 토대로 총산출, 중간투입액을 구하고 총산출에서 중간투입액을 차감하여 부가가치 산출</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>한국은행 국민소득총괄팀</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>분기, 1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-09-02-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-09-02-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1394,7 +1531,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>GDP 대비 제조업 부가가치 비율, 1인당 제조업 부가가치 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1419,7 +1569,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>UNIDO</p>
+            <p>United Nations Industrial Development Organization (UNIDO)</p>
 
           
         </td>
@@ -1599,12 +1749,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210824081613'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825011313'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210824081613"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825011313"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
