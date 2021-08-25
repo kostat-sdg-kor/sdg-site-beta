@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title> 6 - global_goals.6-short - general.site_title</title>
+    <title>Goal 6 - Clean water and sanitation - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825043819">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825044647">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -146,15 +146,15 @@ layout-goal-by-target
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <!--<div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag"></strong>
     
-    
+    We welcome your <a href="mailto:sdgkostat@korea.kr">feedback</a>.
   </div>
 </div>
 
@@ -166,15 +166,15 @@ layout-goal-by-target
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/sdg-site-beta/en/" id="home">
-    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="general.sdg - header.tag_line" />
+    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -185,8 +185,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -203,11 +203,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/6/">
-              
+              한국어
             </a>
           </li></ul>
   </div>
@@ -219,19 +219,19 @@ data-event-label="high"
     <nav class="navbar navbar-default" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">general.goals</a>
+    <a href="/sdg-site-beta/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">menu.reporting_status</a>
+    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">menu.data_standard</a>
+    <a href="/sdg-site-beta/en/data-standard">Data Standards</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">menu.about</a>
+    <a href="/sdg-site-beta/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">menu.publications</a>
+    <a href="/sdg-site-beta/en/publications">Publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -243,11 +243,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/6/">
-              
+              한국어
             </a>
           </li></ul>
   </div>
@@ -260,8 +260,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -272,8 +272,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -290,14 +290,14 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
   <form action="/sdg-site-beta/en/search/">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -305,22 +305,22 @@ data-event-label="high"
 </ul>
       <div id="search" class="menu-target">
   <form action="/sdg-site-beta/en/search/">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">general.goals</a>
+    <a href="/sdg-site-beta/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">menu.reporting_status</a>
+    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">menu.data_standard</a>
+    <a href="/sdg-site-beta/en/data-standard">Data Standards</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">menu.about</a>
+    <a href="/sdg-site-beta/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">menu.publications</a>
+    <a href="/sdg-site-beta/en/publications">Publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -332,11 +332,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/6/">
-              
+              한국어
             </a>
           </li></ul>
   </div>
@@ -349,8 +349,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -361,8 +361,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title=""
-           aria-label=""
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -389,8 +389,8 @@ data-event-label="high"
 <div class="container">
 	<!--  <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/en/">general.home</a></li>
-  <li><a href="/sdg-site-beta/en/goals">general.goals</a></li>
+  <li><a href="/sdg-site-beta/en/">Home</a></li>
+  <li><a href="/sdg-site-beta/en/goals">Goals</a></li>
   
   
 </ol>
@@ -402,11 +402,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/6.png" alt="global_goals.6-short -  6" id="goal-6" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" id="goal-6" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg"> 6: </span>global_goals.6-title
+          <span class="hidden-sm hidden-md hidden-lg">Goal 6: </span>Ensure availability and sustainable management of water and sanitation for all
         </h1>
       </div>
     </div>
@@ -418,10 +418,10 @@ data-event-label="high"
 	
 <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/en/">general.home</a></li>
-  <li><a href="/sdg-site-beta/en/goals">general.goals</a></li>
+  <li><a href="/sdg-site-beta/en/">Home</a></li>
+  <li><a href="/sdg-site-beta/en/goals">Goals</a></li>
   
-  <li><a href="/sdg-site-beta/en/6" title="global_goals.6-title"> 6</a></li>
+  <li><a href="/sdg-site-beta/en/6" title="Ensure availability and sustainable management of water and sanitation for all">Goal 6</a></li>
   
 </ol>
 
@@ -432,10 +432,10 @@ data-event-label="high"
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2></h2>
+      <h2>Targets</h2>
     </div>
     <div class="col-md-6">
-      <h2></h2>
+      <h2>Indicators</h2>
     </div>
   </div>
 
@@ -444,10 +444,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.1
       </span>
-      global_targets.6-1-title
+      By 2030, achieve universal and equitable access to safe and affordable drinking water for all
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -463,7 +463,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -479,10 +479,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.2
       </span>
-      global_targets.6-2-title
+      By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -498,7 +498,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -514,10 +514,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.3
       </span>
-      global_targets.6-3-title
+      By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -533,7 +533,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    
+    Exploring data sources
 </span>
 
         </span>
@@ -556,7 +556,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -572,10 +572,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.4
       </span>
-      global_targets.6-4-title
+      By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -591,7 +591,7 @@ data-event-label="high"
 
 
 <span class="status notapplicable">
-    
+    Not applicable
 </span>
 
         </span>
@@ -614,7 +614,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -630,10 +630,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.5
       </span>
-      global_targets.6-5-title
+      By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -649,7 +649,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -672,7 +672,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -688,10 +688,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.6
       </span>
-      global_targets.6-6-title
+      By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -707,7 +707,7 @@ data-event-label="high"
 
 
 <span class="status complete">
-    
+    Reported
 </span>
 
         </span>
@@ -723,10 +723,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.a
       </span>
-      global_targets.6-a-title
+      By 2030, expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -742,7 +742,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    
+    Exploring data sources
 </span>
 
         </span>
@@ -758,10 +758,10 @@ data-event-label="high"
     
     <div class="indicator-cards target goal-target col-md-6">
       <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg"></label>
+        <label class="hidden-md hidden-lg">Target</label>
         6.b
       </span>
-      global_targets.6-b-title
+      Support and strengthen the participation of local communities in improving water and sanitation management
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -777,7 +777,7 @@ data-event-label="high"
 
 
 <span class="status notapplicable">
-    
+    Not applicable
 </span>
 
         </span>
@@ -798,15 +798,15 @@ data-event-label="high"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-		  <!--            <li><a href="https://open-sdg.org"></a></li>-->
+		  <!--            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>-->
             
               <li>
                 
-                  <a href="mailto:sdgkostat@korea.kr" target="_blank">menu.contact_us</a>
+                  <a href="mailto:sdgkostat@korea.kr" target="_blank">Contact us</a>
                 
                 </li>
               <li>
-                <a href="/sdg-site-beta/en/guidance">menu.guidance</a>
+                <a href="/sdg-site-beta/en/guidance">FAQ</a>
                 
                 </li>
               
@@ -832,17 +832,17 @@ data-event-label="high"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825043819'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825044647'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825043819"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825044647"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
