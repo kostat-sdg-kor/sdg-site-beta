@@ -1387,7 +1387,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/12-6-1",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "12-7-1",
@@ -1473,9 +1473,9 @@
           "id": "13-2-2",
           "title": "Total greenhouse gas emissions per year",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
+          "keywords": "",
           "href": "/sdg-site-beta/en/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-1",
@@ -1849,9 +1849,9 @@
           "id": "16-7-1",
           "title": "Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/en/16-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-7-2",
@@ -1905,9 +1905,9 @@
           "id": "16-b-1",
           "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-site-beta/en/16-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1947,7 +1947,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/17-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-2",

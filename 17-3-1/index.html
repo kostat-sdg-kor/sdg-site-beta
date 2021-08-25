@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825044647">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825053350">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_17-3-1'
   data-id="17-3-1"
-  data-country="Korea"
+  data-country="전체"
   data-charttitle="국제수지 금융계정 직접투자(부채)"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="백만불(USD)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -846,7 +846,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 한국은행 경제통계국 국제수지팀</p>
     
+    
+    <p>지역: 전체</p>
+    
+    
+    <p>단위: 백만불(USD)</p>
     
     
   </div>
@@ -1129,9 +1135,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>한국은행 경제통계국 국제수지팀</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전체</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>백만불(USD)</dd>
         
 
         
@@ -1165,9 +1180,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>한국은행 경제통계국 국제수지팀</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전체</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>백만불(USD)</dd>
         
 
         
@@ -1253,7 +1277,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내통계(1유형) </b>   <br /> UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다.    <br /> 국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1272,36 +1309,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>국제수지 금융계정 직접투자(부채)</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>비거주자가 국내기업에 대해 경영 참여 등을 목적으로 하는 직접투자에 따른 거래를 계상</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>국제수지통계</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>통관수출입통계, 외환전산망 보고서, 업체 및 협회, 금융기관 등을 대상으로 조사표 조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>한국은행 경제통계국 국제수지팀</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>매월</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-03-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-03-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1394,7 +1531,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>GNI 대비 해외직접투자, ODA 및 남남협력 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1419,7 +1569,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>OECD, UNCTAD</p>
+            <p>유엔무역개발회의(UNCTAD), 유엔경제개발계획(OECD)</p>
 
           
         </td>
@@ -1441,8 +1591,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01b.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-17-03-01b.pdf <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1599,12 +1749,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825044647'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825053350'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825044647"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825053350"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

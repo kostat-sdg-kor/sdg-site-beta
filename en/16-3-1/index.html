@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825044647">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825053350">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_16-3-1'
   data-id="16-3-1"
-  data-country="Republic of Korea"
-  data-charttitle="Police reporting rate for physical assault, robbery and sexual assault by sex"
+  data-country="전체"
+  data-charttitle="Rate of crime victimization reported "
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Police reporting rate for physical assault, robbery and sexual assault by sex</caption>
+      <caption>Rate of crime victimization reported </caption>
       <thead>
         
         
@@ -701,13 +694,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics (ONS)</p>
+    <p>Source: Crime Survey and Statistics Research Division, Korean Institute of Criminology</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전체</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: 퍼센트(%)</p>
     
     
   </div>
@@ -754,7 +747,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Police reporting rate for physical assault, robbery and sexual assault by sex</h4>
+          <h4 id="chart-heading" class="chart-title">Rate of crime victimization reported </h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -990,15 +983,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>Crime Survey and Statistics Research Division, Korean Institute of Criminology</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전체</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1032,15 +1028,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>Crime Survey and Statistics Research Division, Korean Institute of Criminology</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전체</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1126,7 +1125,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b>National data (Type1)</b>   <br /> This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. <br /> Download the national metadata file for more information.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1145,16 +1157,68 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data name </th>
+        <td>
           
+            <p>Rate of crime victimization reported</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>The proportion of victims of crime in the previous 12 months who reported their victimization to the police</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Statistics name </th>
+        <td>
           
+            <p>Korean Crime Victim Survey</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>Interviews</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1174,7 +1238,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>Crime Survey and Statistics Research Division, Korean Institute of Criminology</p>
 
           
         </td>
@@ -1190,7 +1254,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>2 years</p>
 
           
         </td>
@@ -1200,7 +1264,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-03-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-03-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1293,7 +1379,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1302,7 +1401,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>국가적 및 국제적 수준에서 법치를 증진하며, 모두에게 평등한 사법 접근권을 보장</p>
+            <p>Promote the rule of law at the national and international levels and ensure equal access to justice for all</p>
 
           
         </td>
@@ -1318,7 +1417,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Office on Drugs and Crime (United Nations Office for Disarmament Affairs (UNODC))</p>
+            <p>UN-CTS</p>
 
           
         </td>
@@ -1340,8 +1439,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 214 KB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf   " target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf    <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1498,12 +1597,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825044647'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825053350'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825044647"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825053350"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
