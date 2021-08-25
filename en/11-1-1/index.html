@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indicator 11.1.1 -
+         11.1.1 -
         
-        Proportion of urban population living in slums, informal settlements or inadequate housing - Indicators For The Sustainable Development Goals
+        Proportion of urban population living in slums, informal settlements or inadequate housing - general.site_title
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825011313">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825043819">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -151,15 +151,15 @@ layout-indicator
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = null;</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
 <!--<div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag"></strong>
     
-    We welcome your <a href="mailto:sdgkostat@korea.kr">feedback</a>.
+    
   </div>
 </div>
 
@@ -171,15 +171,15 @@ layout-indicator
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/sdg-site-beta/en/" id="home">
-    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="general.sdg - header.tag_line" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -190,8 +190,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -208,11 +208,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/11-1-1/">
-              한국어
+              
             </a>
           </li></ul>
   </div>
@@ -224,19 +224,19 @@ data-event-label="high"
     <nav class="navbar navbar-default" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label=""
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false"></button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">Goals</a>
+    <a href="/sdg-site-beta/en/goals">general.goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/en/reporting-status">menu.reporting_status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">Data Standards</a>
+    <a href="/sdg-site-beta/en/data-standard">menu.data_standard</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">About</a>
+    <a href="/sdg-site-beta/en/about">menu.about</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">Publications</a>
+    <a href="/sdg-site-beta/en/publications">menu.publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -248,11 +248,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/11-1-1/">
-              한국어
+              
             </a>
           </li></ul>
   </div>
@@ -265,8 +265,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -277,8 +277,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -295,14 +295,14 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label=""
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false"></button>
         <div id="search-mobile" class="menu-target">
   <form action="/sdg-site-beta/en/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile"></label>
+    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
+    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -310,22 +310,22 @@ data-event-label="high"
 </ul>
       <div id="search" class="menu-target">
   <form action="/sdg-site-beta/en/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search"></label>
+    <input type="text" name="q" id="indicator_search" title="" /><!--
+    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">Goals</a>
+    <a href="/sdg-site-beta/en/goals">general.goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
+    <a href="/sdg-site-beta/en/reporting-status">menu.reporting_status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">Data Standards</a>
+    <a href="/sdg-site-beta/en/data-standard">menu.data_standard</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">About</a>
+    <a href="/sdg-site-beta/en/about">menu.about</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">Publications</a>
+    <a href="/sdg-site-beta/en/publications">menu.publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -337,11 +337,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/sdg-site-beta/11-1-1/">
-              한국어
+              
             </a>
           </li></ul>
   </div>
@@ -354,8 +354,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -366,8 +366,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title=""
+           aria-label=""
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -401,15 +401,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only"> <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select"></button>
+            <button data-type="clear"></button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -420,10 +420,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          
         </div>
       <% }%>
 
@@ -433,9 +433,9 @@ data-event-label="high"
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Unit of Measurement</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only"></legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -446,9 +446,9 @@ data-event-label="high"
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Series</h4>
+    <h4></h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only"></legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -457,19 +457,19 @@ data-event-label="high"
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":null,"next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = null;</script>
 
-<script>translations['data'] = {"category":"Category","dead_or_missing":"Dead or Missing Person","directly_affected":"Directly affected Person"};</script>
+<script>translations['data'] = null;</script>
 
 
 <div class="container">
 	<!--  
 <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/en/">Home</a></li>
-  <li><a href="/sdg-site-beta/en/goals">Goals</a></li>
+  <li><a href="/sdg-site-beta/en/">general.home</a></li>
+  <li><a href="/sdg-site-beta/en/goals">general.goals</a></li>
   
-  <li><a href="/sdg-site-beta/en/11" title="Make cities and human settlements inclusive, safe, resilient and sustainable">Goal 11</a></li>
+  <li><a href="/sdg-site-beta/en/11" title="global_goals.11-title"> 11</a></li>
   
 </ol>
 
@@ -481,8 +481,8 @@ data-event-label="high"
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/sdg-site-beta/en/11" title="View this goal's indicator list">
-          <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
+        <a href="/sdg-site-beta/en/11" title="">
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/en/11.png" alt="global_goals.11-short -  11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -490,7 +490,7 @@ data-event-label="high"
         <div>
           <h1>
             
-            Indicator 11.1.1
+             11.1.1
             
             <span class="lead-copy">Proportion of urban population living in slums, informal settlements or inadequate housing</span>
           </h1>
@@ -504,10 +504,10 @@ data-event-label="high"
   
 <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/en/">Home</a></li>
-  <li><a href="/sdg-site-beta/en/goals">Goals</a></li>
+  <li><a href="/sdg-site-beta/en/">general.home</a></li>
+  <li><a href="/sdg-site-beta/en/goals">general.goals</a></li>
   
-  <li><a href="/sdg-site-beta/en/11" title="Make cities and human settlements inclusive, safe, resilient and sustainable">Goal 11</a></li>
+  <li><a href="/sdg-site-beta/en/11" title="global_goals.11-title"> 11</a></li>
   
 </ol>
 
@@ -570,7 +570,7 @@ data-event-label="high"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
->National Metadata</a>
+>indicator.national_metadata</a>
   </li>
 
   
@@ -586,7 +586,7 @@ data-event-label="Change to indicator.national_metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
->Global Metadata</a>
+>indicator.global_metadata</a>
   </li>
 
 
@@ -606,7 +606,7 @@ data-event-label="Change to indicator.global_metadata tab"
     
     <div role="tabpanel" class="tab-pane active" id="national">
       <article>
-        
+        <p>indicator.national_metadata_blurb</p>
 
         <table class="table">
   
@@ -626,7 +626,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Indicator </th>
+        <th scope="row">metadata_fields.indicator_name </th>
         <td>
           
             <p>Proportion of urban population living in slums, informal settlements or inadequate housing</p>
@@ -665,7 +665,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Organizations </th>
+        <th scope="row">metadata_fields.source_organisation_1 </th>
         <td>
           
             <p>Ministry of Housing, Communities &amp; Local Government</p>
@@ -681,7 +681,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Calendar </th>
+        <th scope="row">metadata_fields.source_periodicity_1 </th>
         <td>
           
             <p>Annual</p>
@@ -777,7 +777,7 @@ data-event-label="Change to indicator.global_metadata tab"
     
     <div role="tabpanel" class="tab-pane " id="global">
       <article>
-        <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+        <p>indicator.global_metadata_blurb</p>
 
         <table class="table">
   
@@ -793,7 +793,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Target </th>
+        <th scope="row">metadata_fields.target_name </th>
         <td>
           
             <p>2030년까지 모두에게 충분하고 안전 및 저렴한 주택 및 기본서비스 제공 그리고 빈민가 개선</p>
@@ -809,7 +809,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Organizations </th>
+        <th scope="row">metadata_fields.un_custodian_agency </th>
         <td>
           
             <p>United Nations Human Settlements Programme (UN-Habitat)</p>
@@ -825,7 +825,7 @@ data-event-label="Change to indicator.global_metadata tab"
       
       
       <tr>
-        <th scope="row">Global metadata </th>
+        <th scope="row">metadata_fields.goal_meta_link </th>
         <td>
           
             
@@ -835,7 +835,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-11-01-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 93.1 KB) <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata (PDF 93.1 KB) <span class="visuallyhidden"></span>
               </a>
             
 
@@ -953,15 +953,15 @@ data-event-label="Change to indicator.global_metadata tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-		  <!--            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>-->
+		  <!--            <li><a href="https://open-sdg.org"></a></li>-->
             
               <li>
                 
-                  <a href="mailto:sdgkostat@korea.kr" target="_blank">Contact us</a>
+                  <a href="mailto:sdgkostat@korea.kr" target="_blank">menu.contact_us</a>
                 
                 </li>
               <li>
-                <a href="/sdg-site-beta/en/guidance">FAQ</a>
+                <a href="/sdg-site-beta/en/guidance">menu.guidance</a>
                 
                 </li>
               
@@ -987,17 +987,17 @@ data-event-label="Change to indicator.global_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = '';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = '';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825011313'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825043819'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825011313"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825043819"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
