@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825083442">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826003440">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_16-6-2'
   data-id="16-6-2"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="공공서비스 이용 만족도"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="true"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -586,7 +586,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 한국행정연구원 사회조사센터</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 퍼센트(%)</p>
     
     
   </div>
@@ -617,6 +623,12 @@ data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
 >표</a>
+  </li><li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-mapview" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+ aria-describedby="table-alternative">지도</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -871,7 +883,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -907,7 +925,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -917,6 +941,38 @@ opensdg.chartConfigAlter(function(config, info) {
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div><div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    
+<h4 id="map-heading" class="chart-title">공공서비스 이용 만족도</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/sdg-site-beta/assets/img/loading.gif" alt="지도를 불러오고 있습니다." />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
+        
+
+        
+
+        
+    <dl>
+</div>
+
 
   </div>
 </div>
@@ -993,7 +1049,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내유사통계(3유형) </b>   <br /> UN SDGs 지표에 직접적으로 대응하지는 않으나, 대안으로 활용할 수 있는 국내 통계를 의미합니다.    <br />  1유형과 2유형에 해당하는 통계가 없을 경우 관계기관과 협의하여 선정하였습니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1012,36 +1081,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>공공서비스 이용 만족도</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>지난 1년간 공공서비스를 이용한 경험자 중 각 서비스 유형별 만족도를 5점 척도(1=전혀 만족하지 않는다, 2=별로 만족하지 않는다, 3=보통이다, 4=약간 만족한다, 5=매우 만족한다)로 측정(서비스 유형 : 인터넷 민원발급, 주민자치센터, 보건, 세무, 소방, 교육, 인허가, 경찰, 주민참여예산, 공청회/청문회)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>사회통합실태조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>면접조사 (자기기입식조사 병행)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>한국행정연구원 사회조사센터</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-06-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-06-02_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1134,7 +1303,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>가장 최근에 경험한 공공서비스에 대해 만족하는 인구비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1159,7 +1341,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>UNDP</p>
+            <p>United Nations Development Programme (UNDP)</p>
 
           
         </td>
@@ -1330,6 +1512,15 @@ data-event-label="Change to indicator.global_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1339,12 +1530,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825083442'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826003440'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825083442"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826003440"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

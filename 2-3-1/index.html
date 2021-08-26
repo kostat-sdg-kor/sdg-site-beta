@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825083442">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826003440">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-3-1'
   data-id="2-3-1"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="시간당 노동생산성"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="원"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -798,7 +798,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 통계청 농어업동향과</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 원</p>
     
     
   </div>
@@ -1081,9 +1087,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 농어업동향과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>원</dd>
         
 
         
@@ -1117,9 +1132,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>통계청 농어업동향과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>원</dd>
         
 
         
@@ -1205,7 +1229,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내유사통계(3유형) </b>   <br /> UN SDGs 지표에 직접적으로 대응하지는 않으나, 대안으로 활용할 수 있는 국내 통계를 의미합니다.    <br />  1유형과 2유형에 해당하는 통계가 없을 경우 관계기관과 협의하여 선정하였습니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1224,36 +1261,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>시간당 노동생산성</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>농업 노동투입시간 대비 농업부가가치(농업생산액-농업유동재비) 금액</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>농가경제조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>전국 3,000농가를 대상으로 면접조사</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>통계청 농어업동향과</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-03-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-03-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1346,7 +1483,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>노동 단위당 생산량(농림축산업 생산규모별)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1371,7 +1521,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>FAO</p>
+            <p>Food and Agriculture Organization (FAO)</p>
 
           
         </td>
@@ -1551,12 +1701,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825083442'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826003440'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825083442"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826003440"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

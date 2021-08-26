@@ -129,7 +129,7 @@
           "id": "2-1-2",
           "title": "식량불안경험척도(FIES) 기준으로 중간 또는 심각한 수준의 식량불안 경험인구 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "기아, 식량, FIES, food insecurity, UNSD, hunger, zero hunger",
           "href": "/sdg-site-beta/2-1-2",
           "status": "complete"
         },
@@ -161,7 +161,7 @@
           "id": "2-3-1",
           "title": "노동 단위당 생산량(농림축산업 생산규모별)",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA, agriculture, productivity",
           "href": "/sdg-site-beta/2-3-1",
           "status": "complete"
         },
@@ -169,7 +169,7 @@
           "id": "2-3-2",
           "title": "소규모 식량생산자 평균소득(성 및 원주민여부별)",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/2-3-2",
           "status": "complete"
         },
@@ -489,7 +489,7 @@
           "id": "4-2-1",
           "title": "건강, 학습 및 심리사회적 웰빙 측면에서 정상 발달과정에 있는 24-59개월 아동 비율(성별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Education, early learning years, children",
           "href": "/sdg-site-beta/4-2-1",
           "status": "complete"
         },
@@ -551,9 +551,9 @@
         },
         {
           "id": "4-b-1",
-          "title": "장학금의 ODA 금액(연구부문 및 연구유형별)",
+          "title": "장학금의 공적개발원조(ODA) 금액(연구부문 및 연구유형별)",
           "description": "",
-          "keywords": "",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/4-b-1",
           "status": "complete"
         },
@@ -585,7 +585,7 @@
           "id": "5-2-1",
           "title": "파트너가 있(었)던 15세 이상의 여성과 여아 중 지난 12개월 동안 (현재 혹은 과거의) 친밀한 파트너로부터 신체적, 성적, 정서적인 폭력을 당한 경험이 있는 인구 비율(연령 및 폭력형태별)",
           "description": "",
-          "keywords": "",
+          "keywords": "범죄, 폭력, 폭행, Crime, violence",
           "href": "/sdg-site-beta/5-2-1",
           "status": "complete"
         },
@@ -593,7 +593,7 @@
           "id": "5-2-2",
           "title": "15세 이상의 여성과 여아 중에서 지난 12개월 동안 친밀한 파트너 이외에 다른 사람들로부터 성적 폭력을 당한 경험이 있는 인구 비율(연령 및 사건발생 장소별)",
           "description": "",
-          "keywords": "",
+          "keywords": "범죄, 폭력, 폭행, Crime, violence",
           "href": "/sdg-site-beta/5-2-2",
           "status": "complete"
         },
@@ -713,7 +713,7 @@
           "id": "6-3-1",
           "title": "안전하게 처리되는 가정용 및 산업용 하·폐수 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/6-3-1",
           "status": "complete"
         },
@@ -1215,7 +1215,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "대중교통에 편리하게 접근할 수 있는 인구 비율(연령, 성 및 장애별",
+          "title": "대중교통에 편리하게 접근할 수 있는 인구 비율(연령, 성 및 장애별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/11-2-1",
@@ -1281,7 +1281,7 @@
           "id": "11-7-1",
           "title": "도시에서 공공목적을 위해 개방된 공간이 차지하는 평균비율(성, 연령 및 장애별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Public; Open Space; Habitat; Environment; Cities",
           "href": "/sdg-site-beta/11-7-1",
           "status": "complete"
         },
@@ -1289,7 +1289,7 @@
           "id": "11-7-2",
           "title": "지난 12개월 동안 신체적 혹은 성적 괴롭힘을 당한 인구 비율(성, 연령, 장애 및 발생장소별)",
           "description": "",
-          "keywords": "",
+          "keywords": "범죄, Crime",
           "href": "/sdg-site-beta/11-7-2",
           "status": "complete"
         },
@@ -1351,9 +1351,9 @@
         },
         {
           "id": "12-3-1",
-          "title": "(a)식량손실지수 및 (b)식량폐기지수",
+          "title": "(a) 식량손실지수 및 (b) 식량폐기지수",
           "description": "",
-          "keywords": "",
+          "keywords": "food loss, sustainable production.",
           "href": "/sdg-site-beta/12-3-1",
           "status": "complete"
         },
@@ -1367,9 +1367,9 @@
         },
         {
           "id": "12-4-2",
-          "title": "(a) 1인당 발생시키는 유해폐기물 발생량과 (b) 유해폐기물 처리 비율(처리유형별)",
+          "title": "(a) 1인당 발생시키는 유해폐기물과 (b) 유해폐기물 처리 비율(처리유형별)",
           "description": "",
-          "keywords": "",
+          "keywords": "hazardous waste, treatment",
           "href": "/sdg-site-beta/12-4-2",
           "status": "complete"
         },
@@ -1377,7 +1377,7 @@
           "id": "12-5-1",
           "title": "국가 재활용 비율, 물질재활용 톤",
           "description": "",
-          "keywords": "",
+          "keywords": "재활용, 폐기물, 환경, Recycling, Waste, Environment",
           "href": "/sdg-site-beta/12-5-1",
           "status": "complete"
         },
@@ -1817,7 +1817,7 @@
           "id": "16-5-1",
           "title": "지난 12개월 동안 공무원을 최소한 1회 이상 접촉하여 뇌물을 주었거나, 공무원으로부터 뇌물을 요구 받았던 인구 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "crime, bribery, corruption",
           "href": "/sdg-site-beta/16-5-1",
           "status": "complete"
         },
@@ -1825,7 +1825,7 @@
           "id": "16-5-2",
           "title": "지난 12개월 동안 공무원을 최소한 1회 이상 접촉하여 뇌물을 주었거나 공무원으로부터 뇌물을 요구받았던 기업의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "범죄, 뇌물, 부패, 기업, crime, bribery, corruption, business",
           "href": "/sdg-site-beta/16-5-2",
           "status": "complete"
         },
@@ -1841,7 +1841,7 @@
           "id": "16-6-2",
           "title": "가장 최근에 경험한 공공서비스에 대해 만족하는 인구비율",
           "description": "",
-          "keywords": "",
+          "keywords": "공공서비스, public services",
           "href": "/sdg-site-beta/16-6-2",
           "status": "complete"
         },
@@ -1857,7 +1857,7 @@
           "id": "16-7-2",
           "title": "의사결정이 포용적이고 대응적이라고 생각하는 인구 비율(성, 연령, 장애 및 인구집단별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Community",
           "href": "/sdg-site-beta/16-7-2",
           "status": "complete"
         },

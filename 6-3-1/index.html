@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210825083442">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826003440">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -530,7 +530,7 @@ data-event-label="high"
   data-country="Korea"
   data-charttitle="하수 및 분뇨 발생량"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="m3/일"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -1014,7 +1014,11 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 환경부 물환경정책국 생활하수과</p>
     
+    
+    
+    <p>단위: m3/일</p>
     
     
   </div>
@@ -1297,9 +1301,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>출처:</dt>
+        <dd>환경부 물환경정책국 생활하수과</dd>
+        
 
         
 
+        
+        <dt>단위:</dt>
+        <dd>m3/일</dd>
         
 
         
@@ -1333,9 +1343,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>출처:</dt>
+        <dd>환경부 물환경정책국 생활하수과</dd>
+        
 
         
 
+        
+        <dt>단위:</dt>
+        <dd>m3/일</dd>
         
 
         
@@ -1421,7 +1437,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국내유사통계(3유형) </b>   <br /> UN SDGs 지표에 직접적으로 대응하지는 않으나, 대안으로 활용할 수 있는 국내 통계를 의미합니다.    <br />  1유형과 2유형에 해당하는 통계가 없을 경우 관계기관과 협의하여 선정하였습니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1440,36 +1469,136 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row">데이터명 </th>
+        <td>
           
+            <p>(a) 하수발생량, (b) 폐수 발생량</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>(a) 사람의 생활이나 경제활동으로 인하여 액체성 또는 고체성 물질이 섞여 오염된 물(이하 ‘오수’라 한다)과 건물·도로 그 밖의 시설물의 부지로부터 하수도로 유입되는 빗물·지하수 유량의 총합 &lt;/b&gt; (b) 생산활동으로 인하여 폐수배출시설에서 배출되는 폐수량을 의미함. 즉, 폐수처리 후 최종방류구에서 재이용하는 폐수를 포함한 총 발생량을 말하며, 폐수처리 유입 전 또는 폐수처리장 중간에서 순환재이용하는 양은 제외함 * 참고: 폐수에는 생활오수 및 순수(간접)냉각수는 제외되나, 직접 냉각폐수와 특정수질유해물질함유폐수는 포함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">출처통계명 </th>
+        <td>
           
+            <p>하수도 통계</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>행정보고통계</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
+          
+            <p>환경부 물환경정책국 생활하수과</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
+          
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1562,7 +1691,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>안전하게 처리되는 가정용 및 산업용 하·폐수 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1587,7 +1729,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>WHO, UN-Habitat, UNSD</p>
+            <p>World Health Organisation (WHO), United Nations Human Settlements Programme (UN-Habitat), United Nations Statistics Division (UNSD)</p>
 
           
         </td>
@@ -1767,12 +1909,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210825083442'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826003440'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210825083442"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826003440"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
