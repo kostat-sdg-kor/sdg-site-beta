@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826013000">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data unavailable: There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -626,7 +619,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 데이터 이용 제한(4유형) </b>   <br /> 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다.  <br />  1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.</p>
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
 
           
         </td>
@@ -661,7 +654,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>일반정부(중앙 및 지방 정부)의 총지출 중 교육지출의 비율임</p>
+            <p>Total general (local and central) government expenditure on education.</p>
 
           
         </td>
@@ -694,7 +687,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>UNESCO</p>
 
           
         </td>
@@ -704,20 +697,7 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row">Calendar </th>
-        <td>
           
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -732,8 +712,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-0a-02_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-0a-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-0a-02_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-0a-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -841,7 +821,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>정부 총지출 중 필수 서비스(교육, 의료 및 사회적 보호) 지출 비율</p>
+            <p>Proportion of total government spending on essential services (education, health and social protection)</p>
 
           
         </td>
@@ -857,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>개도국 특히, 최빈국이 모든 차원의 빈곤 퇴치 프로그램과 정책 제공을 위해 증강된 개발협력을 포함하여 다양한 재원 동원 보장</p>
+            <p>Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions</p>
 
           
         </td>
@@ -873,7 +853,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Discussions are occurring between the following organisations - International Labour Organization (ILO), United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS) and World Health Organization (WHO)</p>
+            <p>UNESCO</p>
 
           
         </td>
@@ -1053,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826013000'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826013000"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826013000">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data unavailable: There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -626,7 +619,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 데이터 이용 제한(4유형) </b>   <br /> 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다.  <br />  1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.</p>
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
 
           
         </td>
@@ -661,7 +654,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>물질발자국(Material Footprint)은 특정 국가의 자원에 대한 최종적인 소비가 국제적 자원 추출에서 차지하는 정도를 나타내기 위한 지표임</p>
+            <p>Material Footprint (MF) is the attribution of global material extraction to domestic final demand of a country.</p>
 
           
         </td>
@@ -694,7 +687,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>United Nations Environment Programme (UNEP)</p>
 
           
         </td>
@@ -704,20 +697,7 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row">Calendar </th>
-        <td>
           
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -732,8 +712,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -841,7 +821,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>총 및 1인당 물질발자국, GDP 대비 물질발자국</p>
+            <p>Material footprint, material footprint per capita, and material footprint per GDP</p>
 
           
         </td>
@@ -857,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 소비 및 생산에서의 국제적 자원 효율을 점진적으로 개선; 선진국의 주도하에 10년 주기 프로그램을 통하여 경제 성장으로 인한 환경훼손 억제</p>
+            <p>Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10‑Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead</p>
 
           
         </td>
@@ -896,7 +876,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 4.0 MB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-08-04-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1053,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826013000'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826013000"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

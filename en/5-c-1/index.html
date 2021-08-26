@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826013000">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data unavailable: There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -620,7 +613,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -648,7 +654,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>공공재정관리 전반에 걸쳐 성평등 예산 배분 및 지출을 추적하고, 공개하는 정부의 노력 측정</p>
+            <p>This indicator seeks to measure government efforts to track budget allocations for gender equality throughout the public finance management cycle and to make these publicly available.</p>
 
           
         </td>
@@ -681,7 +687,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>UN Women, Organisation for Economic Co-operation and Development (OECD)’</p>
+            <p>UN Women, Organisation for Economic Co-operation and Development (OECD)</p>
 
           
         </td>
@@ -706,8 +712,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-0c-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-0c-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-0c-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-0c-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -815,7 +821,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율</p>
+            <p>Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment</p>
 
           
         </td>
@@ -831,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>모든 수준에서 모든 여성과 여아의 권한강화와 성평등 촉진을 위해 명확한 정책과 집행가능한 법을 채택하고 강화</p>
+            <p>Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels</p>
 
           
         </td>
@@ -1027,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826013000'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826013000"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

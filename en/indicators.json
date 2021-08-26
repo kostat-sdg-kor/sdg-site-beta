@@ -211,7 +211,7 @@
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-site-beta/en/2-a-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "2-b-1",
@@ -427,7 +427,7 @@
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-site-beta/en/3-b-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "3-b-3",
@@ -537,7 +537,7 @@
           "id": "4-7-1",
           "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies, (b) curricula, (c) teacher education, and (d) student assessment",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/4-7-1",
           "status": "notapplicable"
         },
@@ -563,7 +563,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/4-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
@@ -577,7 +577,7 @@
           "id": "5-1-1",
           "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/5-1-1",
           "status": "notapplicable"
         },
@@ -609,7 +609,7 @@
           "id": "5-3-2",
           "title": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",
           "description": "",
-          "keywords": "Population",
+          "keywords": "인구, Population",
           "href": "/sdg-site-beta/en/5-3-2",
           "status": "notapplicable"
         },
@@ -649,7 +649,7 @@
           "id": "5-6-2",
           "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
+          "keywords": "",
           "href": "/sdg-site-beta/en/5-6-2",
           "status": "notapplicable"
         },
@@ -657,7 +657,7 @@
           "id": "5-a-1",
           "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/en/5-a-1",
           "status": "notapplicable"
         },
@@ -665,7 +665,7 @@
           "id": "5-a-2",
           "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/5-a-2",
           "status": "notapplicable"
         },
@@ -681,7 +681,7 @@
           "id": "5-c-1",
           "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/5-c-1",
           "status": "notapplicable"
         }]
@@ -769,9 +769,9 @@
           "id": "6-a-1",
           "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/en/6-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "6-b-1",
@@ -825,7 +825,7 @@
           "id": "7-a-1",
           "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-site-beta/en/7-a-1",
           "status": "notapplicable"
         },
@@ -833,7 +833,7 @@
           "id": "7-b-1",
           "title": "Installed renewable energy-generating capacity in developing countries (in Watts per capita)",
           "description": "",
-          "keywords": "Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
+          "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-site-beta/en/7-b-1",
           "status": "notapplicable"
         }]
@@ -865,7 +865,7 @@
           "id": "8-3-1",
           "title": "Proportion of informal employment in total employment, by sector and sex",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-site-beta/en/8-3-1",
           "status": "notapplicable"
         },
@@ -873,7 +873,7 @@
           "id": "8-4-1",
           "title": "Material footprint, material footprint per capita, and material footprint per GDP",
           "description": "",
-          "keywords": "GDP, Population",
+          "keywords": "인구, GDP, Population",
           "href": "/sdg-site-beta/en/8-4-1",
           "status": "notapplicable"
         },
@@ -911,7 +911,7 @@
         },
         {
           "id": "8-7-1",
-          "title": "Proportion and number of children aged 5‑17 years engaged in child labour, by sex and age",
+          "title": "Proportion and number of children aged 5‑17 years engaged in child labour, by sex and age",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-7-1",
@@ -937,7 +937,7 @@
           "id": "8-9-1",
           "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
           "description": "",
-          "keywords": "GDP, Tourism",
+          "keywords": "관광, GDP, Tourism",
           "href": "/sdg-site-beta/en/8-9-1",
           "status": "notapplicable"
         },
@@ -969,7 +969,7 @@
           "id": "8-b-1",
           "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Education, Employment, skills",
+          "keywords": "규제, 정책, 교육, 고용, Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-site-beta/en/8-b-1",
           "status": "notapplicable"
         }]
