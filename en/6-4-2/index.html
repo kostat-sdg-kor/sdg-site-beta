@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826062836">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,6 +518,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -527,10 +534,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_6-4-2'
   data-id="6-4-2"
-  data-country="Total"
-  data-charttitle="Level of water stress: freshwater withdrawal as a proportion of available freshwater resources "
+  data-country="Republic of Korea"
+  data-charttitle="Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
   data-charttitles="null"
-  data-measurementunit="Percent (%)"
+  data-measurementunit="Percentage (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -574,7 +581,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Level of water stress: freshwater withdrawal as a proportion of available freshwater resources </caption>
+      <caption>Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</caption>
       <thead>
         
         
@@ -810,13 +817,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: FAO(Food and Agriculture Organization of the United Nations)</p>
+    <p>Source: 식량농업기구(FAO)</p>
     
     
-    <p>Geographical Area: Total</p>
+    <p>Geographical Area: Republic of Korea</p>
     
     
-    <p>Unit of Measurement: Percent (%)</p>
+    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -863,7 +870,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Level of water stress: freshwater withdrawal as a proportion of available freshwater resources </h4>
+          <h4 id="chart-heading" class="chart-title">Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1099,18 +1106,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
-        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Total</dd>
+        <dd>Republic of Korea</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percent (%)</dd>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1144,18 +1148,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
-        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Total</dd>
+        <dd>Republic of Korea</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percent (%)</dd>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1247,7 +1248,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
 
           
         </td>
@@ -1282,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>The ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental flow requirements, or freshwater withdrawn as a percentage of total freshwater resources save for environmental flow, also known as water withdrawal intensity.  Main sectors as defined by ISIC standards: agriculture; forestry and fishing; manufacturing; electricity industry; and services.</p>
+            <p>환경적 요구 수량을 고려한 재생 가능한 전체 담수 자원 대비 취수된 모든 주요 부문에서의 담수의 비율 혹은 환경유지용수를 제외한 전체 담수 수자원 중에서 얼마만큼을 끌어 쓰는지 비율(%)을 뜻하며, ‘취수 강도’라고도 함.  국제표준산업분류(ISIC, International Standard Industrial Classification)에 정의된 주요 부문: 농업, 임업, 어업, 제조업공업, 전기산업, 서비스업</p>
 
           
         </td>
@@ -1301,7 +1302,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>Quality data are collected by the water resources ministry and national statistic office.</p>
+            <p>국가 차원에서 수자원부와 통계청이 수집한 품질</p>
 
           
         </td>
@@ -1328,7 +1329,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
+            <p>식량농업기구(FAO)</p>
 
           
         </td>
@@ -1344,7 +1345,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annually</p>
+            <p>1년</p>
 
           
         </td>
@@ -1366,8 +1367,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_ENG.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1475,7 +1476,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</p>
+            <p>물 스트레스 수준 : 이용가능한 담수 대비 취수 비율</p>
 
           
         </td>
@@ -1491,7 +1492,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity</p>
+            <p>2030년까지 모든 부문에서 물 사용 효율을 높이고 물 부족 문제를 해결하고 물 부족으로 고통 받는 인구 수를 상당한 수준으로 감소시키기 위해 지속가능한 담수의 취수와 공급을 보장</p>
 
           
         </td>
@@ -1507,7 +1508,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
+            <p>FAO</p>
 
           
         </td>
@@ -1687,12 +1688,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826062836'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826062836"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

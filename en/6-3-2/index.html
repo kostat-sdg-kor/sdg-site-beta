@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826062836">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,6 +518,13 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -527,12 +534,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_6-3-2'
   data-id="6-3-2"
-  data-country="Total"
-  data-charttitle="Proportion of bodies of water with good ambient water quality"
+  data-country="Republic of Korea"
+  data-charttitle="Proportion of bodies of water, ground water, open water and river water with good ambient water quality"
   data-charttitles="null"
-  data-measurementunit="Percent (%)"
+  data-measurementunit="Percentage (%)"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -574,7 +581,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of bodies of water with good ambient water quality</caption>
+      <caption>Proportion of bodies of water, ground water, open water and river water with good ambient water quality</caption>
       <thead>
         
         
@@ -606,13 +613,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: UNEP(United Nations Environment Programme), GEMS(Global Environment Monitoring System)</p>
+    <p>Source: Department for Environment, Food & Rural Affairs (Defra)</p>
     
     
-    <p>Geographical Area: Total</p>
+    <p>Geographical Area: Republic of Korea</p>
     
     
-    <p>Unit of Measurement: Percent (%)</p>
+    <p>Unit of Measurement: Percentage (%)</p>
     
     
   </div>
@@ -659,7 +666,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of bodies of water with good ambient water quality</h4>
+          <h4 id="chart-heading" class="chart-title">Proportion of bodies of water, ground water, open water and river water with good ambient water quality</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -848,40 +855,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -895,18 +894,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>UNEP(United Nations Environment Programme), GEMS(Global Environment Monitoring System), </dd>
-        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Total</dd>
+        <dd>Republic of Korea</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percent (%)</dd>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -940,18 +936,15 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>UNEP(United Nations Environment Programme), GEMS(Global Environment Monitoring System), </dd>
-        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Total</dd>
+        <dd>Republic of Korea</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percent (%)</dd>
+        <dd>Percentage (%)</dd>
         
 
         
@@ -1043,7 +1036,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
 
           
         </td>
@@ -1078,7 +1071,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>Proportion of bodies of water with good ambient water quality (%): The proportion of water bodies in the country that have good ambient water quality (natural, untreated water in rivers, lakes and groundwaters). The indicator is computed as the proportion of the number of water bodies classified as having good quality to the total number of assessed water bodies, expressed as a percentage.</p>
+            <p>주변 수질이 양호한 수계의 비율(%): 국가 내 전체 수계와 비교할 때 좋은 주변 수질(강, 호수, 지상의 자연 처리되지 않은 물을 의미함)을 확보한 수계의 비율을 의미함. 평가된 수역의 총 수에 대해 ‘좋은 수질 상태를 갖는 수역 수’의 비율로 계산하며 백분율로 표시 * 준수율(%): 모든 지표면과 지하수에 대한 지속적인 모니터링이 불가능하기 때문에 각국은 대표적인 강, 호수, 지하수를 선정하여 수질 데이터가 국가에서 정의한 목표 값과 핵심 파라미터를 준수하는지에 근거하여 분류함. 평가된 수역의 수질이 규정된 파라미터에 대한 모니터링 목표 값 80% 이상을 준수하는 경우 “좋은” 수질 상태를 갖는 것으로 분류함</p>
 
           
         </td>
@@ -1097,7 +1090,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>The data is collected by UNEP and its Global Environment Monitoring System for Water (GEMS/Water) through electronic reporting in the global water quality information system GEMStat.</p>
+            <p>유엔환경계획과 지구환경감시시스템에서 세계수질정보시스템(GEMStat) 전자보고서를 통해 데이터를 수집</p>
 
           
         </td>
@@ -1124,7 +1117,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>UNEP(United Nations Environment Programme), GEMS(Global Environment Monitoring System)</p>
+            <p>Department for Environment, Food &amp; Rural Affairs (Defra)</p>
 
           
         </td>
@@ -1140,7 +1133,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Every 5 years</p>
+            <p>Annual</p>
 
           
         </td>
@@ -1162,8 +1155,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-02_ENG.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-03-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1271,7 +1264,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>Proportion of bodies of water with good ambient water quality</p>
+            <p>주변 수질이 양호한 수계의 비율</p>
 
           
         </td>
@@ -1287,7 +1280,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally</p>
+            <p>2030년까지 오염 감소, 유해 화학물질 투기 근절 및 배출 최소화를 통해 미처리된 하수 비율을 절반으로 줄이고 재활용 및 안전한 재사용을 전 세계적으로 대폭 확대</p>
 
           
         </td>
@@ -1303,7 +1296,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>UNEP(United Nations Environment Programme), GEMS(Global Environment Monitoring System)</p>
+            <p>United Nations Environment Programme (UNEP) (GEMS/Water)</p>
 
           
         </td>
@@ -1483,12 +1476,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826062836'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826062836"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
