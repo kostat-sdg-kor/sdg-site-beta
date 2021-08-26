@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826053806">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826055029">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,15 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p><strong>Non-statistical indicator</strong>
-<br />
-▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -536,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-5-3'
   data-id="1-5-3"
-  data-country="Republic of Korea"
-  data-charttitle="Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 (repeat of 11.b.1 and 13.1.2)"
+  data-country="Total"
+  data-charttitle="Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 "
   data-charttitles="null"
-  data-measurementunit="Score"
+  data-measurementunit="점수"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -583,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 (repeat of 11.b.1 and 13.1.2)</caption>
+      <caption>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 </caption>
       <thead>
         
         
@@ -663,13 +654,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔재난위험경감기구(UNISDR)</p>
+    <p>Source: United Nations International Strategy for Disaster Reduction (UNISDR)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Score</p>
+    <p>Unit of Measurement: 점수</p>
     
     
   </div>
@@ -716,7 +707,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 (repeat of 11.b.1 and 13.1.2)</h4>
+          <h4 id="chart-heading" class="chart-title">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 </h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -952,15 +943,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>United Nations International Strategy for Disaster Reduction (UNISDR), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Score</dd>
+        <dd>점수</dd>
         
 
         
@@ -994,15 +988,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>United Nations International Strategy for Disaster Reduction (UNISDR), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Score</dd>
+        <dd>점수</dd>
         
 
         
@@ -1094,7 +1091,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1129,7 +1126,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>센다이 프레임워크 지침을 이행하고 있는 국가의 수 센다이 프레임워크란, 효고행동계획(HFA) 이후의 재난관리 전략계획으로 재난관리에 있어서 사후적 복구에서 사전적 예방을 강조하여 재해에 의한 사망과 피해를 줄이기 위한 재난위험 경감 지침임</p>
+            <p>The number of countries that implement the Sendai Framework for Disaster Risk Reduction. The Sendai Framework is a post-HFA strategic disaster control plan, which highlights proactive prevention in disaster control, rather than ex-post restoration to reduce deaths and damages attributed to disasters.</p>
 
           
         </td>
@@ -1175,7 +1172,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔재난위험경감기구(UNISDR)</p>
+            <p>United Nations International Strategy for Disaster Reduction (UNISDR)</p>
 
           
         </td>
@@ -1191,7 +1188,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1213,8 +1210,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-05-03_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-05-03_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-05-03_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-01-05-03_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1322,7 +1319,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>「재난위험감축을 위한 센다이프레임워크(2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수</p>
+            <p>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030 (repeat of 11.b.1 and 13.1.2)</p>
 
           
         </td>
@@ -1338,7 +1335,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 빈곤층과 취약계층의 회복력을 키우고, 기후 관련 극한 상황 혹은 기타 경제적, 사회적, 환경적인 충격과 재난에 대한 노출 및 취약성을 감소</p>
+            <p>By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters</p>
 
           
         </td>
@@ -1534,12 +1531,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826053806'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826055029'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826053806"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826055029"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

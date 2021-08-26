@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826053806">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826055029">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_6-4-2'
   data-id="6-4-2"
-  data-country="Korea"
-  data-charttitle="물 스트레스 수준-가용한 담수 중 취수 비율"
+  data-country="전국"
+  data-charttitle="물 스트레스 수준- 가용한 담수 중 취수 비율"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>물 스트레스 수준-가용한 담수 중 취수 비율</caption>
+      <caption>물 스트레스 수준- 가용한 담수 중 취수 비율</caption>
       <thead>
         
         
@@ -810,7 +810,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 식량농업기구(FAO)</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 퍼센트(%)</p>
     
     
   </div>
@@ -857,7 +863,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">물 스트레스 수준-가용한 담수 중 취수 비율</h4>
+          <h4 id="chart-heading" class="chart-title">물 스트레스 수준- 가용한 담수 중 취수 비율</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1093,9 +1099,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>식량농업기구(FAO)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1129,9 +1144,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>식량농업기구(FAO)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>퍼센트(%)</dd>
         
 
         
@@ -1217,7 +1241,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1239,13 +1276,39 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>환경적 요구 수량을 고려한 재생 가능한 전체 담수 자원 대비 취수된 모든 주요 부문에서의 담수의 비율 혹은 환경유지용수를 제외한 전체 담수 수자원 중에서 얼마만큼을 끌어 쓰는지 비율(%)을 뜻하며, ‘취수 강도’라고도 함.  국제표준산업분류(ISIC, International Standard Industrial Classification)에 정의된 주요 부문: 농업, 임업, 어업, 제조업공업, 전기산업, 서비스업</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>국가 차원에서 수자원부와 통계청이 수집한 품질</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1259,13 +1322,61 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
           
+            <p>식량농업기구(FAO)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
           
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-04-02_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1358,7 +1469,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>물 스트레스 수준 : 이용가능한 담수 대비 취수 비율</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1383,7 +1507,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>FAO</p>
+            <p>Food and Agriculture Organization (FAO)</p>
 
           
         </td>
@@ -1563,12 +1687,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826053806'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826055029'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826053806"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826055029"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
