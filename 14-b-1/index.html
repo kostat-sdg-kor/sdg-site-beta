@@ -107,7 +107,7 @@ var translations = {
         
         지표 14.b.1 -
         
-        소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법, 규제, 정책, 제도 프레임워크의 국가별 적용 단계에서의 진척도 - Indicators For The Sustainable Development Goals
+        소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도 - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826084618">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -492,7 +492,7 @@ data-event-label="high"
             
             지표 14.b.1
             
-            <span class="lead-copy">소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법, 규제, 정책, 제도 프레임워크의 국가별 적용 단계에서의 진척도</span>
+            <span class="lead-copy">소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도</span>
           </h1>
         </div>
       </div>
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_14-b-1'
   data-id="14-b-1"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="소규모 어업에 대한 접근권을 인정하고 보호하는 법, 규정, 정책, 제도적 체계를 적용한 정도에 있어서 국가들의 진전도"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="점수(1:가장 낮음, 5:가장 높음)"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -606,7 +606,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 식량농업기구(FAO)</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 점수(1:가장 낮음, 5:가장 높음)</p>
     
     
   </div>
@@ -842,40 +848,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -889,9 +887,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>식량농업기구(FAO)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>점수(1:가장 낮음, 5:가장 높음)</dd>
         
 
         
@@ -925,9 +932,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>식량농업기구(FAO)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>점수(1:가장 낮음, 5:가장 높음)</dd>
         
 
         
@@ -1013,7 +1029,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1022,7 +1051,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표명 </th>
         <td>
           
-            <p>소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법, 규제, 정책, 제도 프레임워크의 국가별 적용 단계에서의 진척도</p>
+            <p>소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도</p>
 
           
         </td>
@@ -1035,13 +1064,39 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>소규모 어업에 대한 접근 권리를 인정하고 보호하는 법적/규제/정책/제도적 구조를 채택하고 시행하는 국가들의 진행 상황을 의미하며, 소규모 영세어민의 해양자원 접근성에 대한 국가들의 진전도를 평가함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>책임 있는 수산업 규범(CCRF, Code of Cunduct for Responsible Fisheries) 설문지를 통해 각 국가의 국가어업관리부를 중심으로 수집된 자료를 별도의 수정을 거치지 않고 활용</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1055,13 +1110,61 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
           
+            <p>식량농업기구(FAO)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
           
+            <p>부정기</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-14-0b-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-14-0b-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1154,7 +1257,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1179,7 +1295,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>FAO</p>
+            <p>Food and Agriculture Organization (FAO)</p>
 
           
         </td>
@@ -1359,12 +1475,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826084618'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826084618"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826084618">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_3-d-1'
   data-id="3-d-1"
-  data-country="Republic of Korea"
-  data-charttitle="International Health Regulations (IHR) capacity, by type of IHR capacity "
+  data-country="Total"
+  data-charttitle="International Health Regulations (IHR) capacity and health emergency preparedness"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>International Health Regulations (IHR) capacity, by type of IHR capacity </caption>
+      <caption>International Health Regulations (IHR) capacity and health emergency preparedness</caption>
       <thead>
         
       </thead>
@@ -593,13 +586,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 세계보건기구(WHO)</p>
+    <p>Source: WHO(World Health Organization)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -646,7 +639,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">International Health Regulations (IHR) capacity, by type of IHR capacity </h4>
+          <h4 id="chart-heading" class="chart-title">International Health Regulations (IHR) capacity and health emergency preparedness</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -882,15 +875,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>WHO(World Health Organization), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -924,15 +920,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>WHO(World Health Organization), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1024,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1059,7 +1058,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>국제보건규정(IHR)에서 요구하는 13개 핵심역량 항목의 달성 비율로 13개 핵심역량 달성 수준은 24개 세부 지표(변수)로 측정됨</p>
+            <p>Percentage of attributes of 13 core capacities that have been attained. The attainment of the 13 core capacities are measured through 24 detailed indicators (variables).</p>
 
           
         </td>
@@ -1078,7 +1077,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>국제보건규정(IHR) 당사국이 자체 시행한 평가설문(13개 핵심역량에 대한 24개 세부 지표로 구성) 조사결과를 e-SPAR 플랫폼(https://extranet.who.int/e-spar/)에 보고하고, 세계보건기구(WHO)가 이 데이터를 집계하여 분석</p>
+            <p>The IHR States Parties use the IHR self-assessment tool (24 indicators for 13 capacities) and report the results through the e-SPAR platform (https://extranet.who.int/e-spar/), and the WHO compiles these data for analysis.</p>
 
           
         </td>
@@ -1105,7 +1104,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>세계보건기구(WHO)</p>
+            <p>WHO(World Health Organization)</p>
 
           
         </td>
@@ -1121,7 +1120,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1143,8 +1142,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0d-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0d-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0d-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0d-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1252,7 +1251,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>국제보건규정(IHR)에 의한 수용능력 및 응급대처능력</p>
+            <p>International Health Regulations (IHR) capacity and health emergency preparedness</p>
 
           
         </td>
@@ -1268,7 +1267,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>모든 국가, 특히 개도국의 조기경보, 위험 감소, 국가 및 글로벌 보건리스크 관리 역량 강화</p>
+            <p>Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</p>
 
           
         </td>
@@ -1284,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>WHO</p>
+            <p>WHO(World Health Organization)</p>
 
           
         </td>
@@ -1306,8 +1305,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-03-0D-01.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0d-01.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-03-0d-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1464,12 +1463,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826084618'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826084618"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

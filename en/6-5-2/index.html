@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826084618">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_6-5-2'
   data-id="6-5-2"
-  data-country="Republic of Korea"
-  data-charttitle="Proportion of transboundary aquifers, basins (river and lake basins and aquifers), river and lake basins with an operational arrangement for water cooperation"
+  data-country="Total"
+  data-charttitle="Proportion of the population living below the international poverty line, by sex,  age, employment status and geographical location (urban/rural)"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of transboundary aquifers, basins (river and lake basins and aquifers), river and lake basins with an operational arrangement for water cooperation</caption>
+      <caption>Proportion of the population living below the international poverty line, by sex,  age, employment status and geographical location (urban/rural)</caption>
       <thead>
         
         
@@ -613,13 +606,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔 유럽경제위원회(UNECE)</p>
+    <p>Source: UNECE(United Nations Economic Commission for Europe)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -666,7 +659,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of transboundary aquifers, basins (river and lake basins and aquifers), river and lake basins with an operational arrangement for water cooperation</h4>
+          <h4 id="chart-heading" class="chart-title">Proportion of the population living below the international poverty line, by sex,  age, employment status and geographical location (urban/rural)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -902,15 +895,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNECE(United Nations Economic Commission for Europe), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -944,15 +940,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNECE(United Nations Economic Commission for Europe), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1044,7 +1043,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1079,7 +1078,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>한 국가 내에서 물 협력을 위한 운영협정을 맺고 있는 접경 지역의 비율 이는 국가의 접경 지표수 유역과 접경 대수층(즉, ‘접경 지역’)의 표면적 중 운영협정에 의해 보호되는 지역의 해당 면적을 해당 국가의 모든 접경 지역(지표수와 대수층을 포함)의 총 면적의 합으로 나누어 산출함</p>
+            <p>The proportion of transboundary basins area within a country with an operational arrangement for water cooperation.  It is derived by adding up the surface area in a country of those transboundary surface water catchments and transboundary aquifers (i.e. ‘transboundary’ basins) that are covered by an operational arrangement and dividing the obtained area by the aggregate total area in a country of all transboundary basins (both catchments and aquifers).</p>
 
           
         </td>
@@ -1098,7 +1097,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>1단계 접경 지표수와 접경 대수층을 정의   <br /> 2단계: GIS를 통해 각 접경 지역의 표면적과 그 총합을 계산   <br /> 3단계: 물 관리에 대한 국경 간 협력을 검토하고, 협력이 적용되는 접경 지역을 확인   <br /> 4단계: 기존 물관리 업무협조 업무협약 중 어느 것이 운영 가능한지 확인   <br /> 5단계: 산식에 따라 지표값을 도출</p>
+            <p>Step 1: Identify the transboundary surface waters and aquifers    <br /> Step 2: Calculate the surface area of each transboundary basin and the total sum    <br /> Step 3: Review existing arrangements for transboundary cooperation in water management and verify which transboundary waters are covered by a cooperation arrangement    <br /> Step 4: Check which of the existing arrangements for transboundary cooperation in water management are operational    <br /> Step 5: Calculate the indicator value</p>
 
           
         </td>
@@ -1125,7 +1124,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔 유럽경제위원회(UNECE)</p>
+            <p>UNECE(United Nations Economic Commission for Europe)</p>
 
           
         </td>
@@ -1141,7 +1140,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>3년</p>
+            <p>Every 3 years</p>
 
           
         </td>
@@ -1163,8 +1162,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-05-02_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-05-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-05-02_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-05-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1272,7 +1271,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>물 협력을 위한 운영협정을 맺고 있는 접경 지역 비율</p>
+            <p>Proportion of transboundary basin area with an operational arrangement for water cooperation</p>
 
           
         </td>
@@ -1288,7 +1287,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 국경 간 협력을 포함하여 통합된 물 자원 관리 이행</p>
+            <p>By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate</p>
 
           
         </td>
@@ -1304,7 +1303,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Education and Scientific Cultural Organisation - Institute for Statistics (UNESCO-UIS), United Nations Economic Commission for Europe (UNECE)</p>
+            <p>UNECE(United Nations Economic Commission for Europe)</p>
 
           
         </td>
@@ -1484,12 +1483,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826084618'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826084618"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

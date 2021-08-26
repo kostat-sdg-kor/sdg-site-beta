@@ -2200,8 +2200,8 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   margin-bottom: 25px; }
 
 .notapplicable {
-  background-color: #B7B7B7;
-  background: #B7B7B7; }
+  background-color: #FFFAFA;
+  background: #FFFAFA; }
 
 .notstarted {
   background-color: white;
@@ -2251,7 +2251,7 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
       border: 1px solid #0b0c0c;
       color: black; }
       #main-content .statuses > div .status.notapplicable .status-inner {
-        background-color: rgba(255, 255, 255, 0.8); }
+        background-color: #FFFAFA; }
 #main-content .value {
   color: #0b0c0c;
   font-weight: bold;
@@ -2353,11 +2353,11 @@ body.contrast-high .notstarted {
     background-color: black !important;
     color: white !important; }
 body.contrast-high .notapplicable {
-  background-color: #B7B7B7;
-  background: #B7B7B7;
+  background-color: #FFFAFA;
+  background: #FFFAFA;
   color: black !important; }
   body.contrast-high .notapplicable .status-inner {
-    background-color: #B7B7B7 !important;
+    background-color: #FFFAFA !important;
     color: black !important; }
 body.contrast-high .reporting-status-description {
   color: white; }

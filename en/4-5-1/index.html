@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826084618">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,12 +527,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_4-5-1'
   data-id="4-5-1"
-  data-country="Republic of Korea"
-  data-charttitle="Gender parity index achieving at least a fixed level of proficiency in functional literacy skills"
+  data-country="Total"
+  data-charttitle="Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"
   data-charttitles="null"
-  data-measurementunit="Parity Index"
+  data-measurementunit="Ratio"
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Gender parity index achieving at least a fixed level of proficiency in functional literacy skills</caption>
+      <caption>Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</caption>
       <thead>
         
         
@@ -701,13 +694,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: United Nations Educational, Scientific and Cultural Organization Institute for Statistics (UNESCO-UIS)</p>
+    <p>Source: UIS(UNESCO Institute of Statistics)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Parity Index</p>
+    <p>Unit of Measurement: Ratio</p>
     
     
   </div>
@@ -754,7 +747,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Gender parity index achieving at least a fixed level of proficiency in functional literacy skills</h4>
+          <h4 id="chart-heading" class="chart-title">Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -943,32 +936,40 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.setLineDash([5, 2]);
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -982,15 +983,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UIS(UNESCO Institute of Statistics), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Parity Index</dd>
+        <dd>Ratio</dd>
         
 
         
@@ -1024,15 +1028,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UIS(UNESCO Institute of Statistics), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Parity Index</dd>
+        <dd>Ratio</dd>
         
 
         
@@ -1124,7 +1131,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1159,7 +1166,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>SDG4 교육 지표들에 대한 성별/지역/소득/장애 등의 분류에 따른 상대적 비율. 형평지수 값이 ‘1’인 경우 두 집단이 동등함을 나타냄</p>
+            <p>The relative ratio of the SDG4 educational indicator value for one group to that of the other, segregated by sex, location, income, disability, etc. A value of 1 indicates parity between the two groups.</p>
 
           
         </td>
@@ -1178,7 +1185,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>형평지수 산출이 요구되는 분야에서의 상대적으로 취약한 집단의 지표값에 대한 덜 취약한 집단의 지표값의 비(ratio)를 계산하는 방식으로 구성되며, 산출방법, 관련기관, 데이터 출처 등은 각 지표가 산출되는 방식을 따름</p>
+            <p>In areas for which parity indices should be obtained, the ratio of the indicator value of the likely more disadvantaged group to the indicator value of the likely less disadvantaged group is calculated. Calculation methods, relevant institutions, data sources, etc., are as per indicator-specific descriptions.  For proficiency, the UNESCO Institute for Statistics uses the Program for International Student Assessment (PISA) data to calculate the proportions of children and young people achieving the minimum proficiency level in reading and mathematics, segregated by sex.</p>
 
           
         </td>
@@ -1205,7 +1212,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Educational, Scientific and Cultural Organization Institute for Statistics (UNESCO-UIS)</p>
+            <p>UIS(UNESCO Institute of Statistics)</p>
 
           
         </td>
@@ -1221,7 +1228,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Discontinuous</p>
+            <p>3 years(PISA), 4 years(TMISS)</p>
 
           
         </td>
@@ -1243,8 +1250,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-04-05-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-04-05-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-04-05-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-04-05-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1352,7 +1359,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>교육지표에 대한 형평지수(성, 도농, 소득분위, 장애상태, 원주민, 분쟁영향 여부별)</p>
+            <p>Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</p>
 
           
         </td>
@@ -1368,7 +1375,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 교육에서의 성차를 해소하고, 장애인, 토착민, 취약상황에 처한 아동을 포함한 취약계층이 모든 수준의 교육과 직업훈련에 평등하게 접근</p>
+            <p>By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations</p>
 
           
         </td>
@@ -1384,7 +1391,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Educational, Scientific and Cultural Organization (UNESCO)</p>
+            <p>UIS(UNESCO Institute of Statistics)</p>
 
           
         </td>
@@ -1564,12 +1571,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826084618'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826084618"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

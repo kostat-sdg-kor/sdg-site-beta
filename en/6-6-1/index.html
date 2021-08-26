@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826063851">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826084618">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_6-6-1'
   data-id="6-6-1"
-  data-country="Republic of Korea"
-  data-charttitle="Water body extent permanent and maybe permanent"
+  data-country="Total"
+  data-charttitle="Change in the extent of water-related ecosystems over time "
   data-charttitles="null"
-  data-measurementunit="Water body extent(% of total land area)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Water body extent permanent and maybe permanent</caption>
+      <caption>Change in the extent of water-related ecosystems over time </caption>
       <thead>
         
         
@@ -769,13 +762,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔환경계획(UNEP)</p>
+    <p>Source: UNEP(United Nations Environment Programme)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Water body extent(% of total land area)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -822,7 +815,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Water body extent permanent and maybe permanent</h4>
+          <h4 id="chart-heading" class="chart-title">Change in the extent of water-related ecosystems over time </h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1058,15 +1051,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNEP(United Nations Environment Programme), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Water body extent(% of total land area)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1100,15 +1096,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNEP(United Nations Environment Programme), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Water body extent(% of total land area)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1200,7 +1199,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1235,7 +1234,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>식물성 습지, 강과 지류, 호수, 대수층, 인공 수역 등 5개 범주로 구분하며, 본 지표의 목적상 위 5가지 생태계 범주 용어만을 고려함    * 식물성 습지란 람사르 협약의 정의를 참조하여 늪, 소택지, 습지, 이탄습지1), 논, 맹그로브 숲 등을 포함하며, 인공 수역은 저수지, 운하, 항만, 광산, 채석장과 같은 인간이 만든 수역을 의미함</p>
+            <p>The indicator includes five categories: vegetated wetlands, rivers and estuaries, lakes, aquifers, and artificial waterbodies. For purposes of this methodology, the text refers only to these five ecosystem category terminologies.</p>
 
           
         </td>
@@ -1254,7 +1253,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>하위지표 1, 2는 전 세계적으로 사용 가능한 데이터로, 국가와 공유됨. 하위지표 3, 4, 5는 국가 내에서 수집되며 검토 및 보증 확인을 위해 관리기관에 제출됨(메타데이터 첨부 참고)</p>
+            <p>Level 1: 2 Sub-Indicators based on globally available data from earth observations which will be validated  by countries against their own methodologies and datasets:   <br /> ➀ Sub-Indicator 1 – spatial extent of water-related ecosystems    <br /> ➁ Sub-Indicator 2 – water quality of lakes and artificial water bodies   <br />   <br /> Level 2: Data collected by countries through 3 Sub-Indicators:   <br /> ➂ Sub-Indicator 3 – quantity of water (discharge) in rivers and estuaries   <br /> ➃ Sub-Indicator 4 – water quality imported from SDG Indicator 6.3.2   <br /> ➄ Sub-Indicator 5 – quantity of groundwater within aquifers   <br /></p>
 
           
         </td>
@@ -1281,7 +1280,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔환경계획(UNEP)</p>
+            <p>UNEP(United Nations Environment Programme)</p>
 
           
         </td>
@@ -1297,7 +1296,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1319,8 +1318,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-06-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-06-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-06-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-06-06-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1428,7 +1427,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>시간 경과에 따른 물 관련 생태계 규모의 변화</p>
+            <p>Change in the extent of water-related ecosystems over time</p>
 
           
         </td>
@@ -1444,7 +1443,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지 산, 산림, 습지, 강, 대수층 및 호수 등 물 관련 생태계를 보호 및 복원</p>
+            <p>By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes</p>
 
           
         </td>
@@ -1460,7 +1459,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>UNEP</p>
+            <p>UNEP(United Nations Environment Programme)</p>
 
           
         </td>
@@ -1482,8 +1481,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01b.pdf  " target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01b.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01a.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-06-06-01a.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1640,12 +1639,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826063851'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826084618'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826063851"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826084618"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -1439,7 +1439,7 @@
         
         {
           "id": "13-1-1",
-          "title": "인구 1십만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "인구 10만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/13-1-1",
@@ -1449,7 +1449,7 @@
           "id": "13-1-2",
           "title": "「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/13-1-2",
           "status": "complete"
         },
@@ -1543,7 +1543,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "해양 관련 보호 수역 및 해양보호 수역 면적",
+          "title": "해양 면적 대비 보호구역의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/14-5-1",
@@ -1553,7 +1553,7 @@
           "id": "14-6-1",
           "title": "불법·비보고·비규제 어업을 근절하기 위한 국제적 수단 이행 정도",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/14-6-1",
           "status": "complete"
         },
@@ -1567,7 +1567,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "총 연구예산 중 해양기술부문 연구에 할당된 예산비율",
+          "title": "전체 연구예산 중 해양기술부문 연구에 할당된 예산비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/14-a-1",
@@ -1575,9 +1575,9 @@
         },
         {
           "id": "14-b-1",
-          "title": "소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법, 규제, 정책, 제도 프레임워크의 국가별 적용 단계에서의 진척도",
+          "title": "소규모 영세어민을 위해 해양자원에 대한 접근을 인정하고 보호하는 법/규제/정책/제도적인 프레임워크의 국가별 적용 단계에서의 진척도",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/14-b-1",
           "status": "complete"
         },
