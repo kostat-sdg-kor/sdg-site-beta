@@ -28,7 +28,9 @@ $indicatorContent-horizontalRule-color: transparent;
 $status-color-complete: black !default;
 $status-color-notapplicable: black !default;
 $status-backgroundColor-complete: #5CB85C !default;
-$status-backgroundColor-notapplicable: #B7B7B7 !default;
+$status-backgroundColor-notapplicable: #FFFAFA !default;
+
+$status-backgroundColor-inner-notapplicable: #FFFAFA !default;
 
 $footer-text-color: $color-light !default;
 $footer-text-color-highContrast: $color-light-highContrast !default;
