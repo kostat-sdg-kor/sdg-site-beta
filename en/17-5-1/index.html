@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826043418">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,15 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p><strong>Non-statistical indicator</strong>
-<br />
-▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -622,7 +613,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -644,7 +648,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>Investment promotion regimes are defined as legitimate instruments that directly aim at encouraging foreign investment through particular measures of the home or host countries of investment.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -664,13 +681,48 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Organizations </th>
+        <td>
           
+            <p>UNCTAD</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-05-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-05-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -763,7 +815,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>Number of countries that adopt and implement investment promotion regimes for developing countries, including LDCs</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -772,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>최빈개도국을 위한 투자촉진계획을 채택하고 이행</p>
+            <p>Adopt and implement investment promotion regimes for least developed countries</p>
 
           
         </td>
@@ -810,8 +875,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 468kB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-05-01.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-17-05-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -968,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826043418'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826043418"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

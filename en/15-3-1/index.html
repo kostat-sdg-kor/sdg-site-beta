@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826043418">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data unavailable: There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -626,7 +619,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 데이터 이용 제한(4유형) </b>   <br /> 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다.  <br />  1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.</p>
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
 
           
         </td>
@@ -661,7 +654,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>전체 토지면적 중 등급이 저하된 토지면적의 비율로 나타냄. <br /> 토지의 등급 저하는 생물학적 또는 경제학적 생산능력이 줄거나 소실되는 것을 의미하며 인간 활동에 의해 천수된 농경지, 관개 농경지나 방목지, 산림의 다양성이 줄거나 소실되는 것도 포함함</p>
+            <p>Proportion of land that is degraded over total land area. <br /> Land degradation is defined as the reduction or loss of the biological or economic productivity and complexity of rain fed cropland, irrigated cropland, or range, pasture, forest and woodlands resulting from human activities.</p>
 
           
         </td>
@@ -694,7 +687,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Convention to Combat Desertification (UNCCD)</p>
+            <p>UNCCD</p>
 
           
         </td>
@@ -719,8 +712,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-03-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-03-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-03-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-03-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -828,7 +821,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>국토면적 대비 황폐화 지역 비율</p>
+            <p>Proportion of land that is degraded over total land area</p>
 
           
         </td>
@@ -844,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 사막화 퇴치와 사막화, 가뭄, 홍수로 영향을 받은 토지를 포함하여, 황폐화된 토지 및 토양 복원, 그리고 토지 황폐화 가 없는 세계 달성을 위해 노력</p>
+            <p>By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world</p>
 
           
         </td>
@@ -882,8 +875,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 456kB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-15-03-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1040,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826043418'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826043418"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

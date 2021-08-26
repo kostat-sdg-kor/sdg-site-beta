@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826015923">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826043418">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data unavailable: There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -626,7 +619,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 데이터 이용 제한(4유형) </b>   <br /> 현재 이용할 수 있는 국내통계, 국제기구통계, 국내유사통계가 없습니다.  <br />  1유형, 2유형, 3유형에 속하나 일시적으로 서비스가 되지 않는 경우도 포함됩니다.</p>
+            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
 
           
         </td>
@@ -661,7 +654,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>한 국가의 전체 인구 또는 후생(소비 또는 소득) 하위 40% 인구의 실질 소비 또는 소득의 연간 평균 성장률</p>
+            <p>The annualized average growth rate in per capita real consumption or income of the bottom 40% of the income distribution in a country from household surveys over a roughly 5-year period. The choice of the bottom 40% as the target population is one of practical compromise. The bottom 40% differs across countries depending on the welfare distribution, and it can change over time within a country. Because boosting shared prosperity is a country-specific goal, there is no numerical target defined globally.</p>
 
           
         </td>
@@ -694,7 +687,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>World Bank (WB)</p>
 
           
         </td>
@@ -704,20 +697,7 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row">Calendar </th>
-        <td>
           
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -732,8 +712,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-01-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-01-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-01-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-01-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -841,7 +821,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>총인구 및 소득 하위 40% 인구의 1인당 가구 지출 또는 소득 성장률</p>
+            <p>Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</p>
 
           
         </td>
@@ -857,7 +837,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 소득하위 40%의 소득성장률을 점진적으로 국가평균보다 높게 달성 및 유지</p>
+            <p>By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</p>
 
           
         </td>
@@ -896,7 +876,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-10-01-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 221 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-10-01-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1053,12 +1033,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826015923'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826043418'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826015923"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826043418"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
