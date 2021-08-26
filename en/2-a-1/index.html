@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826060107">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826062836">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-a-1'
   data-id="2-a-1"
-  data-country="Republic of Korea"
-  data-charttitle="Agriculture orientation index for government expenditures"
+  data-country="Total"
+  data-charttitle="The agriculture orientation index for government expenditures"
   data-charttitles="null"
-  data-measurementunit="Agriculture Orientation Index (AOI)"
+  data-measurementunit="지수"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Agriculture orientation index for government expenditures</caption>
+      <caption>The agriculture orientation index for government expenditures</caption>
       <thead>
         
       </thead>
@@ -593,13 +586,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics (ONS)</p>
+    <p>Source: FAO(Food and Agriculture Organization of the United Nations)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Agriculture Orientation Index (AOI)</p>
+    <p>Unit of Measurement: 지수</p>
     
     
   </div>
@@ -646,7 +639,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Agriculture orientation index for government expenditures</h4>
+          <h4 id="chart-heading" class="chart-title">The agriculture orientation index for government expenditures</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -882,15 +875,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Agriculture Orientation Index (AOI)</dd>
+        <dd>지수</dd>
         
 
         
@@ -924,15 +920,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Agriculture Orientation Index (AOI)</dd>
+        <dd>지수</dd>
         
 
         
@@ -1024,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1059,7 +1058,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>정부지출 중 농업지출 비율 대비 GDP 중 농업부가가치 비율.  <br /> 농업지향지수(AOI)가 1보다 크면 정부의 농업지출이 농업의 국내생산 기여보다 상대적으로 크다는 것을 의미하고, 1보다 작으면 정부의 농업지출이 농업의 국내생산 기여보다 상대적으로  작다는 것을 의미함</p>
+            <p>Agricultural share of government expenditure divided by agriculture value added share of GDP.  An Agriculture Orientation Index (AOI) greater than 1 reflects a higher share of government spending relative to its contribution to economic value-added. An AOI less than 1 reflects a lower share of government spending relative to its contribution to economic value-added.</p>
 
           
         </td>
@@ -1078,7 +1077,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>각국 정부지출(COFOG) 자료와 국민계정 자료로 작성</p>
+            <p>Classification of the Functions of Government (COFOG) and National Accounts.</p>
 
           
         </td>
@@ -1105,7 +1104,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -1121,7 +1120,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1143,8 +1142,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-0a-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-0a-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-0a-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-0a-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1252,7 +1251,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>농업지향지수</p>
+            <p>The agriculture orientation index for government expenditures</p>
 
           
         </td>
@@ -1268,7 +1267,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>개도국 특히, 최빈개도국의 농업 생산역량 강화를 위해 국제협력 증진을 통해 농촌 지역 사회기반시설, 농업 연구 및 지원 서비스, 기술 개발, 식물 및 가축 유전자은행에 대한 투자 확대</p>
+            <p>Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries</p>
 
           
         </td>
@@ -1284,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Food and Agriculture Organization (FAO)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -1464,12 +1463,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826060107'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826062836'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826060107"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826062836"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

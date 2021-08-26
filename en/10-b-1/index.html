@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826060107">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826062836">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -1254,7 +1254,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data type </th>
+        <td>
           
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1276,13 +1289,39 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition </th>
+        <td>
           
+            <p>ODA와 기타 공적지원(OOF), 민간 지원 및 투자를 포함하는 개발재원 총액(개발도상국에 제공된 공적 및 민간의 유·무상 재원을 모두 포함)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
+            <p>경제개발협력기구(OECD)/개발원조위원회(DAC)가 공여국 보고기관(외교부 또는 재무부)으로부터 수집</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1328,7 +1367,29 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">National metadata </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-0b-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-0b-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1421,7 +1482,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
+            <p>개발재원 총액(공여국, 수원국 및 유형별)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1626,12 +1700,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826060107'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826062836'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826060107"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826062836"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

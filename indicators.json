@@ -745,7 +745,7 @@
           "id": "6-5-1",
           "title": "통합 수자원관리 이행 정도",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/6-5-1",
           "status": "complete"
         },
@@ -753,7 +753,7 @@
           "id": "6-5-2",
           "title": "물 협력을 위한 운영협정을 맺고 있는 접경 지역 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "DEFRA",
           "href": "/sdg-site-beta/6-5-2",
           "status": "complete"
         },
@@ -793,7 +793,7 @@
           "id": "7-1-1",
           "title": "전기 접근성이 있는 인구 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "Electricity, Energy, Access",
           "href": "/sdg-site-beta/7-1-1",
           "status": "complete"
         },
@@ -881,7 +881,7 @@
           "id": "8-4-2",
           "title": "국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP, Population",
           "href": "/sdg-site-beta/8-4-2",
           "status": "complete"
         },
@@ -943,7 +943,7 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) 성인 1십만 명당 시중은행 지점 수와 (b) 성인 1십만 명당 ATM의 개수",
+          "title": "(a) 성인 십만 명당 상업은행 지점들과 (b) 성인 십만 명당 ATM의 개수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/8-10-1",
@@ -961,7 +961,7 @@
           "id": "8-a-1",
           "title": "무역원조 약정 및 지불",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/8-a-1",
           "status": "complete"
         },
@@ -1017,7 +1017,7 @@
           "id": "9-3-1",
           "title": "총 산업 부가가치 중 소규모 산업 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/9-3-1",
           "status": "complete"
         },
@@ -1065,15 +1065,15 @@
           "id": "9-b-1",
           "title": "총 부가가치 대비 중고급기술산업 부가가치 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/9-b-1",
           "status": "complete"
         },
         {
           "id": "9-c-1",
-          "title": "무선네트워크 사용 가능 인구 비율(기술별)",
+          "title": "모바일네트워크 사용 인구 비율(기술별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Mobile phone, communication",
           "href": "/sdg-site-beta/9-c-1",
           "status": "complete"
         }]
@@ -1135,9 +1135,9 @@
         },
         {
           "id": "10-6-1",
-          "title": "국제기구에서 개도국의 회원 및 투표권 비율",
+          "title": "국제기구에서 개발도상국의 회원 및 투표권 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "FAO, WTO, International",
           "href": "/sdg-site-beta/10-6-1",
           "status": "complete"
         },
@@ -1175,7 +1175,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "최빈개도국과 개도국으로부터의 수입에 적용되는 무관세 비율",
+          "title": "최빈개도국과 개발도상국으로부터의 수입에 적용되는 무관세 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/10-a-1",
@@ -1183,9 +1183,9 @@
         },
         {
           "id": "10-b-1",
-          "title": "개발재원 총액(공여국, 수원국 및 유형별)",
+          "title": "공여국과 수원국별 및 유형별 개발재원 총액(ODA, 해외직접투자 등)",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/10-b-1",
           "status": "complete"
         },
@@ -1305,7 +1305,7 @@
           "id": "11-b-1",
           "title": "「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/11-b-1",
           "status": "complete"
         },
@@ -1329,7 +1329,7 @@
           "id": "12-1-1",
           "title": "지속가능한 소비 및 생산을 지원하는 정책수단을 개발, 채택, 이행하고 있는 국가 수",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/12-1-1",
           "status": "complete"
         },
@@ -1343,9 +1343,9 @@
         },
         {
           "id": "12-2-2",
-          "title": "물질소비량, 1인당 물질소비량, GDP당 물질소비량",
+          "title": "국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/12-2-2",
           "status": "complete"
         },
@@ -1423,7 +1423,7 @@
         },
         {
           "id": "12-c-1",
-          "title": "GDP 단위당 화석연료보조금액",
+          "title": "GDP 단위(생산과 소비)당 화석연료보조금액",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/12-c-1",
@@ -1439,7 +1439,7 @@
         
         {
           "id": "13-1-1",
-          "title": "인구 1십만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "인구 10만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/13-1-1",
@@ -1449,7 +1449,7 @@
           "id": "13-1-2",
           "title": "「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/13-1-2",
           "status": "complete"
         },
@@ -1543,7 +1543,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "해양 관련 보호 수역 및 해양보호 수역 면적",
+          "title": "해양 면적 대비 보호구역의 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/14-5-1",

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826060107">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210826062836">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-2-2'
   data-id="2-2-2"
-  data-country="Republic of Korea"
-  data-charttitle="Proportion of children moderately or severely overweight"
+  data-country="Total"
+  data-charttitle="Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type(wasting and overweight)"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of children moderately or severely overweight</caption>
+      <caption>Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type(wasting and overweight)</caption>
       <thead>
         
         
@@ -625,13 +618,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: NHS Digital</p>
+    <p>Source: UNICEF(United Nations Children’s Fund), WHO(World Health Organizaion), WB(World Bank)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -678,7 +671,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of children moderately or severely overweight</h4>
+          <h4 id="chart-heading" class="chart-title">Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type(wasting and overweight)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -914,15 +907,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNICEF(United Nations Children’s Fund), WHO(World Health Organizaion), WB(World Bank), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -956,15 +952,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNICEF(United Nations Children’s Fund), WHO(World Health Organizaion), WB(World Bank), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1056,7 +1055,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1091,7 +1090,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>‘과체중 아동 비율: 5세 미만 중 신장 대비 체중이 WHO 아동성장표준 중위값으로부터 +2표준편차를 초과하는 아동의 비율    저체중 아동 비율: 5세 미만 중 신장 대비 체중이 WHO 아동성장표준 중위값으로부터 –2표준편차에 미달하는 아동의 비율’</p>
+            <p>Prevalence of overweight among children: children who are overweight (weight-for-height &gt; +2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) as a proportion of population under 5 years of age). Prevalence of underweight among children: children who are underweight (weight-for-height &lt; -2 standard deviation from the median of the WHO Child Growth Standards) as a proportion of population under 5 years of age).</p>
 
           
         </td>
@@ -1110,7 +1109,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>유엔아동기금(UNICEF) 글로벌 데이터베이스(CRING) 자료로 작성함</p>
+            <p>Compiled based on the UNICEF global database (CRING).</p>
 
           
         </td>
@@ -1137,7 +1136,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>NHS Digital</p>
+            <p>UNICEF(United Nations Children’s Fund), WHO(World Health Organizaion), WB(World Bank)</p>
 
           
         </td>
@@ -1153,7 +1152,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1175,8 +1174,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-02-02_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-02-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-02-02_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-02-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1284,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>5세 미만 영양불량 아동 비율(저체중 및 과체중별)</p>
+            <p>Prevalence of malnutrition (weight for height &gt;+2 or &lt;-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)</p>
 
           
         </td>
@@ -1300,7 +1299,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2025년까지 5세 미만의 발육부진 및 쇠약에 관한 국제 목표 달성을 포함하여 2030년까지 모든 형태의 영양 부족을 종식시키고 여성 청소년, 임산부, 수유여성 및 노년층의 영양상태 개선</p>
+            <p>By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons</p>
 
           
         </td>
@@ -1316,7 +1315,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Children’s Fund (UNICEF), World Health Organisation (WHO), World Bank (WB)</p>
+            <p>UNICEF(United Nations Children’s Fund), WHO(World Health Organizaion), WB(World Bank)</p>
 
           
         </td>
@@ -1338,8 +1337,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02b.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02a.pdf    https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02b.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02a.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-02a.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1496,12 +1495,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826060107'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210826062836'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826060107"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210826062836"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
