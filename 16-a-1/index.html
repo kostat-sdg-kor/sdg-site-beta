@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210827011753">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210827091637">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_16-a-1'
   data-id="16-a-1"
-  data-country="Korea"
-  data-charttitle="파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재"
+  data-country="전국"
+  data-charttitle="파리원칙에 부합하는 국가인권기구 보유국(A지위)"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="1:그렇다, 2:아니다"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재</caption>
+      <caption>파리원칙에 부합하는 국가인권기구 보유국(A지위)</caption>
       <thead>
         
         
@@ -678,7 +678,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 유엔인권최고대표사무소(OHCHR)</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: 1:그렇다, 2:아니다</p>
     
     
   </div>
@@ -725,7 +731,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재</h4>
+          <h4 id="chart-heading" class="chart-title">파리원칙에 부합하는 국가인권기구 보유국(A지위)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -961,9 +967,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>유엔인권최고대표사무소(OHCHR)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>1:그렇다, 2:아니다</dd>
         
 
         
@@ -997,9 +1012,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>유엔인권최고대표사무소(OHCHR)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>1:그렇다, 2:아니다</dd>
         
 
         
@@ -1085,7 +1109,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1107,13 +1144,39 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>유엔 총회에서 채택되고 세계국가인권기구연합의 규칙에 의거한 파리원칙을 준수하는 독립적인 국가 인권기관의 존재 여부 측정 이 지표는 독립적인 국가인권기구의 존재 여부를 3가지 인증지위(status)로 나누어 측정함   <br /> A지위: 파리규정에 부합하는 독립적인 국가인권기관이 존재함  <br /> B지위: 파리규정에 어느 정도 부합하는 독립적인 국가인권기관이 존재함  <br /> C지위: 파리 규정에 부합하는 독립적인 국가인권기관이 존재하지 않음</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>각 국가의 인권기관을 통해 국제 설문조사 실시</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1127,13 +1190,61 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
           
+            <p>유엔인권최고대표사무소(OHCHR)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
           
+            <p>부정기</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-0a-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-16-0a-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1226,7 +1337,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1251,7 +1375,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>OHCHR</p>
+            <p>Office of the United Nations High Commissioner for Human Rights (OHCHR)</p>
 
           
         </td>
@@ -1431,12 +1555,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210827011753'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210827091637'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210827011753"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210827091637"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

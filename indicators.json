@@ -359,7 +359,7 @@
         },
         {
           "id": "3-7-2",
-          "title": "여성 청소년(10-14세, 15-19세) 인구 1천 명당 출산율",
+          "title": "여성 청소년(10-14세, 15-19세) 인구 1,000명당 출산율",
           "description": "",
           "keywords": "Population, births",
           "href": "/sdg-site-beta/3-7-2",
@@ -1247,7 +1247,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "인구 1십만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "인구 10만 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/11-5-1",
@@ -1617,7 +1617,7 @@
           "id": "15-2-1",
           "title": "지속가능한 산림경영 이행상황",
           "description": "",
-          "keywords": "",
+          "keywords": "forest, sustainability, forests, sustainable, woodland",
           "href": "/sdg-site-beta/15-2-1",
           "status": "complete"
         },
@@ -1641,13 +1641,13 @@
           "id": "15-4-2",
           "title": "산악녹색피복지수",
           "description": "",
-          "keywords": "",
+          "keywords": "Mountain; Green cover; Index; Environment; Geography; FAO",
           "href": "/sdg-site-beta/15-4-2",
           "status": "complete"
         },
         {
           "id": "15-5-1",
-          "title": "적색목록지수",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/15-5-1",
@@ -1655,9 +1655,9 @@
         },
         {
           "id": "15-6-1",
-          "title": "공정하고 공평한 혜택 분배를 보장하기 위해 입법, 행정 및 정책 프레임워크를 채택한 국가의 수",
+          "title": "공정하고 공평한 혜택 분배를 보장하기 위해 입법적, 행정적 그리고 정책적 프레임워크를 채택한 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "legislation, policy",
           "href": "/sdg-site-beta/15-6-1",
           "status": "complete"
         },
@@ -1673,7 +1673,7 @@
           "id": "15-8-1",
           "title": "외래침입종의 유입 예방과 통제를 위해 국가 차원의 법률과 적당한 수단을 채택하고 있는 국가의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/15-8-1",
           "status": "complete"
         },
@@ -1681,7 +1681,7 @@
           "id": "15-9-1",
           "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
           "description": "",
-          "keywords": "",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/15-9-1",
           "status": "complete"
         },
@@ -1689,7 +1689,7 @@
           "id": "15-a-1",
           "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/15-a-1",
           "status": "complete"
         },
@@ -1697,7 +1697,7 @@
           "id": "15-b-1",
           "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
-          "keywords": "",
+          "keywords": "ODA",
           "href": "/sdg-site-beta/15-b-1",
           "status": "complete"
         },
@@ -1865,7 +1865,7 @@
           "id": "16-8-1",
           "title": "국제기구에서 개도국의 회원 및 투표권 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "NA",
           "href": "/sdg-site-beta/16-8-1",
           "status": "complete"
         },
@@ -1889,7 +1889,7 @@
           "id": "16-10-2",
           "title": "정보에 대한 대중의 접근을 보장하는 헌법, 법률, 정책을 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/16-10-2",
           "status": "complete"
         },
@@ -1897,7 +1897,7 @@
           "id": "16-a-1",
           "title": "파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/16-a-1",
           "status": "complete"
         },
@@ -1921,7 +1921,7 @@
           "id": "17-1-1",
           "title": "GDP 중 정부 총수입 비율(항목별)",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/17-1-1",
           "status": "complete"
         },
@@ -1953,7 +1953,7 @@
           "id": "17-3-2",
           "title": "총 GDP 중 송금액 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "GDP",
           "href": "/sdg-site-beta/17-3-2",
           "status": "complete"
         },
@@ -2025,7 +2025,7 @@
           "id": "17-12-1",
           "title": "개도국, 최빈개도국 및 군소도서 개발국에 부과되는 가중 관세 평균",
           "description": "",
-          "keywords": "",
+          "keywords": "NA",
           "href": "/sdg-site-beta/17-12-1",
           "status": "complete"
         },
@@ -2081,7 +2081,7 @@
           "id": "17-18-2",
           "title": "공식통계 기본원칙을 준수하는 국가통계법령을 갖춘 국가의 수",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/17-18-2",
           "status": "complete"
         },
@@ -2089,7 +2089,7 @@
           "id": "17-18-3",
           "title": "재원이 충분히 확보되어 이행되고 있는 국가통계계획을 보유한 국가의 수(재정지원 출처별)",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/17-18-3",
           "status": "complete"
         },
@@ -2103,9 +2103,9 @@
         },
         {
           "id": "17-19-2",
-          "title": "지난 10년 동안 a) 최소 한 번의 인구주택총조사를 진행했고, b) 100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율",
+          "title": "지난 10년 동안 (a) 최소 한 번의 인구주택총조사를 진행했고, (b) 100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율",
           "description": "",
-          "keywords": "",
+          "keywords": "Non-Statistical  Non-statistical, & legislation, & policy",
           "href": "/sdg-site-beta/17-19-2",
           "status": "complete"
         }]

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210827011753">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210827091637">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,14 +527,14 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_15-b-1'
   data-id="15-b-1"
-  data-country="Korea"
-  data-charttitle="공여국별 생물 다양성 공적개발원조"
+  data-country="전국"
+  data-charttitle="공여국별 생물다양성을 위한 공적개발원조 총액"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="USD(미국 달러)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>공여국별 생물 다양성 공적개발원조</caption>
+      <caption>공여국별 생물다양성을 위한 공적개발원조 총액</caption>
       <thead>
         
         
@@ -738,7 +738,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
+    <p>출처: 경제개발협력기구(OECD)</p>
     
+    
+    <p>지역: 전국</p>
+    
+    
+    <p>단위: USD(미국 달러)</p>
     
     
   </div>
@@ -785,7 +791,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">공여국별 생물 다양성 공적개발원조</h4>
+          <h4 id="chart-heading" class="chart-title">공여국별 생물다양성을 위한 공적개발원조 총액</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1021,9 +1027,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>경제개발협력기구(OECD)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>USD(미국 달러)</dd>
         
 
         
@@ -1057,9 +1072,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>출처:</dt>
+        <dd>경제개발협력기구(OECD)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
+
+        
+        <dt>단위:</dt>
+        <dd>USD(미국 달러)</dd>
         
 
         
@@ -1145,7 +1169,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">데이터 유형 </th>
+        <td>
           
+            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1167,13 +1204,39 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">정의 </th>
+        <td>
           
+            <p>(a) 생물다양성의 보전과 지속가능한 이용을 위한 모든 공여국으로부터의 공적개발원조 총 지출액 (b) 생물다양성 관련 세금, 수수료, 부과금, 보조금 등 생물다양성 관련 경제 기구에서 창출된 수입 및 동원된 자금</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
       
         
+      
+      
+      <tr>
+        <th scope="row">작성방법 </th>
+        <td>
           
+            <p>OECD 개발원조위원회(DAC, Development Assistance Committee)에서 그 가입국과 다른 원조자가 제출한 것을 통해 집계</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1187,13 +1250,61 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">통계작성기관 </th>
+        <td>
           
+            <p>경제개발협력기구(OECD)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">작성주기 </th>
+        <td>
           
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">국내 메타데이터 </th>
+        <td>
           
+            
+            
+            
+            
+
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-0b-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-0b-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1286,7 +1397,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">글로벌 지표명 </th>
+        <td>
           
+            <p>(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA  (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1311,7 +1435,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">지표소관기구 </th>
         <td>
           
-            <p>OECD, UNEP, World Bank</p>
+            <p>Organisation for Economic Co-operation and Development (OECD)</p>
 
           
         </td>
@@ -1491,12 +1615,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210827011753'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210827091637'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210827011753"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210827091637"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
