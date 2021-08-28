@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -535,9 +528,9 @@ data-event-label="high"
   data-indicatorid='indicator_15-9-1'
   data-id="15-9-1"
   data-country="전국"
-  data-charttitle="Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020"
+  data-charttitle="Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans"
   data-charttitles="null"
-  data-measurementunit="점수(0-1)"
+  data-measurementunit="1 = YES, 0 = NO"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020</caption>
+      <caption>Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans</caption>
       <thead>
         
         
@@ -613,13 +606,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 생물다양성협약사무국(SCBD)</p>
+    <p>Source: SCBD(Secretariat of the Convention on Biological Diversity)</p>
     
     
     <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: 점수(0-1)</p>
+    <p>Unit of Measurement: 1 = YES, 0 = NO</p>
     
     
   </div>
@@ -666,7 +659,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020</h4>
+          <h4 id="chart-heading" class="chart-title">Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -894,6 +887,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>SCBD(Secretariat of the Convention on Biological Diversity)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -902,7 +898,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>점수(0-1)</dd>
+        <dd>1 = YES, 0 = NO</dd>
         
 
         
@@ -936,6 +932,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>SCBD(Secretariat of the Convention on Biological Diversity)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -944,7 +943,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>점수(0-1)</dd>
+        <dd>1 = YES, 0 = NO</dd>
         
 
         
@@ -1036,7 +1035,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1071,7 +1070,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>2011-2020년 생물다양성전략계획 목표2에 따라 수립된 국가목표의 진척도를 측정</p>
+            <p>The indicator measures the progress towards national targets established in accordance with Target 2 of the Strategic Plan for Biodiversity 2011-2020</p>
 
           
         </td>
@@ -1090,7 +1089,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>각 국의 담당 기관이 생물다양성협약사무국에 관련 내용을 보고서로 제출함</p>
+            <p>Each country’s responsible organization submits national reports to the Secretariat of the Convention on Biological Diversity</p>
 
           
         </td>
@@ -1117,7 +1116,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>생물다양성협약사무국(SCBD)</p>
+            <p>SCBD(Secretariat of the Convention on Biological Diversity)</p>
 
           
         </td>
@@ -1133,7 +1132,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>부정기</p>
+            <p>Irregular</p>
 
           
         </td>
@@ -1264,7 +1263,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도  (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합</p>
+            <p>(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans(NBSAP) and the progress reported towards these targets; (b) Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting</p>
 
           
         </td>
@@ -1280,7 +1279,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지 생태계 및 생물다양성 가치를 국가 및 지역 계획․개발 과정 그리고 빈곤퇴치 전략 및 회계에 반영</p>
+            <p>By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts</p>
 
           
         </td>
@@ -1296,7 +1295,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>CBD-Secretariat,UNEP</p>
+            <p>SCBD(Secretariat of the Convention on Biological Diversity)</p>
 
           
         </td>
@@ -1476,12 +1475,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_8-10-1'
   data-id="8-10-1"
-  data-country="Republic of Korea"
-  data-charttitle="Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults"
+  data-country="전국"
+  data-charttitle="(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults "
   data-charttitles="null"
-  data-measurementunit="Number per 100,000 adults"
+  data-measurementunit="Number of cases"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults</caption>
+      <caption>(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults </caption>
       <thead>
         
       </thead>
@@ -593,13 +586,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: LINK</p>
+    <p>Source: IMF(International Monetary Fund)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Number per 100,000 adults</p>
+    <p>Unit of Measurement: Number of cases</p>
     
     
   </div>
@@ -646,7 +639,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults</h4>
+          <h4 id="chart-heading" class="chart-title">(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults </h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -882,15 +875,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IMF(International Monetary Fund), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number per 100,000 adults</dd>
+        <dd>Number of cases</dd>
         
 
         
@@ -924,15 +920,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IMF(International Monetary Fund), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number per 100,000 adults</dd>
+        <dd>Number of cases</dd>
         
 
         
@@ -1024,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1059,7 +1058,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>성인 10만 명당 상업은행 지점 수와 ATM 수</p>
+            <p>Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults</p>
 
           
         </td>
@@ -1078,7 +1077,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>매년 각국의 중앙은행이 금융접근성조사가 통해 자료를 수집하고 국제통화기금(IMF)에 보고</p>
+            <p>The data are collected and reported to the IMF be the central bank through the Financial Accessibility Survey.</p>
 
           
         </td>
@@ -1105,7 +1104,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>LINK</p>
+            <p>IMF(International Monetary Fund)</p>
 
           
         </td>
@@ -1121,7 +1120,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1143,8 +1142,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-10-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-10-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-10-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-10-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1252,7 +1251,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>(a) 성인 1십만 명당 시중은행 지점 수와 (b) 성인 1십만 명당 ATM의 개수</p>
+            <p>(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults</p>
 
           
         </td>
@@ -1268,7 +1267,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>보험업, 금융업 및 금융지원서비스의 접근가능범위를 확대하기 위해 국가 내 금융 기관의 역량 강화</p>
+            <p>Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</p>
 
           
         </td>
@@ -1284,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>International Monetary Fund (IMF)</p>
+            <p>IMF(International Monetary Fund)</p>
 
           
         </td>
@@ -1307,7 +1306,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 411 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1464,12 +1463,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

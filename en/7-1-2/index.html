@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_7-1-2'
   data-id="7-1-2"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Proportion of population with primary reliance on clean fuels and technology"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -829,13 +822,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: World Bank (WB)</p>
+    <p>Source: WHO, Public health, Social and Environmental Determinants of health Department(PHE)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -1118,15 +1111,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>WHO, Public health, Social and Environmental Determinants of health Department(PHE), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1160,15 +1156,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>WHO, Public health, Social and Environmental Determinants of health Department(PHE), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1260,7 +1259,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1295,7 +1294,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>가구 단위에서 청정 연료와 기술에 의존하는 인구의 비율   <br /> 요리, 난방, 그리고 조명을 위해 청정 연료와 기술을 사용하는 인구를 요리, 난방, 그리고 조명을 사용하는 전체 인구로 나누어 계산되며 퍼센트로 표시됨 “청정”이라는 개념은 ‘실내 공기질에 관한 세계보건기구(WHO) 가이드라인 표준지침’에 포함되어 있는 배출량 목표 및 구체적 연료 권고안(즉, 가공되지 않은 석탄이나 등유를 쓰지 않음) 에 의해 정의</p>
+            <p>The proportion of population in households with reliance on clean fuels and technologies.  <br /> The indicator is calculated as the number of people using clean fuels and technologies for cooking, heating and lighting divided by total population reporting that any cooking, heating or lighting, expressed as percentage.  <br /> “Clean” is defined by the emission rate targets and specific fuel recommendations (i.e. against unprocessed coal and kerosene) included in the normative guidance WHO guidelines for indoor air quality: household fuel combustion.</p>
 
           
         </td>
@@ -1314,7 +1313,9 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>요리 연료: 세계보건기구(WHO) Global House Energy Database를 통해 157개국의 정보가 제공   <br /> 조명 연료와 난방 연료: 세계보건기구(WHO) 데이터베이스가 각각 76개국 16개국의 정보 제공</p>
+            <ul>
+  <li>Fuels for cooking: Data on 157 countries obtained through the WHO Global House Energy Database.  - Fuels for lighting and heating: Data on 76 and 16 countries, respectively, obtained from the WHO database.</li>
+</ul>
 
           
         </td>
@@ -1341,7 +1342,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>World Bank (WB)</p>
+            <p>WHO, Public health, Social and Environmental Determinants of health Department(PHE)</p>
 
           
         </td>
@@ -1357,7 +1358,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1379,8 +1380,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-07-01-02_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-07-01-02_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-07-01-02_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-07-01-02_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1488,7 +1489,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>청정연료 및 기술에 주로 의존하는 인구비율</p>
+            <p>Proportion of population with primary reliance on clean fuels and technology</p>
 
           
         </td>
@@ -1504,7 +1505,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2030년까지 적절한 가격과 지속가능하며 현대화된 에너지 서비스의 보편적 접근 보장</p>
+            <p>By 2030, ensure universal access to affordable, reliable and modern energy services</p>
 
           
         </td>
@@ -1520,7 +1521,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)</p>
+            <p>WHO, Public health, Social and Environmental Determinants of health Department(PHE)</p>
 
           
         </td>
@@ -1700,12 +1701,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

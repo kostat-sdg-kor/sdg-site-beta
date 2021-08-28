@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_10-b-1'
   data-id="10-b-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Total assistance for development, by donor countries (millions of current United States dollars)"
   data-charttitles="null"
-  data-measurementunit="Millions of current US dollars"
+  data-measurementunit="Million$(USD)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -829,13 +822,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Department for International Development (DfID)</p>
+    <p>Source: OECD(Organization for Economic Cooperation and Development)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Millions of current US dollars</p>
+    <p>Unit of Measurement: Million$(USD)</p>
     
     
   </div>
@@ -1118,15 +1111,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>OECD(Organization for Economic Cooperation and Development)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Millions of current US dollars</dd>
+        <dd>Million$(USD)</dd>
         
 
         
@@ -1160,15 +1156,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>OECD(Organization for Economic Cooperation and Development)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Millions of current US dollars</dd>
+        <dd>Million$(USD)</dd>
         
 
         
@@ -1260,7 +1259,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1295,7 +1294,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>ODA와 기타 공적지원(OOF), 민간 지원 및 투자를 포함하는 개발재원 총액(개발도상국에 제공된 공적 및 민간의 유·무상 재원을 모두 포함)</p>
+            <p>Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</p>
 
           
         </td>
@@ -1314,7 +1313,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>경제개발협력기구(OECD)/개발원조위원회(DAC)가 공여국 보고기관(외교부 또는 재무부)으로부터 수집</p>
+            <p>The OECD Development Assistance Committee (DAC) collects data from donor countries’ reporters (ministries of foreign affairs or finance)</p>
 
           
         </td>
@@ -1341,7 +1340,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Department for International Development (DfID)</p>
+            <p>OECD(Organization for Economic Cooperation and Development)</p>
 
           
         </td>
@@ -1357,7 +1356,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1488,7 +1487,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>개발재원 총액(공여국, 수원국 및 유형별)</p>
+            <p>Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</p>
 
           
         </td>
@@ -1504,7 +1503,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>개도국에 대한 공적개발원조와 자금 거래 장려</p>
+            <p>Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</p>
 
           
         </td>
@@ -1520,7 +1519,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Organisation for Economic Co-operation and Development (OECD)</p>
+            <p>OECD(Organization for Economic Cooperation and Development)</p>
 
           
         </td>
@@ -1700,12 +1699,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

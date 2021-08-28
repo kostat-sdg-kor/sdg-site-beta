@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_15-1-2'
   data-id="15-1-2"
-  data-country="Republic of Korea"
-  data-charttitle="Average proportion of Freshwater and Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas"
+  data-country="전"
+  data-charttitle="Mean percentage of freshwater and terrestrial key biodiversity areas (KBAs) covered by designated protected areas"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Average proportion of Freshwater and Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas</caption>
+      <caption>Mean percentage of freshwater and terrestrial key biodiversity areas (KBAs) covered by designated protected areas</caption>
       <thead>
         
       </thead>
@@ -593,13 +586,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔환경계획 세계보전감시센터(UNEP-WCMC), 세계보전자연연맹(IUCN)</p>
+    <p>Source: UNEP-WCMC(UN Environment Program World Conservation Monitoring Center), IUCN(International Union for Conservation of Nature)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -646,7 +639,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Average proportion of Freshwater and Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas</h4>
+          <h4 id="chart-heading" class="chart-title">Mean percentage of freshwater and terrestrial key biodiversity areas (KBAs) covered by designated protected areas</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -885,12 +878,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -927,12 +920,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1024,7 +1017,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1050,7 +1043,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Data name </th>
+        <td>
           
+            <p>Mean percentage of freshwater and terrestrial key biodiversity areas (KBAs) covered by designated protected areas</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1059,7 +1065,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>육상 및 담수 생물다양성 중요 지역 중 보호지역으로 지정된 평균 비율로, 세계자연보전연맹(IUCN)이 지정한 중요 지역 중 보호지역 비중 중요지역은 장기간에 걸친 생태계 서비스와 문화적인 가치가 연계된 지역으로, 자연 보호를 달성하기 위하여 법적 혹은 다른 방법들을 통해 명확하게 정의되며 확실한 목적 하에  관리되는 지리적인 장소임</p>
+            <p>Proportion of important sites that are covered by protected areas as defined by the International Union for Conservation of Nature(IUCN)</p>
 
           
         </td>
@@ -1078,7 +1084,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>유엔환경계획 세계보전감시센터는 5-10년마다 UN 보호지역 목록을 작성하고, 중간 기간 동안 보호구역의 지정 및 유지관리를 담당하는 국가 부처/기관 및 NGO와 협력하여 지속적으로  업데이트</p>
+            <p>UNEP-WCMC produces the UN List of Protected Areas every 5-10 years, which is updated on an ongoing basis in cooperation with national ministries/agencies responsible for protecte area designation and management and NGOs</p>
 
           
         </td>
@@ -1105,7 +1111,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔환경계획 세계보전감시센터(UNEP-WCMC), 세계보전자연연맹(IUCN)</p>
+            <p>UNEP-WCMC(UN Environment Program World Conservation Monitoring Center), IUCN(International Union for Conservation of Nature)</p>
 
           
         </td>
@@ -1121,7 +1127,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1252,7 +1258,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>육상 및 담수 생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율(생태계 유형별)</p>
+            <p>Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type</p>
 
           
         </td>
@@ -1268,7 +1274,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지 국제협약 의무에 따라, 특히 산림, 습지, 산, 건조지 등의 육지 및 내륙담수 생태계와 그 서비스에 대한 보전, 복원 및 지속가능한 사용을 보장</p>
+            <p>By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements</p>
 
           
         </td>
@@ -1284,7 +1290,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>UNEP-WCMC,UNEP</p>
+            <p>‘UNEP-WCMC(UN Environment Program World Conservation Monitoring Center), IUCN(International Union for Conservation of Nature)’</p>
 
           
         </td>
@@ -1464,12 +1470,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

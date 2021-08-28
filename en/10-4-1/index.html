@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_10-4-1'
   data-id="10-4-1"
-  data-country="Republic of Korea"
-  data-charttitle="Labour share of GDP, comprising wages and social protection transfers"
+  data-country="전국"
+  data-charttitle="Labour share of GDP"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Labour share of GDP, comprising wages and social protection transfers</caption>
+      <caption>Labour share of GDP</caption>
       <thead>
         
         
@@ -769,13 +762,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Office for National Statistics (ONS)</p>
+    <p>Source: ILO(International Labour Organization)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Percentage (%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -822,7 +815,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Labour share of GDP, comprising wages and social protection transfers</h4>
+          <h4 id="chart-heading" class="chart-title">Labour share of GDP</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1058,15 +1051,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>ILO(International Labour Organization), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1100,15 +1096,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>ILO(International Labour Organization), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage (%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1235,7 +1234,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>GDP에서 피고용자의 보수와 자영업자의 노동소득이 차지하는 비율. 피고용자의 보수는 노동의 대가로 주어지는 현금성 보상을 말하는 것으로, 여기에는 세후 급여와 고용주가 부담하는 사회보험이 포함됨</p>
+            <p>The total compensation of employees and the labour income of the self-employed given as a percent of GDP, which is a measure of total output. Compensation of employees includes wages and salaries after tax and social insurance contributions payable by employers.</p>
 
           
         </td>
@@ -1254,7 +1253,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>GDP와 피고용자 보수는 국민계정으로 측정되고, 자영업자 노동소득은 국민계정 자료를 활용하여 대체(imputation)값을 추정</p>
+            <p>GDP and compensation of employees are measured with national accounts, and labor income of self-employed is imputed using the national accounts data.</p>
 
           
         </td>
@@ -1281,7 +1280,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Office for National Statistics (ONS)</p>
+            <p>ILO(International Labour Organization)</p>
 
           
         </td>
@@ -1297,7 +1296,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Quarterly</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1319,8 +1318,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-04-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-04-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-04-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-10-04-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1428,7 +1427,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>GDP 대비 노동소득 비율</p>
+            <p>Labour share of GDP</p>
 
           
         </td>
@@ -1444,7 +1443,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>재정정책, 임금정책, 사회보장정책 등을 채택하고 점진적으로 더 나은 평등을 달성</p>
+            <p>Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</p>
 
           
         </td>
@@ -1460,7 +1459,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>International Labour Organization (ILO)</p>
+            <p>ILO(International Labour Organization)</p>
 
           
         </td>
@@ -1483,7 +1482,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 190 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-10-04-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1640,12 +1639,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

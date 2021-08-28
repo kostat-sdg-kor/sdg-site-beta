@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_15-a-1'
   data-id="15-a-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Total official development assistance for biodiversity, by donor countries (millions of constant 2017 United States dollars)"
   data-charttitles="null"
-  data-measurementunit="Millions of constant 2017 United States dollars"
+  data-measurementunit="USD$(United States dollars)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -745,13 +738,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Department for International Development (DfID)</p>
+    <p>Source: OECD(Organization for Economic Cooperation and Development)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Millions of constant 2017 United States dollars</p>
+    <p>Unit of Measurement: USD$(United States dollars)</p>
     
     
   </div>
@@ -1034,15 +1027,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>OECD(Organization for Economic Cooperation and Development)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Millions of constant 2017 United States dollars</dd>
+        <dd>USD$(United States dollars)</dd>
         
 
         
@@ -1076,15 +1072,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>OECD(Organization for Economic Cooperation and Development)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Millions of constant 2017 United States dollars</dd>
+        <dd>USD$(United States dollars)</dd>
         
 
         
@@ -1176,7 +1175,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1211,7 +1210,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>(a) 생물다양성의 보전과 지속가능한 이용을 위한 모든 공여국으로부터의 공적개발원조 총 지출액 (b) 생물다양성 관련 세금, 수수료, 부과금, 보조금 등 생물다양성 관련 경제 기구에서 창출된 수입 및 동원된 자금</p>
+            <p>This indicator is defined as gross disbursements of total Official Development Assistance (ODA)  from all donors for biodiversity. This chapter of the e-handbook only covers the ODA part of the indicator.</p>
 
           
         </td>
@@ -1230,7 +1229,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>OECD 개발원조위원회(DAC, Development Assistance Committee)에서 그 가입국과 다른 원조자가 제출한 것을 통해 집계</p>
+            <p>The OECD Development Assistance Committee compiles data submitted by state members and other donors</p>
 
           
         </td>
@@ -1257,7 +1256,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Department for International Development (DfID)</p>
+            <p>OECD(Organization for Economic Cooperation and Development)</p>
 
           
         </td>
@@ -1404,7 +1403,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA  (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정</p>
+            <p>(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments</p>
 
           
         </td>
@@ -1420,7 +1419,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>생물다양성 및 생태계 보호 및 지속가능한 사용을 위한 재원 동원</p>
+            <p>Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems</p>
 
           
         </td>
@@ -1436,7 +1435,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Organisation for Economic Co-operation and Development (OECD)</p>
+            <p>OECD(Organization for Economic Cooperation and Development)</p>
 
           
         </td>
@@ -1616,12 +1615,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

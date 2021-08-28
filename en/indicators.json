@@ -800,7 +800,7 @@
         {
           "id": "7-1-2",
           "title": "Proportion of population with primary reliance on clean fuels and technology",
-          "description": "This indicator is defined as the number of people using clean fuels and technologies for domestic cooking,  heating and lighting divided by total population reporting any cooking, heating or lighting.  It is expressed as a percentage.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/7-1-2",
           "status": "complete"
@@ -944,7 +944,7 @@
         {
           "id": "8-10-1",
           "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
-          "description": "Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-10-1",
           "status": "complete"
@@ -952,7 +952,7 @@
         {
           "id": "8-10-2",
           "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
-          "description": "Proportion of adults (ages 15+) who report having an account at a bank or another type of financial institution or personally using a mobile money service",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/8-10-2",
           "status": "complete"
@@ -960,7 +960,7 @@
         {
           "id": "8-a-1",
           "title": "Aid for Trade commitments and disbursements",
-          "description": "This indicator is defined as gross disbursements and commitments of total Official Development Assistance (ODA)  from all donors for aid for trade.",
+          "description": "",
           "keywords": "ODA",
           "href": "/sdg-site-beta/en/8-a-1",
           "status": "complete"
@@ -1016,7 +1016,7 @@
         {
           "id": "9-3-1",
           "title": "Proportion of small-scale industries in total industry value added",
-          "description": "This indicator is defined as the share of manufacturing value added of small-scale manufacturing enterprises  in the total manufacturing value added.",
+          "description": "",
           "keywords": "GDP",
           "href": "/sdg-site-beta/en/9-3-1",
           "status": "complete"
@@ -1064,7 +1064,7 @@
         {
           "id": "9-b-1",
           "title": "Proportion of medium and high-tech industry value added in total value added",
-          "description": "This indicator is defined as the percentage of medium-high and high technology (MHT) industries to the total value  added of all manufacturing industries",
+          "description": "",
           "keywords": "GDP",
           "href": "/sdg-site-beta/en/9-b-1",
           "status": "complete"
@@ -1072,7 +1072,7 @@
         {
           "id": "9-c-1",
           "title": "Proportion of population covered by a mobile network, by technology",
-          "description": "This indicator is defined as the percentage of inhabitants living within range of a mobile-cellular signal  (2G, 3G or LTE), irrespective of whether or not they are mobile phone subscribers or users.",
+          "description": "",
           "keywords": "Mobile phone, communication",
           "href": "/sdg-site-beta/en/9-c-1",
           "status": "complete"
@@ -1112,7 +1112,7 @@
         {
           "id": "10-4-1",
           "title": "Labour share of GDP",
-          "description": "Proportion of the total compensation of employees and the labour income of the self-employed in GDP",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-4-1",
           "status": "complete"
@@ -1128,7 +1128,7 @@
         {
           "id": "10-5-1",
           "title": "Financial Soundness Indicators",
-          "description": "Seven FSI(Financial Soundness Indicator) that include percentage of regulatory Tier1 capital to assets, percentage of regulatory Tier 1 capital to risk- weighted assets, percentage of nonperforming loans net of provisions to capital, percentage of nonperforming loans to total gross loans, percentage of return on assets, percentage of liquid assets to short-term liabilities, percentage of net open position in foreign exchange to capital",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-5-1",
           "status": "complete"
@@ -1176,7 +1176,7 @@
         {
           "id": "10-a-1",
           "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
-          "description": "Proportion of total number of tariff lines (in per cent) applied to products imported from least developed countries and developing countries corresponding to a 0% tariff rate",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/10-a-1",
           "status": "complete"
@@ -1184,7 +1184,7 @@
         {
           "id": "10-b-1",
           "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
-          "description": "This indicator is defined as the sum of all resource flows for development.",
+          "description": "",
           "keywords": "ODA",
           "href": "/sdg-site-beta/en/10-b-1",
           "status": "complete"
@@ -1248,7 +1248,7 @@
         {
           "id": "11-5-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "This indicator measures the number of people who died, went missing or were directly affected  by disasters per 100,000 population.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/11-5-1",
           "status": "complete"
@@ -1256,7 +1256,7 @@
         {
           "id": "11-5-2",
           "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
-          "description": "This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP,  damage to critical infrastructure and number of disruptions to basic services, attributed to disasters.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/11-5-2",
           "status": "complete"
@@ -1304,7 +1304,7 @@
         {
           "id": "11-b-1",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
-          "description": "This indicator measures the number of countries that adopt and implement national disaster risk reduction (DRR)  strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, with multiple dimensions  of the level of implementation.",
+          "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/11-b-1",
           "status": "complete"
@@ -1327,7 +1327,7 @@
         
         {
           "id": "12-1-1",
-          "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
+          "title": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/12-1-1",
@@ -1360,7 +1360,7 @@
         {
           "id": "12-4-1",
           "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
-          "description": "The indicator refers to the number of parties (countries that have ratified, accepted, approved or accessed)  to five Multilateral Environmental Agreements (MEAs), which have submitted relevant information  to the Secretariat of each MEA, as stipulated by each of the agreements. The five MEAs are:  1. The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (Basel Convention); 2. The Rotterdam Convention on the prior informed consent procedure for certain hazardous chemicals and pesticides  in international trade (Rotterdam Convention); 3. The Stockholm Convention on Persistent Organic Pollutants (Stockholm Convention); 4. The Montreal Protocol on Substances that Deplete the Ozone Layer (Montreal Protocol); and 5. Minamata Convention on Mercury (Minamata Convention), which have submitted the information to the Secretariat  of each MEA, as required by each of the agreements.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/12-4-1",
           "status": "complete"
@@ -1423,8 +1423,8 @@
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
-          "description": "Fossil fuels are fuel that use underground resources such as coal, oil, and natural gas. By extension, it also includes all secondary fuels(including electricity and heat) manufactured from a fossil fuels. Fossil fuel subsidies cover both subsidies for consumers and producers. In order to measure fossil fuel subsidies, three sub-indicators are recommended for reporting on this indicator: 1) direct transfer of government funds; 2) induced transfers (price support); and as an optional sub-indicator 3) tax expenditure, other revenue foregone, and underpricing of goods and services.",
+          "title": "Amount of fossil-fuel subsidies (production and consumption) per unit of GDP",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/12-c-1",
           "status": "complete"
@@ -1440,7 +1440,7 @@
         {
           "id": "13-1-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "This indicator measures the number of people who died, went missing or were directly affected  by disasters per 100,000 population.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/13-1-1",
           "status": "complete"
@@ -1448,7 +1448,7 @@
         {
           "id": "13-1-2",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
-          "description": "This indicator measures the number of countries that adopt and implement national disaster risk reduction (DRR)  strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, with multiple dimensions  of the level of implementation.",
+          "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/13-1-2",
           "status": "complete"
@@ -1544,14 +1544,14 @@
         {
           "id": "14-5-1",
           "title": "Coverage of protected areas in relation to marine areas",
-          "description": "This indicator measures the average proportion of each marine Key Biodiversity Area that has been designated  as a protected area.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/14-5-1",
           "status": "complete"
         },
         {
           "id": "14-6-1",
-          "title": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+          "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/14-6-1",
@@ -1568,7 +1568,7 @@
         {
           "id": "14-a-1",
           "title": "Proportion of total research budget allocated to research in the field of marine technology",
-          "description": "Proportion of the annual national research budget allocated by governments in the field of marine technology",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/14-a-1",
           "status": "complete"
@@ -1576,7 +1576,7 @@
         {
           "id": "14-b-1",
           "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
-          "description": "Progress by number of countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/14-b-1",
           "status": "complete"
@@ -1608,7 +1608,7 @@
         {
           "id": "15-1-2",
           "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
-          "description": "Proportion of important sites that are covered by protected areas as defined by the International Union for Conservation of Nature(IUCN)",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-1-2",
           "status": "complete"
@@ -1648,7 +1648,7 @@
         {
           "id": "15-5-1",
           "title": "Red List Index",
-          "description": "The Red List Index is an index that measures changes in aggregate extinction risk across groups of species.  It is based on the number of species in each category of extinction risk on The IUCN Red List of Threatened  Species (IUCN 2015) is expressed as changes in an index ranging from 0 to 1.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/en/15-5-1",
           "status": "complete"
@@ -1656,7 +1656,7 @@
         {
           "id": "15-6-1",
           "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
-          "description": "This indicator is defined as the number of countries that have adopted legislative,  administrative and policy frameworks for the implementation of the Nagoya Protocol  on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising  from their Utilization to the Convention on Biological Diversity (2010).",
+          "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/en/15-6-1",
           "status": "complete"
@@ -1688,7 +1688,7 @@
         {
           "id": "15-a-1",
           "title": "(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
-          "description": "This indicator is defined as gross disbursements of total Official Development Assistance (ODA)  from all donors for biodiversity. This chapter of the e-handbook only covers the ODA part of the indicator.",
+          "description": "",
           "keywords": "ODA",
           "href": "/sdg-site-beta/en/15-a-1",
           "status": "complete"

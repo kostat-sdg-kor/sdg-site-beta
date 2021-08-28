@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,7 +527,7 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_15-5-1'
   data-id="15-5-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Red List Index"
   data-charttitles="null"
   data-measurementunit="Red List Index"
@@ -853,10 +846,10 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Department for Environment, Food & Rural Affairs (Defra)</p>
+    <p>Source: IUCN(International Union for Conservation of Nature), BLI(Bird Life International)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
     <p>Unit of Measurement: Red List Index</p>
@@ -1142,10 +1135,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IUCN(International Union for Conservation of Nature), BLI(Bird Life International)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -1184,10 +1180,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IUCN(International Union for Conservation of Nature), BLI(Bird Life International)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -1319,7 +1318,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>적색목록지수는 분류군별 멸종위험성을 측정하는 지표로서 국제자연보전연맹(IUCN) 적색목록의 각 카테고리별 멸종위기종 수의 변동에 기반하여 산출 변수범위는 1(모든 종들이 ‘최소관심’으로 구분되는 상태)에서 0(모든 종들이 ‘멸종’되었다고 구분되는 상태)사이로, 세계자연보전연맹(IUCN) 적색목록지수가 1인 것은 생물다양성  손실이 멈추었음을 의미</p>
+            <p>The Red List Index is an index that measures changes in aggregate extinction risk across groups of species.  It is based on the number of species in each category of extinction risk on The IUCN Red List of Threatened  Species (IUCN 2015) is expressed as changes in an index ranging from 0 to 1.</p>
 
           
         </td>
@@ -1338,7 +1337,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>세계자연보전연맹(IUCN)의 멸종위기 종 적색목록은 매년 갱신되며 재평가된 모든 종의 적색목록 지수도 대게 함께 발표멸종 위험의 재평가는 세계자연보전연맹(IUCN) 멸종위기종  적색목록에 평가된 종에 대해 10년에 한 번, 이상적으로는 4년에 한 번 실시해야 함</p>
+            <p>The IUCN Red List is updated annually, and the Red list Indices for individual species reassessed are released accordingly. The reassessment of endangered groups included in the IUCN Red List should be conducted at least once every ten years, or ideally every four years</p>
 
           
         </td>
@@ -1365,7 +1364,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Department for Environment, Food &amp; Rural Affairs (Defra)</p>
+            <p>IUCN(International Union for Conservation of Nature), BLI(Bird Life International)</p>
 
           
         </td>
@@ -1381,7 +1380,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Discontinuous</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1512,7 +1511,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>적색목록지수</p>
+            <p>Red List Index</p>
 
           
         </td>
@@ -1528,7 +1527,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>자연 서식지의 황폐화를 감소시키고 생물다양성의 손실을 중단시키기 위해 시급하고 대대적인 조치를 취하고 2020년까지 멸종위기 종을 보호하고 멸종을 예방</p>
+            <p>Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species</p>
 
           
         </td>
@@ -1544,7 +1543,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>International Union for Conservation of Nature (IUCN), BirdLife International (BLI)</p>
+            <p>IUCN(International Union for Conservation of Nature), BLI(Bird Life International)</p>
 
           
         </td>
@@ -1724,12 +1723,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

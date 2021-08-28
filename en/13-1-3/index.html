@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -537,7 +530,7 @@ data-event-label="high"
   data-country="전국"
   data-charttitle="Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
   data-charttitles="null"
-  data-measurementunit="Percentage(%)"
+  data-measurementunit="Percent (%)"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -649,13 +642,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔재난위험경감기구(UNISDR,)</p>
+    <p>Source: UNISDR(United Nations International Strategy for Disaster Reduction)</p>
     
     
     <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Percentage(%)</p>
+    <p>Unit of Measurement: Percent (%)</p>
     
     
   </div>
@@ -938,6 +931,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNISDR(United Nations International Strategy for Disaster Reduction)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -946,7 +942,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage(%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -980,6 +976,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNISDR(United Nations International Strategy for Disaster Reduction)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -988,7 +987,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage(%)</dd>
+        <dd>Percent (%)</dd>
         
 
         
@@ -1080,7 +1079,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1115,7 +1114,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>센다이 재해 위험 감소 프레임워크 2015-2030은 2015년 3월 유엔 회원국들이 세계 재해 위험 감소 정책으로 채택함. 그 중 하나가 “2020년까지 국가 및 지역 재해 위험 감소 전략을 수립한 국가 수를 실질적으로 증가시키자”는 것임. 이에 따라 재해 감소 전략과 정책은 모든 부문, 시간, 목표, 지표, 기간에 대해 재해 위험 감소를 이뤄야 함 회원국들은 국가 전략에 따라 지역 재난위험감축(DRR, Disaster Risk Reduction) 전략을 채택하고 시행하는 지방 정부 수를 세어 전체 지방 정부 수의 백분율로 표현</p>
+            <p>The Sendai Framework for Disaster Risk Reduction 2015-2030 was adopted by UN Member States in March 2015 as a global policy of disaster risk reduction. One of the targets is: “Substantially increase the number of countries with national and local disaster risk reduction strategies by 2020”</p>
 
           
         </td>
@@ -1134,7 +1133,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>개별 국가의 부처, 통계청 및 기타 담당 기관이 유엔재난위험경감기구(UNISDR)에 보고</p>
+            <p>Reported by individual countries’ ministries, statistical services, and other authorities to the UNISDR</p>
 
           
         </td>
@@ -1161,7 +1160,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔재난위험경감기구(UNISDR,)</p>
+            <p>UNISDR(United Nations International Strategy for Disaster Reduction)</p>
 
           
         </td>
@@ -1177,7 +1176,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1308,7 +1307,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>국가의 재난위험감축전략에 따라 지자체 차원에서 전략을 갖추고 있는 비율</p>
+            <p>Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</p>
 
           
         </td>
@@ -1324,7 +1323,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>기후관련 위험요소와 자연재해에 대한 적응역량 및 탄력성 강화</p>
+            <p>Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</p>
 
           
         </td>
@@ -1340,7 +1339,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations International Strategy for Disaster Reduction (UNISDR)</p>
+            <p>UNISDR(United Nations International Strategy for Disaster Reduction)</p>
 
           
         </td>
@@ -1520,12 +1519,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

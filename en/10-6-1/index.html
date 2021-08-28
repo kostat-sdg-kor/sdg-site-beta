@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,7 +527,7 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_10-6-1'
   data-id="10-6-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Proportion of members and voting rights of developing countries in international organizations"
   data-charttitles="null"
   data-measurementunit="Percentage (%)"
@@ -593,10 +586,10 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: United Nations Statistical Division (UNSD)</p>
+    <p>Source: UN-DESA(United Nations-Department of Economic and Social Affairs)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
     <p>Unit of Measurement: Percentage (%)</p>
@@ -882,10 +875,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UN-DESA(United Nations-Department of Economic and Social Affairs)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -924,10 +920,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UN-DESA(United Nations-Department of Economic and Social Affairs)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -1024,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1059,7 +1058,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>국제기구의 회원국 자격을 갖춘 개발도상국의 비율과 투표권을 가진 개발도상국의 비율을 측정함    <br /> 몇몇 국제기구에서는 두 요소가 겹치는 경우가 있음. 본 지표에 해당되는 11개 국제기구는 다음과 같음: The United Nations General Assembly, the United Nations Security Council, the United Nations Economic and Social Council, the International Monetary Fund, the International Bank for Reconstruction and Development, the International Finance Corporation, the African Development Bank, the Asian Development Bank, the Inter-American Development Bank, the World Trade Organisation, and the Financial Stability Board 위 11개 국제기구에서 UN M.49 통계 기준에 의해 ‘개발도상국’으로 분류되는 국가들이 회원권이나 투표권을 가지고 있는지 여부를 확인 가능함</p>
+            <p>The developing country proportion of voting rights and the developing country proportion of membership in international organisations</p>
 
           
         </td>
@@ -1078,7 +1077,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>각 기구에서 개별적으로 개발도상국 회원국의 수를 집계한 후 UN-DESA에 제출</p>
+            <p>International organizations count the number of developing country members and submit the data to UN-DESA</p>
 
           
         </td>
@@ -1105,7 +1104,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Statistical Division (UNSD)</p>
+            <p>UN-DESA(United Nations-Department of Economic and Social Affairs)</p>
 
           
         </td>
@@ -1121,7 +1120,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Discontinuous</p>
+            <p>It is different for each United Nation’s organizations</p>
 
           
         </td>
@@ -1252,7 +1251,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>국제기구에서 개도국의 회원 및 투표권 비율</p>
+            <p>Proportion of members and voting rights of developing countries in international organizations</p>
 
           
         </td>
@@ -1268,7 +1267,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>글로벌 국제경제 및 금융기관의 의사결정과정에서 개도국의 입장이 반영되도록 강화</p>
+            <p>Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</p>
 
           
         </td>
@@ -1284,7 +1283,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations Department of Economic and Social Affairs (DESA) / Financing for Development Office (FFDO)</p>
+            <p>UN-DESA(United Nations-Department of Economic and Social Affairs)</p>
 
           
         </td>
@@ -1464,12 +1463,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

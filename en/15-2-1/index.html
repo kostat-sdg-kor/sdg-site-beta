@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: National data (Type1) This is the national produced statistics in the ROK that best corresponds to the definition of UN SDGs indicators. Download the national metadata file for more information.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_15-2-1'
   data-id="15-2-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Forest area certified under an independently verified certification scheme (thousands of hectares)"
   data-charttitles="null"
-  data-measurementunit="Hectares, Percentage (%), Growth rate (%)"
+  data-measurementunit="Hectares, Percent (%), Tonnes per hectare"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -1165,13 +1158,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Department for Environment, Food & Rural Affairs (Defra)</p>
+    <p>Source: FAO(Food and Agriculture Organization of the United Nations)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
-    <p>Unit of Measurement: Hectares, Percentage (%), Growth rate (%)</p>
+    <p>Unit of Measurement: Hectares, Percent (%), Tonnes per hectare</p>
     
     
   </div>
@@ -1454,15 +1447,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Hectares, Percentage (%), Growth rate (%)</dd>
+        <dd>Hectares, Percent (%), Tonnes per hectare</dd>
         
 
         
@@ -1496,15 +1492,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Hectares, Percentage (%), Growth rate (%)</dd>
+        <dd>Hectares, Percent (%), Tonnes per hectare</dd>
         
 
         
@@ -1596,7 +1595,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1631,7 +1630,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>지속가능한 산림경영(Sustainable Forest Management)은 현재와 미래 세대를 위해 산림의 경제적, 사회적, 환경적 가치를 유지하고 강화하는 것으로, 산림 면적 연간 순 변화율,  산림 내지상부 바이오매스 총량, 보호림 비율, 장기산림경영계획 작성면적 비율, 산림경영인증 면적 등 5개 지표 상황을 점검</p>
+            <p>Sustainable forest management (SFM) aims to maintain and enhance the economic, social and environmental values of all types of forests, for the benefit of present and future generations</p>
 
           
         </td>
@@ -1650,7 +1649,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>식량농업기구(FAO)가 세계산림자원평가(Global Forest Assessment)를 5년 주기로 실시하며 이 과정에서 국가별 컨설팅 실시</p>
+            <p>FAO collects data and provides consultation through the Global Forest Assessment every five years global_indicator_name: Progress towards sustainable forest management</p>
 
           
         </td>
@@ -1677,7 +1676,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Department for Environment, Food &amp; Rural Affairs (Defra)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -1693,7 +1692,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Every 5 years, Annually</p>
 
           
         </td>
@@ -1840,7 +1839,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지 모든 형태의 산림에 대한 지속가능한 관리를 촉진시키고, 산림벌채를 중단하고, 황폐화된 산림을 복원하고 전 세계적으로 조림과 재식림을 대폭 확대</p>
+            <p>By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally</p>
 
           
         </td>
@@ -1856,7 +1855,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Food and Agriculture Organization (FAO)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -2036,12 +2035,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

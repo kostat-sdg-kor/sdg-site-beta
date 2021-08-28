@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -649,7 +642,7 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 유엔재난위험경감기구(UNISDR)</p>
+    <p>Source: UNISDR(United Nations International Strategy for Disaster Reduction)</p>
     
     
     <p>Geographical Area: 전국</p>
@@ -938,6 +931,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>UNISDR(United Nations International Strategy for Disaster Reduction)</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -979,6 +975,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Source:</dt>
+        <dd>UNISDR(United Nations International Strategy for Disaster Reduction)</dd>
         
 
         
@@ -1080,7 +1079,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1115,7 +1114,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>센다이 프레임워크 지침을 이행하고 있는 국가의 수 센다이 프레임워크란, 효고행동계획(HFA) 이후의 재난관리 전략계획으로 재난관리에 있어서 사후적 복구에서 사전적 예방을 강조하여 재해에 의한  사망과 피해를 줄이기 위한 재난위험 경감 지침임</p>
+            <p>The scores of countries that implement the Sendai Framework for Disaster Risk Reduction</p>
 
           
         </td>
@@ -1134,7 +1133,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>2020년까지 모든 회원국이 개방형작업반그룹(OEIWG)의 권고와 지침에 따라 재난위험감축(DRR, Disaster Risk Reduction) 전략을 보고</p>
+            <p>All members report their disaster risk reduction (DRR) strategies in accordance with the recommendations and instructions of the Open-ended Intergovernmental Expert Working Group (OEIWG) by 2020</p>
 
           
         </td>
@@ -1161,7 +1160,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>유엔재난위험경감기구(UNISDR)</p>
+            <p>UNISDR(United Nations International Strategy for Disaster Reduction)</p>
 
           
         </td>
@@ -1177,7 +1176,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1308,7 +1307,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수</p>
+            <p>Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030</p>
 
           
         </td>
@@ -1324,7 +1323,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>기후관련 위험요소와 자연재해에 대한 적응역량 및 탄력성 강화</p>
+            <p>Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</p>
 
           
         </td>
@@ -1340,7 +1339,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>United Nations International Strategy for Disaster Reduction (UNISDR)</p>
+            <p>UNISDR(United Nations International Strategy for Disaster Reduction)</p>
 
           
         </td>
@@ -1520,12 +1519,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

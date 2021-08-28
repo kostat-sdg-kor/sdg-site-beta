@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828010920">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210828024131">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,7 +527,7 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_10-5-1'
   data-id="10-5-1"
-  data-country="Republic of Korea"
+  data-country="전국"
   data-charttitle="Liquid assets to short term liabilities, Net open position in foreign exchange to capital, Non-performing loans net of provisions to capital, Non-performing loans to total gross loans, Regulatory capital to assets , Regulatory Tier 1 capital to risk-weighted assets and Return on assets"
   data-charttitles="null"
   data-measurementunit="Percentage (%)"
@@ -593,10 +586,10 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: 국제통화기금(IMF)</p>
+    <p>Source: IMF(International Monetary Fund) </p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: 전국</p>
     
     
     <p>Unit of Measurement: Percentage (%)</p>
@@ -882,10 +875,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IMF(International Monetary Fund) </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -924,10 +920,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>IMF(International Monetary Fund) </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>전국</dd>
         
 
         
@@ -1024,7 +1023,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1059,7 +1058,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>총자산 대비 기본자본(Tier 1) 비율, 위험가중자산 대비 기본자본(Tier 1) 비율, 총자본 대비 부실채권충당금 비율, 총채권 대비 부실채권 비율, 총자산순이익률, 단기부채 대비 유동자산 비율, 총자본 대비 외환종합포지션 비율 등을 포함하는 7개 금융건전성 지표</p>
+            <p>Seven financial soundness indicators (FSIs): Regulatory Tier 1 capital to assets; Regulatory Tier 1 capital to risk-weighted assets; Nonperforming loans net of provisions to capital; Nonperforming loans to total gross loans; Return on assets; Liquid assets to short-term liabilities; and Net open position in foreign exchange to capital</p>
 
           
         </td>
@@ -1078,7 +1077,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>각국 중앙은행이나 금융감독기관이 금융감독 목적으로 시중은행으로부터 대차대조표, 손익계산서, 기본자본(Tier 1), 보완자본(Tier 2), 위험가중자산 등의 자료를 수집</p>
+            <p>The common source data are data reported by banks for supervisory purposes. They include balance sheet, income statement, and supervisory series (such as Tier 1 capital, Type 2 capital, risk-weighted assets)</p>
 
           
         </td>
@@ -1105,7 +1104,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>국제통화기금(IMF)</p>
+            <p>IMF(International Monetary Fund)</p>
 
           
         </td>
@@ -1121,7 +1120,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>1년</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1252,7 +1251,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>금융건전성지표</p>
+            <p>Financial Soundness Indicators</p>
 
           
         </td>
@@ -1268,7 +1267,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>글로벌 금융시장 및 기관의 규제 및 모니터링 개선 및 이행조치 강화</p>
+            <p>Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</p>
 
           
         </td>
@@ -1464,12 +1463,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828010920'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210828024131'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828010920"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210828024131"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
