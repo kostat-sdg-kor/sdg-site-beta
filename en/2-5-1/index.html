@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210829011726">
+        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210830003526">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -459,7 +459,7 @@ data-event-label="high"
 
 <script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":null,"next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
-<script>translations['data'] = {"category":"Category","dead_or_missing":"Dead or Missing Person","directly_affected":"Directly affected Person"};</script>
+<script>translations['data'] = {"BLSP(Basic_Livelihood_Security_Program)_take-up_rate":"BLSP(Basic Livelihood Security Program) take-up rate","Old-age_pension_take-up_rate":"Old-age pension take-up rate","category":"Category","dead_or_missing":"Dead or Missing Person","directly_affected":"Directly affected Person"};</script>
 
 
 <div class="container">
@@ -518,13 +518,6 @@ data-event-label="high"
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>▶ Data type: Estimated data by international organizations (Type2) This is Korean data prepared by international organizations through estimation and modeling. If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
-
-  </div>
-</div>
-
 
   
 
@@ -534,10 +527,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-5-1'
   data-id="2-5-1"
-  data-country="Republic of Korea"
-  data-charttitle="Proportion of local breeds for which sufficient genetic resources are stored for reconstitution"
+  data-country="Total"
+  data-charttitle="Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities"
   data-charttitles="null"
-  data-measurementunit="Number"
+  data-measurementunit="Number of cases"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -581,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of local breeds for which sufficient genetic resources are stored for reconstitution</caption>
+      <caption>Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities</caption>
       <thead>
         
         
@@ -697,13 +690,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: Joint Nature Conservation Committee (JNCC)/Department for Environment, Food & Rural Affairs (Defra)</p>
+    <p>Source: FAO(Food and Agriculture Organization of the United Nations)</p>
     
     
-    <p>Geographical Area: Republic of Korea</p>
+    <p>Geographical Area: Total</p>
     
     
-    <p>Unit of Measurement: Number</p>
+    <p>Unit of Measurement: Number of cases</p>
     
     
   </div>
@@ -750,7 +743,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of local breeds for which sufficient genetic resources are stored for reconstitution</h4>
+          <h4 id="chart-heading" class="chart-title">Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -986,15 +979,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>Number of cases</dd>
         
 
         
@@ -1028,15 +1024,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>FAO(Food and Agriculture Organization of the United Nations), </dd>
+        
 
         
         <dt>Geographical Area:</dt>
-        <dd>Republic of Korea</dd>
+        <dd>Total</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>Number of cases</dd>
         
 
         
@@ -1128,7 +1127,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1163,7 +1162,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Definition </th>
         <td>
           
-            <p>중장기 보존시설을 이용하여 ‘식량·농업 유전자원(GRFA)’을 보존하는 것은 가장 신뢰할 수 있는 유전자원 보존 방법으로 식량·농업 유전자원(GRFA)’은 식물유전자원과  동물유전자원으로 구성됨</p>
+            <p>The conservation of plant and animal genetic resources for food and argiculture(GRFA) in medium or long term conservation facilities (ex situ, in genebanks) represents the most trusted means of conserving genetic resources worldwide.</p>
 
           
         </td>
@@ -1182,7 +1181,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>각국 정부의 동물유전자원관리국 코디네이터가 FAO DAD-IS에 자료를 제출하며, FAO가 각국의 DAD-IS 보고 자료로 지표를 작성함</p>
+            <p>National Coordinators for Management of Animal Genetic Resources, nominated by their respective government, provide data to the Domestic Animal Diversity Information System (DAD-IS), and the FAO calculates the indicator based on the data received by the DAD-IS.</p>
 
           
         </td>
@@ -1209,7 +1208,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Joint Nature Conservation Committee (JNCC)/Department for Environment, Food &amp; Rural Affairs (Defra)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -1225,7 +1224,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Calendar </th>
         <td>
           
-            <p>Annual</p>
+            <p>Annually</p>
 
           
         </td>
@@ -1247,8 +1246,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-05-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-05-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-05-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-02-05-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1356,7 +1355,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>식량 및 농업을 위해 중장기 보존시설에 확보되어 있는 식물과 동물 유전자원 수</p>
+            <p>Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities</p>
 
           
         </td>
@@ -1372,7 +1371,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>2020년까지 국가적, 지역적, 국제적 차원에서 건전하게 관리되고 다변화된 종자 및 식물은행 등을 통해 종자, 재배식물, 가축과 사육동물 및 관련 야생종의 유전적 다양성을 유지하고,  국제적으로 합의된 바와 같이 유전자원과 관련 전통지식의 이용으로부터 발생하는 이익의 공정하고 공평한 분배에 대한 접근을 개선</p>
+            <p>By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed</p>
 
           
         </td>
@@ -1388,7 +1387,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row">Organizations </th>
         <td>
           
-            <p>Food and Agriculture Organization (FAO)</p>
+            <p>FAO(Food and Agriculture Organization of the United Nations)</p>
 
           
         </td>
@@ -1568,12 +1567,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210829011726'></script>
+<script src='/sdg-site-beta/assets/js/sdg.js?v=20210830003526'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210829011726"></script><script>
+    <script src="/sdg-site-beta/assets/js/custom.js?v=20210830003526"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
