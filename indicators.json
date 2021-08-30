@@ -287,7 +287,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "인구 1천 명당 말라리아 발생건수",
+          "title": "인구 1,000명당 말라리아 발생건수",
           "description": "",
           "keywords": "질병, 말라리아, Population",
           "href": "/sdg-site-beta/3-3-3",
@@ -919,7 +919,7 @@
         },
         {
           "id": "8-8-1",
-          "title": "근로자 1십만 명당 치명적 및 비치명적 산업 재해 건수(성 및 이주 상태별)",
+          "title": "근로자 10만 명당 치명적 및 비치명적 산업 재해 건수(성 및 이주 상태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/8-8-1",
@@ -943,7 +943,7 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) 성인 십만 명당 상업은행 지점들과 (b) 성인 십만 명당 ATM의 개수",
+          "title": "(a) 성인 10만 명당 상업은행 지점들과 (b) 성인 10만 명당 ATM의 개수",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/8-10-1",
@@ -1047,7 +1047,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "인구 1백만 명당 (상근상당) 연구원 수",
+          "title": "인구 100만 명당 (상근상당) 연구원 수",
           "description": "",
           "keywords": "Labour Force, Population",
           "href": "/sdg-site-beta/9-5-2",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "13-a-1",
-          "title": "2025년까지 1천억 달러 재원 조성을 위해 매년 제공 혹은 모금되는 금액",
+          "title": "2025년까지 1,000억 달러 재원 조성을 위해 매년 제공 혹은 모금되는 금액",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-site-beta/13-a-1",
@@ -1727,7 +1727,7 @@
         },
         {
           "id": "16-1-2",
-          "title": "",
+          "title": "인구 10만 명당 분쟁관련 사망자수(성, 연령 및 사유별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-beta/16-1-2",
