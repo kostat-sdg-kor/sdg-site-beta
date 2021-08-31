@@ -817,8 +817,6 @@ permalink: /en/publications/
 
 －**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)**
 
-－**[K-indicator](http://www.index.go.kr/unify/main.do?clasCd=10&web=)**
-
 <br><br>
 
 －**[Germany](http://sdg-indikatoren.de/)** : http://sdg-indikatoren.de/
