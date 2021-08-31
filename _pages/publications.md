@@ -300,33 +300,33 @@ permalink: /publications/
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/> 
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="2"/> 
           </a>
       </div>
       <div>
-         <p>SDGs in the ROK Progress Report 2021<br></p>
+         <p>한국의 SDGs 데이터와 이행현황 2019<br></p>
       </div>
    </div>
    
    <div class="item">
       <div>
-         <a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="3"/>    
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>    
           </a>
       </div>
       <div>
-         <p>The SDGs report 2020<br></p>
+         <p>SDGs 지표 톺아보기<br></p>
       </div>
    </div>
    <div class="item">
       <div>
-         <a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="4"/>
          </a>
       </div>
       <div>
-         <p>Asia and pacific SDG progress report<br></p>
+         <p>National Voluntary Review Report 2016<br></p>
       </div>
    </div>
 </div>
@@ -826,7 +826,8 @@ permalink: /publications/
 
 ### 주요 국내 웹사이트
 
-－**[통계청 국가지표체계(K-indicator)](http://www.index.go.kr/unify/main.do?clasCd=10&web=)** : 국가발전과 국민의 웰빙을 한눈에 파악할 수 있도록 다양한 지표를 한 곳에서 제공－**[환경부 지속가능발전포털](http://ncsd.go.kr/)** : 국가 지속가능발전목표(K-SDG)를 포함한 지속가능발전 관련 정보를 총망라한 서비스
+－**[통계청 국가지표체계(K-indicator)](http://www.index.go.kr/unify/main.do?clasCd=10&web=)** : 국가발전과 국민의 웰빙을 한눈에 파악할 수 있도록 다양한 지표를 한 곳에서 제공
+－**[환경부 지속가능발전포털](http://ncsd.go.kr/)** : 국가 지속가능발전목표(K-SDG)를 포함한 지속가능발전 관련 정보를 총망라한 서비스
 
 <br><br>
 
