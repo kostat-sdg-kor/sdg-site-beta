@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data-beta/ko',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data/ko',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -113,13 +113,13 @@ var translations = {
         <link rel="canonical" href="/">
 
         <!--[if IE 9]>
-        <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
+        <script src="/sdg-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-beta/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-beta/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210831043424">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210831045633">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -165,8 +165,8 @@ layout-goal-by-target
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-site-beta/" id="home">
-    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-indicators/" id="home">
+    <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
@@ -206,7 +206,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
       <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/en/12/">
+            <a href="/sdg-indicators/en/12/">
               English
             </a>
           </li></ul>
@@ -223,15 +223,15 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-beta/goals">목표</a>
+    <a href="/sdg-indicators/goals">목표</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/reporting-status">데이터 제공현황</a>
+    <a href="/sdg-indicators/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/data-standard">데이터 선정기준</a>
+    <a href="/sdg-indicators/data-standard">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/about">SDGs 소개</a>
+    <a href="/sdg-indicators/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/publications">정보자료실</a>
+    <a href="/sdg-indicators/publications">정보자료실</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -246,7 +246,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
       <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/en/12/">
+            <a href="/sdg-indicators/en/12/">
               English
             </a>
           </li></ul>
@@ -294,7 +294,7 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/search/">
+  <form action="/sdg-indicators/search/">
     <label class="sr-only" for="indicator_search-mobile">검색</label>
     <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
     --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -304,7 +304,7 @@ data-event-label="high"
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/search/">
+  <form action="/sdg-indicators/search/">
     <label class="sr-only" for="indicator_search">검색</label>
     <input type="text" name="q" id="indicator_search" title="검색" /><!--
     --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -312,15 +312,15 @@ data-event-label="high"
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-site-beta/goals">목표</a>
+    <a href="/sdg-indicators/goals">목표</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/reporting-status">데이터 제공현황</a>
+    <a href="/sdg-indicators/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/data-standard">데이터 선정기준</a>
+    <a href="/sdg-indicators/data-standard">데이터 선정기준</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/about">SDGs 소개</a>
+    <a href="/sdg-indicators/about">SDGs 소개</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/publications">정보자료실</a>
+    <a href="/sdg-indicators/publications">정보자료실</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -335,7 +335,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
       <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/en/12/">
+            <a href="/sdg-indicators/en/12/">
               English
             </a>
           </li></ul>
@@ -389,8 +389,8 @@ data-event-label="high"
 <div class="container">
 	<!--  <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/">Home</a></li>
-  <li><a href="/sdg-site-beta/goals">목표</a></li>
+  <li><a href="/sdg-indicators/">Home</a></li>
+  <li><a href="/sdg-indicators/goals">목표</a></li>
   
   
 </ol>
@@ -402,7 +402,7 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals/ko/12.png" alt="지속가능한 소비와 생산 - 목표 12" id="goal-12" class="goal-icon-image goal-icon-image-" />
+        <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/ko/12.png" alt="지속가능한 소비와 생산 - 목표 12" id="goal-12" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -418,10 +418,10 @@ data-event-label="high"
 	
 <ol class="breadcrumb">
   
-  <li><a href="/sdg-site-beta/">Home</a></li>
-  <li><a href="/sdg-site-beta/goals">목표</a></li>
+  <li><a href="/sdg-indicators/">Home</a></li>
+  <li><a href="/sdg-indicators/goals">목표</a></li>
   
-  <li><a href="/sdg-site-beta/12" title="지속가능한 소비와 생산 양식 보장">목표 12</a></li>
+  <li><a href="/sdg-indicators/12" title="지속가능한 소비와 생산 양식 보장">목표 12</a></li>
   
 </ol>
 
@@ -467,7 +467,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-1-1">
+        <a href="/sdg-indicators/12-1-1">
           지속가능한 소비 및 생산을 지원하는 정책수단을 개발, 채택, 이행하고 있는 국가 수
         </a>
         
@@ -502,7 +502,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-2-1">
+        <a href="/sdg-indicators/12-2-1">
           물질발자국, 1인당 물질발자국, GDP당 물질발자국
         </a>
         
@@ -525,7 +525,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-2-2">
+        <a href="/sdg-indicators/12-2-2">
           국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량
         </a>
         
@@ -560,7 +560,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-3-1">
+        <a href="/sdg-indicators/12-3-1">
           (a) 식량손실지수 및 (b) 식량폐기지수
         </a>
         
@@ -595,7 +595,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-4-1">
+        <a href="/sdg-indicators/12-4-1">
           유해 폐기물과 기타 화학물질에 대한 국제 다자간 환경협약이 요구하는 정보제공에 관한 약속과 의무를 이행하는 당사국 수
         </a>
         
@@ -618,7 +618,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-4-2">
+        <a href="/sdg-indicators/12-4-2">
           (a) 1인당 발생시키는 유해폐기물과 (b) 유해폐기물 처리 비율(처리유형별)
         </a>
         
@@ -653,7 +653,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-5-1">
+        <a href="/sdg-indicators/12-5-1">
           국가 재활용 비율, 물질재활용 톤
         </a>
         
@@ -688,7 +688,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-6-1">
+        <a href="/sdg-indicators/12-6-1">
           지속가능성 보고서 발간 기업 수
         </a>
         
@@ -723,7 +723,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-7-1">
+        <a href="/sdg-indicators/12-7-1">
           지속 가능한 공공 조달 정책과 실행 계획 이행 정도
         </a>
         
@@ -758,7 +758,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-8-1">
+        <a href="/sdg-indicators/12-8-1">
           (i)세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b)교육과정 (c)교사교육 (d)학생평가 영역에서 주류화 된 정도
         </a>
         
@@ -793,7 +793,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-a-1">
+        <a href="/sdg-indicators/12-a-1">
           개도국의 재생에너지 설비 용량
         </a>
         
@@ -828,7 +828,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-b-1">
+        <a href="/sdg-indicators/12-b-1">
           경제환경 측면에서 지속가능관광 모니터링을 위한 표준 회계 툴 이행
         </a>
         
@@ -863,7 +863,7 @@ data-event-label="high"
 </span>
 
         </span>
-        <a href="/sdg-site-beta/12-c-1">
+        <a href="/sdg-indicators/12-c-1">
           GDP 단위(생산과 소비)당 화석연료보조금액
         </a>
         
@@ -888,7 +888,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/sdg-site-beta/guidance">매뉴얼</a>
+                <a href="/sdg-indicators/guidance">매뉴얼</a>
                 
                 </li>
               
@@ -919,12 +919,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210831043424'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210831045633'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210831043424"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210831045633"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

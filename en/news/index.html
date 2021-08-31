@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data-beta/en',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -113,13 +113,13 @@ var translations = {
         <link rel="canonical" href="/">
 
         <!--[if IE 9]>
-        <script src="/sdg-site-beta/assets/js/lib/classList.js"></script>
+        <script src="/sdg-indicators/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-beta/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-beta/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-beta/assets/css/style.css?v=20210831043424">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210831045633">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -165,8 +165,8 @@ layout-news
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-site-beta/en/" id="home">
-    <img src="/sdg-site-beta/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/sdg-indicators/en/" id="home">
+    <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
@@ -206,7 +206,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/news/">
+            <a href="/sdg-indicators/news/">
               한국어
             </a>
           </li></ul>
@@ -223,15 +223,15 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">Goals</a>
+    <a href="/sdg-indicators/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
+    <a href="/sdg-indicators/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">Data Selection</a>
+    <a href="/sdg-indicators/en/data-standard">Data Selection</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">About</a>
+    <a href="/sdg-indicators/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">Publications</a>
+    <a href="/sdg-indicators/en/publications">Publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -246,7 +246,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/news/">
+            <a href="/sdg-indicators/news/">
               한국어
             </a>
           </li></ul>
@@ -294,7 +294,7 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-beta/en/search/">
+  <form action="/sdg-indicators/en/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -304,7 +304,7 @@ data-event-label="high"
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/sdg-site-beta/en/search/">
+  <form action="/sdg-indicators/en/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -312,15 +312,15 @@ data-event-label="high"
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-site-beta/en/goals">Goals</a>
+    <a href="/sdg-indicators/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/reporting-status">Reporting Status</a>
+    <a href="/sdg-indicators/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/data-standard">Data Selection</a>
+    <a href="/sdg-indicators/en/data-standard">Data Selection</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/about">About</a>
+    <a href="/sdg-indicators/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/sdg-site-beta/en/publications">Publications</a>
+    <a href="/sdg-indicators/en/publications">Publications</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -335,7 +335,7 @@ data-event-label="high"
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-beta/news/">
+            <a href="/sdg-indicators/news/">
               한국어
             </a>
           </li></ul>
@@ -399,7 +399,7 @@ data-event-label="high"
       
         <article class="post-listing">
     <h2 class="post-title">
-        <a href="/sdg-site-beta/en/test-post-1/">Test Post 1</a>
+        <a href="/sdg-indicators/en/test-post-1/">Test Post 1</a>
     </h2>
     <div class="post-excerpt">
         <p>Maecenas vulputate eget magna nec vestibulum. Cras tincidunt, purus vel egestas dapibus, ex tellus gravida lectus, condimentum placerat orci arcu aliquet sem. Nulla commodo sodales arcu. Vestibulum maximus lacinia volutpat. Nulla eu ipsum erat. Nam eu augue sapien. Integer odio ante, elementum ac mauris eget, luctus sodales ipsum.</p>
@@ -414,7 +414,7 @@ data-event-label="high"
         <li>
             
                 
-                <a href="/sdg-site-beta/en/categories/#International" title="View all posts in the International category">
+                <a href="/sdg-indicators/en/categories/#International" title="View all posts in the International category">
             
             International
             
@@ -429,7 +429,7 @@ data-event-label="high"
       
         <article class="post-listing">
     <h2 class="post-title">
-        <a href="/sdg-site-beta/test-post-1/">Test Post 1</a>
+        <a href="/sdg-indicators/test-post-1/">Test Post 1</a>
     </h2>
     <div class="post-excerpt">
         <p>Maecenas vulputate eget magna nec vestibulum. Cras tincidunt, purus vel egestas dapibus, ex tellus gravida lectus, condimentum placerat orci arcu aliquet sem. Nulla commodo sodales arcu. Vestibulum maximus lacinia volutpat. Nulla eu ipsum erat. Nam eu augue sapien. Integer odio ante, elementum ac mauris eget, luctus sodales ipsum.</p>
@@ -444,7 +444,7 @@ data-event-label="high"
         <li>
             
                 
-                <a href="/sdg-site-beta/en/categories/#International" title="View all posts in the International category">
+                <a href="/sdg-indicators/en/categories/#International" title="View all posts in the International category">
             
             International
             
@@ -466,7 +466,7 @@ data-event-label="high"
     
       
       <li>
-        <a href="/sdg-site-beta/en/categories/#International" title="View all posts in the International category">International</a>
+        <a href="/sdg-indicators/en/categories/#International" title="View all posts in the International category">International</a>
       </li>
     
   </ul>
@@ -491,7 +491,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/sdg-site-beta/en/guidance">FAQ</a>
+                <a href="/sdg-indicators/en/guidance">FAQ</a>
                 
                 </li>
               
@@ -522,12 +522,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-beta/assets/js/sdg.js?v=20210831043424'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210831045633'></script>
 
 
     
     
-    <script src="/sdg-site-beta/assets/js/custom.js?v=20210831043424"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210831045633"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
