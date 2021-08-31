@@ -830,13 +830,6 @@ permalink: /publications/
 
 <br><br>
 
-### 주요 국내 웹사이트
-
-－**[통계청 국가지표체계(K-indicator)](http://www.index.go.kr/unify/main.do?clasCd=10&web=)** : 국가발전과 국민의 웰빙을 한눈에 파악할 수 있도록 다양한 지표를 한 곳에서 제공
-－**[환경부 지속가능발전포털](http://ncsd.go.kr/)** : 국가 지속가능발전목표(K-SDG)를 포함한 지속가능발전 관련 정보를 총망라한 서비스
-
-<br><br>
-
 ### 해외 플랫폼
 
 －**[독일](http://sdg-indikatoren.de/)** : http://sdg-indikatoren.de/
