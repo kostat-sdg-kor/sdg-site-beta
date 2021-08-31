@@ -2796,3 +2796,8 @@ body.contrast-high .breadcrumb {
   color: white; }
 .goal-banner .goal-icon a:focus {
   outline: 6px #ffdd00 solid !important; }
+
+#main-content #selectionChartFooter {
+  font-size: 14px;
+  line-height: 1.2;
+  padding-left: 20px; }
