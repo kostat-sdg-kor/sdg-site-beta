@@ -5,17 +5,17 @@
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
 # baseurl: "/my-site-repository"
-baseurl: "/sdg-site-beta"
+baseurl: "/sdg-indicators"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
-remote_data_prefix: "https://kostat-sdg-kor.github.io/sdg-data-beta"
+remote_data_prefix: "https://kostat-sdg-kor.github.io/sdg-data"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data-beta/edit/develop/data/indicator_[id].csv
+data_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data-beta/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#kostat-sdg-kor/sdg-data/edit/develop/meta/[id].md
 #
 # The list of languages that are translated. The first one is the default.
 languages:
@@ -144,7 +144,7 @@ non_global_metadata: indicator.national_metadata
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://kostat-sdg-kor.github.io/sdg-translations-beta/assets/img/goals
+goal_image_base: https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals
 
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
