@@ -791,7 +791,7 @@ permalink: /en/publications/
       <tr class="content"><!-- 74 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">National Voluntary Review Report 2016</a></td>
          <td class="report2">The Government of the Republic of Korea</td>
-         <td>2014</td>
+         <td>2016</td>
       </tr>
       
    </table>
