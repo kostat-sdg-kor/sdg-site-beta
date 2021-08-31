@@ -289,8 +289,8 @@ permalink: /en/publications/
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/16.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/16.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="1"/>
          </a>
       </div>
       <div>
@@ -300,8 +300,8 @@ permalink: /en/publications/
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/17.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/17.png" alt="2"/> 
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/> 
           </a>
       </div>
       <div>
@@ -312,7 +312,7 @@ permalink: /en/publications/
    <div class="item">
       <div>
          <a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/3_2020.PNG" alt="3"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="3"/>    
           </a>
       </div>
       <div>
@@ -322,7 +322,7 @@ permalink: /en/publications/
    <div class="item">
       <div>
          <a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/4.png" alt="4"/>
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>
          </a>
       </div>
       <div>
@@ -354,25 +354,25 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 1 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/17.pdf">SDGs in the ROK Progress Report 2021</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">SDGs in the ROK Progress Report 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 3 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/15.pdf">SDGs 지표 톺아보기</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs 지표 톺아보기</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2020</td>
       </tr>
       
       <tr class="content"><!-- 4 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/5_2020.pdf">세분화된 데이터 생산을 위한 다양한 접근법 탐색-장애,도시,교통 부문</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">세분화된 데이터 생산을 위한 다양한 접근법 탐색-장애,도시,교통 부문</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2020</td>
       </tr>
@@ -389,19 +389,19 @@ permalink: /en/publications/
       </tr>      
       
       <tr class="content"><!-- 7 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 8 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/2.pdf">SDGs in the ROK Progress Report 2019</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">SDGs in the ROK Progress Report 2019</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 9 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
          <td class="report2">환경부 지속가능발전위원회</td>
          <td>2019</td>
       </tr>
@@ -425,7 +425,7 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 13 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/49.pdf">글로벌 여성의제 국내이행 점검</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/49.pdf">글로벌 여성의제 국내이행 점검</a></td>
          <td class="report2">한국여성정책연구원</td>
          <td>2019</td>
       </tr>
@@ -450,13 +450,13 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 17 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/KOICA_73.pdf">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_73.pdf">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 18 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/82.pdf">국제협력 비전, 전략, 추진체계 : 국제개발협력을 중심으로</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/82.pdf">국제협력 비전, 전략, 추진체계 : 국제개발협력을 중심으로</a></td>
          <td class="report2">경제인문사회연구회</td>
          <td>2019</td>
       </tr>    
@@ -480,7 +480,7 @@ permalink: /en/publications/
       </tr>
 
        <tr class="content"><!-- 22 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/RR2019-20.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발 협력 연구(III): 고등교육 실천 전략 (2019)</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/RR2019-20.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발 협력 연구(III): 고등교육 실천 전략 (2019)</a></td>
          <td class="report2">한국교육개발원</td>
          <td>2019</td>
       </tr>
@@ -492,7 +492,7 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 24 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/14.pdf">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/14.pdf">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</a></td>
          <td class="report2">한국대외경제정책연구원</td>
          <td>2018</td>
       </tr>
@@ -516,7 +516,7 @@ permalink: /en/publications/
       </tr>
             
       <tr class="content"><!-- 28 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/37.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/37.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
          <td class="report2">한국교육개발원</td>
          <td>2018</td>
       </tr>
@@ -542,7 +542,7 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 32 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/50.pdf">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/50.pdf">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</a></td>
          <td class="report2">한국여성정책연구원</td>
          <td>2018</td>
       </tr>
@@ -579,7 +579,7 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 38 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/KOICA_74.pdf">SDG16달성을 위한 KOICA 이행방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_74.pdf">SDG16달성을 위한 KOICA 이행방안</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
          <td>2018</td>
       </tr>
@@ -591,13 +591,13 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 40 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
          <td class="report2">대외경제정책연구원</td>
          <td>2018</td>
       </tr>
            
       <tr class="content"><!-- 41 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/81.pdf">SDGs 도입 이후 개도국 협력전략과 대응과제 : 무역과 기후변화의 정책일관성을 중심으로</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/81.pdf">SDGs 도입 이후 개도국 협력전략과 대응과제 : 무역과 기후변화의 정책일관성을 중심으로</a></td>
          <td class="report2">대외경제정책연구원</td>
          <td>2018</td>
       </tr>     
@@ -609,7 +609,7 @@ permalink: /en/publications/
       </tr> 
 
       <tr class="content"><!-- 43 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/12.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/12.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
          <td>2017</td>
       </tr>
@@ -621,13 +621,13 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 45 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/39.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
          <td class="report2">한국교육개발원</td>
          <td>2017</td>
       </tr>
 
       <tr class="content"><!-- 46 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
          <td class="report2">한국수자원공사</td>
          <td>2017</td>
       </tr>
@@ -646,26 +646,26 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 49 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/83.pdf">SDGs 재난지표 측정 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/83.pdf">SDGs 재난지표 측정 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>     
 
 
       <tr class="content"><!-- 50 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/84.pdf">SDGs 통계 거버넌스 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/84.pdf">SDGs 통계 거버넌스 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
 
       <tr class="content"><!-- 51 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/87.pdf">통계청 주요 지표체계 간 조정 및 서비스 방안 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/87.pdf">통계청 주요 지표체계 간 조정 및 서비스 방안 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
 
       <tr class="content"><!-- 52 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/88.pdf">한국의 주요 지표체계 비교 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/88.pdf">한국의 주요 지표체계 비교 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
@@ -702,19 +702,19 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 58 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/26.pdf">UN SDGs 보건·복지분야 지표 관리체계 구축방안 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">UN SDGs 보건·복지분야 지표 관리체계 구축방안 연구</a></td>
          <td class="report2">보건복지부</td>
          <td>2016</td>
       </tr>
 
       <tr class="content"><!-- 59 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/RR2016-25.pdf">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/RR2016-25.pdf">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</a></td>
          <td class="report2">한국교육개발원</td>
          <td>2016</td>
       </tr>
    
       <tr class="content"><!-- 60  -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/45.pdf">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/45.pdf">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
          <td class="report2">정보통신정책연구원</td>
          <td>2016</td>
       </tr>
@@ -739,13 +739,13 @@ permalink: /en/publications/
       </tr>
       
       <tr class="content"><!-- 64 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/BB2016-784.pdf">SDGs 달성을 위한 중소기업 ODA 정책의 심층 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-784.pdf">SDGs 달성을 위한 중소기업 ODA 정책의 심층 연구</a></td>
          <td class="report2">산업연구원(KIET)</td>
          <td>2016</td>
       </tr>     
 
       <tr class="content"><!-- 65 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/85.pdf">지속가능발전목표(SDGs) 데이터 세분화와 항목 표준화 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/85.pdf">지속가능발전목표(SDGs) 데이터 세분화와 항목 표준화 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2016</td>
       </tr>
@@ -757,13 +757,13 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 67 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/openData_SDG.pdf">오픈데이터와 지속가능개발목표(SDG)</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">오픈데이터와 지속가능개발목표(SDG)</a></td>
          <td class="report2">정보통신정책연구원</td>
          <td>2015</td>
       </tr>
 
       <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/openData_SDG.pdf">지속가능개발목표(SDGs) 수립현황과 대응방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">지속가능개발목표(SDGs) 수립현황과 대응방안</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
          <td>2015</td>
       </tr>
@@ -782,13 +782,13 @@ permalink: /en/publications/
       </tr>
 
       <tr class="content"><!-- 71 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/86.pdf">2030 지속가능발전의제에 대한 국가통계 대응방안 수립</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/86.pdf">2030 지속가능발전의제에 대한 국가통계 대응방안 수립</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2015</td>
       </tr>
 
       <tr class="content"><!-- 72 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-site-beta/public/report/22.pdf">지속가능발전목표(SDGs) 세부대응전략 수립 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/22.pdf">지속가능발전목표(SDGs) 세부대응전략 수립 연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
          <td>2014</td>
       </tr>

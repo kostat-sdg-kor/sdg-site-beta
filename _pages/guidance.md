@@ -27,31 +27,31 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
   <tr>
   <td align="center">
   <a href="https://sustainabledevelopment-uk.github.io">
-  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;" src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/uk.png" alt="UK"/>
+  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png" alt="UK"/>
   </a>
  </td>
 
   <td align="center">
   <a href="https://sdg.data.gov">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/america.png" alt="AMERICA"/>
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png" alt="AMERICA"/>
     </a>
   </td>
   
   <td align="center">
   <a href="https://sustainabledevelopment-germany.github.io">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/germany.png" alt="GERMANY"/>
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png" alt="GERMANY"/>
     </a>
   </td>
 
   <td align="center">
   <a href="https://sdg.gov.pl/">  
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/pol.png" alt="POL"/>
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png" alt="POL"/>
     </a>
   </td>
 
   <td align="center">
   <a href="https://irelandsdg.geohive.ie/">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-site-beta/public/Ireland.png" alt="IRE"/>
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png" alt="IRE"/>
     </a>
   </td>
 
