@@ -1,5 +1,5 @@
 ---
-title: <!-- 플랫폼 개발 매뉴얼-->
+title: <!-- 플랫폼 개발 매뉴얼
 permalink: /guidance/
 layout: page
 language: ko
