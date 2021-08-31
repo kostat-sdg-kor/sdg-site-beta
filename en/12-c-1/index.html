@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210831050522">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210831053342">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -527,8 +527,8 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_12-c-1'
   data-id="12-c-1"
-  data-country="Korea"
-  data-charttitle="Fossil-fuel subsidies(consumption and production) as a proportion to total GDP  "
+  data-country="Total"
+  data-charttitle="Amount of fossil-fuel subsidies (production and consumption) per unit of GDP"
   data-charttitles="null"
   data-measurementunit="Percent (%)"
   data-showdata="true"
@@ -574,7 +574,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Fossil-fuel subsidies(consumption and production) as a proportion to total GDP  </caption>
+      <caption>Amount of fossil-fuel subsidies (production and consumption) per unit of GDP</caption>
       <thead>
         
         
@@ -633,6 +633,8 @@ data-event-label="high"
     <p>Source: UNEP(United Nations Environment Programme)</p>
     
     
+    <p>Geographical Area: Total</p>
+    
     
     <p>Sub-indicators: Percent (%)</p>
     
@@ -681,7 +683,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Fossil-fuel subsidies(consumption and production) as a proportion to total GDP  </h4>
+          <h4 id="chart-heading" class="chart-title">Amount of fossil-fuel subsidies (production and consumption) per unit of GDP</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -922,6 +924,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Total</dd>
+        
 
         
         <dt>Unit of Measurement:</dt>
@@ -963,6 +968,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>UNEP(United Nations Environment Programme)</dd>
         
 
+        
+        <dt>Geographical Area:</dt>
+        <dd>Total</dd>
         
 
         
@@ -1059,7 +1067,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Data type </th>
         <td>
           
-            <p><b> 국제기구통계(2유형) </b>   <br /> 국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다.   <br /> UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -1085,20 +1093,7 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">Data name </th>
-        <td>
           
-            <p>Fossil-fuel subsidies(consumption and production) as a proportion to total GDP</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -1169,7 +1164,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Periodicity </th>
         <td>
           
-            <p>Every 2 years</p>
+            <p>2년</p>
 
           
         </td>
@@ -1191,8 +1186,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-12-0c-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-12-0c-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-12-0c-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-12-0c-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1354,8 +1349,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 782kB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1512,12 +1507,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210831050522'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210831053342'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210831050522"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210831053342"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
