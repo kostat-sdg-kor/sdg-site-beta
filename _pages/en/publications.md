@@ -289,40 +289,29 @@ permalink: /en/publications/
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="1"/>
          </a>
       </div>
       <div>
-         <p> 한국의 SDGs 이행보고서 2021<br></p>
+         <p> SDGs in the ROK Progress Report 2021<br></p>
       </div>
    </div>
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="2"/> 
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/> 
           </a>
       </div>
       <div>
-         <p>한국의 SDGs 데이터와 이행현황 2019<br></p>
-      </div>
-   </div>
-   
-   <div class="item">
-      <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>    
-          </a>
-      </div>
-      <div>
-         <p>SDGs 지표 톺아보기<br></p>
+         <p> SDGs in the ROK Progress Report 2019<br></p>
       </div>
    </div>
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="4"/>
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="3"/>
          </a>
       </div>
       <div>
@@ -796,6 +785,12 @@ permalink: /en/publications/
       <tr class="content"><!-- 73 -->
          <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/009/005/%ea%b8%b0%eb%b3%b82014_21_%ec%a1%b0%ec%9d%84%ec%83%9d.pdf">SDGs 관점의 물인권 지원을 위한 한국의 ODA 전략방향 연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
+         <td>2014</td>
+      </tr>
+      
+      <tr class="content"><!-- 74 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">National Voluntary Review Report 2016</a></td>
+         <td class="report2">The Government of the Republic of Korea</td>
          <td>2014</td>
       </tr>
       
