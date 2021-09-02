@@ -2856,3 +2856,7 @@ body.contrast-high .breadcrumb {
 
 #shareAddrCopy {
   background: url("https://kostat-sdg-kor.github.io/sdg-indicators/public/share_icon.png") -36px -36px; }
+
+@media print {
+  a:after {
+    content: "" !important; } }
