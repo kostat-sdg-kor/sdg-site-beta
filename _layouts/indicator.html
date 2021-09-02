@@ -6,6 +6,24 @@
 {% include components/indicator/series-template.html %}
 {% include multilingual-js.html key="indicator" %}
 {% include multilingual-js.html key="data" %}
+
+<script type="text/javascript">
+		var pageUrl;
+		if( chk_addr.match(/category/i) ) { pageUrl = location.href; }
+		else { pageUrl = route_post; }
+		var pageTitle = document.title;
+		var shareUrlFB = "https://www.facebook.com/sharer/sharer.php?u="+pageUrl;
+		var shareUrlTWT = "https://twitter.com/intent/tweet?text="+encodeURIComponent(pageTitle)+"&url="+encodeURI(pageUrl);
+		var shareUrlBand = "https://band.us/plugin/share?body="+encodeURI(pageUrl)+'%0A'+encodeURI(pageTitle)+'%0A'+'&route=tistory.com';
+		var shareUrlNaver = "https://share.naver.com/web/shareView.nhn?url="+encodeURI(pageUrl)+"&title="+encodeURI(pageTitle);
+		var shareUrlPin = "https://www.pinterest.com/pin/find/"+"?description="+encodeURI(pageTitle)+"&url="+encodeURIComponent(pageUrl);
+		var shareUrlLine = "https://social-plugins.line.me/lineit/share"+"?url="+encodeURIComponent(pageUrl)+"&text="+encodeURI(pageTitle);
+		var shareUrlKS = "https://story.kakao.com/share?url="+pageUrl;
+		var shareUrlAddr = encodeURI(pageUrl);
+		var logArray2 = ["pageTitle = "+pageTitle, "pageUrl = "+pageUrl, "pagePath = "+chk_path];
+		console.log(logArray2);
+</script>
+
 <script>
 // 클릭 이벤트 감지
 	var getObjId;
@@ -63,18 +81,18 @@ document.addEventListener("click", watchEventClick);
 	<span id="shareNaver" class="shareBtn" title="네이버로 퍼가기"></span>
 	<span id="shareBand" class="shareBtn" title="밴드에 공유하기"></span>
 	<span id="shareKS" class="shareBtn" title="카카오스토리에 저장하기"></span>
-	<span id="shareKT" class="shareBtn" title="카카오톡에 보내기"></span>
 	<span id="shareFB" class="shareBtn" title="페이스북에 공유하기"></span>
 	<span id="shareTWT" class="shareBtn" title="트위터에 보내기"></span>
 </div>	
 <div class="container">
-  {% include components/indicator/breadcrumbs.html %}
+  <!--{% include components/indicator/breadcrumbs.html %}-->
   {% if site.create_indicators.previous_next_links %}
     {% include components/previous-next-links.html previous_label=page.t.indicator.previous next_label=page.t.indicator.next %}
   {% endif %}
 </div>
 {% include components/indicator/header.html %}
 <div id="main-content" class="container goal-{{ page.goal.number }}" role="main">
+	{% include components/indicator/breadcrumbs.html %}
   {% include components/indicator/data-notice.html %}
   {% include components/indicator/indicator-available.html %}
   {% include components/indicator/indicator-content.html %}
