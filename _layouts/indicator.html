@@ -7,82 +7,42 @@
 {% include multilingual-js.html key="indicator" %}
 {% include multilingual-js.html key="data" %}
 
-<script type="text/javascript">
-		var pageUrl;
-		if( chk_addr.match(/category/i) ) { pageUrl = location.href; }
-		else { pageUrl = route_post; }
-		var pageTitle = document.title;
-		var shareUrlFB = "https://www.facebook.com/sharer/sharer.php?u="+pageUrl;
-		var shareUrlTWT = "https://twitter.com/intent/tweet?text="+encodeURIComponent(pageTitle)+"&url="+encodeURI(pageUrl);
-		var shareUrlBand = "https://band.us/plugin/share?body="+encodeURI(pageUrl)+'%0A'+encodeURI(pageTitle)+'%0A'+'&route=tistory.com';
-		var shareUrlNaver = "https://share.naver.com/web/shareView.nhn?url="+encodeURI(pageUrl)+"&title="+encodeURI(pageTitle);
-		var shareUrlPin = "https://www.pinterest.com/pin/find/"+"?description="+encodeURI(pageTitle)+"&url="+encodeURIComponent(pageUrl);
-		var shareUrlLine = "https://social-plugins.line.me/lineit/share"+"?url="+encodeURIComponent(pageUrl)+"&text="+encodeURI(pageTitle);
-		var shareUrlKS = "https://story.kakao.com/share?url="+pageUrl;
-		var shareUrlAddr = encodeURI(pageUrl);
-		var logArray2 = ["pageTitle = "+pageTitle, "pageUrl = "+pageUrl, "pagePath = "+chk_path];
-		console.log(logArray2);
+<!-- SNS 공유용 주소 연결 용 -->
+<script type="text/javascript" async>
+
+var url_default_ks = "https://story.kakao.com/share?url=";
+var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
+var url_default_tw_url = "&url=";
+var url_default_band = "http://band.us/plugin/share?body=";
+var url_route_band = "&route=";
+var url_default_naver = "http://share.naver.com/web/shareView.nhn?url=";
+var title_default_naver = "&title=";
+
+var url_this_page = location.href;
+var title_this_page = document.title;
+
+var url_combine_ks = url_default_ks + url_this_page;
+var url_combine_fb = url_default_fb + url_this_page;
+var url_combine_tw = url_default_tw_txt + document.title + 
+url_default_tw_url + url_this_page;
+var url_combine_band = url_default_band + encodeURI(url_this_page)+
+'%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
+var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
+title_default_naver + encodeURI(title_this_page);
+
 </script>
-
-<script>
-// 클릭 이벤트 감지
-	var getObjId;
-var getObjClass;
-var viewToastMsgSNS = document.getElementById("toastMsgSNS");
-function watchEventClick(event) {
-	getObjId = event.target.id;
-	getObjClass = event.target.className;
-	// 공유버튼 클릭
-	if(getObjClass=="shareBtn"&&chk_post.length) {
-		switch (getObjId) {
-			case "shareFB":
-				window.open(shareUrlFB, '', 'scrollbars=no, width=584, height=635');
-				break;
-
-			case "shareTWT":
-				window.open(shareUrlTWT, '', 'scrollbars=no, width=584, height=635');
-				break;
-									
-			case "shareBand":
-				window.open(shareUrlBand, '', 'scrollbars=no, width=584, height=635');
-				break;
-						
-			case "shareNaver":
-				window.open(shareUrlNaver, '', 'scrollbars=no, width=584, height=635');
-				break;
-									
-			case "sharePin":
-				window.open(shareUrlPin, '', 'scrollbars=no, width=584, height=635');
-				break;
-
-			case "shareKS":
-				window.open(shareUrlKS, '', 'scrollbars=no, width=584, height=635');
-				break;
-
-			case "shareKT":
-				window.open(shareUrlKT, '', 'scrollbars=no, width=584, height=635');
-				break;
-				
-			case "shareAddrCopy":
-				var dumTA = document.createElement("input");
-				document.body.appendChild(dumTA);
-				dumTA.value = shareUrlAddr;
-				dumTA.select();	document.execCommand("copy"); dumTA.remove();
-				viewToastMsgSNS.className = "show";
-				setTimeout(function(){ viewToastMsgSNS.className = viewToastMsgSNS.className.replace("show", ""); }, 2000);
-				break;
-		} // switch, case 종료.
-	} // 공유버튼 종료.
-}
-document.addEventListener("click", watchEventClick);
-</script>
-<!-- SNS 공유버튼 -->
 <div id="shareBtnContainer">
-	<span id="shareNaver" class="shareBtn" title="네이버로 퍼가기"></span>
-	<span id="shareBand" class="shareBtn" title="밴드에 공유하기"></span>
-	<span id="shareKS" class="shareBtn" title="카카오스토리에 저장하기"></span>
-	<span id="shareFB" class="shareBtn" title="페이스북에 공유하기"></span>
-	<span id="shareTWT" class="shareBtn" title="트위터에 보내기"></span>
+	<span id="shareNaver" class="shareBtn" title="네이버로 퍼가기" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,
+height=600'); return false;"></span>
+	<span id="shareBand" class="shareBtn" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,
+height=635'); return false;"></span>
+	<span id="shareKS" class="shareBtn" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,
+height=600'); return false;"></span>
+	<span id="shareFB" class="shareBtn" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,
+height=600'); return false;"></span>
+	<span id="shareTWT" class="shareBtn" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,
+height=600'); return false;"></span>
 </div>	
 <div class="container">
   <!--{% include components/indicator/breadcrumbs.html %}-->
