@@ -2819,27 +2819,27 @@ body.contrast-high .breadcrumb {
   margin: 1px 0; }
 
 #shareFB {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 6) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 6) -36px; }
 
 #shareTWT {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 7) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 7) -36px; }
 
 #shareNaver {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 4) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 4) -36px; }
 
 #shareBand {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 5) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 5) -36px; }
 
 #sharePin {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 8) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 8) -36px; }
 
 #shareKS {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 3) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 3) -36px; }
 
 #shareKT {
-  background: url("./images/bssowSpriteMin.png") calc(-36px * 2) -36px; }
+  background: url("../public/share_icon.png") calc(-36px * 2) -36px; }
 
 #shareAddrCopy {
-  background: url("./images/bssowSpriteMin.png") -36px -36px; }
+  background: url("../public/share_icon.png") -36px -36px; }
 
 /* SNS 공유버튼 아이콘 종료 */
