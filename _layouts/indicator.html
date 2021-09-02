@@ -6,16 +6,77 @@
 {% include components/indicator/series-template.html %}
 {% include multilingual-js.html key="indicator" %}
 {% include multilingual-js.html key="data" %}
+<script>
+// 클릭 이벤트 감지
+	var getObjId;
+var getObjClass;
+var viewToastMsgSNS = document.getElementById("toastMsgSNS");
+function watchEventClick(event) {
+	getObjId = event.target.id;
+	getObjClass = event.target.className;
+	// 공유버튼 클릭
+	if(getObjClass=="shareBtn"&&chk_post.length) {
+		switch (getObjId) {
+			case "shareFB":
+				window.open(shareUrlFB, '', 'scrollbars=no, width=584, height=635');
+				break;
 
+			case "shareTWT":
+				window.open(shareUrlTWT, '', 'scrollbars=no, width=584, height=635');
+				break;
+									
+			case "shareBand":
+				window.open(shareUrlBand, '', 'scrollbars=no, width=584, height=635');
+				break;
+						
+			case "shareNaver":
+				window.open(shareUrlNaver, '', 'scrollbars=no, width=584, height=635');
+				break;
+									
+			case "sharePin":
+				window.open(shareUrlPin, '', 'scrollbars=no, width=584, height=635');
+				break;
+
+			case "shareKS":
+				window.open(shareUrlKS, '', 'scrollbars=no, width=584, height=635');
+				break;
+
+			case "shareKT":
+				window.open(shareUrlKT, '', 'scrollbars=no, width=584, height=635');
+				break;
+				
+			case "shareAddrCopy":
+				var dumTA = document.createElement("input");
+				document.body.appendChild(dumTA);
+				dumTA.value = shareUrlAddr;
+				dumTA.select();	document.execCommand("copy"); dumTA.remove();
+				viewToastMsgSNS.className = "show";
+				setTimeout(function(){ viewToastMsgSNS.className = viewToastMsgSNS.className.replace("show", ""); }, 2000);
+				break;
+		} // switch, case 종료.
+	} // 공유버튼 종료.
+}
+document.addEventListener("click", watchEventClick);
+</script>
+<!-- SNS 공유버튼 -->
+<div id="shareBtnContainer">
+	<span id="shareNaver" class="shareBtn" title="네이버로 퍼가기"></span>
+	<span id="shareBand" class="shareBtn" title="밴드에 공유하기"></span>
+	<span id="shareKS" class="shareBtn" title="카카오스토리에 저장하기"></span>
+	<span id="shareKT" class="shareBtn" title="카카오톡에 보내기"></span>
+	<span id="shareFB" class="shareBtn" title="페이스북에 공유하기"></span>
+	<span id="shareTWT" class="shareBtn" title="트위터에 보내기"></span>
+	<span id="shareAddrCopy" class="shareBtn" title="주소 복사"></span>
+	<span id="toastMsgSNS">URL copied.</span>
+</div>	
 <div class="container">
-	<!--  {% include components/indicator/breadcrumbs.html %}-->
+  {% include components/indicator/breadcrumbs.html %}
   {% if site.create_indicators.previous_next_links %}
     {% include components/previous-next-links.html previous_label=page.t.indicator.previous next_label=page.t.indicator.next %}
   {% endif %}
 </div>
 {% include components/indicator/header.html %}
 <div id="main-content" class="container goal-{{ page.goal.number }}" role="main">
-  {% include components/indicator/breadcrumbs.html %}
   {% include components/indicator/data-notice.html %}
   {% include components/indicator/indicator-available.html %}
   {% include components/indicator/indicator-content.html %}
