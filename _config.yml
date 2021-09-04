@@ -53,7 +53,7 @@ create_pages:
       layout: search
 
 analytics:
-  ga_prod: ''
+  ga_prod: 'UA-206682582-1'
 
 hide_empty_metadata: true
 
