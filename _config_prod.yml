@@ -18,4 +18,4 @@ remote_data_prefix: "https://kostat-sdg-kor.github.io/sdg-indicators"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
-  ga_prod: 'UA-206682582-1'
+  ga_prod: ''
