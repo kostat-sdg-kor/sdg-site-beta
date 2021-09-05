@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kostat-sdg-kor.github.io/sdg-indicators/sitemap.xml
