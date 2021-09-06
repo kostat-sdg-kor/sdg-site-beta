@@ -1,544 +1,1121 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-7-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-7-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/10/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-b-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/11/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/12/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-1-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/13/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/14/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/15/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-10-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-2-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/16/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-11-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-12-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-13-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-14-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-15-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-16-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-17-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-19-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-19-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/17/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-5/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-8-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-9-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-9-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-b-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-b-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-d-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-d-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/5/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/6/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/7/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-10-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-8-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/8/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/9/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/about/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/data-standard/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-5-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-5-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-7-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-7-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11-b-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-1-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-1-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-1-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-10-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-2-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-3-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-11-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-12-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-13-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-14-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-15-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-16-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-17-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-18-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-18-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-18-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-19-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-19-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-2-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-3-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-3-4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-3-5/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-7-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-8-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-9-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-9-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-b-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-b-3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-d-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3-d-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-6-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-a-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-10-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-10-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-4-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-6-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-7-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-8-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-8-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-9-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-1-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-1-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-2-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-2-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-3-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-3-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-4-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-5-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-5-2/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-a-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-b-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9-c-1/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/about/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/data-standard/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/faq/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/goals/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/guidance/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/publications/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/reporting-status/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/faq/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/goals/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/guidance/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/publications/</loc></url>
-<url><loc>https://kostat-sdg-kor.github.io/sdg-indicators/reporting-status/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/goals/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/goals/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6-4-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-4-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-5-4/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-a-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/11-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-8-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-9-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-1-4/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-10-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-10-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-2-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-3-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-4-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-5-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-6-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-7-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-7-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-8-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-9-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-10-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-11-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-12-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-13-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-15-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-16-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-17-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-18-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17-7-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-2-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-3-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-5-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-a-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-3-4/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-4-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-5-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-7-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-8-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-9-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-9-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-b-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-b-3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-d-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3-d-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-7-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-2-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-3-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-5-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-6-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-a-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5-c-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-1-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-2-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-a-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-1-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-10-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-3-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-4-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-5-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-5-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-6-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-7-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-8-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-8-2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8-b-1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/10/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/11/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/12/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/13/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/14/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/15/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/16/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/17/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/4/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/5/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/6/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/7/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/8/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/9/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/10/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/11/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/12/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/13/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/14/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/15/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/16/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/17/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/1/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/2/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/3/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/4/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/5/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/6/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/7/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/8/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/9/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/12.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/14.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/37.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/49.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/50.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/81.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/82.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/83.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/84.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/85.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/86.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/88.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/about/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/about/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/data-standard/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/data-standard/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/guidance/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/reporting-status/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/reporting-status/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_73.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_74.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-05-02-01_KOR.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-07-01-02_KOR.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-data/ko/headline/5-2-1.csv</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-data/ko/data/5-2-1.csv</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-data/ko/data/7-1-2.csv</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/publications/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/en/publications/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/RR2019-20.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io/sdg-indicators/guidance/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>https://kostat-sdg-kor.github.io</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+</urlset>
+<!--<guid value="" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
