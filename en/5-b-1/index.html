@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907110543">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907113209">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -503,13 +503,41 @@ var url_combine_band = url_default_band + encodeURI(url_this_page)+
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
 title_default_naver + encodeURI(title_this_page);
 
+function addFavorite(){
+	if (or.userAgent.indexOf("Chrome") != -1) {
+		alert('Ctrl+D키를 눌러 북마크를 등록해주세요');
+	}else if(window.sidebar){
+		window.sidebar.addpanel(title_this_page, url_this_page,"");
+	}else if(navigator.userAgent.indexOf("opera") != -1){	 
+		var elem = document.createElement('a')
+		elem.setAttribute('href', url_this_page);
+		elem.setAttribute('title', title_this_page);
+		elem.setAttribute('rel','sidebar');
+		elem.click();
+	}else{
+		{window.external.AddFavorite(url_this_page, title_this_page);}
+	}
+}
+
+function copyUrl(){
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf("safari") != -1 || agent.indexOf("opera") != -1 || agent.indexOf("firefox") != -1){
+		prompt("이 글의 주소입니다. Ctrl+C를 눌러 클립보드로 복사하세요",url_this_page);
+	}else{
+		window.clipboardData.setData('Text', url_this_page);
+		alert("복사되었습니다.\n Ctrl+V를 눌러 붙여넣으세요");
+	}
+
+}
 </script>
 <div id="shareBtnContainer">
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
+  	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/blog.png" title="네이버로 퍼가기" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/band.png" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;"></span>
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"></span>
+<!--	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="즐겨찾기 추가" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"></span>-->
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl()"></span>
 </div>	
 <div class="container">
   <!--
@@ -1530,12 +1558,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210907110543'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210907113209'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210907110543"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210907113209"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
