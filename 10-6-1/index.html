@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907122659">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907124406">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -535,17 +535,17 @@ function copyUrl(){
 		    Kakao.init("b071fc4b1abb50ec3e523c56ff226378");
     function sendKakao() {
 	          Kakao.Link.sendCustom({
-			          templateId: 61021
+			          templateId: 61021,
 			          templateArgs: {
 					            title: title_this_page,
 					            description: title_this_page,
-					            url : url_this_page,
-					          },
+					            url : url_this_page
+					          }
 			        });
 	        }
 	</script>
 <div id="shareBtnContainer">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/blog.png" title="네이버로 퍼가기" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/band.png" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;">
@@ -1547,12 +1547,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210907122659'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210907124406'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210907122659"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210907124406"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
