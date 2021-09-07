@@ -93,6 +93,7 @@ body.contrast-high {
   #shareKT { background: url("https://kostat-sdg-kor.github.io/sdg-indicators/public/share_icon.png") calc(-36px * 2) -36px;}
   #shareAddrCopy { background: url("https://kostat-sdg-kor.github.io/sdg-indicators/public/share_icon.png") -36px -36px;}
 
+.shareButton { width: 36px; }
 
 @media print {
     a:after {
