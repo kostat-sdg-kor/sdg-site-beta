@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907060202">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907060721">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -576,12 +576,12 @@ title_default_naver + encodeURI(title_this_page);
   id="indicatorData"
   data-indicatorid='indicator_15-6-1'
   data-id="15-6-1"
-  data-country="Korea"
+  data-country="Total"
   data-charttitle="Countries that are parties to the Nagoya Protocol and Total reported number of Standard Material Transfer Agreements (SMTAs)  transferring plant genetic resources for food and agriculture to the country"
   data-charttitles="null"
-  data-measurementunit="(a) 채택:1, 미채택:0, (b) 개"
+  data-measurementunit="(a) Yes:1, No:0, (b) Number"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -826,8 +826,10 @@ title_default_naver + encodeURI(title_this_page);
     <p>Source: SCBD(Secretariat of the Convention on Biological Diversity)</p>
     
     
+    <p>Geographical Area: Total</p>
     
-    <p>Sub-indicators: (a) 채택:1, 미채택:0, (b) 개</p>
+    
+    <p>Sub-indicators: (a) Yes:1, No:0, (b) Number</p>
     
     
   </div>
@@ -1063,40 +1065,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1115,10 +1109,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Total</dd>
+        
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>(a) 채택:1, 미채택:0, (b) 개</dd>
+        <dd>(a) Yes:1, No:0, (b) Number</dd>
         
 
         
@@ -1157,10 +1154,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Total</dd>
+        
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>(a) 채택:1, 미채택:0, (b) 개</dd>
+        <dd>(a) Yes:1, No:0, (b) Number</dd>
         
 
         
@@ -1278,20 +1278,7 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">Data name </th>
-        <td>
           
-            <p>Countries that are parties to the Nagoya Protocol and Total reported number of Standard Material Transfer Agreements (SMTAs)  transferring plant genetic resources for food and agriculture to the country</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
       
@@ -1319,7 +1306,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Data collection </th>
         <td>
           
-            <p>Publishing authorities for the ABS Clearing-House as designated by the CBD national focal points or the ABS focal  points produce data in cooperation with the Secretariat of the Convention on Biological Diversity and the International Treaty secretariat</p>
+            <p>Publishing authorities for the ABS Clearing-House as designated by the CBD national focal points or the ABS focal  points produce data in cooperation with the Secretariat of the Convention on Biological Diversity and the International  Treaty secretariat</p>
 
           
         </td>
@@ -1384,8 +1371,8 @@ data-event-label="Change to indicator.global_metadata tab"
             
 
             
-              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-06-01_KOR.pdf" target="_blank">
-                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-06-01_KOR.pdf <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-06-01_ENG.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-15-06-01_ENG.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1495,6 +1482,7 @@ data-event-label="Change to indicator.global_metadata tab"
           
             <p>Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</p>
 
+
           
         </td>
         </tr>
@@ -1548,7 +1536,7 @@ data-event-label="Change to indicator.global_metadata tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-15-06-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 215 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-15-06-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1705,12 +1693,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210907060202'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210907060721'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210907060202"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210907060721"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
