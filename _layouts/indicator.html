@@ -33,7 +33,7 @@ title_default_naver + encodeURI(title_this_page);
 
 function addFavorite(){
 	var agent = navigator.userAgent.toLowerCase();
-	if (agent.indexOf("Chrome") != -1) {
+	if (agent.indexOf("chrome") != -1) {
 		alert('Ctrl+D키를 눌러 북마크를 등록해주세요');
 	}else if(window.sidebar){
 		window.sidebar.addpanel(title_this_page, url_this_page,"");
