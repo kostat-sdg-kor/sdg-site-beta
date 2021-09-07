@@ -63,12 +63,12 @@ function copyUrl(){
 		    Kakao.init("b071fc4b1abb50ec3e523c56ff226378");
     function sendKakao() {
 	          Kakao.Link.sendCustom({
-			          templateId: 61021
+			          templateId: 61021,
 			          templateArgs: {
 					            title: title_this_page,
 					            description: title_this_page,
-					            url : url_this_page,
-					          },
+					            url : url_this_page
+					          }
 			        });
 	        }
 	</script>
