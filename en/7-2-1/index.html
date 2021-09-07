@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907141831">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210907142429">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -1642,8 +1642,8 @@ data-event-label="Change to indicator.global_metadata tab"
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/band.png" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/talk.png" title="카카오톡에 공유하기" onclick="sendKakao();">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/star.png" title="즐겨찾기 추가" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl()">
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/star.png" title="즐겨찾기 추가" onclick="addFavorite();">
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl();">
 </div>	
 <footer role="contentinfo">
   <div class="container">
@@ -1690,12 +1690,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210907141831'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210907142429'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210907141831"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210907142429"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
