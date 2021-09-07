@@ -32,11 +32,12 @@ var url_combine_naver = url_default_naver + encodeURI(url_this_page) +
 title_default_naver + encodeURI(title_this_page);
 
 function addFavorite(){
-	if (or.userAgent.indexOf("Chrome") != -1) {
+	var agent = navigator.userAgent.toLowerCase();
+	if (agent.indexOf("Chrome") != -1) {
 		alert('Ctrl+D키를 눌러 북마크를 등록해주세요');
 	}else if(window.sidebar){
 		window.sidebar.addpanel(title_this_page, url_this_page,"");
-	}else if(navigator.userAgent.indexOf("opera") != -1){	 
+	}else if(agent.indexOf("opera") != -1){	 
 		var elem = document.createElement('a')
 		elem.setAttribute('href', url_this_page);
 		elem.setAttribute('title', title_this_page);
@@ -94,7 +95,7 @@ function copyUrl(){
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/band.png" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/talk.png" title="카카오톡에 공유하기" onclick="sendKakao();">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<!--	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="즐겨찾기 추가" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">-->
+	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/star.png" title="즐겨찾기 추가" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl()">
 </div>	
 {% include footer.html %}
