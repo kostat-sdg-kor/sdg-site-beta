@@ -82,13 +82,13 @@ function copyUrl(){
 {% include components/indicator/header.html %}
 <div id="main-content" class="container goal-{{ page.goal.number }}" role="main">
 	{% include components/indicator/breadcrumbs.html %}
+	<img style="float:right;width:36px;cursor:pointer;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/print.png" title="인쇄" onclick="window.print()">
   {% include components/indicator/data-notice.html %}
   {% include components/indicator/indicator-available.html %}
   {% include components/indicator/indicator-content.html %}
   {% include components/indicator/indicator-main.html %}
 </div>
 <div id="shareBtnContainer">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/print.png" title="인쇄" onclick="window.print()">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/blog.png" title="네이버로 퍼가기" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;">
