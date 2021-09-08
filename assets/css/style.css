@@ -2827,7 +2827,7 @@ body.contrast-high .breadcrumb {
     width: 36px;
     margin: 0;
     position: fixed;
-    bottom: 240px;
+    bottom: 78px;
     right: calc(50% - 430px - 38px - 160px + 2px);
     opacity: 1; }
 
