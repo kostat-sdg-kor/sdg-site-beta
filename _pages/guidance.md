@@ -20,15 +20,15 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - <b> Q. 지속가능발전(Sustainable Development)이란 무엇인가?  </b>
 - A. 1987년 세계환경개발위원회(WCED)에서 발표한 『우리 공동의 미래(Our Common Future)』보고서에서 지속가능발전에 대한 개념이 공식적으로 정의되었음. 이에 따르면, 지속가능발전은 ‘미래 세대의 필요를 충족시킬 능력을 훼손하지 않으면서, 현 세대의 필요도 충족하는 발전’을 의미함. 이후 지속가능발전 개념이 활발히 논의되었으며, 경제발전·사회통합·환경의 지속가능성을 고려한 발전으로 그 의미가 확장됨
 
-- <b> Q.지속가능발전목표(SDGs)란 무엇인가?  </b>
+- <b> Q. 지속가능발전목표(SDGs)란 무엇인가?  </b>
 - A. 2015년 9월 유엔총회에서는 『세계의 변혁: 지속가능발전을 위한 2030 의제(Transforming Our World: The 2030 Agenda for Sustainable Development』) 결의문을 채택함. 이 문서에는 전 세계가 인류의 지속가능한 발전을 위해 2030년까지 공동 달성하기로 합의한 17개 목표와 후속조치 방안이 담겨 있음 
 
 - <b> Q. 왜 SDGs가 중요한가? </b>
 - A. SDGs는 전 세계가 직면한 빈곤, 불평등, 기후위기, 폭력 등과 관련한 문제에 공동 대응하기 위한 것으로, 특정 집단 및 국가만의 노력으로 해결되지 않음. 모든 국가와 이해당사자 그룹의 참여와 연대가 필수적 
 
 - <b> Q. SDGs 이행점검은 어떻게 하는가? </b>
-- A. 17개 목표는 231개 유엔 SDGs 지표를 근거로 매년 그 이행상황이 점검됨. 글로벌 차원에서는 유엔 사무총장 주도의『The Sustainable Development Goals Report』를 발간하여 유엔 고위급정치포럼(HLPF, High Level Political Forum, 매년 7월 개최)에서 이행수준을 점검함.<br>  지역 차원에서도 자발적으로 이행점검을 실시함. 한국이 속한 아시아태평양지역에서도 매년 3월 『Asia and the Pacific SDG Progress Report』를 발간하고 아태지속가능발전포럼(APFSD, Asia-Pacific Forum on Sustainable Development)을 개최<br>
-     개별 국가들도 정기적으로 SDGs 이행여부를 점검하고 있으며 그 결과를 유엔 HLPF에서 자발적 국별 보고서 형태로 발표. 한국은 2016년에 참여  
+- A. 17개 목표는 231개 유엔 SDGs 지표를 근거로 매년 그 이행상황이 점검됨. <br>(글로벌 차원) 유엔 사무총장 주도의『The Sustainable Development Goals Report』를 발간하여 유엔 고위급정치포럼(HLPF, High Level Political Forum, 매년 7월 개최)에서 이행수준을 점검함.<br>  (지역 차원) 자발적으로 이행점검을 실시함. 한국이 속한 아시아태평양지역에서도 매년 3월 『Asia and the Pacific SDG Progress Report』를 발간하고 아태지속가능발전포럼(APFSD, Asia-Pacific Forum on Sustainable Development)을 개최<br>
+     (개별 국가) 정기적으로 SDGs 이행여부를 점검하고 있으며 그 결과를 유엔 HLPF에서 자발적 국별 보고서 형태로 발표. 한국은 2016년에 참여  
 
 - <b> Q. SDGs 지표는 어떻게 개발되었는가?  </b>
 - A. 각 지역 대표 통계청을 회원으로 하는 SDGs 지표 전문가그룹(IAEG-SDGs, Inter Agency and Expert Groups on SDG Indicators)이 주도하여 지표를 개발함. 이 그룹은 2015년 3월 유엔통계위원회에서 결성되었음. 지표 선정 원칙에 따라, 국제기구 및 다양한 이해당사자 그룹과의 논의를 거쳐 2017년 3월에 232개 지표를 개발하였고, 이 지표는 같은 해 7월 유엔 총회에서 채택됨. 2020년 종합개편을 통해 36개 지표가 변경, 현재 231개 지표체계로 운영 
