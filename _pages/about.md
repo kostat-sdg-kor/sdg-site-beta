@@ -10,6 +10,7 @@ language: ko
 	.contents { font-size:12pt; }
 	
 	.img_div { text-align: center; }
+	.img_div { line-height: 1.6em; }
 	.img_div img { width: 90%; }
 	
    .suffle_div { width: 100%;  margin-bottom:50px;}
