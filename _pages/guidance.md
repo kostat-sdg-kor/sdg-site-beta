@@ -27,8 +27,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - A. SDGs는 전 세계가 직면한 빈곤, 불평등, 기후위기, 폭력 등과 관련한 문제에 공동 대응하기 위한 것으로, 특정 집단 및 국가만의 노력으로 해결되지 않음. 모든 국가와 이해당사자 그룹의 참여와 연대가 필수적 
 
 - <b> Q. SDGs 이행점검은 어떻게 하는가? </b>
-- A. 17개 목표는 231개 유엔 SDGs 지표를 근거로 매년 그 이행상황이 점검됨. 글로벌 차원에서는 유엔 사무총장 주도의『The Sustainable Development Goals Report』를 발간하여 유엔 고위급정치포럼(HLPF, High Level Political Forum, 매년 7월 개최)에서 이행수준을 점검함.<br>  
-     지역 차원에서도 자발적으로 이행점검을 실시함. 한국이 속한 아시아태평양지역에서도 매년 3월 『Asia and the Pacific SDG Progress Report』를 발간하고 아태지속가능발전포럼(APFSD, Asia-Pacific Forum on Sustainable Development)을 개최<br>
+- A. 17개 목표는 231개 유엔 SDGs 지표를 근거로 매년 그 이행상황이 점검됨. 글로벌 차원에서는 유엔 사무총장 주도의『The Sustainable Development Goals Report』를 발간하여 유엔 고위급정치포럼(HLPF, High Level Political Forum, 매년 7월 개최)에서 이행수준을 점검함.<br>  지역 차원에서도 자발적으로 이행점검을 실시함. 한국이 속한 아시아태평양지역에서도 매년 3월 『Asia and the Pacific SDG Progress Report』를 발간하고 아태지속가능발전포럼(APFSD, Asia-Pacific Forum on Sustainable Development)을 개최<br>
      개별 국가들도 정기적으로 SDGs 이행여부를 점검하고 있으며 그 결과를 유엔 HLPF에서 자발적 국별 보고서 형태로 발표. 한국은 2016년에 참여  
 
 - <b> Q. SDGs 지표는 어떻게 개발되었는가?  </b>
