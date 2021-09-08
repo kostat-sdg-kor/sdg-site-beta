@@ -28,6 +28,7 @@ language: en
 		<br><br>
 			The SDGs are followed up and reviewed at the global, regional and national levels every year, based on data provided by each country. This data should have high-quality and reliability. In order to support the principle of inclusiveness such as "Leaving No One Behind", it is emphasized that all indicators are disaggregated by sex, age, income, disability, migration status, geographic location and other characteristics relevant in the national context.
 			</p>
+		<br><br>
 		<span class="title">Development of Global Indicator Framework</span>
 		<br><br>
 		<p class="contents">
