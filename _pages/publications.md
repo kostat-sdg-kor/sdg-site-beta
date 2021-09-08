@@ -239,7 +239,7 @@ permalink: /publications/
       .on { background:#6799FF; color:#ffffff; }
       
       .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
-      .top_div .item { display:inline-block; width:250px;}
+      .top_div .item { display:table-cell; width:250px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
@@ -341,6 +341,7 @@ permalink: /publications/
 
 <div class="board_form">
    <div class="report_div">
+      <input type="button" class="report1_btn" onclick="location.reload();" value="전체">
       <input type="button" class="report1_btn" onclick="reportView('report1');" name="report1" value="통계개발원 보고서"/>
       <input type="button" class="report2_btn" onclick="reportView('report2');" name="report2" value="국내관계기관 보고서"/>
       <input type="button" class="report3_btn" onclick="reportView('report3');" name="report3" value="국외 보고서"/>      
@@ -844,9 +845,3 @@ permalink: /publications/
 
 －**[멕시코](http://agenda2030.mx/#/home)** : http://agenda2030.mx/#/home
  
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br><br>
