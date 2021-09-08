@@ -15,68 +15,32 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
 
-  
-<br/>
-<div align="center">
-<div align="center" style="width:80%; height: 185px; border: 1px solid orange; border-radius: 30px 30px 30px 30px; font-weight: bold; ">
-<br/>
-- 해외 SDG 플랫폼 사례 -
-<br/>
-
-<table border="0" style="width:95%; height: 135px;">
-  <tr>
-  <td align="center">
-  <a href="https://sustainabledevelopment-uk.github.io">
-  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png" alt="UK"/>
-  </a>
- </td>
-
-  <td align="center">
-  <a href="https://sdg.data.gov">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png" alt="AMERICA"/>
-    </a>
-  </td>
-  
-  <td align="center">
-  <a href="https://sustainabledevelopment-germany.github.io">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png" alt="GERMANY"/>
-    </a>
-  </td>
-
-  <td align="center">
-  <a href="https://sdg.gov.pl/">  
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png" alt="POL"/>
-    </a>
-  </td>
-
-  <td align="center">
-  <a href="https://irelandsdg.geohive.ie/">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png" alt="IRE"/>
-    </a>
-  </td>
-
-  </tr>
-
-</table>
-
-</div>
-</div>
-
-
-
-  
-
-
 ## FAQ
 
-- <b> Q. 잘못된 정보에 대한 수정 요청은 어떻게 하나요? </b>
-- A. 데이터를 비롯한 출처 정보 등 메타데이터에 관한 모든 문의사항은 플랫폼 운영 담당자에게 [e-Mail](mailto:{{site.email_contacts.functional}}) 주시기 바랍니다.
+- <b> Q. 지속가능발전(Sustainable Development)이란 무엇인가?  </b>
+- A. 1987년 세계환경개발위원회(WCED)에서 발표한 『우리 공동의 미래(Our Common Future)』보고서에서 지속가능발전에 대한 개념이 공식적으로 정의되었음. 이에 따르면, 지속가능발전은 ‘미래 세대의 필요를 충족시킬 능력을 훼손하지 않으면서, 현 세대의 필요도 충족하는 발전’을 의미함. 이후 지속가능발전 개념이 활발히 논의되었으며, 경제발전·사회통합·환경의 지속가능성을 고려한 발전으로 그 의미가 확장됨
 
-- <b> Q. 데이터는 얼마나 자주 업데이트 되는 건가요? </b>
-- A. 업데이트 주기는 지표별로 상이하며, 원천 자료의 업데이트가 확인되는 즉시 업데이트하기 위해 노력하고 있습니다.
+- <b> Q.지속가능발전목표(SDGs)란 무엇인가?  </b>
+- A. 2015년 9월 유엔총회에서는 『세계의 변혁: 지속가능발전을 위한 2030 의제(Transforming Our World: The 2030 Agenda for Sustainable Development』) 결의문을 채택함. 이 문서에는 전 세계가 인류의 지속가능한 발전을 위해 2030년까지 공동 달성하기로 합의한 17개 목표와 후속조치 방안이 담겨 있음 
 
-- <b> Q. 어떤 종류의 브라우저를 활용하여 접근이 가능한가요? </b>
-- A. 거의 모든 종류의 상용 브라우저의 최신 버전에 대한 사용성 테스트를 거쳤으며, 일부 브라우저의 과거 버전(예: IE8) 등에서 발견되는 문제점을 해결하기 위한 작업을 진행중입니다. 
+- <b> Q. 왜 SDGs가 중요한가? </b>
+- A. SDGs는 전 세계가 직면한 빈곤, 불평등, 기후위기, 폭력 등과 관련한 문제에 공동 대응하기 위한 것으로, 특정 집단 및 국가만의 노력으로 해결되지 않음. 모든 국가와 이해당사자 그룹의 참여와 연대가 필수적 
+
+- <b> Q. SDGs 이행점검은 어떻게 하는가? </b>
+- A. 17개 목표는 231개 유엔 SDGs 지표를 근거로 매년 그 이행상황이 점검됨. 글로벌 차원에서는 유엔 사무총장 주도의『The Sustainable Development Goals Report』를 발간하여 유엔 고위급정치포럼(HLPF, High Level Political Forum, 매년 7월 개최)에서 이행수준을 점검함.<br>  
+     지역 차원에서도 자발적으로 이행점검을 실시함. 한국이 속한 아시아태평양지역에서도 매년 3월 『Asia and the Pacific SDG Progress Report』를 발간하고 아태지속가능발전포럼(APFSD, Asia-Pacific Forum on Sustainable Development)을 개최<br>
+     개별 국가들도 정기적으로 SDGs 이행여부를 점검하고 있으며 그 결과를 유엔 HLPF에서 자발적 국별 보고서 형태로 발표. 한국은 2016년에 참여  
+
+- <b> Q. SDGs 지표는 어떻게 개발되었는가?  </b>
+- A. 각 지역 대표 통계청을 회원으로 하는 SDGs 지표 전문가그룹(IAEG-SDGs, Inter Agency and Expert Groups on SDG Indicators)이 주도하여 지표를 개발함. 이 그룹은 2015년 3월 유엔통계위원회에서 결성되었음. 지표 선정 원칙에 따라, 국제기구 및 다양한 이해당사자 그룹과의 논의를 거쳐 2017년 3월에 232개 지표를 개발하였고, 이 지표는 같은 해 7월 유엔 총회에서 채택됨. 2020년 종합개편을 통해 36개 지표가 변경, 현재 231개 지표체계로 운영 
+
+- <b> Q. SDGs 데이터는 어떻게 수집되는가?   </b>
+- A. 유엔은 지표별로 국제기구를 담당자로 지정하여 지표 방법론 개발 및 데이터 수집의 역할을 부여하였음. 또한, 국가별로는 SDGs 데이터 국가책임기관을 지정하였는데, 우리나라는 통계청 통계개발원이 책임기관임. 지표 소관 국제기구에서 데이터 제공 요청 시, 통계청은 국내 24개 지표 관계 부처와 협력하여 데이터를 제공하고 있음 
+
+- <b> Q. 국가에서 국제기구에 제공한 데이터는 어떻게 처리되는가?    </b>
+- A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출함. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생함. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스에 수록됨 
+ * 유엔 데이터베이스 : unstats.un.org/sdgs/indicators/database
+ 
 
 
 
