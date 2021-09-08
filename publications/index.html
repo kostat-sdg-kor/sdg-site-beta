@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210908071631">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210908082327">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -646,7 +646,7 @@ data-event-label="high"
       .on { background:#6799FF; color:#ffffff; }
       
       .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
-      .top_div .item { display:inline-block; width:250px;}
+      .top_div .item { display:table-cell; width:250px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
@@ -748,6 +748,7 @@ data-event-label="high"
 
 <div class="board_form">
    <div class="report_div">
+      <input type="button" class="report1_btn" onclick="location.reload();" value="전체" />
       <input type="button" class="report1_btn" onclick="reportView('report1');" name="report1" value="통계개발원 보고서" />
       <input type="button" class="report2_btn" onclick="reportView('report2');" name="report2" value="국내관계기관 보고서" />
       <input type="button" class="report3_btn" onclick="reportView('report3');" name="report3" value="국외 보고서" />      
@@ -1251,11 +1252,6 @@ data-event-label="high"
 
 <p>－<strong><a href="http://agenda2030.mx/#/home">멕시코</a></strong> : http://agenda2030.mx/#/home</p>
 
-<p><br />
-<br />
-<br />
-<br />
-<br /><br /></p>
 
         
     </div>
@@ -1306,12 +1302,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210908071631'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210908082327'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210908071631"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210908082327"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
