@@ -27,7 +27,7 @@ language: ko
 		<p class="contents">
    
 <br>
- ##  Q. 지속가능발전(Sustainable Development)이란 무엇인가요?  <br>
+ <b>  Q. 지속가능발전(Sustainable Development)이란 무엇인가요?  </b> <br>
  A. 1987년 세계환경개발위원회(WCED)에서 발표한 『우리 공동의 미래(Our Common Future)』보고서에서 지속가능발전에 대한 개념이 공식적으로 정의되었습니다. 이에 따르면, 지속가능발전은 ‘미래 세대의 필요를 충족시킬 능력을 훼손하지 않으면서, 현 세대의 필요도 충족하는 발전’을 의미합니다. 이후 지속가능발전 개념이 활발히 논의되었으며, 경제발전·사회통합·환경의 지속가능성을 고려한 발전으로 그 의미가 확장되었습니다.
 <br>
  <b> Q. 지속가능발전목표(SDGs)란 무엇인가요?  </b> <br>
@@ -50,8 +50,11 @@ language: ko
  A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출합니다. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생할 수 있습니다. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스(unstats.un.org/sdgs/indicators/database)에 수록됩니다.
 <br><br>
    </p>
-
- ## 플랫폼 개발 매뉴얼
+<div class="contents_box">
+	<div>
+		<span class="title">플랫폼 개발 매뉴얼(FAQ)</span>
+		<br><br>
+		<p class="contents">
 <br>
 SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
 한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
@@ -61,6 +64,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
-<br>
+ </p>
+</div>
 
  platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
