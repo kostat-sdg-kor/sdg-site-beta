@@ -6,9 +6,9 @@ language: ko
 ---
 
 <style>
-	.contents_box { padding : 0 5%; }
+	
 	.title { color:navy; font-size:18pt; font-weight:600;}
-	.contents { font-size:12pt; }
+	
 	
 	.img_div { text-align: center; }
 	.img_div { line-height: 1.6em; }
@@ -20,14 +20,13 @@ language: ko
 
 </style>
 
-<div class="contents_box">
+
 	<div>
 		<span class="title">자주하는 질문(FAQ)</span>
 		<br><br>
 		<p class="contents">
-   
-<br>
- <b>  Q. 지속가능발전(Sustainable Development)이란 무엇인가요?  </b> <br>
+			
+ ## Q. 지속가능발전(Sustainable Development)이란 무엇인가요?  
  A. 1987년 세계환경개발위원회(WCED)에서 발표한 『우리 공동의 미래(Our Common Future)』보고서에서 지속가능발전에 대한 개념이 공식적으로 정의되었습니다. 이에 따르면, 지속가능발전은 ‘미래 세대의 필요를 충족시킬 능력을 훼손하지 않으면서, 현 세대의 필요도 충족하는 발전’을 의미합니다. 이후 지속가능발전 개념이 활발히 논의되었으며, 경제발전·사회통합·환경의 지속가능성을 고려한 발전으로 그 의미가 확장되었습니다.
 <br><br>
  <b> Q. 지속가능발전목표(SDGs)란 무엇인가요?  </b> <br>
