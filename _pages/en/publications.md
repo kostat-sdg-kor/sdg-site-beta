@@ -337,9 +337,9 @@ permalink: /en/publications/
 
    <table class="board_table">
       <tr class="board_title">
-         <th>제목</th>
-         <th>기관</th>
-         <th>발간년도</th>
+         <th>Title</th>
+         <th>Agency</th>
+         <th>Year</th>
       </tr>
 
       <tr class="content"><!-- 1 -->
