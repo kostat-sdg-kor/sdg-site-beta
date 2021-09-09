@@ -15,10 +15,12 @@ permalink: /en/data-standard/
 	.img_div img { width: 90%; }
 </style>
 
+</style>
+
 <div class="contents_box">
 	<div>
 	<br><br>
-		<p class="contents">
+		<p class="contents" style="border:3px solid black; padding:10px; color:gray;">
 			The platform displays national data based on 231 UN SDG indicators that reflect the comprehensive review in 2020. KOSTAT has reviewed whether the data in the Republic of Korea are currently available and provided them to the public to help achieve the UN SDGs. It is expected that this platform will be used as a reference to understand what SDGs progress is being made in the Republic of Korea and to find the evidence for policy making. At the same time, it can direct statistical development by diagnosing areas that cannot be monitored because of the unavailability of data.
 		</p>
 	 </div>
