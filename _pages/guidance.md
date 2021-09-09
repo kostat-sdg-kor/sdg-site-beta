@@ -39,6 +39,6 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
-
+<br>
 
  platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
