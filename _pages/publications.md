@@ -830,7 +830,6 @@ permalink: /publications/
 －**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)** : 유엔 아프리카 경제 위원회
 
 <br>
-
 ### 해외 플랫폼
 
 －**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
