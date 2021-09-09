@@ -21,7 +21,7 @@ language: ko
 </style>
 
 
-	<div>
+
 		<span class="title">자주하는 질문(FAQ)</span>
 		<br><br>
 		<p class="contents">
