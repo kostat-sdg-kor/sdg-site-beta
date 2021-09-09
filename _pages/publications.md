@@ -833,15 +833,15 @@ permalink: /publications/
 
 ### 해외 플랫폼
 
-－**[독일](http://sdg-indikatoren.de/)** : http://sdg-indikatoren.de/
+－**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
 
-－**[영국](https://sdgdata.gov.uk/)** : https://sdgdata.gov.uk/
+－**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/ **
 
-－**[미국](https://sdg.data.gov/)** : https://sdg.data.gov/
+－**[미국](https://sdg.data.gov/): https://sdg.data.gov/**
 
-－**[아일랜드](https://irelandsdg.geohive.ie/)** : https://irelandsdg.geohive.ie/
+－**[아일랜드](https://irelandsdg.geohive.ie/): https://irelandsdg.geohive.ie/**
 
-－**[폴란드](https://sdg.gov.pl/)** : https://sdg.gov.pl/
+－**[폴란드](https://sdg.gov.pl/): https://sdg.gov.pl/**
 
-－**[멕시코](http://agenda2030.mx/#/home)** : http://agenda2030.mx/#/home
- 
+－**[멕시코](http://agenda2030.mx/#/home): http://agenda2030.mx/#/home**
+ <br>
