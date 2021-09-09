@@ -829,7 +829,7 @@ permalink: /publications/
 
 －**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)** : 유엔 아프리카 경제 위원회
 
-<br><br>
+<br>
 
 ### 해외 플랫폼
 
