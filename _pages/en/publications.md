@@ -819,17 +819,17 @@ permalink: /en/publications/
 
 <br><br>
 
-－**[Germany](http://sdg-indikatoren.de/)** : http://sdg-indikatoren.de/
+－**[Germany](http://sdg-indikatoren.de/) : http://sdg-indikatoren.de/**
 
-－**[U.K.](https://sdgdata.gov.uk/)** : https://sdgdata.gov.uk/
+－**[U.K.](https://sdgdata.gov.uk/) : https://sdgdata.gov.uk/**
 
-－**[U.S.A.](https://sdg.data.gov/)** : https://sdg.data.gov/
+－**[U.S.A.](https://sdg.data.gov/) : https://sdg.data.gov/**
 
-－**[Ireland](https://irelandsdg.geohive.ie/)** : https://irelandsdg.geohive.ie/
+－**[Ireland](https://irelandsdg.geohive.ie/) : https://irelandsdg.geohive.ie/**
 
-－**[Poland](https://sdg.gov.pl/)** : https://sdg.gov.pl/
+－**[Poland](https://sdg.gov.pl/) : https://sdg.gov.pl/**
 
-－**[Mexico](http://agenda2030.mx/#/home)** : http://agenda2030.mx/#/home
+－**[Mexico](http://agenda2030.mx/#/home) : http://agenda2030.mx/#/home**
  
 
 <br/>
