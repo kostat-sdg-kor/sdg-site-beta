@@ -25,7 +25,7 @@ permalink: /en/data-standard/
 	<br><br>
 
 	<div>
-		<span class="title">Selection Criteria for SDG Indicators Data</span>
+		<span class="title">Data Criteria for SDG Indicators</span>
 		<br><br>
 		<p class="contents">
 			The UN SDG indicators data were selected to be provided on the platform by the following three steps: 1. Are there any domestic statistical data that corresponds to the concept and definition of the UN SDG Indicators? (Type 1). And, if there are not aligned with domestic data, 2. Are there any estimated or modelled data by international organizations? (Type 2). At this time, there are domestic and international data corresponding to the UN SDGs, but if the two values are different, the domestic data will be provided. Finally, 3. if there are no corresponding data, are there alternative domestic data? (Type 3). 
