@@ -114,6 +114,8 @@ collections:
 # Menu
 menu:
   # Use these to customise the main navigation.
+  - path: /about
+    translation_key: menu.about
   - path: /goals
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: general.goals
@@ -121,8 +123,6 @@ menu:
     translation_key: menu.reporting_status
   - path: /data-standard
     translation_key: menu.data_standard
-  - path: /about
-    translation_key: menu.about
     #  - path: /guidance
     #   translation_key: menu.guidance
     #  - path: /faq
@@ -131,12 +131,10 @@ menu:
     #    translation_key: menu.updates
   - path: /publications
     translation_key: menu.publications
-
-footer_menu:
-  - path: mailto:sdgkostat@korea.kr
-    translation_key: menu.contact_us
   - path: /guidance
     translation_key: menu.guidance
+
+footer_menu:
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
