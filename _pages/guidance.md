@@ -4,17 +4,6 @@ permalink: /guidance/
 layout: page
 language: ko
 ---
-## 플랫폼 개발 매뉴얼
-<br>
-SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
-한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
-
-* Wiki [[바로가기]](https://github.com/ONSdigital/sdg-indicators/wiki)
- → 개발 단계별 설명, 기술적 요구사항, 기본 프로그램 설치 방법 등
-
-* Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
- → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
-<br><br>
 ## 자주하는 질문(FAQ)
 <br>
 
@@ -38,8 +27,19 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - A. 유엔은 지표별로 국제기구를 담당자로 지정하여 지표 방법론 개발 및 데이터 수집의 역할을 부여하였음. 또한, 국가별로는 SDGs 데이터 국가책임기관을 지정하였는데, 우리나라는 통계청 통계개발원이 책임기관임. 지표 소관 국제기구에서 데이터 제공 요청 시, 통계청은 국내 24개 지표 관계 부처와 협력하여 데이터를 제공하고 있음 
 
 - <b> Q. 국가에서 국제기구에 제공한 데이터는 어떻게 처리되는가?    </b>
-- A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출함. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생함. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스(unstats.un.org/sdgs/indicators/database)에 수록됨 <br>
+- A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출함. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생함. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스(unstats.un.org/sdgs/indicators/database)에 수록됨
 
+<br><br>
+ ## 플랫폼 개발 매뉴얼
+<br>
+SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
+한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
+
+* Wiki [[바로가기]](https://github.com/ONSdigital/sdg-indicators/wiki)
+ → 개발 단계별 설명, 기술적 요구사항, 기본 프로그램 설치 방법 등
+
+* Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
+ → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
 
 
  platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
