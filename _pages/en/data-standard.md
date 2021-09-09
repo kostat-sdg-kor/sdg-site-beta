@@ -15,8 +15,6 @@ permalink: /en/data-standard/
 	.img_div img { width: 90%; }
 </style>
 
-</style>
-
 <div class="contents_box">
 	<div>
 	<br><br>
