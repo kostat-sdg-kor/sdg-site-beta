@@ -835,7 +835,7 @@ permalink: /publications/
 
 －**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
 
-－**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/ **
+－**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/**
 
 －**[미국](https://sdg.data.gov/): https://sdg.data.gov/**
 
