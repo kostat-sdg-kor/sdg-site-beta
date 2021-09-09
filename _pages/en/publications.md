@@ -321,8 +321,8 @@ permalink: /en/publications/
 </div>
 <div class="search_form">
    <div class="search_div">
-      <input type="text" class="srh_input" name="search_input" placeholder="Search"/>
-      <input type="button" class="srh_btn" name="search_button" value="Search" onclick="search();"/>
+      <input type="text" class="srh_input" name="search_input" placeholder=" "/>
+      <input type="button" class="srh_btn" name="search_button" value="search" onclick="search();"/>
    
 
    </div>
