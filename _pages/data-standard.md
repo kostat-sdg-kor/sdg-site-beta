@@ -40,7 +40,7 @@ permalink: /data-standard/
 	<br><br>
 
 	<div>
-		<span class="title">서비스 내용</span>
+		<span class="title">지표 서비스 내용</span>
 		<br><br>
 		<p class="contents">
 			선정된 지표에 대해서는 가능한 장기 시계열 데이터를 제공함으로써 수요자들이 한국의 SDGs 진행 방향성에 대한 평가를 할 수 있도록 하고 있습니다. 데이터 품질이 승인된 국가통계를 중심으로 서비스하되, 경우에 따라 정부부처 및 관계기관에서 정책수립 및 이행, 평가를 목적으로 수집하고 있는 공공 데이터도 함께 제공할 것입니다. 
