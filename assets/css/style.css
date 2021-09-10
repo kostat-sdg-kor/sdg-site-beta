@@ -2802,6 +2802,9 @@ body.contrast-high .breadcrumb {
   line-height: 1.2;
   padding-left: 20px; }
 
+#main-content {
+  padding-bottom: 120px; }
+
 #shareBtnContainer {
   width: 100%;
   text-align: center;
