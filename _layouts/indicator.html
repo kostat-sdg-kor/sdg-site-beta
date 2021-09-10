@@ -122,14 +122,14 @@ function copyUrl(){
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
 <button class="qr" title="QR코드 팝업" type="button" data-target="#qrpopup" data-toggle="modal"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
-<div class="modal fade" id=qrpopup">
-<div class="modal-dialog">
+<div class="modal fade" id="qrpopup" style="width:200px;text-align: center;">
+<div class="modal-dialog" style="max-width:100%; width:auto; display:table;">
 <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">×</button>
         <h4 class="modal-title">QR Code</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="text-align: center;">
             <img id="qrcode" src="">
 <script>document.getElementById('qrcode').src=getQrcode()</script>
       </div>
