@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910051937">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910054659">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -625,7 +625,7 @@ function copyUrl(){
   data-indicatorid='indicator_12-1-1'
   data-id="12-1-1"
   data-country="Korea"
-  data-charttitle="지속 가능한 소비 및 생산으로의 전환을 위한 정책 수단을 개발, 적용, 이행하는 국가 수"
+  data-charttitle="지속 가능한 소비 및 생산을 지원하는 정책 수단 개발, 채택, 이행하고 있는지 여부"
   data-charttitles="null"
   data-measurementunit="유:1, 무:0"
   data-showdata="true"
@@ -671,71 +671,11 @@ function copyUrl(){
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>지속 가능한 소비 및 생산으로의 전환을 위한 정책 수단을 개발, 적용, 이행하는 국가 수</caption>
+      <caption>지속 가능한 소비 및 생산을 지원하는 정책 수단 개발, 채택, 이행하고 있는지 여부</caption>
       <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Value</th>
-        
-        
-        
-        <th scope="col" class="table-value">Units</th>
-        
         
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td>1</td>
-          
-          
-          
-          <td class="table-value">SCP 정책 제도적 기제 보유</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td>1</td>
-          
-          
-          
-          <td class="table-value">SCP 정책수단 보유</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td>1</td>
-          
-          
-          
-          <td class="table-value">SCP 이행계획보유 및 정책 우선순위</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -794,7 +734,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">지속 가능한 소비 및 생산으로의 전환을 위한 정책 수단을 개발, 적용, 이행하는 국가 수</h4>
+          <h4 id="chart-heading" class="chart-title">지속 가능한 소비 및 생산을 지원하는 정책 수단 개발, 채택, 이행하고 있는지 여부</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -1199,7 +1139,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">정의 </th>
         <td>
           
-            <p>지속가능한 소비 및 생산이란 천연 자원과 독성 물질의 사용을 최소화하면서 삶의 질을 향상시키는 서비스 및 제품의 사용을 의미하며, 서비스 또는 제품의 사용 기간 동안 폐기물 및 오염물질의 배출을 최소화하여 미래 세대의 소비 및 생산을 위태롭게 하지 않는 것을 의미함 지속가능한 소비 및 생산을 지원하는 정책수단은 경제적 및 사회적 이익을 창출하기 위한 소비와 생산 과정에서 환경에 미치는 영향을 줄이기 위해 설계 및 구현되는 모든 조치  또는 개입을 의미함</p>
+            <p>지속가능한 소비 및 생산이란 천연 자원과 독성 물질의 사용을 최소화하면서 삶의 질을 향상시키는 서비스 및 제품의 사용을 의미하며,  서비스 또는 제품의 사용 기간 동안 폐기물 및 오염물질의 배출을 최소화하여 미래 세대의 소비 및 생산을 위태롭게 하지 않는 것을 의미함. <br /> 지속가능한 소비 및 생산을 지원하는 정책수단은 경제적 및 사회적 이익을 창출하기 위한 소비와 생산 과정에서 환경에 미치는 영향을 줄이기 위해  설계 및 구현되는 모든 조치 또는 개입을 의미함</p>
 
           
         </td>
@@ -1615,12 +1555,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910051937'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910054659'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910051937"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910054659"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
