@@ -2823,12 +2823,13 @@ body.contrast-high .breadcrumb {
   background-size: 576px 576px !important; }
 
 .article-share {
-  right: calc(-100% + 50px);
+  right: calc(50% - 430px - 38px - 160px + 2px);
   margin: 0;
   position: fixed;
-  bottom: 300px;
+  bottom: 240px;
   opacity: 1;
-  z-index: 1; }
+  z-index: 1;
+  width: 40px; }
 
 .article-share ul li ~ li {
   margin-top: 5px; }
@@ -2895,7 +2896,8 @@ button {
   border: 0;
   padding: 0;
   background: none;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 3px 0px; }
 
 @media screen and (max-width: 498px) {
   #shareBtnContainer {
