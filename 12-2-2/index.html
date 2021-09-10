@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910084141">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910084459">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -631,7 +631,7 @@ function copyUrl(){
   id="indicatorData"
   data-indicatorid='indicator_12-2-2'
   data-id="12-2-2"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량"
   data-charttitles="null"
   data-measurementunit="톤, 톤, USD당 킬로그램"
@@ -2433,6 +2433,8 @@ function copyUrl(){
     <p>출처: 유엔환경계획(UNEP)</p>
     
     
+    <p>지역: 전국</p>
+    
     
     <p>세부지표: 톤, 톤, USD당 킬로그램</p>
     
@@ -2722,6 +2724,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
         
         <dt>단위:</dt>
@@ -2763,6 +2768,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>유엔환경계획(UNEP)</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
         
 
         
@@ -3311,12 +3319,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910084141'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910084459'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910084141"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910084459"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
