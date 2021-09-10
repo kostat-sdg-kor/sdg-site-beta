@@ -15,7 +15,7 @@ function zoomIn(){
     zooms();
 }
 function zooms(){
-    document.body.style.zoop = nowZoom;
+    document.body.style.zoom = nowZoom;
     if(nowZoom <= 0.7) alert(" 더 이상 축소할 수 없습니다.")
     if(nowZoom >= 3) alert(" 더 이상 확대할 수 없습니다.")
 }
