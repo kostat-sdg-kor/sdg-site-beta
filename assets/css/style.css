@@ -2823,9 +2823,11 @@ body.contrast-high .breadcrumb {
   background-size: 576px 576px !important; }
 
 .article-share {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto 64px auto;
+  right: calc(-100% + 50px);
+  margin: 0;
+  position: fixed;
+  bottom: 300px;
+  opacity: 1;
   z-index: 1; }
 
 .article-share ul li ~ li {
