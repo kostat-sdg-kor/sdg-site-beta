@@ -19,7 +19,7 @@ permalink: /data-standard/
 <div class="contents_box">
 	<div>
 	<br><br>
-		<p class="contents" style="border:3px solid black; padding:10px; color:gray;">
+		<p class="contents" style="border:3px solid black; padding:10px;">
 			이 플랫폼은 종합개편안이 반영된 <b>UN SDGs 231개 지표를 기준으로 한 국내 데이터를 서비스</b>하고 있습니다. 통계청은 전 세계 모니터링을 목적으로 한 UN SDGs에 기여하기 위해 현재 가용한 한국 데이터가 있는지를 검토하여 해당 데이터를 서비스 중입니다. 이 공간을 통해 <b>데이터 기반으로 한국의 SDGs 이행 수준을 파악하고, 각종 정책수립의 근거를 찾을 수 있길 기대</b>합니다. 동시에, 현재 데이터가 없어서 모니터링이 가능하지 않은 영역을 진단하여 <b>통계개선개발</b>의 방향성을 찾을 수도 있습니다. 		
 		</p>
 	 </div>
