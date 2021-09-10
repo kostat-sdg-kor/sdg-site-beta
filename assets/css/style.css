@@ -2841,3 +2841,11 @@ body.contrast-high .breadcrumb {
 @media print {
   a:after {
     content: "" !important; } }
+footer {
+  clear: left;
+  color: white;
+  background-color: #414042;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */ }
