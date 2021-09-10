@@ -2889,6 +2889,11 @@ body.contrast-high .breadcrumb {
   color: #fff;
   font-size: 12px; }
 
+.article-share .qr {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px; }
+
 button, input, optgroup, select, textarea {
   font-family: inherit;
   font-size: inherit;
