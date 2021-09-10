@@ -74,10 +74,19 @@ function copyUrl(){
 	        }
 	</script>
 <script>
-	function getQrcode(){
-		return 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+encodeURIComponent(window.location.href);
-	}
+$(document).ready(function(){
+	 $('[data-toggle="popover"]').popover({
+          //trigger: 'focus',
+		  trigger: 'hover',
+          html: true,
+          content: function () {
+				return '<img class="img-fluid" src=https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="'+ encodeURIComponent(window.location.href) + '" />';
+          },
+          title: 'Toolbox'
+    }) 
+});
 </script>
+
 <div class="container">
   <!--{% include components/indicator/breadcrumbs.html %}-->
   {% if site.create_indicators.previous_next_links %}
@@ -120,20 +129,24 @@ function copyUrl(){
 <button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-kakaostory" aria-hidden="true"></i><span class="sr-only">카카오스토리</span></button>
 <button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
-<button class="qr" title="QR코드 팝업" type="button" data-target="#qrpopup" data-toggle="modal"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
+<!--<button class="qr" title="QR코드 팝업" type="button" data-target="#qrpopup" data-toggle="modal"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>-->
+<button class="qr" title="QR코드 팝업" type="button"   data-toggle="popover" data-img="" title="QR"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
+<!--
 <div class="modal fade" id="qrpopup" style="width:200px;text-align: center;">
 <div class="modal-dialog" style="max-width:100%; width:auto; display:table;">
 <div class="modal-content">
-      <div class="modal-header">
+<div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">×</button>
         <h4 class="modal-title">QR Code</h4>
-      </div>
-      <div class="modal-body" style="text-align: center;">
+</div>
+<div class="modal-body" style="text-align: center;">
             <img id="qrcode" src="">
-<script>document.getElementById('qrcode').src=getQrcode()</script>
+
       </div>
     </div>
   </div>
 </div>
+-->
+
 {% include footer.html %}
