@@ -55,7 +55,7 @@ permalink: /en/data-standard/
 		<span class="title">Information update</span>
 		<br><br>
 		<p class="contents">
-			The statistical data in the platform will be regularly updated, but the newly identified indicators that are available will be immediately reflected. This platform will be integrated into the Korean Indicator site operated by KOSTAT in 2022. 
+			The statistical data in the platform will be regularly updated, but the newly identified indicators that are available will be immediately reflected.
 		</p>
 	</div>
   <br><br>
