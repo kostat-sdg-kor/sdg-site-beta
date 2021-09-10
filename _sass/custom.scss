@@ -76,7 +76,7 @@ body.contrast-high {
 }
 
 
-.article-share {  right: calc(-100% + 50px);margin: 0;position: fixed;bottom: 300px; opacity: 1; z-index: 1;  }
+.article-share {  right: calc(50% - 430px - 38px - 160px + 2px); margin: 0;position: fixed;bottom: 240px; opacity: 1; z-index: 1;  width: 40px; }
 .article-share ul li ~ li { margin-top: 5px; }
 .article-share button { display: block; width: 40px; height: 40px; border-radius: 5px; font-size: 18px; }
 .article-share .like { border: 1px solid #ced4da; }
@@ -90,7 +90,7 @@ body.contrast-high {
 .article-share .bm { background-color: #286dc0; color: #fff; }
 .article-share .uc { background-color: #6c757e; color: #fff; font-size: 12px; }
 button,input,optgroup,select,textarea { font-family: inherit; font-size: inherit; font-weight:inherit; margin: 0;}
-button { border: 0; padding: 0; background: none; cursor: pointer }
+button { border: 0; padding: 0; background: none; cursor: pointer; margin: 3px 0px;}
 
 @media screen and (max-width: 498px) {
 	#shareBtnContainer { width: 200px; }
