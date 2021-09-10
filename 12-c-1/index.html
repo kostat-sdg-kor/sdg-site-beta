@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910141208">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910142615">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -560,6 +560,26 @@ function copyUrl(){
 	        }
 	</script>
 <script src="//code.jquery.com/jquery-3.4.1.min.js">
+$(function(){
+  $('.qr').click(function(){
+  $('.qr').popover("toggle");
+
+    var popOverSettings = {
+    placement: 'bottom',
+    container: 'body',
+    html: true,
+    title: 'QR',
+    selector: '[rel="popover"]', //Sepcify the selector here
+    content: function () {
+        return '<img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ encodeURIComponent(window.location.href) + '">';
+    }
+}
+    $('.qr').popover(popOverSettings);
+
+  });
+});
+
+$('body').popover(popOverSettings);
 $(document).ready(function(){
 	 $('.qr').popover({
      title: 'QR',
@@ -1628,12 +1648,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910141208'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910142615'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910141208"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910142615"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
