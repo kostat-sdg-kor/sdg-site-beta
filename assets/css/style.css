@@ -2716,6 +2716,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 body {
   background: white; }
 
+td {
+  word-break: break-all; }
+
 header {
   background: #fff url(../img/sdgbg.png) bottom left repeat-x; }
   header .container {
