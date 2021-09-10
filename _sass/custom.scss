@@ -76,7 +76,7 @@ body.contrast-high {
 }
 
 
-.article-share {  width: 100%; text-align: center; margin: 0 auto 64px auto; z-index: 1;  }
+.article-share {  right: calc(-100% + 50px);margin: 0;position: fixed;bottom: 300px; opacity: 1; z-index: 1;  }
 .article-share ul li ~ li { margin-top: 5px; }
 .article-share button { display: block; width: 40px; height: 40px; border-radius: 5px; font-size: 18px; }
 .article-share .like { border: 1px solid #ced4da; }
