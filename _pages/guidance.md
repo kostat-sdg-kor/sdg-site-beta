@@ -48,6 +48,7 @@ language: ko
  <b> Q. 국가에서 국제기구에 제공한 데이터는 어떻게 처리되나요?    </b><br>
  A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출합니다. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생할 수 있습니다. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스(unstats.un.org/sdgs/indicators/database)에 수록됩니다.
 <br><br>
+	</p>
 </div>
 <div class="contents_box">
 
@@ -63,7 +64,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 <br><br>
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)<br>
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
-
+</p>
 </div>
 <br><br>
  platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
