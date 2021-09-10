@@ -6,7 +6,7 @@ permalink: /data-standard/
 <div id="main-content" class="container goal-{{ goal_number }}">
 
 	<style>
-	.contents_box { padding : 0 5%; }
+	.contents_box { padding : 0 5%; line-height: 200%; }
 	.title { color:navy; font-size:18pt; font-weight:600;}
 	.contents { font-size:12pt; }
 	
