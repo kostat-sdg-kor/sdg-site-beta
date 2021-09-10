@@ -74,6 +74,18 @@ body.contrast-high {
 	width:36px; height:36px; margin: 4px 4px;
 	background-repeat:no-repeat; background-size: 576px 576px !important;
 }
+
+
+.shareBtnContainer .fb { background-color: #486aa1; color: #fff; }
+.shareBtnContainer .tw { background-color: #3eabea; color: #fff; }
+.shareBtnContainer .kt { background-color: #ffe23a; color: #3d1e1e; }
+.shareBtnContainer .ks { background-color: #ffe23a; color: #fff; }
+.shareBtnContainer .bd { background: #33aa47 url("https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/share_bd.png") 50% 50% no-repeat; color: #fff; }
+.shareBtnContainer .bm { background-color: #286dc0; color: #fff; }
+.shareBtnContainer .uc { background-color: #6c757e; color: #fff; font-size: 12px; }
+.shareBtnContainer button { display: block; width: 40px; height: 40px; border-radius: 5px; font-size: 18px; }
+button { font-family: inherit; font-size: inherit; font-weight:inherit; margin: 0;  border: 0; padding: 0; background: none; cursor: pointer; }
+
 @media screen and (max-width: 498px) {
 	#shareBtnContainer { width: 200px; }
 }
