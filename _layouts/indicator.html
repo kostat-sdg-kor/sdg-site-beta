@@ -74,6 +74,26 @@ function copyUrl(){
 	        }
 	</script>
 <script src="//code.jquery.com/jquery-3.4.1.min.js">
+$(function(){
+  $('.qr').click(function(){
+  $('.qr').popover("toggle");
+
+    var popOverSettings = {
+    placement: 'bottom',
+    container: 'body',
+    html: true,
+    title: 'QR',
+    selector: '[rel="popover"]', //Sepcify the selector here
+    content: function () {
+        return '<img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ encodeURIComponent(window.location.href) + '">';
+    }
+}
+    $('.qr').popover(popOverSettings);
+
+  });
+});
+
+$('body').popover(popOverSettings);
 $(document).ready(function(){
 	 $('.qr').popover({
      title: 'QR',
