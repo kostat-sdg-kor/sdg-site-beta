@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910112401">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910125230">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -560,16 +560,23 @@ function copyUrl(){
 	        }
 	</script>
 <script src="//code.jquery.com/jquery-3.4.1.min.js">
+var popOverSettings ={
+  placement : 'top',
+  trigger : 'hover',
+  html : true,
+  selector: '[rel="popover"]', //Sepcify the selector here
+  content: function () {
+        return $('#popover-content').html();
+    }
+}
+$('body').popover(popOverSettings);
 $(document).ready(function(){
-	 $('[data-toggle="popover"]').popover({
-          //trigger: 'focus',
-		  trigger: 'hover',
-          html: true,
-          content: function () {
-				return '<img class="img-fluid" src=https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="'+ encodeURIComponent(window.location.href) + '" />';
-          },
-          title: 'Toolbox'
-    }) 
+    $('[data-toggle="popover"]').popover({
+        placement : 'top',
+		trigger : 'hover',
+        html : true,
+        content : '<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ encodeURIComponent(window.location.href) + '">'
+    });
 });
 </script>
 
@@ -1612,7 +1619,7 @@ data-event-label="Change to indicator.global_metadata tab"
 <button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-kakaostory" aria-hidden="true"></i><span class="sr-only">카카오스토리</span></button>
 <button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
-<button class="qr" title="QR코드 팝업" type="button"   data-toggle="popover" data-img="" title="QR"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
+<button class="qr" title="QR코드 팝업" type="button"   data-toggle="popover"  title="QR"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
 
 
@@ -1651,12 +1658,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910112401'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910125230'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910112401"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910125230"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
