@@ -832,7 +832,7 @@ permalink: /publications/
 <br>
 ### 해외 플랫폼
 
-－**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
+－**[독일]: http://sdg-indikatoren.de/(http://sdg-indikatoren.de/)**
 
 －**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/**
 
