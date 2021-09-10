@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910045627">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910050430">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -2638,6 +2638,8 @@ data-event-label="Change to indicator.global_metadata tab"
 </div>
 
 </div>
+<!--
+구 SNS 버튼
 <div id="shareBtnContainer">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;">
@@ -2647,7 +2649,17 @@ data-event-label="Change to indicator.global_metadata tab"
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/star.png" title="즐겨찾기 추가" onclick="addFavorite();">
 	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl();">
-</div>	
+</div>
+-->
+<div class="article-share">
+<button class="fb" title="페이스북 공유 새창으로 열림" type="button" id="shareFacebook" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-facebook" aria-hidden="true"></i><span class="sr-only">페이스북</span></button>
+<button class="tw" title="트위터 공유 새창으로 열림" type="button" onclick="twitter2(); return false;"><i class="xi-twitter" aria-hidden="true" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"></i><span class="sr-only">트위터</span></button>
+<button class="bd" title="밴드 공유 새창으로 열림" type="button" onclick="band(); return false;"><i></i><span class="sr-only" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;">밴드</span></button>
+<button class="kt" title="카카오톡 공유 새창으로 열림" id="kakao-link-btn" type="button" onclick="sendKakao();"><i class="xi-kakaotalk" aria-hidden="true"></i><span class="sr-only">카카오톡</span></button>
+<button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-kakaostory" aria-hidden="true"></i><span class="sr-only">카카오스토리</span></button>
+<button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>
+<button class="uc" title="URL 복사" type="button" onclick="onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
+</div>
 <footer role="contentinfo">
   <div class="container">
     <div class="row">
@@ -2683,12 +2695,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910045627'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910050430'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910045627"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910050430"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
