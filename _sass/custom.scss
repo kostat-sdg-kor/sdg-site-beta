@@ -2,6 +2,9 @@
 body{
 	background: white;
 }
+td{
+	word-break: break-all;
+}
 header {
 	background: #fff url(../img/sdgbg.png) bottom left repeat-x;
 	.container {
