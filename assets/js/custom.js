@@ -2,3 +2,20 @@
 opensdg.dataRounding = function(value) {
     return Math.round(value * 1000) / 1000;
 }
+
+var nowZoom = 1;
+function zoomOut(){
+    nowZoom = nowZoom - 0.1;
+    if(nowZoom <= 0.7) nowZoom = 0.7;
+    zooms();
+}
+function zoomIn(){
+    nowZoom = nowZoom + 0.1;
+    if(nowZoom >= 3) nowZoom = 3;
+    zooms();
+}
+function zooms(){
+    document.body.style.zoop = nowZoom;
+    if(nowZoom <= 0.7) alert(" 더 이상 축소할 수 없습니다.")
+    if(nowZoom >= 3) alert(" 더 이상 확대할 수 없습니다.")
+}
