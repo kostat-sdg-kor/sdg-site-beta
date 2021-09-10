@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910083510">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210910083943">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -631,7 +631,7 @@ function copyUrl(){
   id="indicatorData"
   data-indicatorid='indicator_9-5-2'
   data-id="9-5-2"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="인구 1만명 당 상근상당 연구원 수"
   data-charttitles="null"
   data-measurementunit="1만 명당 명"
@@ -941,6 +941,8 @@ function copyUrl(){
     <p>출처: 과학기술정보통신부 과학기술정보과</p>
     
     
+    <p>지역: 전국</p>
+    
     
     <p>세부지표: 1만 명당 명</p>
     
@@ -1236,6 +1238,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
         
         <dt>단위:</dt>
@@ -1278,6 +1283,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
         
         <dt>단위:</dt>
@@ -1310,6 +1318,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>과학기술정보통신부 과학기술정보과</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
         
 
         
@@ -1892,12 +1903,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210910083510'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210910083943'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210910083510"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210910083943"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
