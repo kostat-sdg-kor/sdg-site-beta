@@ -7,7 +7,7 @@ language: ko
 
 <style>
 	
-	.contents_box { padding : 0 5%; }
+	.contents_box { padding : 0 5%; line-height: 200%;}
 	.title { color:navy; font-size:18pt; font-weight:600;}
 	.contents { font-size:12pt; }
 	
@@ -22,7 +22,6 @@ language: ko
 </style>
 
 <div class="contents_box">
-	<div>
 		<span class="title">자주하는 질문(FAQ)</span>
 		<br><br>
 		<p class="contents">
@@ -49,9 +48,9 @@ language: ko
  <b> Q. 국가에서 국제기구에 제공한 데이터는 어떻게 처리되나요?    </b><br>
  A. 국제기구는 국가로부터 제공 받은 데이터를 국제비교를 위해 유엔 SDGs 지표 개념 정의에 따라 보정한 후 유엔통계처에 제출합니다. 국제기구 데이터와 국내 데이터 간에 차이가 여기에서 발생할 수 있습니다. 국제기구가 최종 제출한 데이터는 유엔 SDGs 데이터베이스(unstats.un.org/sdgs/indicators/database)에 수록됩니다.
 <br><br>
-  
+</div>
 <div class="contents_box">
-	<div>
+
 		<span class="title">플랫폼 개발 매뉴얼(FAQ)</span>
 		<br><br>
 		<p class="contents">
