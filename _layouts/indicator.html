@@ -73,7 +73,7 @@ function copyUrl(){
 			        });
 	        }
 	</script>
-<script>
+<script src="//code.jquery.com/jquery-3.4.1.min.js">
 $(document).ready(function(){
 	 $('[data-toggle="popover"]').popover({
           //trigger: 'focus',
@@ -108,19 +108,7 @@ $(document).ready(function(){
   {% include components/indicator/indicator-content.html %}
   {% include components/indicator/indicator-main.html %}
 </div>
-<!--
-구 SNS 버튼
-<div id="shareBtnContainer">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/facebook.png" title="페이스북에 공유하기" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/twitter.png" title="트위터에 보내기" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/blog.png" title="네이버로 퍼가기" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/band.png" title="밴드에 공유하기" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/talk.png" title="카카오톡에 공유하기" onclick="sendKakao();">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/story.png" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/star.png" title="즐겨찾기 추가" onclick="addFavorite();">
-	<img class="shareButton" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/copy.png" title="주소 복사" onclick="copyUrl();">
-</div>
--->
+
 <div class="article-share">
 <button class="fb" title="페이스북 공유 새창으로 열림" type="button" id="shareFacebook" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-facebook" aria-hidden="true"></i><span class="sr-only">페이스북</span></button>
 <button class="tw" title="트위터 공유 새창으로 열림" type="button" onclick="twitter2(); return false;"><i class="xi-twitter" aria-hidden="true" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"></i><span class="sr-only">트위터</span></button>
@@ -129,24 +117,8 @@ $(document).ready(function(){
 <button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-kakaostory" aria-hidden="true"></i><span class="sr-only">카카오스토리</span></button>
 <button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
-<!--<button class="qr" title="QR코드 팝업" type="button" data-target="#qrpopup" data-toggle="modal"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>-->
 <button class="qr" title="QR코드 팝업" type="button"   data-toggle="popover" data-img="" title="QR"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
-<!--
-<div class="modal fade" id="qrpopup" style="width:200px;text-align: center;">
-<div class="modal-dialog" style="max-width:100%; width:auto; display:table;">
-<div class="modal-content">
-<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">×</button>
-        <h4 class="modal-title">QR Code</h4>
-</div>
-<div class="modal-body" style="text-align: center;">
-            <img id="qrcode" src="">
 
-      </div>
-    </div>
-  </div>
-</div>
--->
 
 {% include footer.html %}
