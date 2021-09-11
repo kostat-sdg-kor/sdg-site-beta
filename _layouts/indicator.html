@@ -104,20 +104,17 @@ function copyUrl(){
 <button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-kakaostory" aria-hidden="true"></i><span class="sr-only">카카오스토리</span></button>
 <button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
-<button class="qr" title="QR코드" type="button"  data-toggle="modal" data-target="#qrcode"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
+<button class="qr" title="QR코드" type="button"  data-toggle="popover-x" data-target="#qrCode"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
 
-<div class="modal fade" id="qrcode"  role="dialog" aria-labelledby="qrcode" aria-hidden="true">
-  <div class="modal-dialog" style="width:200px;">
-    <div class="modal-content" style="max-width:100%;">
-<div class="modal-header">
-        <p class="modal-title" id="myModalLabel">QR</p>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      </div>
-      <div class="modal-body">
-       <img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ encodeURIComponent(window.location.href) + '">
-      </div>
-    </div>
+<div id="qrCode" class="popover ppopover-info">
+  <div class="arrow"></div>
+  <h3 class="popover-title">
+    <span class="close pull-right" data-dismiss="popover-x">&times;</span>
+    QR
+  </h3>
+  <div class="popover-content">
+    <img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data='+ encodeURIComponent(window.location.href) + '">
   </div>
 </div>
 
