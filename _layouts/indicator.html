@@ -58,6 +58,11 @@ function copyUrl(){
 	}
 
 }
+
+  function getQrCode(){
+  return '<img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+encodeURIComponent(window.location.href) + '" />';
+}
+ 
 </script>
 <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 	<script>
@@ -114,7 +119,9 @@ function copyUrl(){
     QR
   </h3>
   <div class="popover-content">
-    <img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data='+ encodeURIComponent(window.location.href) + '">
+    	<script>
+		document.write(getQrCode());
+	</script>
   </div>
 </div>
 
