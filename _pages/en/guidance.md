@@ -1,5 +1,5 @@
 ---
-title: Guidance
+title: FAQ
 permalink: /en/guidance/
 layout: page
 language: en
