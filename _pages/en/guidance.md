@@ -8,6 +8,7 @@ language: en
 
 
 ## FAQ
+<br>
 <b>Q. Why are the SDGs important?</b>
 
 A. The SDGs are aimed at achieving a unified response to issues facing the world that cannot be solved through the efforts of specific groups or countries alone, including poverty, inequality, the climate crisis, and violence. Participation and solidarity among all countries and stakeholder groups are essential.
