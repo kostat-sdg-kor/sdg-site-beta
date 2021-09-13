@@ -14,11 +14,13 @@ language: en
 A. The SDGs are aimed at achieving a unified response to issues facing the world that cannot be solved through the efforts of specific groups or countries alone, including poverty, inequality, the climate crisis, and violence. Participation and solidarity among all countries and stakeholder groups are essential.
 
 
+
 <b>Q. How can we monitor progress in SDGs implementation for each country?</b>
 
 A. The implementation progress of the 17 SDGs is monitored annually based on 231 UN SDG indicators. At the global level, the UN Secretary-General has published 『The Sustainable Development Goals Report』 to check the level of implementation at the UN High Level Political Forum (HLPF, held every July). <br>
 On a regional level, implementation progress is monitored by (sub) regional commission. In the Asia-Pacific region, which includes Korea, the 『Asia and the Pacific SDG Progress Report』 is published every March and the Asia-Pacific Forum on Sustainable Development (APFSD) is also being held. <br>
 Individual countries also regularly monitor the implementation of the SDGs, and the results are shared in the form of voluntary reporting by each country at the UN HLPF (Korea took part in 2016).
+
 
 
 <b>Q. How is SDGs data being collected? </b>
