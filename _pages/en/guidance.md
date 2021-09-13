@@ -5,9 +5,7 @@ layout: page
 language: en
 ---
 
-This page shares information for people using this website and for countries wishing to take a copy of it.
 
-We have also developed a set of <a href="https://github.com/datasciencecampus/sdg-indicators/wiki" onClick='ga("send", "event", "Guidance", "wiki", "wiki homepage")'>wiki pages</a> which include more detailed technical information.
 
 ## FAQ
 <b>Q. Why are the SDGs important?</b>
