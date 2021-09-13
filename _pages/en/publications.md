@@ -330,6 +330,7 @@ permalink: /en/publications/
 
 <div class="board_form">
    <div class="report_div">
+      <input type="button" class="report1_btn" onclick="location.reload();" value="Total">
       <input type="button" class="report1_btn" onclick="reportView('report1');" name="report1" value="SRI Reports"/>
       <input type="button" class="report2_btn" onclick="reportView('report2');" name="report2" value="Other Agencies Reports"/>
       <input type="button" class="report3_btn" onclick="reportView('report3');" name="report3" value="UN Reports"/>      
