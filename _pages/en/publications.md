@@ -253,7 +253,7 @@ permalink: /en/publications/
          .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
          
          .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
-         .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
+         .search_form .search_div .srh_input { font-size : 15px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
          .search_form .search_div .srh_btn {   width: 60px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
           
           .report_div { display : inline-block; width: 100%; text-align:center; margin-bottom: 20px;}
