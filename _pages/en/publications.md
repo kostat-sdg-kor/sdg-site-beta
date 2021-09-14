@@ -247,7 +247,7 @@ permalink: /en/publications/
       /*  공통 */
          body { padding:0; margin:0; }
       /*    상단 제목검색 및 버튼 CSS */
-         input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; font-size:13pt;}
+         input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; font-size:12pt;}
          input[type=button]:visited { background:#5D5D5D; }
          
          .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
