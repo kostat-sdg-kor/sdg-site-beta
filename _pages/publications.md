@@ -2,6 +2,7 @@
 layout: page
 language: ko
 permalink: /publications/
+title: 
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
@@ -238,7 +239,7 @@ permalink: /publications/
       
       .on { background:#6799FF; color:#ffffff; }
       
-      .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
+      .top_div { display: flex; justify-content: center; text-align : center; width:99%; border:0; font-weight:bold;}
       .top_div .item { display:table-cell; width:250px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
