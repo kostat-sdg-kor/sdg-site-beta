@@ -53,7 +53,7 @@ language: ko
 <div class="contents_box">
 
 		<span class="title">플랫폼 개발 매뉴얼(FAQ)</span>
-		<br><br>
+		<br>
 		<p class="contents">
 <br>
 SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
