@@ -2,7 +2,7 @@
 layout: page
 language: ko
 permalink: /publications/
-title: 
+title: 발간자료
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
