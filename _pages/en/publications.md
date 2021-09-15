@@ -213,7 +213,7 @@ permalink: /en/publications/
       
       .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
       .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
-      .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+      .search_form .search_div .srh_btn {   width: 70px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
        
        .report_div { display : inline-block; width : 100%; height: 40px; text-align:center; margin-bottom: 20px;}
        .report1_btn, .report2_btn, .report3_btn { font-size:10pt; height: 40px; outline : none; background : gray; border : 0px; color : #ffffff; margin-right : 10px; border-radius:10px;}
@@ -254,7 +254,7 @@ permalink: /en/publications/
          
          .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
          .search_form .search_div .srh_input { font-size : 15px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
-         .search_form .search_div .srh_btn {   width: 60px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+         .search_form .search_div .srh_btn {   width: 70px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
           
           .report_div { display : inline-block; width: 100%; text-align:center; margin-bottom: 20px;}
           .report1_btn, .report2_btn, .report3_btn { display: block; width: 100%; height: 40px; font-size:11pt; outline : none; background : gray; border : 0px; color : #ffffff;}
