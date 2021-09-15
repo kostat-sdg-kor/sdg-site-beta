@@ -2837,13 +2837,6 @@ body.contrast-high .breadcrumb {
 .article-share ul li ~ li {
   margin-top: 5px; }
 
-.article-share button {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  font-size: 18px; }
-
 .article-share .like {
   border: 1px solid #ced4da; }
 
@@ -2904,28 +2897,37 @@ button {
   border: 0;
   padding: 0;
   background: none;
-  cursor: pointer;
-  margin: 3px 0px; }
-
-@media screen and (max-width: 498px) {
-  #shareBtnContainer {
-    width: 200px; } }
-@media screen and (min-width: 1280px) {
-  #shareBtnContainer {
-    width: 36px;
-    margin: 0;
-    position: fixed;
-    bottom: 78px;
-    right: calc(50% - 430px - 38px - 160px + 2px);
-    opacity: 1; }
-
-  .shareBtn {
-    margin: 1px 0; } }
-.shareButton {
-  width: 36px;
-  padding: 4px 0px;
   cursor: pointer; }
 
+@media screen and (max-width: 498px) {
+  .article-share {
+    right: calc(50% - 430px - 38px - 160px + 2px);
+    margin: 0;
+    position: fixed;
+    bottom: 240px;
+    opacity: 1;
+    z-index: 1;
+    width: 40px; }
+
+  .article-share button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 3px 0px; } }
+@media screen and (min-width: 1280px) {
+  .article-share {
+    text-align: center; }
+
+  .article-share button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0px 2px;
+    float: right; } }
 @media print {
   a:after {
     content: "" !important; } }
