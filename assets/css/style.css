@@ -2836,7 +2836,7 @@ body.contrast-high .breadcrumb {
     border-radius: 5px;
     font-size: 18px;
     margin: 5px 1px;
-    float: right; } }
+    float: left; } }
 @media screen and (min-width: 1280px) {
   .article-share {
     right: calc(50% - 430px - 38px - 160px + 2px);
