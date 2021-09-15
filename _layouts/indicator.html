@@ -99,8 +99,9 @@ function copyUrl(){
   {% include components/indicator/indicator-available.html %}
   {% include components/indicator/indicator-content.html %}
   {% include components/indicator/indicator-main.html %}
-</div>
 
+	
+<!-- SNS 공유 버튼 -->
 <div class="article-share">
 <button class="fb" title="페이스북 공유 새창으로 열림" type="button" id="shareFacebook" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><i class="xi-facebook" aria-hidden="true"></i><span class="sr-only">페이스북</span></button>
 <button class="tw" title="트위터 공유 새창으로 열림" type="button" onclick="twitter2(); return false;"><i class="xi-twitter" aria-hidden="true" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"></i><span class="sr-only">트위터</span></button>
@@ -111,6 +112,10 @@ function copyUrl(){
 <button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>
 <button class="qr" title="QR코드" type="button"  data-toggle="popover-x" data-target="#qrCode" data-trigger="hover click" data-placement="bottom"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
 </div>
+	
+</div>
+
+
 
 <div id="qrCode" class="popover ppopover-info">
   <div class="arrow"></div>
