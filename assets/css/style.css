@@ -2825,15 +2825,35 @@ body.contrast-high .breadcrumb {
   background-repeat: no-repeat;
   background-size: 576px 576px !important; }
 
-.article-share {
-  right: calc(50% - 430px - 38px - 160px + 2px);
-  margin: 0;
-  position: fixed;
-  bottom: 240px;
-  opacity: 1;
-  z-index: 1;
-  width: 40px; }
+@media screen and (max-width: 498px) {
+  .article-share {
+    text-align: center; }
 
+  .article-share button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0px 2px;
+    float: right; } }
+@media screen and (min-width: 1280px) {
+  .article-share {
+    right: calc(50% - 430px - 38px - 160px + 2px);
+    margin: 0;
+    position: fixed;
+    bottom: 240px;
+    opacity: 1;
+    z-index: 1;
+    width: 40px; }
+
+  .article-share button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 3px 0px; } }
 .article-share ul li ~ li {
   margin-top: 5px; }
 
@@ -2899,35 +2919,6 @@ button {
   background: none;
   cursor: pointer; }
 
-@media screen and (max-width: 498px) {
-  .article-share {
-    right: calc(50% - 430px - 38px - 160px + 2px);
-    margin: 0;
-    position: fixed;
-    bottom: 240px;
-    opacity: 1;
-    z-index: 1;
-    width: 40px; }
-
-  .article-share button {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin: 3px 0px; } }
-@media screen and (min-width: 1280px) {
-  .article-share {
-    text-align: center; }
-
-  .article-share button {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin: 0px 2px;
-    float: right; } }
 @media print {
   a:after {
     content: "" !important; } }
