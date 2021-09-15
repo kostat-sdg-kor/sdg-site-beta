@@ -2835,7 +2835,7 @@ body.contrast-high .breadcrumb {
     height: 40px;
     border-radius: 5px;
     font-size: 18px;
-    margin: 0px 2px;
+    margin: 5px 1px;
     float: right; } }
 @media screen and (min-width: 1280px) {
   .article-share {
