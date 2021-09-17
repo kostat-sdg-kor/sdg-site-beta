@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210917012438">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210917060454">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -640,7 +640,7 @@ function copyUrl(){
   data-country="전국"
   data-charttitle="승객 및 화물 운송량(수단별)"
   data-charttitles="null"
-  data-measurementunit="-"
+  data-measurementunit="천인,천톤"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -696,13 +696,13 @@ function copyUrl(){
 
   <div id="datatableFooter">
     
-    <p>출처: 국토교통부 건설수자원정책실 건설정책관</p>
+    <p>출처: 국토교통부 교통물류실 종합교통정책관</p>
     
     
     <p>지역: 전국</p>
     
     
-    <p>세부지표: -</p>
+    <p>세부지표: 천인,천톤</p>
     
     
   </div>
@@ -986,7 +986,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>출처:</dt>
-        <dd>국토교통부 건설수자원정책실 건설정책관</dd>
+        <dd>국토교통부 교통물류실 종합교통정책관</dd>
         
 
         
@@ -996,7 +996,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>-</dd>
+        <dd>천인,천톤</dd>
         
 
         
@@ -1031,7 +1031,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>출처:</dt>
-        <dd>국토교통부 건설수자원정책실 건설정책관</dd>
+        <dd>국토교통부 교통물류실 종합교통정책관</dd>
         
 
         
@@ -1041,7 +1041,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>-</dd>
+        <dd>천인,천톤</dd>
         
 
         
@@ -1240,7 +1240,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">작성기관 </th>
         <td>
           
-            <p>국토교통부 건설수자원정책실 건설정책관</p>
+            <p>국토교통부 교통물류실 종합교통정책관</p>
 
           
         </td>
@@ -1626,12 +1626,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210917012438'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210917060454'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210917012438"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210917060454"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

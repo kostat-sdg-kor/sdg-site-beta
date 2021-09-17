@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210917012438">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20210917060454">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -640,7 +640,7 @@ function copyUrl(){
   data-country="Total"
   data-charttitle="Passenger and freight volumes, by mode of transport"
   data-charttitles="null"
-  data-measurementunit="P-km, ton"
+  data-measurementunit="1,000-P, 1,000-ton"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -696,13 +696,13 @@ function copyUrl(){
 
   <div id="datatableFooter">
     
-    <p>Source: Construction Policy Officer, Transport Policy Coordination Division, Ministry of Land</p>
+    <p>Source: Transport Policy Coordination Division, Ministry of Land</p>
     
     
     <p>Geographical Area: Total</p>
     
     
-    <p>Sub-indicators: P-km, ton</p>
+    <p>Sub-indicators: 1,000-P, 1,000-ton</p>
     
     
   </div>
@@ -978,7 +978,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>Construction Policy Officer, Transport Policy Coordination Division, Ministry of Land</dd>
+        <dd>Transport Policy Coordination Division, Ministry of Land</dd>
         
 
         
@@ -988,7 +988,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>P-km, ton</dd>
+        <dd>1,000-P, 1,000-ton</dd>
         
 
         
@@ -1023,7 +1023,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>Construction Policy Officer, Transport Policy Coordination Division, Ministry of Land</dd>
+        <dd>Transport Policy Coordination Division, Ministry of Land</dd>
         
 
         
@@ -1033,7 +1033,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>P-km, ton</dd>
+        <dd>1,000-P, 1,000-ton</dd>
         
 
         
@@ -1232,7 +1232,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Organizations </th>
         <td>
           
-            <p>Construction Policy Officer, Transport Policy Coordination Division, Ministry of Land</p>
+            <p>Transport Policy Coordination Division, Ministry of Land</p>
 
           
         </td>
@@ -1618,12 +1618,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210917012438'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210917060454'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20210917012438"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20210917060454"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
