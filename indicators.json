@@ -831,11 +831,11 @@
         },
         {
           "id": "7-b-1",
-          "title": "개도국의 재생에너지 설비 용량(인당 와트)",
+          "title": "개도국의 재생에너지 설비 용량",
           "description": "",
           "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/7-b-1",
-          "status": "notapplicable"
+          "status": "complete"
         }]
     }
   },
@@ -1299,7 +1299,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-a-1",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "11-b-1",
@@ -1587,7 +1587,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/14-c-1",
-          "status": "notapplicable"
+          "status": "complete"
         }]
     }
   },

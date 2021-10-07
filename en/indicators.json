@@ -835,7 +835,7 @@
           "description": "",
           "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/en/7-b-1",
-          "status": "notapplicable"
+          "status": "complete"
         }]
     }
   },
@@ -1299,7 +1299,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/en/11-a-1",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "11-b-1",
@@ -1587,7 +1587,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/en/14-c-1",
-          "status": "notapplicable"
+          "status": "complete"
         }]
     }
   },
