@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211006074629">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211007012008">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -637,12 +637,12 @@ function copyUrl(){
   id="indicatorData"
   data-indicatorid='indicator_11-a-1'
   data-id="11-a-1"
-  data-country="Korea"
+  data-country="Total"
   data-charttitle="(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가의 수"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="1 = YES, 0 = NO"
   data-showdata="false"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -729,7 +729,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Data type </th>
         <td>
           
-            <p><b> Data unavailable (Type4) </b>   <br /> There are currently no national statistics (Type 1), international statistics (Type 2), or alternative national statistics (Type 3) available. The Data of Type 1, type 2, or type 3 can be also included in case of temporary unavailability.</p>
+            <p><b> Estimated data by international organizations (Type2) </b>   <br /> This is Korean data prepared by international organizations through estimation and modeling. <br /> If there are no national data corresponding to UN SDGs indicators, international data are available for monitoring.</p>
 
           
         </td>
@@ -755,7 +755,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">Data name </th>
+        <td>
           
+            <p>인구다양성, 토지균형개발, 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -777,7 +790,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">Data collection </th>
+        <td>
           
+            <p>The primary source of data is the official documents of national urban policies and regional development plans, available in or provided by national and regional administrations of the countries. All these will be derived from the national and global state of NUP survey results.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -797,7 +823,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Organizations </th>
         <td>
           
-            <p>UN-Habitat</p>
+            <p>UN-Habitat, UNFPA</p>
 
           
         </td>
@@ -807,7 +833,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">Periodicity </th>
+        <td>
           
+            <p>Every two years</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -963,7 +1002,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">Organizations </th>
         <td>
           
-            <p>UN-Habitat</p>
+            <p>UN-Habitat, UNFPA</p>
 
           
         </td>
@@ -1170,12 +1209,12 @@ data-event-label="Change to indicator.global_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20211006074629'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20211007012008'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20211006074629"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20211007012008"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
