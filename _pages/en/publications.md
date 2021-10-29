@@ -239,7 +239,7 @@ permalink: /en/publications/
       .on { background:#6799FF; color:#ffffff; }
       
       .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
-      .top_div .item { display:inline-block; width:250px;}
+      .top_div .item { display:inline-block; width:250px; padding: 5px 5px 0px 0px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
