@@ -342,7 +342,7 @@ title: 발간자료
 
 <div class="board_form">
    <div class="report_div">
-      <input type="button" class="report1_btn" onclick="location.reload();" value="전체">
+      <input type="button" class="report1_btn" onclick="location.reload();" value="　　전체　　">
       <input type="button" class="report1_btn" onclick="reportView('report1');" name="report1" value="통계개발원 보고서"/>
       <input type="button" class="report2_btn" onclick="reportView('report2');" name="report2" value="국내관계기관 보고서"/>
       <input type="button" class="report3_btn" onclick="reportView('report3');" name="report3" value="국외 보고서"/>      
