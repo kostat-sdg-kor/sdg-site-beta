@@ -1,47 +1,29 @@
 {% include head.html %}
 {% include header.html %}
+<div id="main-content" class="container" role="main">
 
-<div class="container">
-	<!--  {% include components/goal/breadcrumbs.html %}-->
-  {% if site.create_goals.previous_next_links %}
-    {% include components/previous-next-links.html previous_label=page.t.goal.previous next_label=page.t.goal.next %}
-  {% endif %}
-</div>
+    {% include components/goals-introduction.html %}
 
-
-<div id="main-content" class="container goal-indicators goal-{{ page.goal.number }}" role="main">
-	{% include components/indicator/breadcrumbs.html %}
-  {% include components/goal/goal-content.html content=content %}
-
-  {% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number %}
-  {% for indicator in goal_indicators %}
-
-    {% assign tag_classes = "" | split: "," %}
-    {% if indicator.tags %}
-      {% for tag in indicator.tags %}
-        {% assign tag_slug = "indicator-" | append: tag | slugify %}
-        {% assign tag_classes = tag_classes | push: tag_slug %}
-      {% endfor %}
-    {% endif %}
-    {% assign tag_classes = tag_classes | join: " " %}
-
-    {% cycle 'add row' : '<div class="indicator-cards row no-gutters">', '', '', '' %}
-        <div class="col-md-6 col-lg-3 {{ tag_classes }} goal-indicator">
-          <a href="{{ indicator.url }}">
-            <span class="indicator-card-number">
-              {{ indicator.number }}
-              {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
-            </span>
-            {{ indicator.name }}
-          </a>
-          {% include components/indicator/tags.html tags=indicator.tags %}
+    <div class="goal-tiles">
+        <div class="row no-gutters">
+            {% for goal in page.goals %}
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <a href="{{ goal.url }}">
+                    <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                </a>
+            </div>
+            {% endfor %}
+            {% comment %}
+            If there were exactly 17 goals, "pad" it with 1 more, to make it come
+            out more symmetrically.
+            {% endcomment %}
+            {% if page.goals.size == 17 %}
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>
+            {% endif %}
         </div>
-    {% cycle 'end row' : '', '', '', '</div>' %}
-    {% endfor %}
-	 	{% assign last_row = goal_indicators.size | modulo:4 %}
-		{% if last_row != 0 %}
-			</div>
-		{% endif %}
+    </div>
 </div>
 <div class="zip-download-container">
     <a href="{{ page.remote_data_prefix }}/zip/{{ site.data.zip.filename }}"
@@ -57,3 +39,6 @@
     </div>
 </div>
 {% include footer.html %}
+
+
+
