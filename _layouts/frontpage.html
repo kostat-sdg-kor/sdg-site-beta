@@ -1,5 +1,10 @@
 {% include head.html %}
 {% include header.html %}
+
+<br><h1 style="text-align: center;font-family: 'Nanum Gothic';font-size:50px;font-weight:bolder;">
+{{ page.t.general.goals_title }}
+</h1><br><br>
+
 <div id="main-content" class="container" role="main">
 
     <div class="goal-tiles">
@@ -22,19 +27,7 @@
             {% endif %}
         </div>
     </div>
-    <div class="zip-download-container">
-    <a href="{{ page.remote_data_prefix }}/zip/{{ site.data.zip.filename }}"
-       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
-        {{ page.t.frontpage.download_all }}
-    </a>
-    <div id="zip-download-info">
-        {{ page.t.frontpage.zip_file }} - {{ site.data.zip.size_human }}
-        {% if site.data.zip.timestamp %}
-            <br>
-            {{ page.t.metadata_fields.national_data_update_url }} - {{ site.data.zip.timestamp | t_date: 'standard' }}
-        {% endif %}
-    </div>
-</div>
+    
 </div>
 
 {% include footer.html %}
