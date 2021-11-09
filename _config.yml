@@ -185,7 +185,7 @@ custom_js:
 
 # Specify the format of the language toggles. Choices are:
 # "dropdown", "links", or "none"
-header_language_toggle: dropdown
+header_language_toggle: links
 footer_language_toggle: none
 
 # Configure the header style.
