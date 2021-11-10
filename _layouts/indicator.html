@@ -30,7 +30,9 @@ var url_combine_band = url_default_band + encodeURI(url_this_page)+
 '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
 title_default_naver + encodeURI(title_this_page);
-
+var today = new Date();
+document.getElementById('date').innerText = today.toLocaleDateString();
+	
 function addFavorite(){
 	var agent = navigator.userAgent.toLowerCase();
 	if (agent.indexOf("chrome") != -1) {
@@ -62,7 +64,7 @@ function copyUrl(){
   function getQrCode(){
   return '<img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+encodeURIComponent(window.location.href) + '" />';
 }
- 
+
 </script>
 <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 	<script>
@@ -111,6 +113,7 @@ function copyUrl(){
 <!--<button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><i class="xi-star" aria-hidden="true"></i><span class="sr-only">즐겨찾기</span></button>-->
 <!--<button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><i>URL</i><span class="sr-only">URL 복사</span></button>-->
 <button class="qr" title="QR코드" type="button"  data-toggle="popover-x" data-target="#qrCode" data-trigger="click" data-placement="bottom bottom-right"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
+<button class="qr" title="인용" type="button"  data-toggle="popover-x" data-target="#quote" data-trigger="click" data-placement="bottom bottom-right"><i class="fa fa-quote-left"></i><span class="sr-only">인용 팝업</span></button>
 </div>
 	
 </div>
@@ -129,5 +132,14 @@ function copyUrl(){
 	</script>
   </div>
 </div>
-
+<div id="quote" class="popover ppopover-info">
+  <div class="arrow"></div>
+  <h3 class="popover-title">
+    <span class="close pull-right" data-dismiss="popover-x">&times;</span>
+    {{ page.t.general.quote }}
+  </h3>
+  <div class="popover-content">
+SDGs 데이터 플랫폼(kostat.go.kr/sdg) {{ page.indicator.slug }} <span id="date"></span>
+  </div>
+</div>
 {% include footer.html %}
