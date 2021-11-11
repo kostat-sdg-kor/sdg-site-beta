@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211110072158">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211111001336">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -504,8 +504,6 @@ var url_combine_band = url_default_band + encodeURI(url_this_page)+
 '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
 title_default_naver + encodeURI(title_this_page);
-var today = new Date();
-document.getElementById('date').innerText = today.toLocaleDateString();
 	
 function addFavorite(){
 	var agent = navigator.userAgent.toLowerCase();
@@ -1631,12 +1629,16 @@ data-event-label="Change to indicator.global_metadata tab"
   <div class="arrow"></div>
   <h3 class="popover-title">
     <span class="close pull-right" data-dismiss="popover-x">&times;</span>
-    
+    인용
   </h3>
   <div class="popover-content">
-SDGs 데이터 플랫폼(kostat.go.kr/sdg) 1-1-1 <span id="date"></span>
+SDGs 데이터 플랫폼(kostat.go.kr/sdg) 1-1-1 (<span id="date"></span>)
   </div>
 </div>
+<script>	
+var today = new Date();
+document.getElementById('date').innerText = today.toLocaleDateString();
+</script>
 <footer role="contentinfo">
   <div class="container">
     <div class="row">
@@ -1680,12 +1682,12 @@ SDGs 데이터 플랫폼(kostat.go.kr/sdg) 1-1-1 <span id="date"></span>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20211110072158'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20211111001336'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20211110072158"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20211111001336"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
