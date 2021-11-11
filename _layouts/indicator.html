@@ -30,8 +30,6 @@ var url_combine_band = url_default_band + encodeURI(url_this_page)+
 '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
 title_default_naver + encodeURI(title_this_page);
-var today = new Date();
-document.getElementById('date').innerText = today.toLocaleDateString();
 	
 function addFavorite(){
 	var agent = navigator.userAgent.toLowerCase();
@@ -139,7 +137,11 @@ function copyUrl(){
     {{ page.t.general.quote }}
   </h3>
   <div class="popover-content">
-SDGs 데이터 플랫폼(kostat.go.kr/sdg) {{ page.indicator.slug }} <span id="date"></span>
+SDGs 데이터 플랫폼(kostat.go.kr/sdg) {{ page.indicator.slug }} (<span id="date"></span>)
   </div>
 </div>
+<script>	
+var today = new Date();
+document.getElementById('date').innerText = today.toLocaleDateString();
+</script>
 {% include footer.html %}
