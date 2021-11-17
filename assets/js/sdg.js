@@ -3078,6 +3078,7 @@ var indicatorView = function (model, options) {
       $('#fields').html(template({
         fields: args.fields,
         allowedFields: args.allowedFields,
+        childFields: _.uniq(args.edges.map(function(edge) { return edge.To })),
         edges: args.edges
       }));
 
@@ -3098,8 +3099,13 @@ var indicatorView = function (model, options) {
       selectedUnit: selectedUnit
     }));
 
-    if(!units.length) {
+    
+    if (units.length < 1) {
+    
       $(this._rootElement).addClass('no-units');
+    }
+    else {
+      $(this._rootElement).removeClass('no-units');
     }
   };
 
@@ -3115,7 +3121,9 @@ var indicatorView = function (model, options) {
         selectedSeries: selectedSeries
       }));
 
-      if(!serieses.length) {
+      
+      if (serieses.length < 1) {
+      
         $(this._rootElement).addClass('no-serieses');
       }
     }
@@ -3238,6 +3246,13 @@ var indicatorView = function (model, options) {
             ticks: {
               fontColor: tickColor,
             },
+            scaleLabel: {
+              display: this._model.xAxisLabel ? true : false,
+              labelString: this._model.xAxisLabel,
+              fontColor: tickColor,
+              fontSize: 14,
+              fontFamily: "'Open Sans', Helvetica, Arial, sans-serif",
+            }
           }],
           yAxes: [{
             gridLines: {
@@ -3256,6 +3271,8 @@ var indicatorView = function (model, options) {
               display: this._model.selectedUnit ? translations.t(this._model.selectedUnit) : this._model.measurementUnit,
               labelString: this._model.selectedUnit ? translations.t(this._model.selectedUnit) : this._model.measurementUnit,
               fontColor: tickColor,
+              fontSize: 14,
+              fontFamily: "'Open Sans', Helvetica, Arial, sans-serif",
             }
           }]
         },
@@ -3284,6 +3301,7 @@ var indicatorView = function (model, options) {
           scaler: {}
         },
         tooltips: {
+          backgroundColor: 'rgba(0,0,0,0.7)',
           callbacks: {
             label: function(tooltipItems, data) {
               return data.datasets[tooltipItems.datasetIndex].label + ': ' + view_obj.alterDataDisplay(tooltipItems.yLabel, data, 'chart tooltip');
@@ -3528,11 +3546,30 @@ var indicatorView = function (model, options) {
   this.createSelectionsTable = function(chartInfo) {
     this.createTable(chartInfo.selectionsTable, chartInfo.indicatorId, '#selectionsTable', true);
     $('#tableSelectionDownload').empty();
+    this.createTableTargetLines(chartInfo.graphAnnotations);
     this.createDownloadButton(chartInfo.selectionsTable, 'Table', chartInfo.indicatorId, '#tableSelectionDownload');
     this.createSourceButton(chartInfo.shortIndicatorId, '#tableSelectionDownload');
     this.createIndicatorDownloadButtons(chartInfo.indicatorDownloads, chartInfo.shortIndicatorId, '#tableSelectionDownload');
   };
 
+  this.createTableTargetLines = function(graphAnnotations) {
+    var targetLines = graphAnnotations.filter(function(a) { return a.preset === 'target_line'; });
+    var $targetLines = $('#tableTargetLines');
+    $targetLines.empty();
+    targetLines.forEach(function(targetLine) {
+      var targetLineLabel = targetLine.label.content;
+      if (!targetLineLabel) {
+        targetLineLabel = opensdg.annotationPresets.target_line.label.content;
+      }
+      $targetLines.append('<dt>' + targetLineLabel + '</dt><dd>' + targetLine.value + '</dd>');
+    });
+    if (targetLines.length === 0) {
+      $targetLines.hide();
+    }
+    else {
+      $targetLines.show();
+    }
+  }
 
   this.createDownloadButton = function(table, name, indicatorId, el) {
     if(window.Modernizr.blobconstructor) {
@@ -3555,7 +3592,7 @@ var indicatorView = function (model, options) {
           'tabindex': 0
         });
       var blob = new Blob([tableCsv], {
-        type: 'text/csv'
+        type: 'text/csv;charset=utf8'
       });
       if (window.navigator && window.navigator.msSaveBlob) {
         // Special behavior for IE.
@@ -3592,7 +3629,7 @@ var indicatorView = function (model, options) {
     if (typeof this._chartDownloadButton !== 'undefined') {
       var tableCsv = this.toCsv(table);
       var blob = new Blob([tableCsv], {
-        type: 'text/csv'
+        type: 'text/csv;charset=utf8'
       });
       var fileName = this._chartDownloadButton.attr('download');
       if (window.navigator && window.navigator.msSaveBlob) {
