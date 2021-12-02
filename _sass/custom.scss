@@ -92,11 +92,12 @@ body.contrast-high {
 .article-share .like { border: 1px solid #ced4da; }
 .article-share .like .title { display: block; height: 16px; font-size: 14px; text-align: center; color: #f85265; }
 .article-share .like .count { font-size: 14px; line-height: 14px; color: #495057; display: block; }
-.article-share .fb { background-color: #486aa1; color: #fff; }
-.article-share .tw { background-color: #3eabea; color: #fff; }
-.article-share .kt { background-color: #ffe23a; color: #3d1e1e; }
+.article-share .fb { background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/fb.png); background-size: 40px 40px; }
+.article-share .tw { background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/tw.png); background-size: 40px 40px; }
+.article-share .kt { background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/kt.png); background-size: 40px 40px; }
+.article-share .bd { background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/bd.png); background-size: 40px 40px; }
+.article-share .qt { background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/qt.png); background-size: 40px 40px; }
 .article-share .ks { background-color: #ffe23a; color: #fff; }
-.article-share .bd { background: #33aa47 url("https://kostat-sdg-kor.github.io/sdg-indicators/public/sharebutton/share_bd.png") 50% 50% no-repeat; color: #fff; }
 .article-share .bm { background-color: #286dc0; color: #fff; }
 .article-share .uc { background-color: #6c757e; color: #fff; font-size: 12px; }
 .article-share .qr { background-color: #000000; color: #ffffff; font-size: 24px; }
