@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211203000729">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20211203001004">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -489,6 +489,7 @@ var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
 var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
 var url_default_tw_url = "&url=";
 var url_default_band = "http://band.us/plugin/share?body=";
+var url_default_linkedin = "http://www.linkedin.com/cws/share?url=";
 var url_route_band = "&route=";
 var url_default_naver = "http://share.naver.com/web/shareView.nhn?url=";
 var title_default_naver = "&title=";
@@ -496,10 +497,12 @@ var title_default_naver = "&title=";
 var url_this_page = location.href;
 var title_this_page = document.title;
 
+
 var url_combine_ks = url_default_ks + url_this_page;
 var url_combine_fb = url_default_fb + url_this_page;
 var url_combine_tw = url_default_tw_txt + document.title + 
 url_default_tw_url + url_this_page;
+var url_combine_li = url_default_li + url_this_page;
 var url_combine_band = url_default_band + encodeURI(url_this_page)+
 '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
@@ -1710,6 +1713,7 @@ data-event-label="Change to indicator.global_metadata tab"
 <button class="tw" title="트위터 공유 새창으로 열림" type="button" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">트위터</span></button>
 <button class="bd" title="밴드 공유 새창으로 열림" type="button" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;"><span class="sr-only">밴드</span></button>
 <button class="kt" title="카카오톡 공유 새창으로 열림" id="kakao-link-btn" type="button" onclick="sendKakao();"><span class="sr-only">카카오톡</span></button>
+<button class="li" title="링크드인 공유 새창으로 열림" type="button" onclick="window.open(url_combine_li, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only"></span></button>
 <!--<button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">카카오스토리</span></button>-->
 <!--<button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><span class="sr-only">즐겨찾기</span></button>-->
 <!--<button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><span class="sr-only">URL 복사</span></button>-->
@@ -1790,12 +1794,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20211203000729'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20211203001004'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20211203000729"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20211203001004"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
