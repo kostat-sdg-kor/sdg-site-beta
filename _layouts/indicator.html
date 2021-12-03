@@ -15,6 +15,7 @@ var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
 var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
 var url_default_tw_url = "&url=";
 var url_default_band = "http://band.us/plugin/share?body=";
+var url_default_linkedin = "http://www.linkedin.com/cws/share?url=";
 var url_route_band = "&route=";
 var url_default_naver = "http://share.naver.com/web/shareView.nhn?url=";
 var title_default_naver = "&title=";
@@ -22,10 +23,12 @@ var title_default_naver = "&title=";
 var url_this_page = location.href;
 var title_this_page = document.title;
 
+
 var url_combine_ks = url_default_ks + url_this_page;
 var url_combine_fb = url_default_fb + url_this_page;
 var url_combine_tw = url_default_tw_txt + document.title + 
 url_default_tw_url + url_this_page;
+var url_combine_li = url_default_li + url_this_page;
 var url_combine_band = url_default_band + encodeURI(url_this_page)+
 '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
 var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
@@ -107,6 +110,7 @@ function copyUrl(){
 <button class="tw" title="트위터 공유 새창으로 열림" type="button" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">트위터</span></button>
 <button class="bd" title="밴드 공유 새창으로 열림" type="button" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;"><span class="sr-only">밴드</span></button>
 <button class="kt" title="카카오톡 공유 새창으로 열림" id="kakao-link-btn" type="button" onclick="sendKakao();"><span class="sr-only">카카오톡</span></button>
+<button class="li" title="링크드인 공유 새창으로 열림" type="button" onclick="window.open(url_combine_li, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only"></span></button>
 <!--<button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">카카오스토리</span></button>-->
 <!--<button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><span class="sr-only">즐겨찾기</span></button>-->
 <!--<button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><span class="sr-only">URL 복사</span></button>-->
