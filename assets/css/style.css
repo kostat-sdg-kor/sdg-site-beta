@@ -2893,6 +2893,10 @@ body.contrast-high .breadcrumb {
   background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/qt.png);
   background-size: 40px 40px; }
 
+.article-share .li {
+  background: url(https://kostat-sdg-kor.github.io/sdg-indicators/assets/img/shared/li.png);
+  background-size: 40px 40px; }
+
 .article-share .ks {
   background-color: #ffe23a;
   color: #fff; }
