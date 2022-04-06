@@ -355,14 +355,14 @@ title: 발간자료
          <th>발간년도</th>
       </tr>
      <tr class="content"><!-- 1 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press1.pdf">[보도자료] 한국 SDGs 데이터 플랫폼 영문서비스 개시</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
 
       
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press2.pdf">[Press Releases] KOSTAT launches the Korean SDGs Data Platform</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
