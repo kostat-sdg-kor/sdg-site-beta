@@ -312,22 +312,22 @@ title: 발간자료
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>    
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2022.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-2022.png" alt="3"/>    
           </a>
       </div>
       <div>
-         <p>SDGs 지표 톺아보기<br></p>
+         <p>The Sustainable Development Goals Report 2021<br></p>
       </div>
    </div>
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="4"/>
+          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="4"/>
          </a>
       </div>
       <div>
-         <p>National Voluntary Review Report 2016<br></p>
+        <p>SDGs 지표 톺아보기<br></p>
       </div>
    </div>
 </div>
@@ -354,16 +354,22 @@ title: 발간자료
          <th>기관</th>
          <th>발간년도</th>
       </tr>
-     <tr class="content"><!-- 1 -->
+     <tr class="content"><!-- 2 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
 
       
-      <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
+      <tr class="content"><!-- 1 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
+         <td>2021</td>
+      </tr>
+      
+      <tr class="content"><!-- 2 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">The Sustainable Development Goals Report 2021</a></td>
+         <td class="report1">United Nations</td>
          <td>2021</td>
       </tr>
       
