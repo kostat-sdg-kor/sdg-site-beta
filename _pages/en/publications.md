@@ -289,23 +289,23 @@ permalink: /en/publications/
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-2022.png" alt="1"/>
          </a>
       </div>
       <div>
-         <p> SDGs in the ROK Progress Report 2021<br></p>
+         <p> SDGs in the ROK Progress Report 2022<br></p>
       </div>
    </div>
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/> 
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/> 
           </a>
       </div>
       <div>
-         <p> SDGs in the ROK Progress Report 2019<br></p>
+         <p> SDGs in the ROK Progress Report 2021<br></p>
       </div>
    </div>
    <div class="item">
