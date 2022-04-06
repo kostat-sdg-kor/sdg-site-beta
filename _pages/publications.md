@@ -290,23 +290,23 @@ title: 발간자료
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-2022.png" alt="1"/>
          </a>
       </div>
       <div>
-         <p> 한국의 SDGs 이행보고서 2021<br></p>
+         <p> 한국의 SDGs 이행보고서 2022<br></p>
       </div>
    </div>
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="2"/> 
+          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="2"/> 
           </a>
       </div>
       <div>
-         <p>한국의 SDGs 데이터와 이행현황 2019<br></p>
+          <p> 한국의 SDGs 이행보고서 2021<br></p>
       </div>
    </div>
    
