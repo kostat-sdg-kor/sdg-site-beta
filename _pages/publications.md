@@ -374,13 +374,13 @@ title: 발간자료
       </tr>
       
         <tr class="content"><!--1 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">[보도자료] 한국 SDGs 데이터 플랫폼 영문 서비스 개시</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press1.pdf">[보도자료] 한국 SDGs 데이터 플랫폼 영문 서비스 개시</a></td>
          <td class="report1">United Nations</td>
          <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">[Press Release] KOSTAT launches the Korean SDGs Data Platform</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/press2.pdf">[Press Release] KOSTAT launches the Korean SDGs Data Platform</a></td>
          <td class="report1">United Nations</td>
          <td>2021</td>
       </tr>
