@@ -370,7 +370,7 @@ permalink: /en/publications/
       
       <tr class="content"><!-- 2 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">The Sustainable Development Goals Report 2021</a></td>
-         <td class="report1">United Nations</td>
+         <td class="report3">United Nations</td>
          <td>2021</td>
       </tr>
       <tr class="content"><!--1 -->
