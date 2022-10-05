@@ -311,8 +311,8 @@ permalink: /en/publications/
    
     <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-report2021.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/un-2021.png" alt="3"/> 
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/The-Sustainable-Development-Goals-Report-2022.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/UN-2022.png" alt="3"/> 
           </a>
       </div>
       <div>
