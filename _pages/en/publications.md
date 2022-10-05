@@ -361,7 +361,7 @@ permalink: /en/publications/
       </tr>
       
        <tr class="content"><!-- 5 -->
-         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2022.pdf">The Sustainable Development Goals Report 2022</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/The-Sustainable-Development-Goals-Report-2022.pdf">The Sustainable Development Goals Report 2022</a></td>
          <td class="report3">United Nations</td>
          <td>2020</td>
       </tr>  
