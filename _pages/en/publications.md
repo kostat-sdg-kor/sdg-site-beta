@@ -354,11 +354,18 @@ permalink: /en/publications/
          <th>Agency</th>
          <th>Year</th>
       </tr>
- <tr class="content"><!-- 5 -->
+ <tr class="content"><!-- 6 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2022forum_eng.pdf">[Poster]The 1st SDG Data Innovation Forum</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2022</td>
       </tr>
+      
+       <tr class="content"><!-- 5 -->
+         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2022.pdf">The Sustainable Development Goals Report 2022</a></td>
+         <td class="report3">United Nations</td>
+         <td>2020</td>
+      </tr>  
+      
       <tr class="content"><!-- 4 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
