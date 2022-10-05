@@ -317,7 +317,7 @@ title: 발간자료
           </a>
       </div>
       <div>
-         <p>The Sustainable Development Goals Report 2021<br></p>
+         <p>The Sustainable Development Goals Report 2022<br></p>
       </div>
    </div>
    <div class="item">
