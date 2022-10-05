@@ -354,7 +354,14 @@ title: 발간자료
          <th>기관</th>
          <th>발간년도</th>
       </tr>
-     <tr class="content"><!-- 4 -->
+      
+     <tr class="content"><!-- 5 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2022forum.pdf">[포스터] 제1회 SDG 데이터 혁신 포럼</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2022</td>
+      </tr>
+      
+      <tr class="content"><!-- 4 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">한국의 SDGs 이행보고서 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2022</td>
