@@ -373,7 +373,6 @@ title: 발간자료
          <td>2022</td>
       </tr>
 
-      
       <tr class="content"><!-- 3 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">SDGs in the ROK Progress Report 2022</a></td>
          <td class="report1">통계청 통계개발원</td>
