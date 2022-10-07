@@ -3591,7 +3591,7 @@ var indicatorView = function (model, options) {
           'class': 'btn btn-primary btn-download',
           'tabindex': 0
         });
-      var blob = new Blob(["\ufeff"+tableCsv+], {
+      var blob = new Blob([tableCsv], {
         type: 'text/csv;charset=utf8'
       });
       if (window.navigator && window.navigator.msSaveBlob) {
