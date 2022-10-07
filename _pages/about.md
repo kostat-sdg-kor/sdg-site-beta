@@ -59,8 +59,6 @@ language: ko
 
 
 
-
-
 <!--
 <object id="link1" type="text/html" width="80%" height="500px" data="https://blog.naver.com/offerkiss/221845623886"> 
 </object>
