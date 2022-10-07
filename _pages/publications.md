@@ -259,8 +259,7 @@ title: 발간자료
           
           .report_div { display : inline-block; width: 100%; text-align:center; margin-bottom: 20px;}
           .report1_btn, .report2_btn, .report3_btn { display: block; width: 100%; height: 40px; font-size:11pt; outline : none; background : gray; border : 0px; color : #ffffff;}
-          
-          
+              
       /*  하단 게시판 CSS  */
          .board_form { margin : 20px 5% 0;}
          .board_form .board_table { width : 100%; border-collapse : collapse; border-bottom : 1px solid black; }
