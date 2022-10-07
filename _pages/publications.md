@@ -335,7 +335,6 @@ title: 발간자료
       <input type="text" class="srh_input" name="search_input" placeholder="제목검색"/>
       <input type="button" class="srh_btn" name="search_button" value="검색" onclick="search();"/>
    
-
    </div>
 </div>
 
