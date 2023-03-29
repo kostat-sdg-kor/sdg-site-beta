@@ -300,23 +300,11 @@ title: 발간자료
       </div>
    </div>
       
-<div class="top_div">
-   <div class="item">
-      <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-report2022.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/k-2022.png" alt="2"/>
-         </a>
-      </div>
-      <div>
-         <p> 한국의 SDGs 이행보고서 2022<br></p>
-      </div>
-   </div>
-   
-   
+    
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/The-Sustainable-Development-Goals-Report-2022.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/UN-2022.png" alt="3"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/UN-2022.png" alt="2"/>    
           </a>
       </div>
       <div>
@@ -326,7 +314,7 @@ title: 발간자료
    <div class="item">
       <div>
           <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="4"/>
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>
          </a>
       </div>
       <div>
