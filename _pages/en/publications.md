@@ -299,23 +299,12 @@ permalink: /en/publications/
       </div>
    </div>
       
-<div class="top_div">
-   <div class="item">
-      <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-report2022.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/e-2022.png" alt="2"/>
-         </a>
-      </div>
-      <div>
-         <p> SDGs in the ROK Progress Report 2022<br></p>
-      </div>
-   </div>
-   
+ 
    
       <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/The-Sustainable-Development-Goals-Report-2022.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/UN-2022.png" alt="3"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/UN-2022.png" alt="2"/>    
           </a>
       </div>
       <div>
@@ -326,7 +315,7 @@ permalink: /en/publications/
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="4"/>
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/VNR.png" alt="3"/>
          </a>
       </div>
       <div>
