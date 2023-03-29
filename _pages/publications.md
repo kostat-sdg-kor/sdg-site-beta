@@ -359,13 +359,13 @@ title: 발간자료
        <tr class="content"><!-- 8 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_report_ko.pdf">한국의 SDG 이행보고서 2023</a></td>
          <td class="report1">통계청 통계개발원</td>
-         <td>2022</td>
+         <td>2023</td>
       </tr>
       
       <tr class="content"><!-- 7 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_report_en.pdf">SDG in the ROK Progress Report 2023</a></td>
          <td class="report1">통계청 통계개발원</td>
-         <td>2022</td>
+         <td>2023</td>
       </tr>
       
       
