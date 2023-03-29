@@ -214,7 +214,7 @@ title: 발간자료
       
       .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
       .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
-      .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+      .search_form .search_div .srh_btn {   width: 70px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
        
        .report_div { display : inline-block; width : 100%; height: 40px; text-align:center; margin-bottom: 20px;}
        .report1_btn, .report2_btn, .report3_btn { font-size:10pt; height: 40px; outline : none; background : gray; border : 0px; color : #ffffff; margin-right : 10px; border-radius:10px;}
@@ -239,8 +239,8 @@ title: 발간자료
       
       .on { background:#6799FF; color:#ffffff; }
       
-      .top_div { display: flex; justify-content: center; text-align : center; width:99%; border:0; font-weight:bold;}
-      .top_div .item { display:table-cell; width:250px;}
+      .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
+      .top_div .item { display:inline-block; width:250px; padding: 5px 5px 0px 0px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
@@ -248,18 +248,19 @@ title: 발간자료
       /*  공통 */
          body { padding:0; margin:0; }
       /*    상단 제목검색 및 버튼 CSS */
-         input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; font-size:13pt;}
+         input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; font-size:12pt;}
          input[type=button]:visited { background:#5D5D5D; }
          
          .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
          
          .search_form .search_div { display : inline-block; width : 350px; background : #ffffff; margin-top : 30px; }
-         .search_form .search_div .srh_input { font-size : 16px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
-         .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
+         .search_form .search_div .srh_input { font-size : 15px; width: 80%; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
+         .search_form .search_div .srh_btn {   width: 70px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
           
           .report_div { display : inline-block; width: 100%; text-align:center; margin-bottom: 20px;}
           .report1_btn, .report2_btn, .report3_btn { display: block; width: 100%; height: 40px; font-size:11pt; outline : none; background : gray; border : 0px; color : #ffffff;}
-              
+          
+          
       /*  하단 게시판 CSS  */
          .board_form { margin : 20px 5% 0;}
          .board_form .board_table { width : 100%; border-collapse : collapse; border-bottom : 1px solid black; }
