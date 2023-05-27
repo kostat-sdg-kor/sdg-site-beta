@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230526014150">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230527014022">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -628,7 +628,7 @@ function copyUrl(){
   id="indicatorData"
   data-indicatorid='indicator_1-4-1'
   data-id="1-4-1"
-  data-country="Korea"
+  data-country="전국"
   data-charttitle="기초 식수 및 위생시설 보급률"
   data-charttitles="null"
   data-measurementunit="퍼센트(%)"
@@ -689,6 +689,8 @@ function copyUrl(){
     
     <p>출처: UN-Habitat</p>
     
+    
+    <p>지역: 전국</p>
     
     
     <p>세부지표: 퍼센트(%)</p>
@@ -979,6 +981,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>지역:</dt>
+        <dd>전국</dd>
+        
 
         
         <dt>단위:</dt>
@@ -1020,6 +1025,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>UN-Habitat</dd>
         
 
+        
+        <dt>지역:</dt>
+        <dd>전국</dd>
         
 
         
@@ -1207,7 +1215,20 @@ data-event-label="Change to indicator.global_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">작성주기 </th>
+        <td>
           
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1585,12 +1606,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20230526014150'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20230527014022'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20230526014150"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20230527014022"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
