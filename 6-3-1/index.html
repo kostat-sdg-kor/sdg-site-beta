@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230607020136">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230608015947">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -631,7 +631,7 @@ function copyUrl(){
   data-country="전국"
   data-charttitle="유입하수량 및 폐수발생량"
   data-charttitles="null"
-  data-measurementunit="m3/일"
+  data-measurementunit="㎥/일"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -913,7 +913,7 @@ function copyUrl(){
     <p>지역: 전국</p>
     
     
-    <p>세부지표: m3/일</p>
+    <p>세부지표: ㎥/일</p>
     
     
   </div>
@@ -1207,7 +1207,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>m3/일</dd>
+        <dd>㎥/일</dd>
         
 
         
@@ -1252,7 +1252,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>m3/일</dd>
+        <dd>㎥/일</dd>
         
 
         
@@ -1392,7 +1392,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">정의 </th>
         <td>
           
-            <p>(a) 사람의 생활이나 경제활동으로 인하여 액체성 또는 고체성 물질이 섞여 오염된 물(이하 ‘오수’라 한다)과 건물·도로 그 밖의 시설물의 부지로부터 공공하수처리장으로 유입되는 하수량의 총합 &lt;/b&gt; (b) 생산활동으로 인하여 폐수배출시설에서 배출되는 폐수량을 의미함. 즉, 폐수처리 후 최종방류구에서 재이용하는 폐수를 포함한 총 발생량을 말하며, 폐수처리 유입 전 또는 폐수처리장 중간에서 순환재이용하는 양은 제외함 * 참고: 폐수에는 생활오수 및 순수(간접)냉각수는 제외되나, 직접 냉각폐수와 특정수질유해물질함유폐수는 포함</p>
+            <p>(a) 사람의 생활이나 경제활동으로 인하여 액체성 또는 고체성 물질이 섞여 오염된 물(이하 ‘오수’라 한다)과 건물·도로 그 밖의 시설물의 부지로부터 공공하수처리장으로 유입되는 하수량의 총합 <br /> (b) 생산활동으로 인하여 폐수배출시설에서 배출되는 폐수량을 의미함. 즉, 폐수처리 후 최종방류구에서 재이용하는 폐수를 포함한 총 발생량을 말하며, 폐수처리 유입 전 또는 폐수처리장 중간에서 순환재이용하는 양은 제외함 <br /> * 참고: 폐수에는 생활오수 및 순수(간접)냉각수는 제외되나, 직접 냉각폐수와 특정수질유해물질함유폐수는 포함</p>
 
           
         </td>
@@ -1852,12 +1852,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20230607020136'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20230608015947'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20230607020136"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20230608015947"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

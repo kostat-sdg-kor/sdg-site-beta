@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230607020136">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230608015947">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">정의 </th>
         <td>
           
-            <p>한 국가 내에서 물 협력을 위한 운영협정을 맺고 있는 접경 지역의 비율 이는 국가의 접경 지표수 유역과 접경 대수층(즉, ‘접경 지역’)의 표면적 중 운영협정에 의해 보호되는 지역의 해당 면적을 해당 국가의 모든 접경 지역(지표수와 대수층을 포함)의 총 면적의 합으로 나누어 산출함</p>
+            <p>한 국가 내에서 물 협력을 위한 운영협정을 맺고 있는 접경 지역의 비율.  <br /> 이는 국가의 접경 지표수 유역과 접경 대수층(즉, ‘접경 지역’)의 표면적 중 운영협정에 의해 보호되는 지역의 해당 면적을 해당 국가의 모든 접경 지역(지표수와 대수층을 포함)의 총 면적의 합으로 나누어 산출함</p>
 
           
         </td>
@@ -1202,7 +1202,7 @@ data-event-label="Change to indicator.global_metadata tab"
         <th scope="row" style="white-space: nowrap">작성방법 </th>
         <td>
           
-            <p>1단계 접경 지표수와 접경 대수층을 정의   <br /> 2단계: GIS를 통해 각 접경 지역의 표면적과 그 총합을 계산   <br /> 3단계: 물 관리에 대한 국경 간 협력을 검토하고, 협력이 적용되는 접경 지역을 확인   <br /> 4단계: 기존 물관리 업무협조 업무협약 중 어느 것이 운영 가능한지 확인   <br /> 5단계: 산식에 따라 지표값을 도출</p>
+            <p>1단계: 접경 지표수와 접경 대수층을 정의   <br /> 2단계: GIS를 통해 각 접경 지역의 표면적과 그 총합을 계산   <br /> 3단계: 물 관리에 대한 국경 간 협력을 검토하고, 협력이 적용되는 접경 지역을 확인   <br /> 4단계: 기존 물관리 업무협조 업무협약 중 어느 것이 운영 가능한지 확인   <br /> 5단계: 산식에 따라 지표값을 도출</p>
 
           
         </td>
@@ -1630,12 +1630,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20230607020136'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20230608015947'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20230607020136"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20230608015947"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
