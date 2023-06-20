@@ -563,7 +563,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-c-1",
-          "status": "notapplicable"
+          "status": "complete"
         }]
     }
   },
@@ -867,7 +867,7 @@
           "description": "",
           "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-3-1",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "8-4-1",
@@ -2019,7 +2019,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-11-1",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "17-12-1",

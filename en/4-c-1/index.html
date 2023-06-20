@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230619053418">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/style.css?v=20230620014656">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -629,9 +629,9 @@ function copyUrl(){
   data-indicatorid='indicator_4-c-1'
   data-id="4-c-1"
   data-country="Korea"
-  data-charttitle="최소 자격요건을 갖춘 교사 비율(교육단계별)"
+  data-charttitle="필수 자격조건을 갖춘 교사의 비율"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="퍼센트(%)"
   data-showdata="false"
   data-graphtype="line"
   data-geocoderegex=""
@@ -768,7 +768,20 @@ data-event-label="Change to indicator.global_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">Data collection </th>
+        <td>
           
+            <p>유네스코 통계연구소에서 각국의 교육부 및 통계청을 통해 데이터를 수집하여 분석  <br />  국제비교를 위해 국제표준교육분류(ISCED)의 정의에 따라 데이터를 수집함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1176,12 +1189,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-indicators/assets/js/sdg.js?v=20230619053418'></script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20230620014656'></script>
 
 
     
     
-    <script src="/sdg-indicators/assets/js/custom.js?v=20230619053418"></script><script>
+    <script src="/sdg-indicators/assets/js/custom.js?v=20230620014656"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
