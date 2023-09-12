@@ -346,6 +346,14 @@ permalink: /en/publications/
          <th>Agency</th>
          <th>Year</th>
       </tr>
+
+
+ <tr class="content"><!-- 6 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/SDG forum 2023.pdf">[Poster] The SDG Data Innovation Forum 2023</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2022</td>
+      </tr>
+
       
        <tr class="content"><!-- 8 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_report_en.pdf">SDG in the ROK Progress Report 2023</a></td>
@@ -358,7 +366,7 @@ permalink: /en/publications/
          <td class="report1">통계청 통계개발원</td>
          <td>2023</td>
       </tr>
-      
+
      
  <tr class="content"><!-- 6 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2022forum_eng.pdf">[Poster] The 1st SDG Data Innovation Forum</a></td>
