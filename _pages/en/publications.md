@@ -348,10 +348,10 @@ permalink: /en/publications/
       </tr>
 
 
- <tr class="content"><!-- 6 -->
+ <tr class="content"><!-- 9 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/SDG forum 2023.pdf">[Poster] The SDG Data Innovation Forum 2023</a></td>
          <td class="report1">통계청 통계개발원</td>
-         <td>2022</td>
+         <td>2023</td>
       </tr>
 
       
