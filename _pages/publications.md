@@ -355,7 +355,15 @@ title: 발간자료
          <td class="report1">통계청 통계개발원</td>
          <td>2023</td>
       </tr>
+
       
+     <tr class="content"><!-- 6 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/SDG forum 2023.pdf">[포스터] SDG 데이터 혁신 포럼 2023</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2022</td>
+      </tr>
+      
+
       
      <tr class="content"><!-- 6 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2022forum.pdf">[포스터] 제1회 SDG 데이터 혁신 포럼</a></td>
