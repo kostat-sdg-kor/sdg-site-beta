@@ -290,12 +290,12 @@ title: 발간자료
    <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_report_ko.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_ko.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2024_ko.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2024_ko_post.png" alt="1"/>
          </a>
       </div>
       <div>
-         <p> 한국의 SDG 이행보고서 2023<br></p>
+         <p> 한국의 SDG 이행보고서 2024<br></p>
       </div>
    </div>
       
@@ -345,13 +345,13 @@ title: 발간자료
       </tr>
      
           <tr class="content"><!-- 8 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_ko.pdf">한국의 SDG 이행보고서 2024</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2024_ko.pdf">한국의 SDG 이행보고서 2024</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2023</td>
       </tr>
       
       <tr class="content"><!-- 7 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2023_en.pdf">SDG in the ROK Progress Report 2024</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2024_en.pdf">SDG in the ROK Progress Report 2024</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2023</td>
       </tr>
