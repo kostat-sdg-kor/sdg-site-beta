@@ -164,11 +164,6 @@ if(window.wcs) {
  font-family: 'Nanum Gothic', sans-serif;
 }
 
-        /* 페이지 비활성화 */
-        body.disabled {
-            pointer-events: none;
-            opacity: 0.5;
-        }
 
         /* 모달 스타일 */
         #modal {
@@ -176,7 +171,6 @@ if(window.wcs) {
             position: fixed;
             top: 0;
             left: 0;
-            transform: translate(-50%, -50%);
             width: 690px;
             height: 920px;
             background: white;
@@ -200,7 +194,7 @@ if(window.wcs) {
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5);
+            background: transparent;
             z-index: 999;
         }
 </style>
@@ -208,7 +202,7 @@ if(window.wcs) {
 
     </head>
 <body class="language-ko
-layout-frontpage disabled
+layout-frontpage
 ">
 <!-- <div class="container"> -->
 
